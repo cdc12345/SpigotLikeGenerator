@@ -1,0 +1,9 @@
+templates:
+  - template: command.java.ftl
+    name: "@SRCROOT/@BASEPACKAGEPATH/commands/@NAME.java"
+
+global_templates:
+  - template: elementinits/commandlabel.java.ftl
+    name: "@SRCROOT/@BASEPACKAGEPATH/annotation/CommandLabel.java"
+
+field_exclusions: [type]

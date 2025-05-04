@@ -1,0 +1,14 @@
+{
+  "id": "spigot-1.21.4",
+  "supportedversions": [
+    2025001
+  ],
+  "weight": 0,
+  "javaplugin": "org.cdc.spigotgen.SpigotJavaPluginMain",
+  "info": {
+    "name": "MCreator Spigot Generator",
+    "version": "1.0",
+    "description": "MCreator Spigot Generator",
+    "author": "cdc1234"
+  }
+}

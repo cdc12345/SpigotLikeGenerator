@@ -1,0 +1,34 @@
+name: Spigot Generator for @minecraft
+status: stable
+buildfileversion: 21.4.1
+
+import:
+  - datapack-1.21.4
+
+# gradle task definitions
+gradle:
+  run_server: runServer
+  export_file: "build/libs/target-1.0.jar"
+
+# base generator roots
+source_root: "@WORKSPACEROOT/src/main/java"
+res_root: "@WORKSPACEROOT/src/main/resources"
+mod_assets_root: "@RESROOT/assets/@modid"
+mod_data_root: "@RESROOT/data/@modid"
+
+import_formatter:
+  duplicates_whitelist:
+    - java.util
+  priority_imports:
+    Listener: org.bukkit.event.Listener
+    Nullable: javax.annotation
+    Entity: org.bukkit.entity.Entity
+
+base_templates:
+  - template: pluginbase/plugin.yml.ftl
+    writer: file
+    name: "@RESROOT/plugin.yml"
+  - template: pluginbase/plugin.java.ftl
+    name: "@SRCROOT/@BASEPACKAGEPATH/@JavaModName.java"
+  - template: pluginbase/registers.java.ftl
+    name: "@SRCROOT/@BASEPACKAGEPATH/@JavaModNameRegisters.java"

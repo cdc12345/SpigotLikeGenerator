@@ -1,0 +1,1 @@
+${input$entity} instanceof Player _player && _player.getGameMode() == GameMode.${generator.map(field$gamemode, "gamemodes")})

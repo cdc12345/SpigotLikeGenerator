@@ -1,0 +1,1 @@
+${JavaModName}.INSTANCE.getLogger().info(${opt.removeParentheses(value)});

@@ -1,0 +1,1 @@
+(Objects.requireNonNullElse(String.valueOf(cmdparams.get("${field$paramid}")),""))

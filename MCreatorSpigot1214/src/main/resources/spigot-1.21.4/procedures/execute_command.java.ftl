@@ -1,0 +1,1 @@
+Bukkit.dispatchCommand(${JavaModName}.INSTANCE.getServer().getConsoleSender(), ${input$command});

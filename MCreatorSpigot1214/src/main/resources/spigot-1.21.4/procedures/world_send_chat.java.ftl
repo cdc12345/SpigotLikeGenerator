@@ -1,0 +1,1 @@
+world.getPlayers().forEach(a->a.sendMessage(${input$text}));

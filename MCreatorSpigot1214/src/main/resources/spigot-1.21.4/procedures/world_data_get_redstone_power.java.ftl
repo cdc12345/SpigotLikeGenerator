@@ -1,0 +1,1 @@
+(world instanceof World _world) ? _world.getBlockAt((int)${input$x},(int)${input$y},(int)${input$z}).getBlockPower() : 0

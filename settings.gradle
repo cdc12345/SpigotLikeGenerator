@@ -1,4 +1,8 @@
-rootProject.name = 'DemoJavaPlugin'
+rootProject.name = 'SpigotLikeGenerator'
 
 include ":MCreator"
 project(":MCreator").projectDir = file(mcreator_path)
+include 'MCreatorSpigot1214'
+include ":FountainBase"
+project(":FountainBase").projectDir = file(fountain_path)
+
