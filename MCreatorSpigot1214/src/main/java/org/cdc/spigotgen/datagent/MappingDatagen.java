@@ -38,8 +38,10 @@ public class MappingDatagen {
 			System.out.println(gameMode.name());
 			gamemodes.appendElement(gameMode.name(),gameMode.name());
 		}
-		gamemodes.appendElement("_default","SURVIVAL");
+		gamemodes.setDefault("SURVIVAL");
 		gamemodes.initGenerator().build();
+
+
 
 		mCreatorPluginFactory.initGenerator("spigot-1.21.4",true);
 	}
