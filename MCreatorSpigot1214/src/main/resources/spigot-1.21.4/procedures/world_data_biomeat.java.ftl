@@ -1,1 +1,1 @@
-((world.getBiome((int)${input$x},(int)${input$y},(int)${input$z})).getKeyOrThrow().getKey().equals(${generator.map(field$biome, "biomes")}))
+((world.getBiome((int)${input$x},(int)${input$y},(int)${input$z})).getKeyOrThrow().getKey().equals("${generator.map(field$biome, "biomes")}"))

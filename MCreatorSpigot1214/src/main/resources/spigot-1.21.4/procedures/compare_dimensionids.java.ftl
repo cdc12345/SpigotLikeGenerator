@@ -1,1 +1,1 @@
-(${input$a} == ${input$b})
+(${input$a}.equals(${input$b}))

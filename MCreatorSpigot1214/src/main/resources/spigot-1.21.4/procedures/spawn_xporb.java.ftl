@@ -1,0 +1,1 @@
+((ExperienceOrb)world.spawnEntity(new Location(world,${input$x}, ${input$y}, ${input$z}), EntityType.EXPERIENCE_ORB)).setExperience(${opt.toInt(input$xpamount)});

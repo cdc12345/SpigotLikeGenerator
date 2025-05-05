@@ -17,6 +17,10 @@ repositories {
     mavenCentral()
     maven { url "https://repo.gradle.org/gradle/libs-releases" } // for gradle-tooling-api
     flatDir { dirs mcreator_path + '/lib' }
+    maven {
+        name = "spigotmc-repo"
+        url = "https://hub.spigotmc.org/nexus/content/repositories/snapshots/"
+    }
 }
 
 configurations {
@@ -34,6 +38,9 @@ dependencies {
     }
 
     implementation project(':FountainBase')
+
+    //GeneratedLibrary
+    implementation("org.spigotmc:spigot-api:1.21.4-R0.1-SNAPSHOT")
 }
 
 tasks.jar {

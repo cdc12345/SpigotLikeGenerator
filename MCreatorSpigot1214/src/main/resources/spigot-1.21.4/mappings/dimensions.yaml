@@ -1,0 +1,5 @@
+_default: "world"
+_mcreator_map_template: "@modid:@registryname"
+Surface: "world"
+Nether: "world_nether"
+End: "world_the_end"

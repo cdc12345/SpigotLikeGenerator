@@ -9,7 +9,7 @@ world: World
 entity: Entity
 map: HashMap
 advancement: Advancement
-dimensiontype: ResourceKey<Level>
+dimensiontype: String
 actionresulttype: InteractionResult
 cmdcontext: CommandContext<CommandSourceStack>
 damagesource: DamageSource

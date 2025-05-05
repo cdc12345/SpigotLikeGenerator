@@ -1,0 +1,1 @@
+/*@int*/(world.getHighestBlockAt(${opt.toInt(input$x)}, ${opt.toInt(input$z)},HeightMap.${field$heightType}).getLocation().getY())
