@@ -8,7 +8,7 @@ public class ${name}Procedure implements Listener {
 			"z": "event.getPlayer().getLocation().getZ()",
 			"world": "event.getPlayer().getWorld()",
 			"entity": "event.getPlayer()",
-			"itemstack": "event.getEntity().getItemStack()",
+			"itemstack": "event.getItemDrop().getItemStack()",
 			"event": "event"
 			}/>
 		</#compress></#assign>

@@ -10,7 +10,7 @@ public class ${name}Procedure implements Listener {
 				"world": "event.getEntity().getWorld()",
 				"entity": "event.getEntity()",
 				"amount": "event.getFinalDamage()",
-				"damagesource": "event.getCause()",
+				"damagesource": "event.getDamageSource()",
 				"event": "event"
 				}/>
 			</#compress></#assign>

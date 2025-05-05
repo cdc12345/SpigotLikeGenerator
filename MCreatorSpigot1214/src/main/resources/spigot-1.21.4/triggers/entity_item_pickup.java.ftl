@@ -1,6 +1,6 @@
 <#include "procedures.java.ftl">
 public class ${name}Procedure implements Listener {
-	@EventHandler public void onEntityPickupsItem(EntityPickupItem event) {
+	@EventHandler public void onEntityPickupsItem(EntityPickupItemEvent event) {
 		<#assign dependenciesCode><#compress>
 			<@procedureDependenciesCode dependencies, {
 			"x": "event.getEntity().getLocation().getX()",

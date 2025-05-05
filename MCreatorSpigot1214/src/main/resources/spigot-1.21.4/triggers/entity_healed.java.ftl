@@ -9,7 +9,6 @@ public class ${name}Procedure implements Listener {
 			"amount": "event.getAmount()",
 			"world": "event.getEntity().getWorld()",
 			"entity": "event.getEntity()",
-			"droppedexperience": "event.getDroppedExp()",
 			"event": "event"
 			}/>
 		</#compress></#assign>

@@ -1,6 +1,7 @@
 package org.cdc.spigotgen.datagent;
 
 import org.bukkit.GameMode;
+import org.bukkit.GameRule;
 import org.bukkit.attribute.Attribute;
 import org.bukkit.potion.PotionEffectType;
 import org.cdc.framework.MCreatorPluginFactory;
@@ -41,6 +42,18 @@ public class MappingDatagen {
 		gamemodes.setDefault("SURVIVAL");
 		gamemodes.initGenerator().build();
 
+
+		var gamerules = mCreatorPluginFactory.createDataList("gamerules");
+		var gamerul = GameRule.class;
+		for (Field gamerule: gamerul.getFields()){
+			if (gamerule.getType().equals(GameRule.class)) {
+				System.out.println(gamerule.getName());
+				gamerules.appendElement(gamerule.getName(),
+						"GameRule." + gamerule.getName());
+			}
+		}
+		gamerules.setDefault();
+		gamerules.initGenerator().build();
 
 
 		mCreatorPluginFactory.initGenerator("spigot-1.21.4",true);
