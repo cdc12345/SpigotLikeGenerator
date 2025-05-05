@@ -7,7 +7,7 @@ public class ${name}Procedure implements Listener {
 			"y": "event.getClickedEntity().getLocation().getY()",
 			"z": "event.getClickedEntity().getLocation().getZ()",
 			"world": "event.getPlayer().getWorld()",
-			"entity": "event.getClickedEntity()",
+			"entity": "event.getRightClicked()",
 			"sourceentity": "event.getPlayer()",
 			"event": "event"
 			}/>
