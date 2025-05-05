@@ -1,0 +1,30 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "player",
+      "check": "Entity"
+    },
+    {
+      "type": "input_value",
+      "name": "message",
+      "check": "String"
+    }
+  ],
+  "colour": 60,
+  "previousStatement": null,
+  "nextStatement": null,
+  "inputsInline": true,
+  "mcreator": {
+    "group": "name",
+    "toolbox_id": "server_management",
+    "toolbox_init": [
+      "<value name=\"player\"><block type=\"entity_from_deps\"></block></value>",
+      "<value name=\"message\"><block type=\"text\"><field name=\"TEXT\">Reason</field></block></value>"
+    ],
+    "inputs": [
+      "player",
+      "message"
+    ]
+  }
+}

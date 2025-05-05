@@ -1,0 +1,1 @@
+${input$entity}.getPersistentDataContainer().get(NamespacedKey.fromString(${input$tagName}),PersistentDataType.STRING);

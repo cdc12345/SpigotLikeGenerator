@@ -1,1 +1,1 @@
-${JavaModName}.INSTANCE.getLogger().info(${opt.removeParentheses(value)});
+${JavaModName}.MCRLogger.info(${opt.removeParentheses(value)});

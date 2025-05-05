@@ -1,0 +1,1 @@
+Bukkit.broadcastMessage(${input$message});

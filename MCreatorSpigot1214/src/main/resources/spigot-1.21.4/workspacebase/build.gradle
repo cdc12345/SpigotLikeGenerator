@@ -1,11 +1,18 @@
-import java.nio.file.Path
-import xyz.jpenilla.runpaper.task.RunServer
+buildscript {
+    dependencies {
+        classpath files("plugins/run-task-2.4.0-SNAPSHOT.jar")
+        classpath "com.fasterxml.jackson.core:jackson-core:2.19.0"
+        classpath "com.fasterxml.jackson.core:jackson-databind:2.19.0"
+        classpath "com.fasterxml.jackson.module:jackson-module-kotlin:2.19.0"
+    }
+}
 
 plugins {
     id 'eclipse'
     id 'java'
-    id("xyz.jpenilla.run-paper") version "2.3.1"
 }
+
+apply plugin:'xyz.jpenilla.run-paper'
 
 group = 'org.cdc'
 version = '1.0'
@@ -29,32 +36,8 @@ dependencies {
     compileOnly("org.spigotmc:spigot-api:1.21.4-R0.1-SNAPSHOT")
 }
 
-abstract class RunMCreatorServer extends RunServer{
-    RunMCreatorServer(){
-        super()
-    }
-    @Override
-    protected void preExec(Path workingDir) {
-        super.preExec(workingDir)
-        setArgs(List.of())
-    }
-}
-
-var copy = tasks.register('copyPlugin', Copy) {
-    dependsOn tasks.jar
-    from 'build/libs/target-1.0.jar'
-    into 'run/plugins'
-}
-
-var task = tasks.replace("runServer", RunMCreatorServer)
-task.dependsOn(copy)
-
 tasks {
     runServer {
-        copy {
-            from 'build/libs/target-1.0.jar'
-            into 'run/plugins'
-        }
         def mcreatorJvmOptions = System.getenv('MCREATOR_JVM_OPTIONS')
         if (mcreatorJvmOptions) {
             mcreatorJvmOptions.split("\\s+").findAll { it.trim() }.each { arg ->

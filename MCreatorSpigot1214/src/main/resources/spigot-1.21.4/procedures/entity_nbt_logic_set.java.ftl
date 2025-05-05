@@ -1,0 +1,1 @@
+${input$entity}.getPersistentDataContainer().set(Objects.requireNonNull(NamespacedKey.fromString(${input$tagName})),PersistentDataType.BOOLEAN,${input$tagValue});

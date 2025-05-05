@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/Spigot1214/lib/xyz/jpenilla/run-paper/2.4.0-SNAPSHOT/run-task-2.4.0-SNAPSHOT.jar" charset="UTF-8" />
+    <file url="file://$USER_HOME$/MCreatorWorkspaces/testspigot/plugins/run-task-2.4.0-SNAPSHOT.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MCreatorSpigot1214/src/main/resources/spigot-1.21.4/workspacebase/plugins/run-task-2.4.0-SNAPSHOT.jar" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spigot1214/lib/xyz/jpenilla/run-paper/2.4.0-SNAPSHOT/run-task-2.4.0-SNAPSHOT.jar" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spigot1214/plugin" charset="UTF-8" />
   </component>

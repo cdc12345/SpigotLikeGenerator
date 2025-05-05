@@ -1,1 +1,2 @@
-if(${input$entity} instanceof Player _player) _player.closeInventory();
+if(${input$entity} instanceof Player _player)
+	_player.closeInventory();

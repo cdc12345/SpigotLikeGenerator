@@ -7,6 +7,12 @@ plugins {
 group = 'org.cdc.spigotgen'
 version = new JsonSlurper().parse(file('src/main/resources/plugin.json'))['info']['version']
 
+var rundata = tasks.register("runDataGen",JavaExec){
+    group = "build"
+    mainClass = "org.cdc.spigotgen.datagent.Datagen"
+    classpath = project(":MCreatorSpigot1214").sourceSets.main.runtimeClasspath
+}
+
 repositories {
     mavenCentral()
     maven { url "https://repo.gradle.org/gradle/libs-releases" } // for gradle-tooling-api
@@ -27,10 +33,12 @@ dependencies {
         implementation it
     }
 
-    compileOnly project(':FountainBase')
+    implementation project(':FountainBase')
 }
 
 tasks.jar {
+    dependsOn(rundata.get())
+
     archiveFileName.set("spigot-1.21.4.zip")
 
     from {

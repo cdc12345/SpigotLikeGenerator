@@ -1,0 +1,18 @@
+DOWN:
+  - BlockFace.DOWN
+  - down
+UP:
+  - BlockFace.UP
+  - up
+NORTH:
+  - BlockFace.NORTH
+  - north
+SOUTH:
+  - BlockFace.SOUTH
+  - south
+WEST:
+  - BlockFace.WEST
+  - west
+EAST:
+  - BlockFace.EAST
+  - east

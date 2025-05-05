@@ -1,0 +1,23 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "message",
+      "check": "String"
+    }
+  ],
+  "colour": 60,
+  "previousStatement": null,
+  "nextStatement": null,
+  "inputsInline": true,
+  "mcreator": {
+    "group": "name",
+    "toolbox_id": "server_management",
+    "toolbox_init": [
+      "<value name=\"message\"><block type=\"text\"><field name=\"TEXT\">Message</field></block></value>"
+    ],
+    "inputs": [
+      "message"
+    ]
+  }
+}

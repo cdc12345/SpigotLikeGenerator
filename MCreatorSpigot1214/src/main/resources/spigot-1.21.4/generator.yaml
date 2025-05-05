@@ -20,9 +20,9 @@ import_formatter:
   duplicates_whitelist:
     - java.util
   priority_imports:
-    Listener: org.bukkit.event.Listener
+    Listener: org.bukkit.event
     Nullable: javax.annotation
-    Entity: org.bukkit.entity.Entity
+    Entity: org.bukkit.entity
 
 base_templates:
   - template: pluginbase/plugin.yml.ftl

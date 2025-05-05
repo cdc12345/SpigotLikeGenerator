@@ -6,7 +6,7 @@ blockstate: BlockState
 itemstack: ItemStack
 direction: BlockFace
 world: World
-entity: LivingEntity
+entity: Entity
 map: HashMap
 advancement: Advancement
 dimensiontype: ResourceKey<Level>

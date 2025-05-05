@@ -53,5 +53,11 @@ public class ${JavaModName} extends JavaPlugin {
     public void onDisable() {
     	<#if w.hasElementsOfType("procedure")>HandlerList.unregisterAll(this);</#if>
     }
+
+	public static class MCRLogger{
+		public static void info(Object o){
+			INSTANCE.getLogger().info(String.valueOf(o));
+		}
+	}
 }
 <#-- @formatter:on -->
