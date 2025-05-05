@@ -9,7 +9,7 @@ import java.lang.reflect.Field;
 
 public class MappingDatagen {
 	public static void main(String[] args) {
-		MCreatorPluginFactory mCreatorPluginFactory = MCreatorPluginFactory.createFactory("MCreatorSpigot1214/src/main/resources");
+		MCreatorPluginFactory mCreatorPluginFactory = MCreatorPluginFactory.createFactory("src/main/resources");
 
 		var attributes = mCreatorPluginFactory.createDataList("attributes");
 		var cls = Attribute.class;

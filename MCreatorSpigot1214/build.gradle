@@ -2,6 +2,7 @@ import groovy.json.JsonSlurper
 
 plugins {
     id 'java'
+    id "de.undercouch.download" version "5.6.0"
 }
 
 group = 'org.cdc.spigotgen'
@@ -11,6 +12,13 @@ var rundata = tasks.register("runDataGen",JavaExec){
     group = "build"
     mainClass = "org.cdc.spigotgen.datagent.Datagen"
     classpath = project(":MCreatorSpigot1214").sourceSets.main.runtimeClasspath
+}
+
+tasks.register("download1214", Download){
+    src 'https://piston-data.mojang.com/v1/objects/a7e5a6024bfd3cd614625aa05629adf760020304/client.jar'
+    dest layout.buildDirectory
+    overwrite true
+    group "build"
 }
 
 repositories {

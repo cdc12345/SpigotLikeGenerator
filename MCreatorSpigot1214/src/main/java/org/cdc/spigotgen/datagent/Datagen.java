@@ -40,11 +40,10 @@ public class Datagen {
 				.setLanguage(en,"Kick %1 , reason: %2").initGenerator().buildAndOutput();
 		mCreatorPluginFactory.getToolKit().createInputProcedure("server_shutdown").setToolBoxId(SpigotGenCategories.SERVER_MANAGE).setLanguage(en,"Server Shutdown").initGenerator().buildAndOutput();
 
-
-
-
 		mCreatorPluginFactory.initGenerator("spigot-1.21.4");
 
 		en.buildAndOutput();
+
+		MappingDatagen.main(args);
 	}
 }
