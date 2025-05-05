@@ -12,7 +12,6 @@ public class MappingDatagen {
 		MCreatorPluginFactory mCreatorPluginFactory = MCreatorPluginFactory.createFactory("MCreatorSpigot1214/src/main/resources");
 
 		var attributes = mCreatorPluginFactory.createDataList("attributes");
-
 		var cls = Attribute.class;
 		for (Field field: cls.getFields()){
 			if (field.getType().equals(Attribute.class)){
@@ -20,6 +19,7 @@ public class MappingDatagen {
 				attributes.appendElement(field.getName(),"Attribute."+field.getName());
 			}
 		}
+		attributes.setDefault();
 		attributes.initGenerator().build();
 
 		var effects = mCreatorPluginFactory.createDataList("effects");
@@ -30,6 +30,7 @@ public class MappingDatagen {
 				effects.appendElement(field.getName(),"PotionEffectType."+field.getName());
 			}
 		}
+		effects.setDefault();
 		effects.initGenerator().build();
 
 		var gamemodes = mCreatorPluginFactory.createDataList("gamemodes");
@@ -37,6 +38,7 @@ public class MappingDatagen {
 			System.out.println(gameMode.name());
 			gamemodes.appendElement(gameMode.name(),gameMode.name());
 		}
+		gamemodes.appendElement("_default","SURVIVAL");
 		gamemodes.initGenerator().build();
 
 		mCreatorPluginFactory.initGenerator("spigot-1.21.4",true);
