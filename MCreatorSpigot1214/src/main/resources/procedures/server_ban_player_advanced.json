@@ -20,20 +20,20 @@
       "name": "timeunit",
       "options": [
         [
-          "DAY",
-          "DAYS"
-        ],
-        [
-          "MONTH",
-          "MONTHS"
-        ],
-        [
           "MINUTE",
           "MINUTES"
         ],
         [
           "HOUR",
           "HOURS"
+        ],
+        [
+          "DAY",
+          "DAYS"
+        ],
+        [
+          "MONTH",
+          "MONTHS"
         ]
       ]
     },

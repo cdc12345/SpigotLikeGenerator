@@ -32,6 +32,6 @@
     </#if>
 </#function>
 
-<#function toBlockPos world x y z>
-    <#return "new Location(" + world + "," + + opt.removeParentheses(x) + "," + opt.removeParentheses(y) + "," + opt.removeParentheses(z) +")">
+<#function toBlockPos x y z world="world">
+    <#return "new Location(" + world + "," + opt.removeParentheses(x) + "," + opt.removeParentheses(y) + "," + opt.removeParentheses(z) +")">
 </#function>

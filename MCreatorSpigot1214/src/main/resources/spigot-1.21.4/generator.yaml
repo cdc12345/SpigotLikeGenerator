@@ -23,6 +23,7 @@ import_formatter:
     Listener: org.bukkit.event
     Nullable: javax.annotation
     Entity: org.bukkit.entity
+    Event: org.bukkit.event
 
 base_templates:
   - template: pluginbase/plugin.yml.ftl
