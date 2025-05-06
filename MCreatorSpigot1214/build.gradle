@@ -14,7 +14,7 @@ var rundata = tasks.register("runDataGen",JavaExec){
     classpath = project(":MCreatorSpigot1214").sourceSets.main.runtimeClasspath
 }
 
-tasks.register("download1214", Download){
+tasks.register("downloadClient", Download){
     src 'https://piston-data.mojang.com/v1/objects/a7e5a6024bfd3cd614625aa05629adf760020304/client.jar'
     dest layout.buildDirectory
     overwrite true

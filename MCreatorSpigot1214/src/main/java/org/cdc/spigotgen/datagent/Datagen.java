@@ -6,6 +6,7 @@ import org.cdc.framework.utils.Side;
 import org.cdc.spigotgen.datagent.types.SpigotGenCategories;
 
 import java.awt.*;
+import java.util.Map;
 
 public class Datagen {
 	public static void main(String[] args) {
@@ -20,6 +21,8 @@ public class Datagen {
 				.appendDependency("world",BuiltInTypes.World).appendDependency("x",BuiltInTypes.Number)
 				.appendDependency("y",BuiltInTypes.Number).appendDependency("z",BuiltInTypes.Number).appendDependency("entity",BuiltInTypes.Entity)
 				.setCancelable(true).setLanguage(en,"Spigot: An explosion occurs").initGenerator().buildAndOutput();
+		mCreatorPluginFactory.createTrigger("on_disable_spigot").setSide(Side.Server).setLanguage(en,"Spigot: on Disable").initGenerator().buildAndOutput();
+
 
 		mCreatorPluginFactory.createProcedureCategory("spigot_generator").setColor(Color.GRAY).setLanguage(en,"Spigot ToolBox").buildAndOutput();
 		mCreatorPluginFactory.createProcedureCategory("server_management").setColor(Color.GRAY).setParentCategory(
@@ -32,6 +35,11 @@ public class Datagen {
 				.appendArgs0InputValue("time",BuiltInTypes.Number).appendArgs0InputValue("source",BuiltInTypes.String)
 				.toolBoxInitBuilder().setName("player").appendDefaultEntity().buildAndReturn().toolBoxInitBuilder().setName("reason").appendConstantString("").buildAndReturn().toolBoxInitBuilder().setName("time").appendConstantNumber(1).buildAndReturn().toolBoxInitBuilder().setName("source").appendConstantString("Console").buildAndReturn()
 				.setLanguage(en,"Ban player %1, reason %2, Days: %3, Source:%4").initGenerator().buildAndOutput();
+		mCreatorPluginFactory.getToolKit().createInputProcedure("server_ban_player_advanced").setToolBoxId(SpigotGenCategories.SERVER_MANAGE)
+				.appendArgs0InputValue("player",BuiltInTypes.Entity).appendArgs0InputValue("reason",BuiltInTypes.String)
+				.appendArgs0InputValue("time",BuiltInTypes.Number).appendArgs0FieldDropDown("timeunit", Map.of("MINUTE","MINUTES","HOUR","HOURS","DAY","DAYS","MONTH","MONTHS")).appendArgs0InputValue("source",BuiltInTypes.String)
+				.toolBoxInitBuilder().setName("player").appendDefaultEntity().buildAndReturn().toolBoxInitBuilder().setName("reason").appendConstantString("").buildAndReturn().toolBoxInitBuilder().setName("time").appendConstantNumber(1).buildAndReturn().toolBoxInitBuilder().setName("source").appendConstantString("Console").buildAndReturn()
+				.setLanguage(en,"Ban player %1, reason %2, amount of time: %3,Time unit: %4, Source: %5").initGenerator().buildAndOutput();
 		mCreatorPluginFactory.getToolKit().createInputProcedure("server_kick_player").setToolBoxId(SpigotGenCategories.SERVER_MANAGE)
 				.appendArgs0InputValue("player",BuiltInTypes.Entity)
 				.appendArgs0InputValue("message",BuiltInTypes.String)

@@ -11,7 +11,7 @@ public class ${JavaModName} extends JavaPlugin {
     }
 
     @Override
-    public void onEnable() {
+    public void onLoad() {
     	<#if w.hasElementsOfType("procedure")>
     	${JavaModName}Registers.registerReflect(a->{
                                    			if (Listener.class.isAssignableFrom(a)) {
@@ -48,6 +48,11 @@ public class ${JavaModName} extends JavaPlugin {
     	${JavaModName}Registers.registerAll(getFile());
     	</#if>
     }
+
+	@Override
+	public void onEnable() {
+		//Do Something(
+	}
 
     @Override
     public void onDisable() {
