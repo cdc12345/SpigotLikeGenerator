@@ -1,0 +1,69 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "player",
+      "check": "Entity"
+    },
+    {
+      "type": "input_value",
+      "name": "reason",
+      "check": "String"
+    },
+    {
+      "type": "input_value",
+      "name": "time",
+      "check": "Number"
+    },
+    {
+      "type": "field_dropdown",
+      "name": "timeunit",
+      "options": [
+        [
+          "DAY",
+          "DAYS"
+        ],
+        [
+          "MONTH",
+          "MONTHS"
+        ],
+        [
+          "MINUTE",
+          "MINUTES"
+        ],
+        [
+          "HOUR",
+          "HOURS"
+        ]
+      ]
+    },
+    {
+      "type": "input_value",
+      "name": "source",
+      "check": "String"
+    }
+  ],
+  "colour": 60,
+  "previousStatement": null,
+  "nextStatement": null,
+  "inputsInline": true,
+  "mcreator": {
+    "group": "name",
+    "toolbox_id": "server_management",
+    "toolbox_init": [
+      "<value name=\"player\"><block type=\"entity_from_deps\"></block></value>",
+      "<value name=\"reason\"><block type=\"text\"><field name=\"TEXT\"></field></block></value>",
+      "<value name=\"time\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value>",
+      "<value name=\"source\"><block type=\"text\"><field name=\"TEXT\">Console</field></block></value>"
+    ],
+    "inputs": [
+      "player",
+      "reason",
+      "time",
+      "source"
+    ],
+    "fields": [
+      "timeunit"
+    ]
+  }
+}
