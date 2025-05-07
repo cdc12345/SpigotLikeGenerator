@@ -7,7 +7,7 @@
   "javaplugin": "org.cdc.spigotgen.SpigotJavaPluginMain",
   "info": {
     "name": "MCreator Spigot Generator",
-    "version": "1.0",
+    "version": "grainrain",
     "description": "MCreator Spigot Generator",
     "author": "cdc1234"
   }

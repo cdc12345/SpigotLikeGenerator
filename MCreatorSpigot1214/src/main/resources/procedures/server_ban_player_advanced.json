@@ -24,16 +24,16 @@
           "MINUTES"
         ],
         [
-          "HOUR",
-          "HOURS"
+          "MONTH",
+          "MONTHS"
         ],
         [
           "DAY",
           "DAYS"
         ],
         [
-          "MONTH",
-          "MONTHS"
+          "HOUR",
+          "HOURS"
         ]
       ]
     },
