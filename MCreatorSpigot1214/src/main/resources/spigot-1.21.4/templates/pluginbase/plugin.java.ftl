@@ -62,30 +62,48 @@ public class ${JavaModName} extends JavaPlugin {
     }
 
 	public static class MCRLogger{
-		private static String toString(Object object){
-			if (object instanceof Entity entity){
-				return "Entity{Location="+entity.getLocation()+", type="+entity.getClass().getSimpleName()+", customName="+entity.getCustomName()+ ", toString=" + entity + "}";
-			} else if (object instanceof Event event) {
-				HashMap<String,String> parameters = new HashMap<>();
-				var methods = event.getClass().getMethods();
-				for (Method method: methods){
-					if (!method.getReturnType().equals(Void.TYPE) && method.getParameters().length == 0){
-						String value;
-						try {
-							value = toString(method.invoke(event));
-						} catch (IllegalAccessException | InvocationTargetException e) {
-							value = e.toString();
+		private static final int MAX_DEPTH = 2;
+
+		private static String toDeepString(Object object, List<String> ignoredMethod, int depth) {
+			if (depth > MAX_DEPTH) {
+				return String.valueOf(object);
+			}
+			List<String> list = new ArrayList<>(ignoredMethod);
+			list.addAll(List.of("copy","clone","spigot"));
+			HashMap<String, String> parameters = new HashMap<>();
+			var methods = object.getClass().getMethods();
+			for (Method method : methods) {
+				if (!method.getReturnType().equals(Void.TYPE) && method.getParameters().length == 0) {
+					String value;
+					try {
+						if (list.contains(method.getName())) {
+							continue;
 						}
-						parameters.put(method.getName(),value);
+						if (method.getName().equals("getClass")) {
+							value = object.getClass().getName();
+						} else {
+							value = toString(method.invoke(object), depth + 1);
+						}
+					} catch (IllegalAccessException | InvocationTargetException e) {
+						value = e.toString();
 					}
+					parameters.put(method.getName(), value);
 				}
-				return parameters.toString();
+			}
+			return parameters.toString();
+		}
+
+		private static String toString(Object object, int depth) {
+			if (object instanceof Entity entity) {
+				return toDeepString(entity, List.of("eject","leaveVehicle"), depth);
+			} else if (object instanceof Event event) {
+				return toDeepString(event, List.of("callEvent", "getHandlers", "getHandlerList"), depth);
 			}
 			return String.valueOf(object);
 		}
 
 		public static void info(Object o) {
-			INSTANCE.getLogger().info("["+StackWalker.getInstance(StackWalker.Option.RETAIN_CLASS_REFERENCE).getCallerClass()+"]"+ toString(o));
+			INSTANCE.getLogger().info(toString(o, 0));
 		}
 	}
 }
