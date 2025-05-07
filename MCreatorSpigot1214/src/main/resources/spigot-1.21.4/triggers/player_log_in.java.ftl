@@ -1,6 +1,6 @@
 <#include "procedures.java.ftl">
 public class ${name}Procedure implements Listener {
-	@EventHandler public static void onPlayerLoggedIn(PlayerJoinEvent event) {
+	@EventHandler public void onPlayerLoggedIn(PlayerJoinEvent event) {
 		<#assign dependenciesCode><#compress>
 			<@procedureDependenciesCode dependencies, {
 				"x": "event.getPlayer().getLocation().getX()",

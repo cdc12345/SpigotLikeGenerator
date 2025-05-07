@@ -1,6 +1,6 @@
 <#include "procedures.java.ftl">
 public class ${name}Procedure implements Listener{
-	@EventHandler public static void whenEntityBlocksWithShield(EntityDamageByEntityEvent event) {
+	@EventHandler public void whenEntityBlocksWithShield(EntityDamageByEntityEvent event) {
 		if (event.getDamage(EntityDamageEvent.DamageModifier.BLOCKING) != 0) {
 			<#assign dependenciesCode><#compress>
 				<@procedureDependenciesCode dependencies, {

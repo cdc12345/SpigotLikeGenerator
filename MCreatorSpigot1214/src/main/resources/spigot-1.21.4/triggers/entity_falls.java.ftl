@@ -1,6 +1,6 @@
 <#include "procedures.java.ftl">
 public class ${name}Procedure implements Listener{
-	@EventHandler public static void onEntityFall(EntityDamageEvent event) {
+	@EventHandler public void onEntityFall(EntityDamageEvent event) {
 		if (event.getDamageSource().getDamageType() == DamageType.FALL) {
 			<#assign dependenciesCode><#compress>
 				<@procedureDependenciesCode dependencies, {
