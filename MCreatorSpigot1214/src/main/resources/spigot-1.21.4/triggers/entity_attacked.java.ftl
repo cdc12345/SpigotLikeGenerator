@@ -1,6 +1,6 @@
 <#include "procedures.java.ftl">
 public class ${name}Procedure implements Listener {
-	@EventHandler public void onEntityAttacked(EntityDamageEvent event) {
+	@EventHandler public void onEntityAttacked(EntityDamageByEntityEvent event) {
 		<#assign dependenciesCode><#compress>
 			<@procedureDependenciesCode dependencies, {
 			"x": "event.getEntity().getLocation().getX()",
@@ -9,7 +9,7 @@ public class ${name}Procedure implements Listener {
 			"world": "event.getEntity().getWorld()",
 			"entity": "event.getEntity()",
 			"amount": "event.getFinalDamage()",
-			"damagesource": "event.getCause()",
+			"damagesource": "event.getDamageSource()",
 			"event": "event"
 			}/>
 		</#compress></#assign>
