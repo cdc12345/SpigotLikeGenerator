@@ -1,6 +1,6 @@
 <#include "procedures.java.ftl">
 public class ${name}Procedure implements Listener{
-	@EventHandler public static void onEntityTamed(EntityTameEvent event) {
+	@EventHandler public void onEntityTamed(EntityTameEvent event) {
 		<#assign dependenciesCode><#compress>
 			<@procedureDependenciesCode dependencies, {
 				"x": "event.getEntity().getLocation().getX()",

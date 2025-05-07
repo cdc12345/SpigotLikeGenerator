@@ -1,6 +1,6 @@
 <#include "procedures.java.ftl">
 public class ${name}Procedure implements Listener{
-	@EventHandler public static void onLeftClick(PlayerInteractEvent event) {
+	@EventHandler public void onLeftClick(PlayerInteractEvent event) {
 			if (event.getAction() == org.bukkit.event.block.Action.LEFT_CLICK_AIR && event.getHand() == EquipmentSlot.HAND) {
 			<#assign dependenciesCode><#compress>
 				<@procedureDependenciesCode dependencies, {
