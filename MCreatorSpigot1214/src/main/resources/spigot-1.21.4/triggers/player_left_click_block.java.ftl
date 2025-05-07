@@ -4,9 +4,9 @@ public class ${name}Procedure implements Listener {
 		if (event.getAction() == org.bukkit.event.block.Action.LEFT_CLICK_BLOCK && event.getHand() == EquipmentSlot.HAND) {
 			<#assign dependenciesCode><#compress>
 				<@procedureDependenciesCode dependencies, {
-				"x": "event.getPlayer().getLocation().getX()",
-				"y": "event.getPlayer().getLocation().getY()",
-				"z": "event.getPlayer().getLocation().getZ()",
+				"x": "event.getClickedBlock().getLocation().getX()",
+				"y": "event.getClickedBlock().getLocation().getY()",
+				"z": "event.getClickedBlock().getLocation().getZ()",
 				"world": "event.getPlayer().getWorld()",
 				"entity": "event.getPlayer()",
 				"direction": "event.getBlockFace()",
