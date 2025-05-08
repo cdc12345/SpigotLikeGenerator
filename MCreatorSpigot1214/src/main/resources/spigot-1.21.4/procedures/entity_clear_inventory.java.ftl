@@ -1,1 +1,1 @@
-if(${input$entity} instanceof Player _player) _player.getInventory().clear);
+if(${input$entity} instanceof Player _player) _player.getInventory().clear;

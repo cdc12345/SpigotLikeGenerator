@@ -1,1337 +1,4991 @@
-_mcreator_prefix: "CUSTOM:"
-_bypass_prefix: "TAG:"
-_default: "air"
-Blocks.AIR: "air"
-Blocks.STONE: "#forge:stone"
-Blocks.STONE#0: "stone"
-Blocks.STONE#1: "granite"
-Blocks.STONE#2: "polished_granite"
-Blocks.STONE#3: "diorite"
-Blocks.STONE#4: "polished_diorite"
-Blocks.STONE#5: "andesite"
-Blocks.STONE#6: "polished_andesite"
-Blocks.GRASS: "grass_block"
-Blocks.GRASS_PATH: "dirt_path"
-Blocks.MYCELIUM: "mycelium"
-Blocks.DIRT: "dirt"
-Blocks.DIRT#0: "dirt"
-Blocks.DIRT#1: "coarse_dirt"
-Blocks.DIRT#2: "podzol"
-Blocks.COBBLESTONE: "cobblestone"
-Blocks.MOSSY_COBBLESTONE: "mossy_cobblestone"
-Blocks.PLANKS: "#minecraft:planks"
-Blocks.PLANKS#0: "oak_planks"
-Blocks.PLANKS#1: "spruce_planks"
-Blocks.PLANKS#2: "birch_planks"
-Blocks.PLANKS#3: "jungle_planks"
-Blocks.PLANKS#4: "acacia_planks"
-Blocks.PLANKS#5: "dark_oak_planks"
-Blocks.SAPLING: "#minecraft:saplings"
-Blocks.SAPLING#0: "oak_sapling"
-Blocks.SAPLING#1: "spruce_sapling"
-Blocks.SAPLING#2: "birch_sapling"
-Blocks.SAPLING#3: "jungle_sapling"
-Blocks.SAPLING#4: "acacia_sapling"
-Blocks.SAPLING#5: "dark_oak_sapling"
-Blocks.REEDS: "sugar_cane"
-Blocks.BEDROCK: "bedrock"
-Blocks.SAND: "#minecraft:sand"
-Blocks.SAND#0: "sand"
-Blocks.SAND#1: "red_sand"
-Blocks.GRAVEL: "gravel"
-Blocks.FLOWING_WATER: "water"
-Blocks.WATER: "water"
-Blocks.FLOWING_LAVA: "lava"
-Blocks.LAVA: "lava"
-Blocks.MAGMA: "magma_block"
-Blocks.OBSIDIAN: "obsidian"
-Blocks.COAL_ORE: "coal_ore"
-Blocks.IRON_ORE: "iron_ore"
-Blocks.REDSTONE_ORE: "redstone_ore"
-Blocks.LIT_REDSTONE_ORE: "redstone_ore"
-Blocks.GOLD_ORE: "gold_ore"
-Blocks.LAPIS_ORE: "lapis_ore"
-Blocks.DIAMOND_ORE: "diamond_ore"
-Blocks.COPPER_ORE: "copper_ore"
-Blocks.EMERALD_ORE: "emerald_ore"
-Blocks.DEEPSLATE_COAL_ORE: "deepslate_coal_ore"
-Blocks.DEEPSLATE_IRON_ORE: "deepslate_iron_ore"
-Blocks.DEEPSLATE_REDSTONE_ORE: "deepslate_redstone_ore"
-Blocks.DEEPSLATE_GOLD_ORE: "deepslate_gold_ore"
-Blocks.DEEPSLATE_LAPIS_ORE: "deepslate_lapis_ore"
-Blocks.DEEPSLATE_DIAMOND_ORE: "deepslate_diamond_ore"
-Blocks.DEEPSLATE_EMERALD_ORE: "deepslate_emerald_ore"
-Blocks.DEEPSLATE_COPPER_ORE: "deepslate_copper_ore"
-Blocks.QUARTZ_ORE: "nether_quartz_ore"
-Blocks.COAL_BLOCK: "coal_block"
-Blocks.IRON_BLOCK: "iron_block"
-Blocks.REDSTONE_BLOCK: "redstone_block"
-Blocks.GOLD_BLOCK: "gold_block"
-Blocks.LAPIS_BLOCK: "lapis_block"
-Blocks.DIAMOND_BLOCK: "diamond_block"
-Blocks.EMERALD_BLOCK: "emerald_block"
-Blocks.QUARTZ_BLOCK: "#forge:ores/quartz"
-Blocks.QUARTZ_BLOCK#0: "smooth_quartz"
-Blocks.QUARTZ_BLOCK#1: "chiseled_quartz_block"
-Blocks.QUARTZ_BLOCK#2: "quartz_pillar"
-Blocks.QUARTZ_BLOCK#3: "quartz_block"
-Blocks.SLIME_BLOCK: "slime_block"
-Blocks.LOG: "oak_log"
-Blocks.LOG#0: "oak_log"
-Blocks.LOG#1: "spruce_log"
-Blocks.LOG#2: "birch_log"
-Blocks.LOG#3: "jungle_log"
-Blocks.LOG2: "acacia_log"
-Blocks.LOG2#0: "acacia_log"
-Blocks.LOG2#1: "dark_oak_log"
-Blocks.LEAVES: "oak_leaves"
-Blocks.LEAVES#0: "oak_leaves"
-Blocks.LEAVES#1: "spruce_leaves"
-Blocks.LEAVES#2: "birch_leaves"
-Blocks.LEAVES#3: "jungle_leaves"
-Blocks.LEAVES2: "acacia_leaves"
-Blocks.LEAVES2#0: "acacia_leaves"
-Blocks.LEAVES2#1: "dark_oak_leaves"
-Blocks.AZALEA_LEAVES: "azalea_leaves"
-Blocks.FLOWERING_AZALEA_LEAVES: "flowering_azalea_leaves"
-Blocks.SPONGE: "sponge"
-Blocks.SPONGE#0: "sponge"
-Blocks.SPONGE#1: "wet_sponge"
-Blocks.SANDSTONE: "#forge:sandstone"
-Blocks.SANDSTONE#0: "sandstone"
-Blocks.SANDSTONE#1: "chiseled_sandstone"
-Blocks.SANDSTONE#2: "cut_sandstone"
-Blocks.RED_SANDSTONE: "#forge:sandstone"
-Blocks.RED_SANDSTONE#0: "red_sandstone"
-Blocks.RED_SANDSTONE#1: "chiseled_red_sandstone"
-Blocks.RED_SANDSTONE#2: "cut_red_sandstone"
-Blocks.NOTEBLOCK: "note_block"
-Blocks.RAIL: "rail"
-Blocks.GOLDEN_RAIL: "powered_rail"
-Blocks.DETECTOR_RAIL: "detector_rail"
-Blocks.ACTIVATOR_RAIL: "activator_rail"
-Blocks.BED: "white_bed"
-Blocks.WEB: "cobweb"
-Blocks.DEADBUSH: "dead_bush"
-Blocks.TALLGRASS: "grass"
-Blocks.TALLGRASS#0: "dead_bush"
-Blocks.TALLGRASS#1: "grass"
-Blocks.TALLGRASS#2: "fern"
-Blocks.PISTON: "piston"
-Blocks.STICKY_PISTON: "sticky_piston"
-Blocks.PISTON_HEAD: "piston_head"
-Blocks.PISTON_EXTENSION: "moving_piston"
-Blocks.YELLOW_FLOWER: "dandelion"
-Blocks.RED_FLOWER: "#minecraft:small_flowers"
-Blocks.RED_FLOWER#0: "poppy"
-Blocks.RED_FLOWER#1: "blue_orchid"
-Blocks.RED_FLOWER#2: "allium"
-Blocks.RED_FLOWER#3: "azure_bluet"
-Blocks.RED_FLOWER#4: "red_tulip"
-Blocks.RED_FLOWER#5: "orange_tulip"
-Blocks.RED_FLOWER#6: "white_tulip"
-Blocks.RED_FLOWER#7: "pink_tulip"
-Blocks.RED_FLOWER#8: "oxeye_daisy"
-Blocks.DOUBLE_PLANT: "#minecraft:small_flowers"
-Blocks.DOUBLE_PLANT#0: "sunflower"
-Blocks.DOUBLE_PLANT#1: "lilac"
-Blocks.DOUBLE_PLANT#2: "tall_grass"
-Blocks.DOUBLE_PLANT#3: "large_fern"
-Blocks.DOUBLE_PLANT#4: "rose_bush"
-Blocks.DOUBLE_PLANT#5: "peony"
-Blocks.BROWN_MUSHROOM: "brown_mushroom"
-Blocks.RED_MUSHROOM: "red_mushroom"
-Blocks.BROWN_MUSHROOM_BLOCK: "brown_mushroom_block"
-Blocks.RED_MUSHROOM_BLOCK: "red_mushroom_block"
-Blocks.BRICK_BLOCK: "bricks"
-Blocks.TNT: "tnt"
-Blocks.BOOKSHELF: "bookshelf"
-Blocks.TORCH: "torch"
-Blocks.FIRE: "fire"
-Blocks.MOB_SPAWNER: "spawner"
-Blocks.OAK_STAIRS: "oak_stairs"
-Blocks.SPRUCE_STAIRS: "spruce_stairs"
-Blocks.BIRCH_STAIRS: "birch_stairs"
-Blocks.JUNGLE_STAIRS: "jungle_stairs"
-Blocks.ACACIA_STAIRS: "acacia_stairs"
-Blocks.DARK_OAK_STAIRS: "dark_oak_stairs"
-Blocks.SANDSTONE_STAIRS: "sandstone_stairs"
-Blocks.RED_SANDSTONE_STAIRS: "red_sandstone_stairs"
-Blocks.STONE_STAIRS: "cobblestone_stairs"
-Blocks.BRICK_STAIRS: "brick_stairs"
-Blocks.STONE_BRICK_STAIRS: "stone_brick_stairs"
-Blocks.NETHER_BRICK_STAIRS: "nether_brick_stairs"
-Blocks.QUARTZ_STAIRS: "quartz_stairs"
-Blocks.PURPUR_STAIRS: "purpur_stairs"
-Blocks.CHEST: "chest"
-Blocks.TRAPPED_CHEST: "trapped_chest"
-Blocks.ENDER_CHEST: "ender_chest"
-Blocks.CRAFTING_TABLE: "crafting_table"
-Blocks.WHEAT: "wheat"
-Blocks.FARMLAND: "farmland"
-Blocks.FURNACE: "furnace"
-Blocks.STANDING_SIGN: "oak_sign"
-Blocks.WALL_SIGN: "oak_wall_sign"
-Blocks.OAK_DOOR: "oak_door"
-Blocks.SPRUCE_DOOR: "spruce_door"
-Blocks.BIRCH_DOOR: "birch_door"
-Blocks.JUNGLE_DOOR: "jungle_door"
-Blocks.ACACIA_DOOR: "acacia_door"
-Blocks.DARK_OAK_DOOR: "dark_oak_door"
-Blocks.IRON_DOOR: "iron_door"
-Blocks.TRAPDOOR: "oak_trapdoor"
-Blocks.IRON_TRAPDOOR: "iron_trapdoor"
-Blocks.LADDER: "ladder"
-Blocks.LEVER: "lever"
-Blocks.STONE_BUTTON: "stone_button"
-Blocks.WOODEN_BUTTON: "oak_button"
-Blocks.WOODEN_PRESSURE_PLATE: "oak_pressure_plate"
-Blocks.STONE_PRESSURE_PLATE: "stone_pressure_plate"
-Blocks.LIGHT_WEIGHTED_PRESSURE_PLATE: "light_weighted_pressure_plate"
-Blocks.HEAVY_WEIGHTED_PRESSURE_PLATE: "heavy_weighted_pressure_plate"
-Blocks.TRIPWIRE_HOOK: "tripwire_hook"
-Blocks.TRIPWIRE: "tripwire"
-Blocks.DAYLIGHT_DETECTOR: "daylight_detector"
-Blocks.DAYLIGHT_DETECTOR_INVERTED: "daylight_detector"
-Blocks.REDSTONE_TORCH: "redstone_torch"
-Blocks.UNLIT_REDSTONE_TORCH: "redstone_torch"
-Blocks.REDSTONE_WIRE: "redstone_wire"
-Blocks.UNPOWERED_REPEATER: "repeater"
-Blocks.POWERED_REPEATER: "repeater"
-Blocks.UNPOWERED_COMPARATOR: "comparator"
-Blocks.POWERED_COMPARATOR: "comparator"
-Blocks.REDSTONE_LAMP: "redstone_lamp"
-Blocks.LIT_REDSTONE_LAMP: "redstone_lamp"
-Blocks.DISPENSER: "dispenser"
-Blocks.DROPPER: "dropper"
-Blocks.OBSERVER: "observer"
-Blocks.HOPPER: "hopper"
-Blocks.COMMAND_BLOCK: "command_block"
-Blocks.REPEATING_COMMAND_BLOCK: "repeating_command_block"
-Blocks.CHAIN_COMMAND_BLOCK: "chain_command_block"
-Blocks.SNOW_LAYER: "snow"
-Blocks.SNOW: "snow_block"
-Blocks.ICE: "ice"
-Blocks.PACKED_ICE: "packed_ice"
-Blocks.FROSTED_ICE: "frosted_ice"
-Blocks.CACTUS: "cactus"
-Blocks.CLAY: "clay"
-Blocks.JUKEBOX: "jukebox"
-Blocks.OAK_FENCE: "oak_fence"
-Blocks.SPRUCE_FENCE: "spruce_fence"
-Blocks.BIRCH_FENCE: "birch_fence"
-Blocks.JUNGLE_FENCE: "jungle_fence"
-Blocks.ACACIA_FENCE: "acacia_fence"
-Blocks.DARK_OAK_FENCE: "dark_oak_fence"
-Blocks.OAK_FENCE_GATE: "oak_fence_gate"
-Blocks.SPRUCE_FENCE_GATE: "spruce_fence_gate"
-Blocks.BIRCH_FENCE_GATE: "birch_fence_gate"
-Blocks.JUNGLE_FENCE_GATE: "jungle_fence_gate"
-Blocks.ACACIA_FENCE_GATE: "acacia_fence_gate"
-Blocks.DARK_OAK_FENCE_GATE: "dark_oak_fence_gate"
-Blocks.NETHER_BRICK_FENCE: "nether_brick_fence"
-Blocks.NETHER_BRICK: "nether_bricks"
-Blocks.RED_NETHER_BRICK: "red_nether_bricks"
-Blocks.NETHERRACK: "netherrack"
-Blocks.SOUL_SAND: "soul_sand"
-Blocks.GLOWSTONE: "glowstone"
-Blocks.BONE_BLOCK: "bone_block"
-Blocks.NETHER_WART: "nether_wart"
-Blocks.NETHER_WART_BLOCK: "nether_wart_block"
-Blocks.CAKE: "cake"
-Blocks.STONEBRICK: "#minecraft:stone_bricks"
-Blocks.STONEBRICK#0: "stone_bricks"
-Blocks.STONEBRICK#1: "mossy_stone_bricks"
-Blocks.STONEBRICK#2: "cracked_stone_bricks"
-Blocks.STONEBRICK#3: "chiseled_stone_bricks"
-Blocks.IRON_BARS: "iron_bars"
-Blocks.MELON_BLOCK: "melon"
-Blocks.MELON_STEM: "melon_stem"
-Blocks.PUMPKIN: "pumpkin"
-Blocks.LIT_PUMPKIN: "jack_o_lantern"
-Blocks.PUMPKIN_STEM: "pumpkin_stem"
-Blocks.VINE: "vine"
-Blocks.GLOW_LICHEN: "glow_lichen"
-Blocks.WATERLILY: "lily_pad"
-Blocks.ENCHANTING_TABLE: "enchanting_table"
-Blocks.BREWING_STAND: "brewing_stand"
-Blocks.CAULDRON: "cauldron"
-Blocks.WATER_CAULDRON: "water_cauldron"
-Blocks.LAVA_CAULDRON: "lava_cauldron"
-Blocks.POWDER_SNOW_CAULDRON: "powder_snow_cauldron"
-Blocks.END_PORTAL: "end_portal"
-Blocks.END_PORTAL_FRAME: "end_portal_frame"
-Blocks.END_GATEWAY: "end_gateway"
-Blocks.END_STONE: "end_stone"
-Blocks.END_BRICKS: "end_stone_bricks"
-Blocks.END_ROD: "end_rod"
-Blocks.PURPUR_BLOCK: "purpur_block"
-Blocks.PURPUR_PILLAR: "purpur_pillar"
-Blocks.PURPUR_SLAB: "purpur_slab"
-Blocks.PURPUR_DOUBLE_SLAB: "purpur_slab"
-Blocks.BEETROOTS: "beetroots"
-Blocks.CHORUS_PLANT: "chorus_plant"
-Blocks.CHORUS_FLOWER: "chorus_flower"
-Blocks.DRAGON_EGG: "dragon_egg"
-Blocks.MONSTER_EGG: "infested_stone"
-Blocks.MONSTER_EGG#0: "infested_stone"
-Blocks.MONSTER_EGG#1: "infested_cobblestone"
-Blocks.MONSTER_EGG#2: "infested_stone_bricks"
-Blocks.MONSTER_EGG#3: "infested_mossy_stone_bricks"
-Blocks.MONSTER_EGG#4: "infested_cracked_stone_bricks"
-Blocks.MONSTER_EGG#5: "infested_chiseled_stone_bricks"
-Blocks.MONSTER_EGG#6: "infested_deepslate"
-Blocks.WOODEN_SLAB: "#minecraft:wooden_slabs"
-Blocks.WOODEN_SLAB#0: "oak_slab"
-Blocks.WOODEN_SLAB#1: "spruce_slab"
-Blocks.WOODEN_SLAB#2: "birch_slab"
-Blocks.WOODEN_SLAB#3: "jungle_slab"
-Blocks.WOODEN_SLAB#4: "acacia_slab"
-Blocks.WOODEN_SLAB#5: "dark_oak_slab"
-Blocks.STONE_SLAB: "#minecraft:slabs"
-Blocks.STONE_SLAB#0: "smooth_stone_slab"
-Blocks.STONE_SLAB#1: "sandstone_slab"
-Blocks.STONE_SLAB#2: "petrified_oak_slab"
-Blocks.STONE_SLAB#3: "cobblestone_slab"
-Blocks.STONE_SLAB#4: "brick_slab"
-Blocks.STONE_SLAB#5: "stone_brick_slab"
-Blocks.STONE_SLAB#6: "nether_brick_slab"
-Blocks.STONE_SLAB#7: "quartz_slab"
-Blocks.STONE_SLAB2: "red_sandstone_slab"
-Blocks.COCOA: "cocoa"
-Blocks.PORTAL: "nether_portal"
-Blocks.ANVIL: "#minecraft:anvil"
-Blocks.ANVIL#0: "anvil"
-Blocks.ANVIL#1: "chipped_anvil"
-Blocks.ANVIL#2: "damaged_anvil"
-Blocks.BEACON: "beacon"
-Blocks.COBBLESTONE_WALL: "#minecraft:walls"
-Blocks.COBBLESTONE_WALL#0: "cobblestone_wall"
-Blocks.COBBLESTONE_WALL#1: "mossy_cobblestone_wall"
-Blocks.FLOWER_POT: "flower_pot"
-Blocks.CARROTS: "carrots"
-Blocks.POTATOES: "potatoes"
-Blocks.HAY_BLOCK: "hay_block"
-Blocks.SKULL: "#forge:heads"
-Blocks.SKULL#0: "skeleton_skull"
-Blocks.SKULL#1: "wither_skeleton_skull"
-Blocks.SKULL#2: "zombie_head"
-Blocks.SKULL#3: "player_head"
-Blocks.SKULL#4: "creeper_head"
-Blocks.SKULL#5: "dragon_head"
-Blocks.WOOL: "#minecraft:wool"
-Blocks.WOOL#0: "white_wool"
-Blocks.WOOL#1: "orange_wool"
-Blocks.WOOL#2: "magenta_wool"
-Blocks.WOOL#3: "light_blue_wool"
-Blocks.WOOL#4: "yellow_wool"
-Blocks.WOOL#5: "lime_wool"
-Blocks.WOOL#6: "pink_wool"
-Blocks.WOOL#7: "gray_wool"
-Blocks.WOOL#8: "light_gray_wool"
-Blocks.WOOL#9: "cyan_wool"
-Blocks.WOOL#10: "purple_wool"
-Blocks.WOOL#11: "blue_wool"
-Blocks.WOOL#12: "brown_wool"
-Blocks.WOOL#13: "green_wool"
-Blocks.WOOL#14: "red_wool"
-Blocks.WOOL#15: "black_wool"
-Blocks.HARDENED_CLAY: "terracotta"
-Blocks.STAINED_HARDENED_CLAY: "white_terracotta"
-Blocks.STAINED_HARDENED_CLAY#0: "white_terracotta"
-Blocks.STAINED_HARDENED_CLAY#1: "orange_terracotta"
-Blocks.STAINED_HARDENED_CLAY#2: "magenta_terracotta"
-Blocks.STAINED_HARDENED_CLAY#3: "light_blue_terracotta"
-Blocks.STAINED_HARDENED_CLAY#4: "yellow_terracotta"
-Blocks.STAINED_HARDENED_CLAY#5: "lime_terracotta"
-Blocks.STAINED_HARDENED_CLAY#6: "pink_terracotta"
-Blocks.STAINED_HARDENED_CLAY#7: "gray_terracotta"
-Blocks.STAINED_HARDENED_CLAY#8: "light_gray_terracotta"
-Blocks.STAINED_HARDENED_CLAY#9: "cyan_terracotta"
-Blocks.STAINED_HARDENED_CLAY#10: "purple_terracotta"
-Blocks.STAINED_HARDENED_CLAY#11: "blue_terracotta"
-Blocks.STAINED_HARDENED_CLAY#12: "brown_terracotta"
-Blocks.STAINED_HARDENED_CLAY#13: "green_terracotta"
-Blocks.STAINED_HARDENED_CLAY#14: "red_terracotta"
-Blocks.STAINED_HARDENED_CLAY#15: "black_terracotta"
-Blocks.WHITE_GLAZED_TERRACOTTA: "white_glazed_terracotta"
-Blocks.ORANGE_GLAZED_TERRACOTTA: "orange_glazed_terracotta"
-Blocks.MAGENTA_GLAZED_TERRACOTTA: "magenta_glazed_terracotta"
-Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA: "light_blue_glazed_terracotta"
-Blocks.YELLOW_GLAZED_TERRACOTTA: "yellow_glazed_terracotta"
-Blocks.LIME_GLAZED_TERRACOTTA: "lime_glazed_terracotta"
-Blocks.PINK_GLAZED_TERRACOTTA: "pink_glazed_terracotta"
-Blocks.GRAY_GLAZED_TERRACOTTA: "gray_glazed_terracotta"
-Blocks.SILVER_GLAZED_TERRACOTTA: "light_gray_glazed_terracotta"
-Blocks.CYAN_GLAZED_TERRACOTTA: "cyan_glazed_terracotta"
-Blocks.PURPLE_GLAZED_TERRACOTTA: "purple_glazed_terracotta"
-Blocks.BLUE_GLAZED_TERRACOTTA: "blue_glazed_terracotta"
-Blocks.BROWN_GLAZED_TERRACOTTA: "brown_glazed_terracotta"
-Blocks.GREEN_GLAZED_TERRACOTTA: "green_glazed_terracotta"
-Blocks.RED_GLAZED_TERRACOTTA: "red_glazed_terracotta"
-Blocks.BLACK_GLAZED_TERRACOTTA: "black_glazed_terracotta"
-Blocks.CONCRETE_POWDER: "white_concrete_powder"
-Blocks.CONCRETE_POWDER#0: "white_concrete_powder"
-Blocks.CONCRETE_POWDER#1: "orange_concrete_powder"
-Blocks.CONCRETE_POWDER#2: "magenta_concrete_powder"
-Blocks.CONCRETE_POWDER#3: "light_blue_concrete_powder"
-Blocks.CONCRETE_POWDER#4: "yellow_concrete_powder"
-Blocks.CONCRETE_POWDER#5: "lime_concrete_powder"
-Blocks.CONCRETE_POWDER#6: "pink_concrete_powder"
-Blocks.CONCRETE_POWDER#7: "gray_concrete_powder"
-Blocks.CONCRETE_POWDER#8: "light_gray_concrete_powder"
-Blocks.CONCRETE_POWDER#9: "cyan_concrete_powder"
-Blocks.CONCRETE_POWDER#10: "purple_concrete_powder"
-Blocks.CONCRETE_POWDER#11: "blue_concrete_powder"
-Blocks.CONCRETE_POWDER#12: "brown_concrete_powder"
-Blocks.CONCRETE_POWDER#13: "green_concrete_powder"
-Blocks.CONCRETE_POWDER#14: "red_concrete_powder"
-Blocks.CONCRETE_POWDER#15: "black_concrete_powder"
-Blocks.CONCRETE: "white_concrete"
-Blocks.CONCRETE#0: "white_concrete"
-Blocks.CONCRETE#1: "orange_concrete"
-Blocks.CONCRETE#2: "magenta_concrete"
-Blocks.CONCRETE#3: "light_blue_concrete"
-Blocks.CONCRETE#4: "yellow_concrete"
-Blocks.CONCRETE#5: "lime_concrete"
-Blocks.CONCRETE#6: "pink_concrete"
-Blocks.CONCRETE#7: "gray_concrete"
-Blocks.CONCRETE#8: "light_gray_concrete"
-Blocks.CONCRETE#9: "cyan_concrete"
-Blocks.CONCRETE#10: "purple_concrete"
-Blocks.CONCRETE#11: "blue_concrete"
-Blocks.CONCRETE#12: "brown_concrete"
-Blocks.CONCRETE#13: "green_concrete"
-Blocks.CONCRETE#14: "red_concrete"
-Blocks.CONCRETE#15: "black_concrete"
-Blocks.CARPET: "#minecraft:carpets"
-Blocks.CARPET#0: "white_carpet"
-Blocks.CARPET#1: "orange_carpet"
-Blocks.CARPET#2: "magenta_carpet"
-Blocks.CARPET#3: "light_blue_carpet"
-Blocks.CARPET#4: "yellow_carpet"
-Blocks.CARPET#5: "lime_carpet"
-Blocks.CARPET#6: "pink_carpet"
-Blocks.CARPET#7: "gray_carpet"
-Blocks.CARPET#8: "light_gray_carpet"
-Blocks.CARPET#9: "cyan_carpet"
-Blocks.CARPET#10: "purple_carpet"
-Blocks.CARPET#11: "blue_carpet"
-Blocks.CARPET#12: "brown_carpet"
-Blocks.CARPET#13: "green_carpet"
-Blocks.CARPET#14: "red_carpet"
-Blocks.CARPET#15: "black_carpet"
-Blocks.GLASS: "glass"
-Blocks.STAINED_GLASS: "#forge:stained_glass"
-Blocks.STAINED_GLASS#0: "white_stained_glass"
-Blocks.STAINED_GLASS#1: "orange_stained_glass"
-Blocks.STAINED_GLASS#2: "magenta_stained_glass"
-Blocks.STAINED_GLASS#3: "light_blue_stained_glass"
-Blocks.STAINED_GLASS#4: "yellow_stained_glass"
-Blocks.STAINED_GLASS#5: "lime_stained_glass"
-Blocks.STAINED_GLASS#6: "pink_stained_glass"
-Blocks.STAINED_GLASS#7: "gray_stained_glass"
-Blocks.STAINED_GLASS#8: "light_gray_stained_glass"
-Blocks.STAINED_GLASS#9: "cyan_stained_glass"
-Blocks.STAINED_GLASS#10: "purple_stained_glass"
-Blocks.STAINED_GLASS#11: "blue_stained_glass"
-Blocks.STAINED_GLASS#12: "brown_stained_glass"
-Blocks.STAINED_GLASS#13: "green_stained_glass"
-Blocks.STAINED_GLASS#14: "red_stained_glass"
-Blocks.STAINED_GLASS#15: "black_stained_glass"
-Blocks.GLASS_PANE: "glass_pane"
-Blocks.STAINED_GLASS_PANE: "#forge:stained_glass_panes"
-Blocks.STAINED_GLASS_PANE#0: "white_stained_glass_pane"
-Blocks.STAINED_GLASS_PANE#1: "orange_stained_glass_pane"
-Blocks.STAINED_GLASS_PANE#2: "magenta_stained_glass_pane"
-Blocks.STAINED_GLASS_PANE#3: "light_blue_stained_glass_pane"
-Blocks.STAINED_GLASS_PANE#4: "yellow_stained_glass_pane"
-Blocks.STAINED_GLASS_PANE#5: "lime_stained_glass_pane"
-Blocks.STAINED_GLASS_PANE#6: "pink_stained_glass_pane"
-Blocks.STAINED_GLASS_PANE#7: "gray_stained_glass_pane"
-Blocks.STAINED_GLASS_PANE#8: "light_gray_stained_glass_pane"
-Blocks.STAINED_GLASS_PANE#9: "cyan_stained_glass_pane"
-Blocks.STAINED_GLASS_PANE#10: "purple_stained_glass_pane"
-Blocks.STAINED_GLASS_PANE#11: "blue_stained_glass_pane"
-Blocks.STAINED_GLASS_PANE#12: "brown_stained_glass_pane"
-Blocks.STAINED_GLASS_PANE#13: "green_stained_glass_pane"
-Blocks.STAINED_GLASS_PANE#14: "red_stained_glass_pane"
-Blocks.STAINED_GLASS_PANE#15: "black_stained_glass_pane"
-Blocks.SEA_LANTERN: "sea_lantern"
-Blocks.PRISMARINE: "prismarine"
-Blocks.PRISMARINE#0: "prismarine"
-Blocks.PRISMARINE#1: "prismarine_bricks"
-Blocks.PRISMARINE#2: "dark_prismarine"
-Blocks.WHITE_SHULKER_BOX: "white_shulker_box"
-Blocks.ORANGE_SHULKER_BOX: "orange_shulker_box"
-Blocks.MAGENTA_SHULKER_BOX: "magenta_shulker_box"
-Blocks.LIGHT_BLUE_SHULKER_BOX: "light_blue_shulker_box"
-Blocks.YELLOW_SHULKER_BOX: "yellow_shulker_box"
-Blocks.LIME_SHULKER_BOX: "lime_shulker_box"
-Blocks.PINK_SHULKER_BOX: "pink_shulker_box"
-Blocks.GRAY_SHULKER_BOX: "gray_shulker_box"
-Blocks.SILVER_SHULKER_BOX: "light_gray_shulker_box"
-Blocks.CYAN_SHULKER_BOX: "cyan_shulker_box"
-Blocks.PURPLE_SHULKER_BOX: "purple_shulker_box"
-Blocks.BLUE_SHULKER_BOX: "blue_shulker_box"
-Blocks.BROWN_SHULKER_BOX: "brown_shulker_box"
-Blocks.GREEN_SHULKER_BOX: "green_shulker_box"
-Blocks.RED_SHULKER_BOX: "red_shulker_box"
-Blocks.BLACK_SHULKER_BOX: "black_shulker_box"
-Blocks.STANDING_BANNER: "white_banner"
-Blocks.WALL_BANNER: "white_wall_banner"
-Blocks.BARRIER: "barrier"
-Blocks.STRUCTURE_VOID: "structure_void"
-Blocks.STRUCTURE_BLOCK: "structure_block"
-Blocks.STRUCTURE_BLOCK#1: "structure_block"
-Blocks.STRUCTURE_BLOCK#2: "structure_block"
-Blocks.STRUCTURE_BLOCK#3: "structure_block"
-Blocks.STRUCTURE_BLOCK#4: "structure_block"
-Blocks.NORMAL_STONE_STAIRS: "stone_stairs"
-Blocks.SHULKER_BOX: "shulker_box"
-Blocks.SKELETON_WALL_SKULL: "skeleton_wall_skull"
-Blocks.WITHER_SKELETON_WALL_SKULL: "wither_skeleton_wall_skull"
-Blocks.ZOMBIE_WALL_HEAD: "zombie_wall_head"
-Blocks.PLAYER_WALL_HEAD: "player_wall_head"
-Blocks.CREEPER_WALL_HEAD: "creeper_wall_head"
-Blocks.DRAGON_WALL_HEAD: "dragon_wall_head"
-Blocks.STRIPPED_SPRUCE_LOG: "stripped_spruce_log"
-Blocks.STRIPPED_BIRCH_LOG: "stripped_birch_log"
-Blocks.STRIPPED_JUNGLE_LOG: "stripped_jungle_log"
-Blocks.STRIPPED_ACACIA_LOG: "stripped_acacia_log"
-Blocks.STRIPPED_DARK_OAK_LOG: "stripped_dark_oak_log"
-Blocks.STRIPPED_OAK_LOG: "stripped_oak_log"
-Blocks.OAK_WOOD: "oak_wood"
-Blocks.SPRUCE_WOOD: "spruce_wood"
-Blocks.BIRCH_WOOD: "birch_wood"
-Blocks.JUNGLE_WOOD: "jungle_wood"
-Blocks.ACACIA_WOOD: "acacia_wood"
-Blocks.DARK_OAK_WOOD: "dark_oak_wood"
-Blocks.STRIPPED_OAK_WOOD: "stripped_oak_wood"
-Blocks.STRIPPED_SPRUCE_WOOD: "stripped_spruce_wood"
-Blocks.STRIPPED_BIRCH_WOOD: "stripped_birch_wood"
-Blocks.STRIPPED_JUNGLE_WOOD: "stripped_jungle_wood"
-Blocks.STRIPPED_ACACIA_WOOD: "stripped_acacia_wood"
-Blocks.STRIPPED_DARK_OAK_WOOD: "stripped_dark_oak_wood"
-Blocks.ORANGE_BED: "orange_bed"
-Blocks.MAGENTA_BED: "magenta_bed"
-Blocks.LIGHT_BLUE_BED: "light_blue_bed"
-Blocks.YELLOW_BED: "yellow_bed"
-Blocks.LIME_BED: "lime_bed"
-Blocks.PINK_BED: "pink_bed"
-Blocks.GRAY_BED: "gray_bed"
-Blocks.LIGHT_GRAY_BED: "light_gray_bed"
-Blocks.CYAN_BED: "cyan_bed"
-Blocks.PURPLE_BED: "purple_bed"
-Blocks.BLUE_BED: "blue_bed"
-Blocks.BROWN_BED: "brown_bed"
-Blocks.GREEN_BED: "green_bed"
-Blocks.RED_BED: "red_bed"
-Blocks.BLACK_BED: "black_bed"
-Blocks.SEAGRASS: "seagrass"
-Blocks.TALL_SEAGRASS: "tall_seagrass"
-Blocks.CORNFLOWER: "cornflower"
-Blocks.WITHER_ROSE: "wither_rose"
-Blocks.LILY_OF_THE_VALLEY: "lily_of_the_valley"
-Blocks.WALL_TORCH: "wall_torch"
-Blocks.SPRUCE_SIGN: "spruce_sign"
-Blocks.BIRCH_SIGN: "birch_sign"
-Blocks.ACACIA_SIGN: "acacia_sign"
-Blocks.JUNGLE_SIGN: "jungle_sign"
-Blocks.DARK_OAK_SIGN: "dark_oak_sign"
-Blocks.SPRUCE_WALL_SIGN: "spruce_wall_sign"
-Blocks.BIRCH_WALL_SIGN: "birch_wall_sign"
-Blocks.ACACIA_WALL_SIGN: "acacia_wall_sign"
-Blocks.JUNGLE_WALL_SIGN: "jungle_wall_sign"
-Blocks.DARK_OAK_WALL_SIGN: "dark_oak_wall_sign"
-Blocks.SPRUCE_PRESSURE_PLATE: "spruce_pressure_plate"
-Blocks.BIRCH_PRESSURE_PLATE: "birch_pressure_plate"
-Blocks.JUNGLE_PRESSURE_PLATE: "jungle_pressure_plate"
-Blocks.ACACIA_PRESSURE_PLATE: "acacia_pressure_plate"
-Blocks.DARK_OAK_PRESSURE_PLATE: "dark_oak_pressure_plate"
-Blocks.REDSTONE_WALL_TORCH: "redstone_wall_torch"
-Blocks.CARVED_PUMPKIN: "carved_pumpkin"
-Blocks.SPRUCE_TRAPDOOR: "spruce_trapdoor"
-Blocks.BIRCH_TRAPDOOR: "birch_trapdoor"
-Blocks.JUNGLE_TRAPDOOR: "jungle_trapdoor"
-Blocks.ACACIA_TRAPDOOR: "acacia_trapdoor"
-Blocks.DARK_OAK_TRAPDOOR: "dark_oak_trapdoor"
-Blocks.MUSHROOM_STEM: "mushroom_stem"
-Blocks.ATTACHED_PUMPKIN_STEM: "attached_pumpkin_stem"
-Blocks.ATTACHED_MELON_STEM: "attached_melon_stem"
-Blocks.POTTED_OAK_SAPLING: "potted_oak_sapling"
-Blocks.POTTED_SPRUCE_SAPLING: "potted_spruce_sapling"
-Blocks.POTTED_BIRCH_SAPLING: "potted_birch_sapling"
-Blocks.POTTED_JUNGLE_SAPLING: "potted_jungle_sapling"
-Blocks.POTTED_ACACIA_SAPLING: "potted_acacia_sapling"
-Blocks.POTTED_DARK_OAK_SAPLING: "potted_dark_oak_sapling"
-Blocks.POTTED_FERN: "potted_fern"
-Blocks.POTTED_DANDELION: "potted_dandelion"
-Blocks.POTTED_POPPY: "potted_poppy"
-Blocks.POTTED_BLUE_ORCHID: "potted_blue_orchid"
-Blocks.POTTED_ALLIUM: "potted_allium"
-Blocks.POTTED_AZURE_BLUET: "potted_azure_bluet"
-Blocks.POTTED_RED_TULIP: "potted_red_tulip"
-Blocks.POTTED_ORANGE_TULIP: "potted_orange_tulip"
-Blocks.POTTED_WHITE_TULIP: "potted_white_tulip"
-Blocks.POTTED_PINK_TULIP: "potted_pink_tulip"
-Blocks.POTTED_OXEYE_DAISY: "potted_oxeye_daisy"
-Blocks.POTTED_CORNFLOWER: "potted_cornflower"
-Blocks.POTTED_LILY_OF_THE_VALLEY: "potted_lily_of_the_valley"
-Blocks.POTTED_WITHER_ROSE: "potted_wither_rose"
-Blocks.POTTED_RED_MUSHROOM: "potted_red_mushroom"
-Blocks.POTTED_BROWN_MUSHROOM: "potted_brown_mushroom"
-Blocks.POTTED_DEAD_BUSH: "potted_dead_bush"
-Blocks.POTTED_CACTUS: "potted_cactus"
-Blocks.POTTED_AZALEA_BUSH: "potted_azalea_bush"
-Blocks.POTTED_FLOWERING_AZALEA_BUSH: "potted_flowering_azalea_bush"
-Blocks.SPRUCE_BUTTON: "spruce_button"
-Blocks.BIRCH_BUTTON: "birch_button"
-Blocks.JUNGLE_BUTTON: "jungle_button"
-Blocks.ACACIA_BUTTON: "acacia_button"
-Blocks.DARK_OAK_BUTTON: "dark_oak_button"
-Blocks.PRISMARINE_STAIRS: "prismarine_stairs"
-Blocks.PRISMARINE_BRICK_STAIRS: "prismarine_brick_stairs"
-Blocks.DARK_PRISMARINE_STAIRS: "dark_prismarine_stairs"
-Blocks.PRISMARINE_SLAB: "prismarine_slab"
-Blocks.PRISMARINE_BRICK_SLAB: "prismarine_brick_slab"
-Blocks.DARK_PRISMARINE_SLAB: "dark_prismarine_slab"
-Blocks.WHITE_BANNER: "white_banner"
-Blocks.ORANGE_BANNER: "orange_banner"
-Blocks.MAGENTA_BANNER: "magenta_banner"
-Blocks.LIGHT_BLUE_BANNER: "light_blue_banner"
-Blocks.YELLOW_BANNER: "yellow_banner"
-Blocks.LIME_BANNER: "lime_banner"
-Blocks.PINK_BANNER: "pink_banner"
-Blocks.GRAY_BANNER: "gray_banner"
-Blocks.LIGHT_GRAY_BANNER: "light_gray_banner"
-Blocks.CYAN_BANNER: "cyan_banner"
-Blocks.PURPLE_BANNER: "purple_banner"
-Blocks.BLUE_BANNER: "blue_banner"
-Blocks.BROWN_BANNER: "brown_banner"
-Blocks.GREEN_BANNER: "green_banner"
-Blocks.RED_BANNER: "red_banner"
-Blocks.BLACK_BANNER: "black_banner"
-Blocks.WHITE_WALL_BANNER: "white_wall_banner"
-Blocks.ORANGE_WALL_BANNER: "orange_wall_banner"
-Blocks.MAGENTA_WALL_BANNER: "magenta_wall_banner"
-Blocks.LIGHT_BLUE_WALL_BANNER: "light_blue_wall_banner"
-Blocks.YELLOW_WALL_BANNER: "yellow_wall_banner"
-Blocks.LIME_WALL_BANNER: "lime_wall_banner"
-Blocks.PINK_WALL_BANNER: "pink_wall_banner"
-Blocks.GRAY_WALL_BANNER: "gray_wall_banner"
-Blocks.LIGHT_GRAY_WALL_BANNER: "light_gray_wall_banner"
-Blocks.CYAN_WALL_BANNER: "cyan_wall_banner"
-Blocks.PURPLE_WALL_BANNER: "purple_wall_banner"
-Blocks.BLUE_WALL_BANNER: "blue_wall_banner"
-Blocks.BROWN_WALL_BANNER: "brown_wall_banner"
-Blocks.GREEN_WALL_BANNER: "green_wall_banner"
-Blocks.RED_WALL_BANNER: "red_wall_banner"
-Blocks.BLACK_WALL_BANNER: "black_wall_banner"
-Blocks.CUT_RED_SANDSTONE_SLAB: "cut_red_sandstone_slab"
-Blocks.CUT_SANDSTONE_SLAB: "cut_sandstone_slab"
-Blocks.NORMAL_STONE_SLAB: "stone_slab"
-Blocks.SMOOTH_STONE: "smooth_stone"
-Blocks.SMOOTH_SANDSTONE: "smooth_sandstone"
-Blocks.SMOOTH_RED_SANDSTONE: "smooth_red_sandstone"
-Blocks.KELP: "kelp"
-Blocks.KELP_PLANT: "kelp_plant"
-Blocks.DRIED_KELP_BLOCK: "dried_kelp_block"
-Blocks.TURTLE_EGG: "turtle_egg"
-Blocks.DEAD_TUBE_CORAL_BLOCK: "dead_tube_coral_block"
-Blocks.DEAD_BRAIN_CORAL_BLOCK: "dead_brain_coral_block"
-Blocks.DEAD_BUBBLE_CORAL_BLOCK: "dead_bubble_coral_block"
-Blocks.DEAD_FIRE_CORAL_BLOCK: "dead_fire_coral_block"
-Blocks.DEAD_HORN_CORAL_BLOCK: "dead_horn_coral_block"
-Blocks.TUBE_CORAL_BLOCK: "tube_coral_block"
-Blocks.BRAIN_CORAL_BLOCK: "brain_coral_block"
-Blocks.BUBBLE_CORAL_BLOCK: "bubble_coral_block"
-Blocks.FIRE_CORAL_BLOCK: "fire_coral_block"
-Blocks.HORN_CORAL_BLOCK: "horn_coral_block"
-Blocks.DEAD_TUBE_CORAL: "dead_tube_coral"
-Blocks.DEAD_BRAIN_CORAL: "dead_brain_coral"
-Blocks.DEAD_BUBBLE_CORAL: "dead_bubble_coral"
-Blocks.DEAD_FIRE_CORAL: "dead_fire_coral"
-Blocks.DEAD_HORN_CORAL: "dead_horn_coral"
-Blocks.TUBE_CORAL: "tube_coral"
-Blocks.BRAIN_CORAL: "brain_coral"
-Blocks.BUBBLE_CORAL: "bubble_coral"
-Blocks.FIRE_CORAL: "fire_coral"
-Blocks.HORN_CORAL: "horn_coral"
-Blocks.DEAD_TUBE_CORAL_FAN: "dead_tube_coral_fan"
-Blocks.DEAD_BRAIN_CORAL_FAN: "dead_brain_coral_fan"
-Blocks.DEAD_BUBBLE_CORAL_FAN: "dead_bubble_coral_fan"
-Blocks.DEAD_FIRE_CORAL_FAN: "dead_fire_coral_fan"
-Blocks.DEAD_HORN_CORAL_FAN: "dead_horn_coral_fan"
-Blocks.TUBE_CORAL_FAN: "tube_coral_fan"
-Blocks.BRAIN_CORAL_FAN: "brain_coral_fan"
-Blocks.BUBBLE_CORAL_FAN: "bubble_coral_fan"
-Blocks.FIRE_CORAL_FAN: "fire_coral_fan"
-Blocks.HORN_CORAL_FAN: "horn_coral_fan"
-Blocks.DEAD_TUBE_CORAL_WALL_FAN: "dead_tube_coral_wall_fan"
-Blocks.DEAD_BRAIN_CORAL_WALL_FAN: "dead_brain_coral_wall_fan"
-Blocks.DEAD_BUBBLE_CORAL_WALL_FAN: "dead_bubble_coral_wall_fan"
-Blocks.DEAD_FIRE_CORAL_WALL_FAN: "dead_fire_coral_wall_fan"
-Blocks.DEAD_HORN_CORAL_WALL_FAN: "dead_horn_coral_wall_fan"
-Blocks.TUBE_CORAL_WALL_FAN: "tube_coral_wall_fan"
-Blocks.BRAIN_CORAL_WALL_FAN: "brain_coral_wall_fan"
-Blocks.BUBBLE_CORAL_WALL_FAN: "bubble_coral_wall_fan"
-Blocks.FIRE_CORAL_WALL_FAN: "fire_coral_wall_fan"
-Blocks.HORN_CORAL_WALL_FAN: "horn_coral_wall_fan"
-Blocks.SEA_PICKLE: "sea_pickle"
-Blocks.BLUE_ICE: "blue_ice"
-Blocks.CONDUIT: "conduit"
-Blocks.BAMBOO_SAPLING: "bamboo_sapling"
-Blocks.BAMBOO: "bamboo"
-Blocks.POTTED_BAMBOO: "potted_bamboo"
-Blocks.VOID_AIR: "void_air"
-Blocks.CAVE_AIR: "cave_air"
-Blocks.BUBBLE_COLUMN: "bubble_column"
-Blocks.POLISHED_GRANITE_STAIRS: "polished_granite_stairs"
-Blocks.SMOOTH_RED_SANDSTONE_STAIRS: "smooth_red_sandstone_stairs"
-Blocks.MOSSY_STONE_BRICK_STAIRS: "mossy_stone_brick_stairs"
-Blocks.POLISHED_DIORITE_STAIRS: "polished_diorite_stairs"
-Blocks.MOSSY_COBBLESTONE_STAIRS: "mossy_cobblestone_stairs"
-Blocks.END_STONE_BRICK_STAIRS: "end_stone_brick_stairs"
-Blocks.SMOOTH_SANDSTONE_STAIRS: "smooth_sandstone_stairs"
-Blocks.SMOOTH_QUARTZ_STAIRS: "smooth_quartz_stairs"
-Blocks.GRANITE_STAIRS: "granite_stairs"
-Blocks.ANDESITE_STAIRS: "andesite_stairs"
-Blocks.RED_NETHER_BRICK_STAIRS: "red_nether_brick_stairs"
-Blocks.POLISHED_ANDESITE_STAIRS: "polished_andesite_stairs"
-Blocks.DIORITE_STAIRS: "diorite_stairs"
-Blocks.POLISHED_GRANITE_SLAB: "polished_granite_slab"
-Blocks.SMOOTH_RED_SANDSTONE_SLAB: "smooth_red_sandstone_slab"
-Blocks.MOSSY_STONE_BRICK_SLAB: "mossy_stone_brick_slab"
-Blocks.POLISHED_DIORITE_SLAB: "polished_diorite_slab"
-Blocks.MOSSY_COBBLESTONE_SLAB: "mossy_cobblestone_slab"
-Blocks.END_STONE_BRICK_SLAB: "end_stone_brick_slab"
-Blocks.SMOOTH_SANDSTONE_SLAB: "smooth_sandstone_slab"
-Blocks.SMOOTH_QUARTZ_SLAB: "smooth_quartz_slab"
-Blocks.GRANITE_SLAB: "granite_slab"
-Blocks.ANDESITE_SLAB: "andesite_slab"
-Blocks.RED_NETHER_BRICK_SLAB: "red_nether_brick_slab"
-Blocks.POLISHED_ANDESITE_SLAB: "polished_andesite_slab"
-Blocks.DIORITE_SLAB: "diorite_slab"
-Blocks.BRICK_WALL: "brick_wall"
-Blocks.PRISMARINE_WALL: "prismarine_wall"
-Blocks.RED_SANDSTONE_WALL: "red_sandstone_wall"
-Blocks.MOSSY_STONE_BRICK_WALL: "mossy_stone_brick_wall"
-Blocks.GRANITE_WALL: "granite_wall"
-Blocks.STONE_BRICK_WALL: "stone_brick_wall"
-Blocks.NETHER_BRICK_WALL: "nether_brick_wall"
-Blocks.ANDESITE_WALL: "andesite_wall"
-Blocks.RED_NETHER_BRICK_WALL: "red_nether_brick_wall"
-Blocks.SANDSTONE_WALL: "sandstone_wall"
-Blocks.END_STONE_BRICK_WALL: "end_stone_brick_wall"
-Blocks.DIORITE_WALL: "diorite_wall"
-Blocks.SCAFFOLDING: "scaffolding"
-Blocks.LOOM: "loom"
-Blocks.BARREL: "barrel"
-Blocks.SMOKER: "smoker"
-Blocks.BLAST_FURNACE: "blast_furnace"
-Blocks.CARTOGRAPHY_TABLE: "cartography_table"
-Blocks.FLETCHING_TABLE: "fletching_table"
-Blocks.GRINDSTONE: "grindstone"
-Blocks.LECTERN: "lectern"
-Blocks.SMITHING_TABLE: "smithing_table"
-Blocks.STONECUTTER: "stonecutter"
-Blocks.BELL: "bell"
-Blocks.LANTERN: "lantern"
-Blocks.CAMPFIRE: "campfire"
-Blocks.SWEET_BERRY_BUSH: "sweet_berry_bush"
-Blocks.JIGSAW: "jigsaw"
-Blocks.COMPOSTER: "composter"
-Blocks.BEEHIVE: "beehive"
-Blocks.BEE_NEST: "bee_nest"
-Blocks.HONEY_BLOCK: "honey_block"
-Blocks.HONEYCOMB_BLOCK: "honeycomb_block"
-Blocks.NETHER_GOLD_ORE: "nether_gold_ore"
-Blocks.SOUL_FIRE: "soul_fire"
-Blocks.SOUL_SOIL: "soul_soil"
-Blocks.BASALT: "basalt"
-Blocks.POLISHED_BASALT: "polished_basalt"
-Blocks.SMOOTH_BASALT: "smooth_basalt"
-Blocks.SOUL_TORCH: "soul_torch"
-Blocks.SOUL_WALL_TORCH: "soul_wall_torch"
-Blocks.CHAIN: "chain"
-Blocks.SOUL_LANTERN: "soul_lantern"
-Blocks.SOUL_CAMPFIRE: "soul_campfire"
-Blocks.WARPED_STEM: "warped_stem"
-Blocks.STRIPPED_WARPED_STEM: "stripped_warped_stem"
-Blocks.WARPED_HYPHAE: "warped_hyphae"
-Blocks.STRIPPED_WARPED_HYPHAE: "stripped_warped_hyphae"
-Blocks.WARPED_NYLIUM: "warped_nylium"
-Blocks.WARPED_FUNGUS: "warped_fungus"
-Blocks.WARPED_WART_BLOCK: "warped_wart_block"
-Blocks.WARPED_ROOTS: "warped_roots"
-Blocks.NETHER_SPROUTS: "nether_sprouts"
-Blocks.CRIMSON_STEM: "crimson_stem"
-Blocks.STRIPPED_CRIMSON_STEM: "stripped_crimson_stem"
-Blocks.CRIMSON_HYPHAE: "crimson_hyphae"
-Blocks.STRIPPED_CRIMSON_HYPHAE: "stripped_crimson_hyphae"
-Blocks.CRIMSON_NYLIUM: "crimson_nylium"
-Blocks.CRIMSON_FUNGUS: "crimson_fungus"
-Blocks.SHROOMLIGHT: "shroomlight"
-Blocks.WEEPING_VINES: "weeping_vines"
-Blocks.WEEPING_VINES_PLANT: "weeping_vines_plant"
-Blocks.TWISTING_VINES: "twisting_vines"
-Blocks.TWISTING_VINES_PLANT: "twisting_vines_plant"
-Blocks.CRIMSON_ROOTS: "crimson_roots"
-Blocks.CRIMSON_PLANKS: "crimson_planks"
-Blocks.WARPED_PLANKS: "warped_planks"
-Blocks.CRIMSON_SLAB: "crimson_slab"
-Blocks.WARPED_SLAB: "warped_slab"
-Blocks.CRIMSON_PRESSURE_PLATE: "crimson_pressure_plate"
-Blocks.WARPED_PRESSURE_PLATE: "warped_pressure_plate"
-Blocks.CRIMSON_FENCE: "crimson_fence"
-Blocks.WARPED_FENCE: "warped_fence"
-Blocks.CRIMSON_TRAPDOOR: "crimson_trapdoor"
-Blocks.WARPED_TRAPDOOR: "warped_trapdoor"
-Blocks.CRIMSON_FENCE_GATE: "crimson_fence_gate"
-Blocks.WARPED_FENCE_GATE: "warped_fence_gate"
-Blocks.CRIMSON_STAIRS: "crimson_stairs"
-Blocks.WARPED_STAIRS: "warped_stairs"
-Blocks.CRIMSON_BUTTON: "crimson_button"
-Blocks.WARPED_BUTTON: "warped_button"
-Blocks.CRIMSON_DOOR: "crimson_door"
-Blocks.WARPED_DOOR: "warped_door"
-Blocks.CRIMSON_SIGN: "crimson_sign"
-Blocks.WARPED_SIGN: "warped_sign"
-Blocks.CRIMSON_WALL_SIGN: "crimson_wall_sign"
-Blocks.WARPED_WALL_SIGN: "warped_wall_sign"
-Blocks.TARGET: "target"
-Blocks.NETHERITE_BLOCK: "netherite_block"
-Blocks.ANCIENT_DEBRIS: "ancient_debris"
-Blocks.CRYING_OBSIDIAN: "crying_obsidian"
-Blocks.RESPAWN_ANCHOR: "respawn_anchor"
-Blocks.POTTED_CRIMSON_FUNGUS: "potted_crimson_fungus"
-Blocks.POTTED_WARPED_FUNGUS: "potted_warped_fungus"
-Blocks.POTTED_CRIMSON_ROOTS: "potted_crimson_roots"
-Blocks.POTTED_WARPED_ROOTS: "potted_warped_roots"
-Blocks.LODESTONE: "lodestone"
-Blocks.BLACKSTONE: "blackstone"
-Blocks.BLACKSTONE_STAIRS: "blackstone_stairs"
-Blocks.BLACKSTONE_WALL: "blackstone_wall"
-Blocks.BLACKSTONE_SLAB: "blackstone_slab"
-Blocks.POLISHED_BLACKSTONE: "polished_blackstone"
-Blocks.POLISHED_BLACKSTONE_BRICKS: "polished_blackstone_bricks"
-Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS: "cracked_polished_blackstone_bricks"
-Blocks.CHISELED_POLISHED_BLACKSTONE: "chiseled_polished_blackstone"
-Blocks.POLISHED_BLACKSTONE_BRICK_SLAB: "polished_blackstone_brick_slab"
-Blocks.POLISHED_BLACKSTONE_BRICK_STAIRS: "polished_blackstone_brick_stairs"
-Blocks.POLISHED_BLACKSTONE_BRICK_WALL: "polished_blackstone_brick_wall"
-Blocks.GILDED_BLACKSTONE: "gilded_blackstone"
-Blocks.POLISHED_BLACKSTONE_STAIRS: "polished_blackstone_stairs"
-Blocks.POLISHED_BLACKSTONE_SLAB: "polished_blackstone_slab"
-Blocks.POLISHED_BLACKSTONE_PRESSURE_PLATE: "polished_blackstone_pressure_plate"
-Blocks.POLISHED_BLACKSTONE_BUTTON: "polished_blackstone_button"
-Blocks.POLISHED_BLACKSTONE_WALL: "polished_blackstone_wall"
-Blocks.CHISELED_NETHER_BRICKS: "chiseled_nether_bricks"
-Blocks.CRACKED_NETHER_BRICKS: "cracked_nether_bricks"
-Blocks.QUARTZ_BRICKS: "quartz_bricks"
-Blocks.CANDLE: "#minecraft:candles"
-Blocks.CANDLE#0: "candle"
-Blocks.CANDLE#1: "white_candle"
-Blocks.CANDLE#2: "orange_candle"
-Blocks.CANDLE#3: "magenta_candle"
-Blocks.CANDLE#4: "light_blue_candle"
-Blocks.CANDLE#5: "yellow_candle"
-Blocks.CANDLE#6: "lime_candle"
-Blocks.CANDLE#7: "pink_candle"
-Blocks.CANDLE#8: "gray_candle"
-Blocks.CANDLE#9: "light_gray_candle"
-Blocks.CANDLE#10: "cyan_candle"
-Blocks.CANDLE#11: "purple_candle"
-Blocks.CANDLE#12: "blue_candle"
-Blocks.CANDLE#13: "brown_candle"
-Blocks.CANDLE#14: "green_candle"
-Blocks.CANDLE#15: "red_candle"
-Blocks.CANDLE#16: "black_candle"
-Blocks.CANDLE_CAKE: "#minecraft:candle_cakes"
-Blocks.CANDLE_CAKE#0: "candle_cake"
-Blocks.CANDLE_CAKE#1: "white_candle_cake"
-Blocks.CANDLE_CAKE#2: "orange_candle_cake"
-Blocks.CANDLE_CAKE#3: "magenta_candle_cake"
-Blocks.CANDLE_CAKE#4: "light_blue_candle_cake"
-Blocks.CANDLE_CAKE#5: "yellow_candle_cake"
-Blocks.CANDLE_CAKE#6: "lime_candle_cake"
-Blocks.CANDLE_CAKE#7: "pink_candle_cake"
-Blocks.CANDLE_CAKE#8: "gray_candle_cake"
-Blocks.CANDLE_CAKE#9: "light_gray_candle_cake"
-Blocks.CANDLE_CAKE#10: "cyan_candle_cake"
-Blocks.CANDLE_CAKE#11: "purple_candle_cake"
-Blocks.CANDLE_CAKE#12: "blue_candle_cake"
-Blocks.CANDLE_CAKE#13: "brown_candle_cake"
-Blocks.CANDLE_CAKE#14: "green_candle_cake"
-Blocks.CANDLE_CAKE#15: "red_candle_cake"
-Blocks.CANDLE_CAKE#16: "black_candle_cake"
-Blocks.AMETHYST_BLOCK: "amethyst_block"
-Blocks.BUDDING_AMETHYST: "budding_amethyst"
-Blocks.AMETHYST_CLUSTER: "amethyst_cluster"
-Blocks.LARGE_AMETHYST_BUD: "large_amethyst_bud"
-Blocks.MEDIUM_AMETHYST_BUD: "medium_amethyst_bud"
-Blocks.SMALL_AMETHYST_BUD: "small_amethyst_bud"
-Blocks.TUFF: "tuff"
-Blocks.CALCITE: "calcite"
-Blocks.TINTED_GLASS: "tinted_glass"
-Blocks.POWDER_SNOW: "powder_snow"
-Blocks.SCULK_SENSOR: "sculk_sensor"
-Blocks.OXIDIZED_COPPER: "oxidized_copper"
-Blocks.WEATHERED_COPPER: "weathered_copper"
-Blocks.EXPOSED_COPPER: "exposed_copper"
-Blocks.COPPER_BLOCK: "copper_block"
-Blocks.OXIDIZED_CUT_COPPER: "oxidized_cut_copper"
-Blocks.WEATHERED_CUT_COPPER: "weathered_cut_copper"
-Blocks.EXPOSED_CUT_COPPER: "exposed_cut_copper"
-Blocks.CUT_COPPER: "cut_copper"
-Blocks.OXIDIZED_CUT_COPPER_STAIRS: "oxidized_cut_copper_stairs"
-Blocks.WEATHERED_CUT_COPPER_STAIRS: "weathered_cut_copper_stairs"
-Blocks.EXPOSED_CUT_COPPER_STAIRS: "exposed_cut_copper_stairs"
-Blocks.CUT_COPPER_STAIRS: "cut_copper_stairs"
-Blocks.OXIDIZED_CUT_COPPER_SLAB: "oxidized_cut_copper_slab"
-Blocks.WEATHERED_CUT_COPPER_SLAB: "weathered_cut_copper_slab"
-Blocks.EXPOSED_CUT_COPPER_SLAB: "exposed_cut_copper_slab"
-Blocks.CUT_COPPER_SLAB: "cut_copper_slab"
-Blocks.WAXED_OXIDIZED_COPPER: "waxed_oxidized_copper"
-Blocks.WAXED_WEATHERED_COPPER: "waxed_weathered_copper"
-Blocks.WAXED_EXPOSED_COPPER: "waxed_exposed_copper"
-Blocks.WAXED_COPPER_BLOCK: "waxed_copper_block"
-Blocks.WAXED_OXIDIZED_CUT_COPPER: "waxed_oxidized_cut_copper"
-Blocks.WAXED_WEATHERED_CUT_COPPER: "waxed_weathered_cut_copper"
-Blocks.WAXED_EXPOSED_CUT_COPPER: "waxed_exposed_cut_copper"
-Blocks.WAXED_CUT_COPPER: "waxed_cut_copper"
-Blocks.WAXED_OXIDIZED_CUT_COPPER_STAIRS: "waxed_oxidized_cut_copper_stairs"
-Blocks.WAXED_WEATHERED_CUT_COPPER_STAIRS: "waxed_weathered_cut_copper_stairs"
-Blocks.WAXED_EXPOSED_CUT_COPPER_STAIRS: "waxed_exposed_cut_copper_stairs"
-Blocks.WAXED_CUT_COPPER_STAIRS: "waxed_cut_copper_stairs"
-Blocks.WAXED_OXIDIZED_CUT_COPPER_SLAB: "waxed_oxidized_cut_copper_slab"
-Blocks.WAXED_WEATHERED_CUT_COPPER_SLAB: "waxed_weathered_cut_copper_slab"
-Blocks.WAXED_EXPOSED_CUT_COPPER_SLAB: "waxed_exposed_cut_copper_slab"
-Blocks.WAXED_CUT_COPPER_SLAB: "waxed_cut_copper_slab"
-Blocks.LIGHTNING_ROD: "lightning_rod"
-Blocks.POINTED_DRIPSTONE: "pointed_dripstone"
-Blocks.DRIPSTONE_BLOCK: "dripstone_block"
-Blocks.CAVE_VINES: "cave_vines"
-Blocks.CAVE_VINES_PLANT: "cave_vines_plant"
-Blocks.SPORE_BLOSSOM: "spore_blossom"
-Blocks.AZALEA: "azalea"
-Blocks.FLOWERING_AZALEA: "flowering_azalea"
-Blocks.MOSS_CARPET: "moss_carpet"
-Blocks.MOSS_BLOCK: "moss_block"
-Blocks.BIG_DRIPLEAF: "big_dripleaf"
-Blocks.BIG_DRIPLEAF_STEM: "big_dripleaf_stem"
-Blocks.SMALL_DRIPLEAF: "small_dripleaf"
-Blocks.HANGING_ROOTS: "hanging_roots"
-Blocks.ROOTED_DIRT: "rooted_dirt"
-Blocks.DEEPSLATE: "deepslate"
-Blocks.COBBLED_DEEPSLATE: "cobbled_deepslate"
-Blocks.COBBLED_DEEPSLATE_STAIRS: "cobbled_deepslate_stairs"
-Blocks.COBBLED_DEEPSLATE_SLAB: "cobbled_deepslate_slab"
-Blocks.COBBLED_DEEPSLATE_WALL: "cobbled_deepslate_wall"
-Blocks.POLISHED_DEEPSLATE: "polished_deepslate"
-Blocks.POLISHED_DEEPSLATE_STAIRS: "polished_deepslate_stairs"
-Blocks.POLISHED_DEEPSLATE_SLAB: "polished_deepslate_slab"
-Blocks.POLISHED_DEEPSLATE_WALL: "polished_deepslate_wall"
-Blocks.DEEPSLATE_TILES: "deepslate_tiles"
-Blocks.DEEPSLATE_TILE_STAIRS: "deepslate_tile_stairs"
-Blocks.DEEPSLATE_TILE_SLAB: "deepslate_tile_slab"
-Blocks.DEEPSLATE_TILE_WALL: "deepslate_tile_wall"
-Blocks.DEEPSLATE_BRICKS: "deepslate_bricks"
-Blocks.DEEPSLATE_BRICK_STAIRS: "deepslate_brick_stairs"
-Blocks.DEEPSLATE_BRICK_SLAB: "deepslate_brick_slab"
-Blocks.DEEPSLATE_BRICK_WALL: "deepslate_brick_wall"
-Blocks.CHISELED_DEEPSLATE: "chiseled_deepslate"
-Blocks.CRACKED_DEEPSLATE_BRICKS: "cracked_deepslate_bricks"
-Blocks.CRACKED_DEEPSLATE_TILES: "cracked_deepslate_tiles"
-Blocks.RAW_IRON_BLOCK: "raw_iron_block"
-Blocks.RAW_GOLD_BLOCK: "raw_gold_block"
-Blocks.RAW_COPPER_BLOCK: "raw_copper_block"
-Blocks.LIGHT: "light"
-Items.DYE: "#forge:dyes"
-Items.DYE#0: "ink_sac"
-Items.DYE#1: "red_dye"
-Items.DYE#2: "green_dye"
-Items.DYE#3: "cocoa_beans"
-Items.DYE#4: "lapis_lazuli"
-Items.DYE#5: "purple_dye"
-Items.DYE#6: "cyan_dye"
-Items.DYE#7: "light_gray_dye"
-Items.DYE#8: "gray_dye"
-Items.DYE#9: "pink_dye"
-Items.DYE#10: "lime_dye"
-Items.DYE#11: "yellow_dye"
-Items.DYE#12: "light_blue_dye"
-Items.DYE#13: "magenta_dye"
-Items.DYE#14: "orange_dye"
-Items.DYE#15: "bone_meal"
-Items.DYE#16: "black_dye"
-Items.DYE#17: "brown_dye"
-Items.DYE#18: "blue_dye"
-Items.DYE#19: "white_dye"
-Items.COAL: "#minecraft:coals"
-Items.COAL#0: "coal"
-Items.COAL#1: "charcoal"
-Items.IRON_INGOT: "iron_ingot"
-Items.IRON_NUGGET: "iron_nugget"
-Items.REDSTONE: "redstone"
-Items.GOLD_INGOT: "gold_ingot"
-Items.GOLD_NUGGET: "gold_nugget"
-Items.COPPER_INGOT: "copper_ingot"
-Items.DIAMOND: "diamond"
-Items.EMERALD: "emerald"
-Items.QUARTZ: "quartz"
-Items.NETHER_STAR: "nether_star"
-Items.PRISMARINE_SHARD: "prismarine_shard"
-Items.PRISMARINE_CRYSTALS: "prismarine_crystals"
-Items.BOW: "bow"
-Items.ARROW: "arrow"
-Items.SPECTRAL_ARROW: "spectral_arrow"
-Items.TIPPED_ARROW: "tipped_arrow"
-Items.FISHING_ROD: "fishing_rod"
-Items.CARROT_ON_A_STICK: "carrot_on_a_stick"
-Items.COMPASS: "compass"
-Items.CLOCK: "clock"
-Items.MAP: "map"
-Items.FILLED_MAP: "filled_map"
-Items.TOTEM_OF_UNDYING: "totem_of_undying"
-Items.LEAD: "lead"
-Items.NAME_TAG: "name_tag"
-Items.SHIELD: "shield"
-Items.WOODEN_SWORD: "wooden_sword"
-Items.WOODEN_SHOVEL: "wooden_shovel"
-Items.WOODEN_PICKAXE: "wooden_pickaxe"
-Items.WOODEN_AXE: "wooden_axe"
-Items.WOODEN_HOE: "wooden_hoe"
-Items.STONE_SWORD: "stone_sword"
-Items.STONE_SHOVEL: "stone_shovel"
-Items.STONE_PICKAXE: "stone_pickaxe"
-Items.STONE_AXE: "stone_axe"
-Items.STONE_HOE: "stone_hoe"
-Items.IRON_SWORD: "iron_sword"
-Items.IRON_SHOVEL: "iron_shovel"
-Items.IRON_PICKAXE: "iron_pickaxe"
-Items.IRON_AXE: "iron_axe"
-Items.IRON_HOE: "iron_hoe"
-Items.FLINT_AND_STEEL: "flint_and_steel"
-Items.SHEARS: "shears"
-Items.GOLDEN_SWORD: "golden_sword"
-Items.GOLDEN_SHOVEL: "golden_shovel"
-Items.GOLDEN_PICKAXE: "golden_pickaxe"
-Items.GOLDEN_AXE: "golden_axe"
-Items.GOLDEN_HOE: "golden_hoe"
-Items.DIAMOND_SWORD: "diamond_sword"
-Items.DIAMOND_SHOVEL: "diamond_shovel"
-Items.DIAMOND_PICKAXE: "diamond_pickaxe"
-Items.DIAMOND_AXE: "diamond_axe"
-Items.DIAMOND_HOE: "diamond_hoe"
-Items.LEATHER_HELMET: "leather_helmet"
-Items.LEATHER_CHESTPLATE: "leather_chestplate"
-Items.LEATHER_LEGGINGS: "leather_leggings"
-Items.LEATHER_BOOTS: "leather_boots"
-Items.CHAINMAIL_HELMET: "chainmail_helmet"
-Items.CHAINMAIL_CHESTPLATE: "chainmail_chestplate"
-Items.CHAINMAIL_LEGGINGS: "chainmail_leggings"
-Items.CHAINMAIL_BOOTS: "chainmail_boots"
-Items.IRON_HELMET: "iron_helmet"
-Items.IRON_CHESTPLATE: "iron_chestplate"
-Items.IRON_LEGGINGS: "iron_leggings"
-Items.IRON_BOOTS: "iron_boots"
-Items.GOLDEN_HELMET: "golden_helmet"
-Items.GOLDEN_CHESTPLATE: "golden_chestplate"
-Items.GOLDEN_LEGGINGS: "golden_leggings"
-Items.GOLDEN_BOOTS: "golden_boots"
-Items.DIAMOND_HELMET: "diamond_helmet"
-Items.DIAMOND_CHESTPLATE: "diamond_chestplate"
-Items.DIAMOND_LEGGINGS: "diamond_leggings"
-Items.DIAMOND_BOOTS: "diamond_boots"
-Items.ELYTRA: "elytra"
-Items.IRON_HORSE_ARMOR: "iron_horse_armor"
-Items.GOLDEN_HORSE_ARMOR: "golden_horse_armor"
-Items.DIAMOND_HORSE_ARMOR: "diamond_horse_armor"
-Items.ARMOR_STAND: "armor_stand"
-Items.FLOWER_POT: "flower_pot"
-Items.BANNER: "#minecraft:banners"
-Items.BANNER#0: "black_banner"
-Items.BANNER#1: "red_banner"
-Items.BANNER#2: "green_banner"
-Items.BANNER#3: "brown_banner"
-Items.BANNER#4: "blue_banner"
-Items.BANNER#5: "purple_banner"
-Items.BANNER#6: "cyan_banner"
-Items.BANNER#7: "light_gray_banner"
-Items.BANNER#8: "gray_banner"
-Items.BANNER#9: "pink_banner"
-Items.BANNER#10: "lime_banner"
-Items.BANNER#11: "yellow_banner"
-Items.BANNER#12: "light_blue_banner"
-Items.BANNER#13: "magenta_banner"
-Items.BANNER#14: "orange_banner"
-Items.BANNER#15: "white_banner"
-Items.PAINTING: "painting"
-Items.ITEM_FRAME: "item_frame"
-Items.GLOW_ITEM_FRAME: "glow_item_frame"
-Items.SIGN: "oak_sign"
-Items.OAK_DOOR: "oak_door"
-Items.SPRUCE_DOOR: "spruce_door"
-Items.BIRCH_DOOR: "birch_door"
-Items.JUNGLE_DOOR: "jungle_door"
-Items.ACACIA_DOOR: "acacia_door"
-Items.DARK_OAK_DOOR: "dark_oak_door"
-Items.IRON_DOOR: "iron_door"
-Items.CRIMSON_DOOR: "crimson_door"
-Items.WARPED_DOOR: "warped_door"
-Items.BUCKET: "bucket"
-Items.WATER_BUCKET: "water_bucket"
-Items.LAVA_BUCKET: "lava_bucket"
-Items.MILK_BUCKET: "milk_bucket"
-Items.POWDER_SNOW_BUCKET: "powder_snow_bucket"
-Items.MINECART: "minecart"
-Items.CHEST_MINECART: "chest_minecart"
-Items.FURNACE_MINECART: "furnace_minecart"
-Items.HOPPER_MINECART: "hopper_minecart"
-Items.TNT_MINECART: "tnt_minecart"
-Items.COMMAND_BLOCK_MINECART: "command_block_minecart"
-Items.BOAT: "oak_boat"
-Items.SPRUCE_BOAT: "spruce_boat"
-Items.BIRCH_BOAT: "birch_boat"
-Items.JUNGLE_BOAT: "jungle_boat"
-Items.ACACIA_BOAT: "acacia_boat"
-Items.DARK_OAK_BOAT: "dark_oak_boat"
-Items.REPEATER: "repeater"
-Items.COMPARATOR: "comparator"
-Items.APPLE: "apple"
-Items.GOLDEN_APPLE: "golden_apple"
-Items.GOLDEN_APPLE#0: "golden_apple"
-Items.GOLDEN_APPLE#1: "enchanted_golden_apple"
-Items.STICK: "stick"
-Items.BOWL: "bowl"
-Items.MUSHROOM_STEW: "mushroom_stew"
-Items.STRING: "string"
-Items.FEATHER: "feather"
-Items.GUNPOWDER: "gunpowder"
-Items.WHEAT_SEEDS: "wheat_seeds"
-Items.WHEAT: "wheat"
-Items.CARROT: "carrot"
-Items.POTATO: "potato"
-Items.BAKED_POTATO: "baked_potato"
-Items.POISONOUS_POTATO: "poisonous_potato"
-Items.PUMPKIN_PIE: "pumpkin_pie"
-Items.GOLDEN_CARROT: "golden_carrot"
-Items.BREAD: "bread"
-Items.PUMPKIN_SEEDS: "pumpkin_seeds"
-Items.FLINT: "flint"
-Items.LEATHER: "leather"
-Items.SADDLE: "saddle"
-Items.BRICK: "brick"
-Items.NETHERBRICK: "nether_brick"
-Items.CLAY_BALL: "clay_ball"
-Items.REEDS: "sugar_cane"
-Items.PAPER: "paper"
-Items.SLIME_BALL: "slime_ball"
-Items.EGG: "egg"
-Items.GLOWSTONE_DUST: "glowstone_dust"
-Items.BONE: "bone"
-Items.SUGAR: "sugar"
-Items.CAKE: "cake"
-Items.BED: "white_bed"
-Items.COOKIE: "cookie"
-Items.MELON: "melon_slice"
-Items.MELON_SEEDS: "melon_seeds"
-Items.FISH: "#minecraft:fishes"
-Items.FISH#0: "cod"
-Items.FISH#1: "salmon"
-Items.FISH#2: "tropical_fish"
-Items.FISH#3: "pufferfish"
-Items.COOKED_FISH: "#minecraft:fishes"
-Items.COOKED_FISH#0: "cooked_cod"
-Items.COOKED_FISH#1: "cooked_salmon"
-Items.PORKCHOP: "porkchop"
-Items.COOKED_PORKCHOP: "cooked_porkchop"
-Items.BEEF: "beef"
-Items.COOKED_BEEF: "cooked_beef"
-Items.CHICKEN: "chicken"
-Items.COOKED_CHICKEN: "cooked_chicken"
-Items.RABBIT: "rabbit"
-Items.COOKED_RABBIT: "cooked_rabbit"
-Items.RABBIT_FOOT: "rabbit_foot"
-Items.RABBIT_HIDE: "rabbit_hide"
-Items.RABBIT_STEW: "rabbit_stew"
-Items.MUTTON: "mutton"
-Items.COOKED_MUTTON: "cooked_mutton"
-Items.ROTTEN_FLESH: "rotten_flesh"
-Items.ENDER_PEARL: "ender_pearl"
-Items.ENDER_EYE: "ender_eye"
-Items.END_CRYSTAL: "end_crystal"
-Items.SHULKER_SHELL: "shulker_shell"
-Items.CHORUS_FRUIT: "chorus_fruit"
-Items.CHORUS_FRUIT_POPPED: "popped_chorus_fruit"
-Items.BEETROOT: "beetroot"
-Items.BEETROOT_SEEDS: "beetroot_seeds"
-Items.BEETROOT_SOUP: "beetroot_soup"
-Items.GHAST_TEAR: "ghast_tear"
-Items.NETHER_WART: "nether_wart"
-Items.GLASS_BOTTLE: "glass_bottle"
-Items.POTIONITEM: "potion"
-Items.SPLASH_POTION: "splash_potion"
-Items.LINGERING_POTION: "lingering_potion"
-Items.DRAGON_BREATH: "dragon_breath"
-Items.SPIDER_EYE: "spider_eye"
-Items.FERMENTED_SPIDER_EYE: "fermented_spider_eye"
-Items.BLAZE_ROD: "blaze_rod"
-Items.BLAZE_POWDER: "blaze_powder"
-Items.MAGMA_CREAM: "magma_cream"
-Items.BREWING_STAND: "brewing_stand"
-Items.CAULDRON: "cauldron"
-Items.SPECKLED_MELON: "glistering_melon_slice"
-Items.SPAWN_EGG: "#forge:eggs"
-Items.SPAWN_EGG#50: "creeper_spawn_egg"
-Items.SPAWN_EGG#51: "skeleton_spawn_egg"
-Items.SPAWN_EGG#52: "spider_spawn_egg"
-Items.SPAWN_EGG#54: "zombie_spawn_egg"
-Items.SPAWN_EGG#55: "slime_spawn_egg"
-Items.SPAWN_EGG#56: "ghast_spawn_egg"
-Items.SPAWN_EGG#57: "zombified_piglin_spawn_egg"
-Items.SPAWN_EGG#58: "enderman_spawn_egg"
-Items.SPAWN_EGG#59: "cave_spider_spawn_egg"
-Items.SPAWN_EGG#60: "silverfish_spawn_egg"
-Items.SPAWN_EGG#61: "blaze_spawn_egg"
-Items.SPAWN_EGG#62: "magma_cube_spawn_egg"
-Items.SPAWN_EGG#65: "bat_spawn_egg"
-Items.SPAWN_EGG#66: "witch_spawn_egg"
-Items.SPAWN_EGG#67: "endermite_spawn_egg"
-Items.SPAWN_EGG#68: "guardian_spawn_egg"
-Items.SPAWN_EGG#90: "pig_spawn_egg"
-Items.SPAWN_EGG#91: "sheep_spawn_egg"
-Items.SPAWN_EGG#92: "cow_spawn_egg"
-Items.SPAWN_EGG#93: "chicken_spawn_egg"
-Items.SPAWN_EGG#94: "squid_spawn_egg"
-Items.SPAWN_EGG#95: "wolf_spawn_egg"
-Items.SPAWN_EGG#96: "mooshroom_spawn_egg"
-Items.SPAWN_EGG#98: "ocelot_spawn_egg"
-Items.SPAWN_EGG#100: "horse_spawn_egg"
-Items.SPAWN_EGG#101: "rabbit_spawn_egg"
-Items.SPAWN_EGG#120: "villager_spawn_egg"
-Items.AXOLOTL_SPAWN_EGG: "axolotl_spawn_egg"
-Items.GOAT_SPAWN_EGG: "goat_spawn_egg"
-Items.GLOW_SQUID_SPAWN_EGG: "glow_squid_spawn_egg"
-Items.EXPERIENCE_BOTTLE: "experience_bottle"
-Items.FIRE_CHARGE: "fire_charge"
-Items.SNOWBALL: "snowball"
-Items.BOOK: "book"
-Items.WRITABLE_BOOK: "writable_book"
-Items.WRITTEN_BOOK: "written_book"
-Items.ENCHANTED_BOOK: "enchanted_book"
-Items.KNOWLEDGE_BOOK: "knowledge_book"
-Items.RECORD_13: "music_disc_13"
-Items.RECORD_CAT: "music_disc_cat"
-Items.RECORD_BLOCKS: "music_disc_blocks"
-Items.RECORD_CHIRP: "music_disc_chirp"
-Items.RECORD_FAR: "music_disc_far"
-Items.RECORD_MALL: "music_disc_mall"
-Items.RECORD_MELLOHI: "music_disc_mellohi"
-Items.RECORD_STAL: "music_disc_stal"
-Items.RECORD_STRAD: "music_disc_strad"
-Items.RECORD_WARD: "music_disc_ward"
-Items.RECORD_11: "music_disc_11"
-Items.RECORD_WAIT: "music_disc_wait"
-Items.SKULL: "#forge:heads"
-Items.SKULL#0: "skeleton_skull"
-Items.SKULL#1: "wither_skeleton_skull"
-Items.SKULL#2: "player_head"
-Items.SKULL#3: "zombie_head"
-Items.SKULL#4: "creeper_head"
-Items.SKULL#5: "dragon_head"
-Items.FIREWORK_CHARGE: "firework_star"
-Items.FIREWORKS: "firework_rocket"
-Items.TURTLE_HELMET: "turtle_helmet"
-Items.SCUTE: "scute"
-Items.SPRUCE_SIGN: "spruce_sign"
-Items.BIRCH_SIGN: "birch_sign"
-Items.JUNGLE_SIGN: "jungle_sign"
-Items.ACACIA_SIGN: "acacia_sign"
-Items.DARK_OAK_SIGN: "dark_oak_sign"
-Items.PUFFERFISH_BUCKET: "pufferfish_bucket"
-Items.SALMON_BUCKET: "salmon_bucket"
-Items.COD_BUCKET: "cod_bucket"
-Items.TROPICAL_FISH_BUCKET: "tropical_fish_bucket"
-Items.AXOLOTL_BUCKET: "axolotl_bucket"
-Items.DRIED_KELP: "dried_kelp"
-Items.CAT_SPAWN_EGG: "cat_spawn_egg"
-Items.COD_SPAWN_EGG: "cod_spawn_egg"
-Items.DOLPHIN_SPAWN_EGG: "dolphin_spawn_egg"
-Items.DONKEY_SPAWN_EGG: "donkey_spawn_egg"
-Items.DROWNED_SPAWN_EGG: "drowned_spawn_egg"
-Items.ELDER_GUARDIAN_SPAWN_EGG: "elder_guardian_spawn_egg"
-Items.EVOKER_SPAWN_EGG: "evoker_spawn_egg"
-Items.FOX_SPAWN_EGG: "fox_spawn_egg"
-Items.HUSK_SPAWN_EGG: "husk_spawn_egg"
-Items.LLAMA_SPAWN_EGG: "llama_spawn_egg"
-Items.MULE_SPAWN_EGG: "mule_spawn_egg"
-Items.PANDA_SPAWN_EGG: "panda_spawn_egg"
-Items.PARROT_SPAWN_EGG: "parrot_spawn_egg"
-Items.PHANTOM_SPAWN_EGG: "phantom_spawn_egg"
-Items.PILLAGER_SPAWN_EGG: "pillager_spawn_egg"
-Items.POLAR_BEAR_SPAWN_EGG: "polar_bear_spawn_egg"
-Items.PUFFERFISH_SPAWN_EGG: "pufferfish_spawn_egg"
-Items.RAVAGER_SPAWN_EGG: "ravager_spawn_egg"
-Items.SALMON_SPAWN_EGG: "salmon_spawn_egg"
-Items.SHULKER_SPAWN_EGG: "shulker_spawn_egg"
-Items.SKELETON_HORSE_SPAWN_EGG: "skeleton_horse_spawn_egg"
-Items.STRAY_SPAWN_EGG: "stray_spawn_egg"
-Items.TRADER_LLAMA_SPAWN_EGG: "trader_llama_spawn_egg"
-Items.TROPICAL_FISH_SPAWN_EGG: "tropical_fish_spawn_egg"
-Items.TURTLE_SPAWN_EGG: "turtle_spawn_egg"
-Items.VEX_SPAWN_EGG: "vex_spawn_egg"
-Items.VINDICATOR_SPAWN_EGG: "vindicator_spawn_egg"
-Items.WANDERING_TRADER_SPAWN_EGG: "wandering_trader_spawn_egg"
-Items.WITHER_SKELETON_SPAWN_EGG: "wither_skeleton_spawn_egg"
-Items.ZOMBIE_HORSE_SPAWN_EGG: "zombie_horse_spawn_egg"
-Items.ZOMBIE_VILLAGER_SPAWN_EGG: "zombie_villager_spawn_egg"
-Items.LEATHER_HORSE_ARMOR: "leather_horse_armor"
-Items.DEBUG_STICK: "debug_stick"
-Items.TRIDENT: "trident"
-Items.PHANTOM_MEMBRANE: "phantom_membrane"
-Items.NAUTILUS_SHELL: "nautilus_shell"
-Items.HEART_OF_THE_SEA: "heart_of_the_sea"
-Items.CROSSBOW: "crossbow"
-Items.SUSPICIOUS_STEW: "suspicious_stew"
-Items.FLOWER_BANNER_PATTERN: "flower_banner_pattern"
-Items.CREEPER_BANNER_PATTERN: "creeper_banner_pattern"
-Items.SKULL_BANNER_PATTERN: "skull_banner_pattern"
-Items.THING_BANNER_PATTERN: "mojang_banner_pattern"
-Items.GLOBE_BANNER_PATTERN: "globe_banner_pattern"
-Items.SWEET_BERRIES: "sweet_berries"
-Items.BEE_SPAWN_EGG: "bee_spawn_egg"
-Items.HONEYCOMB: "honeycomb"
-Items.HONEY_BOTTLE: "honey_bottle"
-Items.NETHERITE_INGOT: "netherite_ingot"
-Items.NETHERITE_SCRAP: "netherite_scrap"
-Items.NETHERITE_SWORD: "netherite_sword"
-Items.NETHERITE_SHOVEL: "netherite_shovel"
-Items.NETHERITE_PICKAXE: "netherite_pickaxe"
-Items.NETHERITE_AXE: "netherite_axe"
-Items.NETHERITE_HOE: "netherite_hoe"
-Items.NETHERITE_HELMET: "netherite_helmet"
-Items.NETHERITE_CHESTPLATE: "netherite_chestplate"
-Items.NETHERITE_LEGGINGS: "netherite_leggings"
-Items.NETHERITE_BOOTS: "netherite_boots"
-Items.CRIMSON_SIGN: "crimson_sign"
-Items.WARPED_SIGN: "warped_sign"
-Items.HOGLIN_SPAWN_EGG: "hoglin_spawn_egg"
-Items.PIGLIN_SPAWN_EGG: "piglin_spawn_egg"
-Items.PIGLIN_BRUTE_SPAWN_EGG: "piglin_brute_spawn_egg"
-Items.STRIDER_SPAWN_EGG: "strider_spawn_egg"
-Items.ZOGLIN_SPAWN_EGG: "zoglin_spawn_egg"
-Items.WARPED_FUNGUS_ON_A_STICK: "warped_fungus_on_a_stick"
-Items.MUSIC_DISC_PIGSTEP: "music_disc_pigstep"
-Items.MUSIC_DISC_OTHERSIDE: "music_disc_otherside"
-Items.PIGLIN_BANNER_PATTERN: "piglin_banner_pattern"
-Items.GLOW_BERRIES: "glow_berries"
-Items.GLOW_INK_SAC: "glow_ink_sac"
-Items.AMETHYST_SHARD: "amethyst_shard"
-Items.BUNDLE: "bundle"
-Items.RAW_IRON: "raw_iron"
-Items.RAW_GOLD: "raw_gold"
-Items.RAW_COPPER: "raw_copper"
-Items.SPYGLASS: "spyglass"
+_bypass_prefix:
+  - "TAG:"
+  - "POTION:"
+_default:
+  - Material.AIR
+  - "air"
+Blocks.AIR:
+  - Material.AIR
+  - "air"
+Blocks.STONE:
+  - Material.STONE
+  - "#c:stones"
+Blocks.STONE#0:
+  - Material.STONE
+  - "stone"
+Blocks.STONE#1:
+  - Material.GRANITE
+  - "granite"
+Blocks.STONE#2:
+  - Material.POLISHED_GRANITE
+  - "polished_granite"
+Blocks.STONE#3:
+  - Material.DIORITE
+  - "diorite"
+Blocks.STONE#4:
+  - Material.POLISHED_DIORITE
+  - "polished_diorite"
+Blocks.STONE#5:
+  - Material.ANDESITE
+  - "andesite"
+Blocks.STONE#6:
+  - Material.POLISHED_ANDESITE
+  - "polished_andesite"
+Blocks.GRASS:
+  - Material.GRASS_BLOCK
+  - "grass_block"
+Blocks.GRASS_PATH:
+  - Material.DIRT_PATH
+  - "dirt_path"
+Blocks.MYCELIUM:
+  - Material.MYCELIUM
+  - "mycelium"
+Blocks.DIRT:
+  - Material.DIRT
+  - "#minecraft:dirt"
+Blocks.DIRT#0:
+  - Material.DIRT
+  - "dirt"
+Blocks.DIRT#1:
+  - Material.COARSE_DIRT
+  - "coarse_dirt"
+Blocks.DIRT#2:
+  - Material.PODZOL
+  - "podzol"
+Blocks.COBBLESTONE:
+  - Material.COBBLESTONE
+  - "cobblestone"
+Blocks.MOSSY_COBBLESTONE:
+  - Material.MOSSY_COBBLESTONE
+  - "mossy_cobblestone"
+Blocks.PLANKS:
+  - Material.OAK_PLANKS
+  - "#minecraft:planks"
+Blocks.PLANKS#0:
+  - Material.OAK_PLANKS
+  - "oak_planks"
+Blocks.PLANKS#1:
+  - Material.SPRUCE_PLANKS
+  - "spruce_planks"
+Blocks.PLANKS#2:
+  - Material.BIRCH_PLANKS
+  - "birch_planks"
+Blocks.PLANKS#3:
+  - Material.JUNGLE_PLANKS
+  - "jungle_planks"
+Blocks.PLANKS#4:
+  - Material.ACACIA_PLANKS
+  - "acacia_planks"
+Blocks.PLANKS#5:
+  - Material.DARK_OAK_PLANKS
+  - "dark_oak_planks"
+Blocks.PALE_OAK_PLANKS:
+  - Material.PALE_OAK_PLANKS
+  - "pale_oak_planks"
+Blocks.MANGROVE_PLANKS:
+  - Material.MANGROVE_PLANKS
+  - "mangrove_planks"
+Blocks.CHERRY_PLANKS:
+  - Material.CHERRY_PLANKS
+  - "cherry_planks"
+Blocks.BAMBOO_PLANKS:
+  - Material.BAMBOO_PLANKS
+  - "bamboo_planks"
+Blocks.BAMBOO_MOSAIC:
+  - Material.BAMBOO_MOSAIC
+  - "bamboo_mosaic"
+Blocks.SAPLING:
+  - Material.OAK_SAPLING
+  - "#minecraft:saplings"
+Blocks.SAPLING#0:
+  - Material.OAK_SAPLING
+  - "oak_sapling"
+Blocks.SAPLING#1:
+  - Material.SPRUCE_SAPLING
+  - "spruce_sapling"
+Blocks.SAPLING#2:
+  - Material.BIRCH_SAPLING
+  - "birch_sapling"
+Blocks.SAPLING#3:
+  - Material.JUNGLE_SAPLING
+  - "jungle_sapling"
+Blocks.SAPLING#4:
+  - Material.ACACIA_SAPLING
+  - "acacia_sapling"
+Blocks.SAPLING#5:
+  - Material.DARK_OAK_SAPLING
+  - "dark_oak_sapling"
+Blocks.PALE_OAK_SAPLING:
+  - Material.PALE_OAK_SAPLING
+  - "pale_oak_sapling"
+Blocks.MANGROVE_PROPAGULE:
+  - Material.MANGROVE_PROPAGULE
+  - "mangrove_propagule"
+Blocks.CHERRY_SAPLING:
+  - Material.CHERRY_SAPLING
+  - "cherry_sapling"
+Blocks.REEDS:
+  - Material.SUGAR_CANE
+  - "sugar_cane"
+Blocks.BEDROCK:
+  - Material.BEDROCK
+  - "bedrock"
+Blocks.SAND:
+  - Material.SAND
+  - "#minecraft:sand"
+Blocks.SAND#0:
+  - Material.SAND
+  - "sand"
+Blocks.SAND#1:
+  - Material.RED_SAND
+  - "red_sand"
+Blocks.SUSPICIOUS_SAND:
+  - Material.SUSPICIOUS_SAND
+  - "suspicious_sand"
+Blocks.GRAVEL:
+  - Material.GRAVEL
+  - "gravel"
+Blocks.SUSPICIOUS_GRAVEL:
+  - Material.SUSPICIOUS_GRAVEL
+  - "suspicious_gravel"
+Blocks.FLOWING_WATER:
+  - Material.WATER
+  - "water"
+Blocks.WATER:
+  - Material.WATER
+  - "water"
+Blocks.FLOWING_LAVA:
+  - Material.LAVA
+  - "lava"
+Blocks.LAVA:
+  - Material.LAVA
+  - "lava"
+Blocks.MAGMA:
+  - Material.MAGMA_BLOCK
+  - "magma_block"
+Blocks.OBSIDIAN:
+  - Material.OBSIDIAN
+  - "obsidian"
+Blocks.COAL_ORE:
+  - Material.COAL_ORE
+  - "coal_ore"
+Blocks.IRON_ORE:
+  - Material.IRON_ORE
+  - "iron_ore"
+Blocks.REDSTONE_ORE:
+  - Material.REDSTONE_ORE
+  - "redstone_ore"
+Blocks.LIT_REDSTONE_ORE:
+  - Material.REDSTONE_ORE
+  - "redstone_ore"
+Blocks.GOLD_ORE:
+  - Material.GOLD_ORE
+  - "gold_ore"
+Blocks.LAPIS_ORE:
+  - Material.LAPIS_ORE
+  - "lapis_ore"
+Blocks.DIAMOND_ORE:
+  - Material.DIAMOND_ORE
+  - "diamond_ore"
+Blocks.EMERALD_ORE:
+  - Material.EMERALD_ORE
+  - "emerald_ore"
+Blocks.COPPER_ORE:
+  - Material.COPPER_ORE
+  - "copper_ore"
+Blocks.DEEPSLATE_COAL_ORE:
+  - Material.DEEPSLATE_COAL_ORE
+  - "deepslate_coal_ore"
+Blocks.DEEPSLATE_IRON_ORE:
+  - Material.DEEPSLATE_IRON_ORE
+  - "deepslate_iron_ore"
+Blocks.DEEPSLATE_REDSTONE_ORE:
+  - Material.DEEPSLATE_REDSTONE_ORE
+  - "deepslate_redstone_ore"
+Blocks.DEEPSLATE_GOLD_ORE:
+  - Material.DEEPSLATE_GOLD_ORE
+  - "deepslate_gold_ore"
+Blocks.DEEPSLATE_LAPIS_ORE:
+  - Material.DEEPSLATE_LAPIS_ORE
+  - "deepslate_lapis_ore"
+Blocks.DEEPSLATE_DIAMOND_ORE:
+  - Material.DEEPSLATE_DIAMOND_ORE
+  - "deepslate_diamond_ore"
+Blocks.DEEPSLATE_EMERALD_ORE:
+  - Material.DEEPSLATE_EMERALD_ORE
+  - "deepslate_emerald_ore"
+Blocks.DEEPSLATE_COPPER_ORE:
+  - Material.DEEPSLATE_COPPER_ORE
+  - "deepslate_copper_ore"
+Blocks.QUARTZ_ORE:
+  - Material.NETHER_QUARTZ_ORE
+  - "nether_quartz_ore"
+Blocks.COAL_BLOCK:
+  - Material.COAL_BLOCK
+  - "coal_block"
+Blocks.IRON_BLOCK:
+  - Material.IRON_BLOCK
+  - "iron_block"
+Blocks.REDSTONE_BLOCK:
+  - Material.REDSTONE_BLOCK
+  - "redstone_block"
+Blocks.GOLD_BLOCK:
+  - Material.GOLD_BLOCK
+  - "gold_block"
+Blocks.LAPIS_BLOCK:
+  - Material.LAPIS_BLOCK
+  - "lapis_block"
+Blocks.DIAMOND_BLOCK:
+  - Material.DIAMOND_BLOCK
+  - "diamond_block"
+Blocks.EMERALD_BLOCK:
+  - Material.EMERALD_BLOCK
+  - "emerald_block"
+Blocks.QUARTZ_BLOCK:
+  - Material.QUARTZ_BLOCK
+  - "#c:ores/quartz"
+Blocks.QUARTZ_BLOCK#0:
+  - Material.SMOOTH_QUARTZ
+  - "smooth_quartz"
+Blocks.QUARTZ_BLOCK#1:
+  - Material.CHISELED_QUARTZ_BLOCK
+  - "chiseled_quartz_block"
+Blocks.QUARTZ_BLOCK#2:
+  - Material.QUARTZ_PILLAR
+  - "quartz_pillar"
+Blocks.QUARTZ_BLOCK#3:
+  - Material.QUARTZ_BLOCK
+  - "quartz_block"
+Blocks.SLIME_BLOCK:
+  - Material.SLIME_BLOCK
+  - "slime_block"
+Blocks.LOG:
+  - Material.OAK_LOG
+  - "#minecraft:logs"
+Blocks.LOG#0:
+  - Material.OAK_LOG
+  - "oak_log"
+Blocks.LOG#1:
+  - Material.SPRUCE_LOG
+  - "spruce_log"
+Blocks.LOG#2:
+  - Material.BIRCH_LOG
+  - "birch_log"
+Blocks.LOG#3:
+  - Material.JUNGLE_LOG
+  - "jungle_log"
+Blocks.LOG2:
+  - Material.ACACIA_LOG
+  - "#minecraft:logs"
+Blocks.LOG2#0:
+  - Material.ACACIA_LOG
+  - "acacia_log"
+Blocks.LOG2#1:
+  - Material.DARK_OAK_LOG
+  - "dark_oak_log"
+Blocks.PALE_OAK_LOG:
+  - Material.PALE_OAK_LOG
+  - "pale_oak_log"
+Blocks.MANGROVE_LOG:
+  - Material.MANGROVE_LOG
+  - "mangrove_log"
+Blocks.CHERRY_LOG:
+  - Material.CHERRY_LOG
+  - "cherry_log"
+Blocks.BAMBOO_BLOCK:
+  - Material.BAMBOO_BLOCK
+  - "bamboo_block"
+Blocks.LEAVES:
+  - Material.OAK_LEAVES
+  - "#minecraft:leaves"
+Blocks.LEAVES#0:
+  - Material.OAK_LEAVES
+  - "oak_leaves"
+Blocks.LEAVES#1:
+  - Material.SPRUCE_LEAVES
+  - "spruce_leaves"
+Blocks.LEAVES#2:
+  - Material.BIRCH_LEAVES
+  - "birch_leaves"
+Blocks.LEAVES#3:
+  - Material.JUNGLE_LEAVES
+  - "jungle_leaves"
+Blocks.LEAVES2:
+  - Material.ACACIA_LEAVES
+  - "#minecraft:leaves"
+Blocks.LEAVES2#0:
+  - Material.ACACIA_LEAVES
+  - "acacia_leaves"
+Blocks.LEAVES2#1:
+  - Material.DARK_OAK_LEAVES
+  - "dark_oak_leaves"
+Blocks.PALE_OAK_LEAVES:
+  - Material.PALE_OAK_LEAVES
+  - "pale_oak_leaves"
+Blocks.AZALEA_LEAVES:
+  - Material.AZALEA_LEAVES
+  - "azalea_leaves"
+Blocks.FLOWERING_AZALEA_LEAVES:
+  - Material.FLOWERING_AZALEA_LEAVES
+  - "flowering_azalea_leaves"
+Blocks.MANGROVE_LEAVES:
+  - Material.MANGROVE_LEAVES
+  - "mangrove_leaves"
+Blocks.CHERRY_LEAVES:
+  - Material.CHERRY_LEAVES
+  - "cherry_leaves"
+Blocks.MANGROVE_ROOTS:
+  - Material.MANGROVE_ROOTS
+  - "mangrove_roots"
+Blocks.MUDDY_MANGROVE_ROOTS:
+  - Material.MUDDY_MANGROVE_ROOTS
+  - "muddy_mangrove_roots"
+Blocks.SPONGE:
+  - Material.SPONGE
+  - "sponge"
+Blocks.SPONGE#0:
+  - Material.SPONGE
+  - "sponge"
+Blocks.SPONGE#1:
+  - Material.WET_SPONGE
+  - "wet_sponge"
+Blocks.SANDSTONE:
+  - Material.SANDSTONE
+  - "#c:sandstone/blocks"
+Blocks.SANDSTONE#0:
+  - Material.SANDSTONE
+  - "sandstone"
+Blocks.SANDSTONE#1:
+  - Material.CHISELED_SANDSTONE
+  - "chiseled_sandstone"
+Blocks.SANDSTONE#2:
+  - Material.CUT_SANDSTONE
+  - "cut_sandstone"
+Blocks.RED_SANDSTONE:
+  - Material.RED_SANDSTONE
+  - "#c:sandstone/blocks"
+Blocks.RED_SANDSTONE#0:
+  - Material.RED_SANDSTONE
+  - "red_sandstone"
+Blocks.RED_SANDSTONE#1:
+  - Material.CHISELED_RED_SANDSTONE
+  - "chiseled_red_sandstone"
+Blocks.RED_SANDSTONE#2:
+  - Material.CUT_RED_SANDSTONE
+  - "cut_red_sandstone"
+Blocks.NOTEBLOCK:
+  - Material.NOTE_BLOCK
+  - "note_block"
+Blocks.RAIL:
+  - Material.RAIL
+  - "rail"
+Blocks.GOLDEN_RAIL:
+  - Material.POWERED_RAIL
+  - "powered_rail"
+Blocks.DETECTOR_RAIL:
+  - Material.DETECTOR_RAIL
+  - "detector_rail"
+Blocks.ACTIVATOR_RAIL:
+  - Material.ACTIVATOR_RAIL
+  - "activator_rail"
+Blocks.BED:
+  - Material.WHITE_BED
+  - "white_bed"
+Blocks.WEB:
+  - Material.COBWEB
+  - "cobweb"
+Blocks.DEADBUSH:
+  - Material.DEAD_BUSH
+  - "dead_bush"
+Blocks.TALLGRASS:
+  - Material.SHORT_GRASS
+  - "short_grass"
+Blocks.TALLGRASS#0:
+  - Material.DEAD_BUSH
+  - "dead_bush"
+Blocks.TALLGRASS#1:
+  - Material.SHORT_GRASS
+  - "short_grass"
+Blocks.TALLGRASS#2:
+  - Material.FERN
+  - "fern"
+Blocks.PISTON:
+  - Material.PISTON
+  - "piston"
+Blocks.STICKY_PISTON:
+  - Material.STICKY_PISTON
+  - "sticky_piston"
+Blocks.PISTON_HEAD:
+  - Material.PISTON_HEAD
+  - "piston_head"
+Blocks.PISTON_EXTENSION:
+  - Material.MOVING_PISTON
+  - "moving_piston"
+Blocks.YELLOW_FLOWER:
+  - Material.DANDELION
+  - "dandelion"
+Blocks.RED_FLOWER:
+  - Material.POPPY
+  - "#minecraft:small_flowers"
+Blocks.RED_FLOWER#0:
+  - Material.POPPY
+  - "poppy"
+Blocks.RED_FLOWER#1:
+  - Material.BLUE_ORCHID
+  - "blue_orchid"
+Blocks.RED_FLOWER#2:
+  - Material.ALLIUM
+  - "allium"
+Blocks.RED_FLOWER#3:
+  - Material.AZURE_BLUET
+  - "azure_bluet"
+Blocks.RED_FLOWER#4:
+  - Material.RED_TULIP
+  - "red_tulip"
+Blocks.RED_FLOWER#5:
+  - Material.ORANGE_TULIP
+  - "orange_tulip"
+Blocks.RED_FLOWER#6:
+  - Material.WHITE_TULIP
+  - "white_tulip"
+Blocks.RED_FLOWER#7:
+  - Material.PINK_TULIP
+  - "pink_tulip"
+Blocks.RED_FLOWER#8:
+  - Material.OXEYE_DAISY
+  - "oxeye_daisy"
+Blocks.TORCHFLOWER:
+  - Material.TORCHFLOWER
+  - "torchflower"
+Blocks.OPEN_EYEBLOSSOM:
+  - Material.OPEN_EYEBLOSSOM
+  - "open_eyeblossom"
+Blocks.CLOSED_EYEBLOSSOM:
+  - Material.CLOSED_EYEBLOSSOM
+  - "closed_eyeblossom"
+Blocks.PINK_PETALS:
+  - Material.PINK_PETALS
+  - "pink_petals"
+Blocks.DOUBLE_PLANT:
+  - Material.SUNFLOWER
+  - "#c:flowers/tall"
+Blocks.DOUBLE_PLANT#0:
+  - Material.SUNFLOWER
+  - "sunflower"
+Blocks.DOUBLE_PLANT#1:
+  - Material.LILAC
+  - "lilac"
+Blocks.DOUBLE_PLANT#2:
+  - Material.TALL_GRASS
+  - "tall_grass"
+Blocks.DOUBLE_PLANT#3:
+  - Material.LARGE_FERN
+  - "large_fern"
+Blocks.DOUBLE_PLANT#4:
+  - Material.ROSE_BUSH
+  - "rose_bush"
+Blocks.DOUBLE_PLANT#5:
+  - Material.PEONY
+  - "peony"
+Blocks.PITCHER_PLANT:
+  - Material.PITCHER_PLANT
+  - "pitcher_plant"
+Blocks.BROWN_MUSHROOM:
+  - Material.BROWN_MUSHROOM
+  - "brown_mushroom"
+Blocks.RED_MUSHROOM:
+  - Material.RED_MUSHROOM
+  - "red_mushroom"
+Blocks.BROWN_MUSHROOM_BLOCK:
+  - Material.BROWN_MUSHROOM_BLOCK
+  - "brown_mushroom_block"
+Blocks.RED_MUSHROOM_BLOCK:
+  - Material.RED_MUSHROOM_BLOCK
+  - "red_mushroom_block"
+Blocks.BRICK_BLOCK:
+  - Material.BRICKS
+  - "bricks"
+Blocks.TNT:
+  - Material.TNT
+  - "tnt"
+Blocks.BOOKSHELF:
+  - Material.BOOKSHELF
+  - "bookshelf"
+Blocks.CHISELED_BOOKSHELF:
+  - Material.CHISELED_BOOKSHELF
+  - "chiseled_bookshelf"
+Blocks.TORCH:
+  - Material.TORCH
+  - "torch"
+Blocks.FIRE:
+  - Material.FIRE
+  - "fire"
+Blocks.MOB_SPAWNER:
+  - Material.SPAWNER
+  - "spawner"
+Blocks.CREAKING_HEART:
+  - Material.CREAKING_HEART
+  - "creaking_heart"
+Blocks.OAK_STAIRS:
+  - Material.OAK_STAIRS
+  - "oak_stairs"
+Blocks.SPRUCE_STAIRS:
+  - Material.SPRUCE_STAIRS
+  - "spruce_stairs"
+Blocks.BIRCH_STAIRS:
+  - Material.BIRCH_STAIRS
+  - "birch_stairs"
+Blocks.JUNGLE_STAIRS:
+  - Material.JUNGLE_STAIRS
+  - "jungle_stairs"
+Blocks.ACACIA_STAIRS:
+  - Material.ACACIA_STAIRS
+  - "acacia_stairs"
+Blocks.DARK_OAK_STAIRS:
+  - Material.DARK_OAK_STAIRS
+  - "dark_oak_stairs"
+Blocks.PALE_OAK_STAIRS:
+  - Material.PALE_OAK_STAIRS
+  - "pale_oak_stairs"
+Blocks.MANGROVE_STAIRS:
+  - Material.MANGROVE_STAIRS
+  - "mangrove_stairs"
+Blocks.CHERRY_STAIRS:
+  - Material.CHERRY_STAIRS
+  - "cherry_stairs"
+Blocks.BAMBOO_STAIRS:
+  - Material.BAMBOO_STAIRS
+  - "bamboo_stairs"
+Blocks.BAMBOO_MOSAIC_STAIRS:
+  - Material.BAMBOO_MOSAIC_STAIRS
+  - "bamboo_mosaic_stairs"
+Blocks.SANDSTONE_STAIRS:
+  - Material.SANDSTONE_STAIRS
+  - "sandstone_stairs"
+Blocks.RED_SANDSTONE_STAIRS:
+  - Material.RED_SANDSTONE_STAIRS
+  - "red_sandstone_stairs"
+Blocks.STONE_STAIRS:
+  - Material.COBBLESTONE_STAIRS
+  - "cobblestone_stairs"
+Blocks.BRICK_STAIRS:
+  - Material.BRICK_STAIRS
+  - "brick_stairs"
+Blocks.STONE_BRICK_STAIRS:
+  - Material.STONE_BRICK_STAIRS
+  - "stone_brick_stairs"
+Blocks.NETHER_BRICK_STAIRS:
+  - Material.NETHER_BRICK_STAIRS
+  - "nether_brick_stairs"
+Blocks.QUARTZ_STAIRS:
+  - Material.QUARTZ_STAIRS
+  - "quartz_stairs"
+Blocks.PURPUR_STAIRS:
+  - Material.PURPUR_STAIRS
+  - "purpur_stairs"
+Blocks.CHEST:
+  - Material.CHEST
+  - "chest"
+Blocks.TRAPPED_CHEST:
+  - Material.TRAPPED_CHEST
+  - "trapped_chest"
+Blocks.ENDER_CHEST:
+  - Material.ENDER_CHEST
+  - "ender_chest"
+Blocks.CRAFTING_TABLE:
+  - Material.CRAFTING_TABLE
+  - "crafting_table"
+Blocks.WHEAT:
+  - Material.WHEAT
+  - "wheat"
+Blocks.FARMLAND:
+  - Material.FARMLAND
+  - "farmland"
+Blocks.FURNACE:
+  - Material.FURNACE
+  - "furnace"
+Blocks.STANDING_SIGN:
+  - Material.OAK_SIGN
+  - "oak_sign"
+Blocks.WALL_SIGN:
+  - Material.OAK_WALL_SIGN
+  - "oak_wall_sign"
+Blocks.OAK_DOOR:
+  - Material.OAK_DOOR
+  - "oak_door"
+Blocks.SPRUCE_DOOR:
+  - Material.SPRUCE_DOOR
+  - "spruce_door"
+Blocks.BIRCH_DOOR:
+  - Material.BIRCH_DOOR
+  - "birch_door"
+Blocks.JUNGLE_DOOR:
+  - Material.JUNGLE_DOOR
+  - "jungle_door"
+Blocks.ACACIA_DOOR:
+  - Material.ACACIA_DOOR
+  - "acacia_door"
+Blocks.DARK_OAK_DOOR:
+  - Material.DARK_OAK_DOOR
+  - "dark_oak_door"
+Blocks.PALE_OAK_DOOR:
+  - Material.PALE_OAK_DOOR
+  - "pale_oak_door"
+Blocks.MANGROVE_DOOR:
+  - Material.MANGROVE_DOOR
+  - "mangrove_door"
+Blocks.CHERRY_DOOR:
+  - Material.CHERRY_DOOR
+  - "cherry_door"
+Blocks.BAMBOO_DOOR:
+  - Material.BAMBOO_DOOR
+  - "bamboo_door"
+Blocks.IRON_DOOR:
+  - Material.IRON_DOOR
+  - "iron_door"
+Blocks.TRAPDOOR:
+  - Material.OAK_TRAPDOOR
+  - "oak_trapdoor"
+Blocks.IRON_TRAPDOOR:
+  - Material.IRON_TRAPDOOR
+  - "iron_trapdoor"
+Blocks.COPPER_TRAPDOOR:
+  - Material.COPPER_TRAPDOOR
+  - "copper_trapdoor"
+Blocks.EXPOSED_COPPER_TRAPDOOR:
+  - Material.EXPOSED_COPPER_TRAPDOOR
+  - "exposed_copper_trapdoor"
+Blocks.OXIDIZED_COPPER_TRAPDOOR:
+  - Material.OXIDIZED_COPPER_TRAPDOOR
+  - "oxidized_copper_trapdoor"
+Blocks.WEATHERED_COPPER_TRAPDOOR:
+  - Material.WEATHERED_COPPER_TRAPDOOR
+  - "weathered_copper_trapdoor"
+Blocks.WAXED_COPPER_TRAPDOOR:
+  - Material.WAXED_COPPER_TRAPDOOR
+  - "waxed_copper_trapdoor"
+Blocks.WAXED_EXPOSED_COPPER_TRAPDOOR:
+  - Material.WAXED_EXPOSED_COPPER_TRAPDOOR
+  - "waxed_exposed_copper_trapdoor"
+Blocks.WAXED_OXIDIZED_COPPER_TRAPDOOR:
+  - Material.WAXED_OXIDIZED_COPPER_TRAPDOOR
+  - "waxed_oxidized_copper_trapdoor"
+Blocks.WAXED_WEATHERED_COPPER_TRAPDOOR:
+  - Material.WAXED_WEATHERED_COPPER_TRAPDOOR
+  - "waxed_weathered_copper_trapdoor"
+Blocks.COPPER_GRATE:
+  - Material.COPPER_GRATE
+  - "copper_grate"
+Blocks.EXPOSED_COPPER_GRATE:
+  - Material.EXPOSED_COPPER_GRATE
+  - "exposed_copper_grate"
+Blocks.WEATHERED_COPPER_GRATE:
+  - Material.WEATHERED_COPPER_GRATE
+  - "weathered_copper_grate"
+Blocks.OXIDIZED_COPPER_GRATE:
+  - Material.OXIDIZED_COPPER_GRATE
+  - "oxidized_copper_grate"
+Blocks.WAXED_COPPER_GRATE:
+  - Material.WAXED_COPPER_GRATE
+  - "waxed_copper_grate"
+Blocks.WAXED_EXPOSED_COPPER_GRATE:
+  - Material.WAXED_EXPOSED_COPPER_GRATE
+  - "waxed_exposed_copper_grate"
+Blocks.WAXED_WEATHERED_COPPER_GRATE:
+  - Material.WAXED_WEATHERED_COPPER_GRATE
+  - "waxed_weathered_copper_grate"
+Blocks.WAXED_OXIDIZED_COPPER_GRATE:
+  - Material.WAXED_OXIDIZED_COPPER_GRATE
+  - "waxed_oxidized_copper_grate"
+Blocks.COPPER_BULB:
+  - Material.COPPER_BULB
+  - "copper_bulb"
+Blocks.EXPOSED_COPPER_BULB:
+  - Material.EXPOSED_COPPER_BULB
+  - "exposed_copper_bulb"
+Blocks.WEATHERED_COPPER_BULB:
+  - Material.WEATHERED_COPPER_BULB
+  - "weathered_copper_bulb"
+Blocks.OXIDIZED_COPPER_BULB:
+  - Material.OXIDIZED_COPPER_BULB
+  - "oxidized_copper_bulb"
+Blocks.WAXED_COPPER_BULB:
+  - Material.WAXED_COPPER_BULB
+  - "waxed_copper_bulb"
+Blocks.WAXED_EXPOSED_COPPER_BULB:
+  - Material.WAXED_EXPOSED_COPPER_BULB
+  - "waxed_exposed_copper_bulb"
+Blocks.WAXED_WEATHERED_COPPER_BULB:
+  - Material.WAXED_WEATHERED_COPPER_BULB
+  - "waxed_weathered_copper_bulb"
+Blocks.WAXED_OXIDIZED_COPPER_BULB:
+  - Material.WAXED_OXIDIZED_COPPER_BULB
+  - "waxed_oxidized_copper_bulb"
+Blocks.LADDER:
+  - Material.LADDER
+  - "ladder"
+Blocks.LEVER:
+  - Material.LEVER
+  - "lever"
+Blocks.STONE_BUTTON:
+  - Material.STONE_BUTTON
+  - "stone_button"
+Blocks.WOODEN_BUTTON:
+  - Material.OAK_BUTTON
+  - "oak_button"
+Blocks.WOODEN_PRESSURE_PLATE:
+  - Material.OAK_PRESSURE_PLATE
+  - "oak_pressure_plate"
+Blocks.STONE_PRESSURE_PLATE:
+  - Material.STONE_PRESSURE_PLATE
+  - "stone_pressure_plate"
+Blocks.LIGHT_WEIGHTED_PRESSURE_PLATE:
+  - Material.LIGHT_WEIGHTED_PRESSURE_PLATE
+  - "light_weighted_pressure_plate"
+Blocks.HEAVY_WEIGHTED_PRESSURE_PLATE:
+  - Material.HEAVY_WEIGHTED_PRESSURE_PLATE
+  - "heavy_weighted_pressure_plate"
+Blocks.TRIPWIRE_HOOK:
+  - Material.TRIPWIRE_HOOK
+  - "tripwire_hook"
+Blocks.TRIPWIRE:
+  - Material.TRIPWIRE
+  - "tripwire"
+Blocks.DAYLIGHT_DETECTOR:
+  - Material.DAYLIGHT_DETECTOR
+  - "daylight_detector"
+Blocks.DAYLIGHT_DETECTOR_INVERTED:
+  - Material.DAYLIGHT_DETECTOR
+  - "daylight_detector"
+Blocks.REDSTONE_TORCH:
+  - Material.REDSTONE_TORCH
+  - "redstone_torch"
+Blocks.UNLIT_REDSTONE_TORCH:
+  - Material.REDSTONE_TORCH
+  - "redstone_torch"
+Blocks.REDSTONE_WIRE:
+  - Material.REDSTONE_WIRE
+  - "redstone_wire"
+Blocks.UNPOWERED_REPEATER:
+  - Material.REPEATER
+  - "repeater"
+Blocks.POWERED_REPEATER:
+  - Material.REPEATER
+  - "repeater"
+Blocks.UNPOWERED_COMPARATOR:
+  - Material.COMPARATOR
+  - "comparator"
+Blocks.POWERED_COMPARATOR:
+  - Material.COMPARATOR
+  - "comparator"
+Blocks.REDSTONE_LAMP:
+  - Material.REDSTONE_LAMP
+  - "redstone_lamp"
+Blocks.LIT_REDSTONE_LAMP:
+  - Material.REDSTONE_LAMP
+  - "redstone_lamp"
+Blocks.DISPENSER:
+  - Material.DISPENSER
+  - "dispenser"
+Blocks.DROPPER:
+  - Material.DROPPER
+  - "dropper"
+Blocks.OBSERVER:
+  - Material.OBSERVER
+  - "observer"
+Blocks.HOPPER:
+  - Material.HOPPER
+  - "hopper"
+Blocks.COMMAND_BLOCK:
+  - Material.COMMAND_BLOCK
+  - "command_block"
+Blocks.REPEATING_COMMAND_BLOCK:
+  - Material.REPEATING_COMMAND_BLOCK
+  - "repeating_command_block"
+Blocks.CHAIN_COMMAND_BLOCK:
+  - Material.CHAIN_COMMAND_BLOCK
+  - "chain_command_block"
+Blocks.SNOW_LAYER:
+  - Material.SNOW
+  - "snow"
+Blocks.SNOW:
+  - Material.SNOW_BLOCK
+  - "snow_block"
+Blocks.ICE:
+  - Material.ICE
+  - "ice"
+Blocks.PACKED_ICE:
+  - Material.PACKED_ICE
+  - "packed_ice"
+Blocks.FROSTED_ICE:
+  - Material.FROSTED_ICE
+  - "frosted_ice"
+Blocks.CACTUS:
+  - Material.CACTUS
+  - "cactus"
+Blocks.CLAY:
+  - Material.CLAY
+  - "clay"
+Blocks.JUKEBOX:
+  - Material.JUKEBOX
+  - "jukebox"
+Blocks.OAK_FENCE:
+  - Material.OAK_FENCE
+  - "oak_fence"
+Blocks.SPRUCE_FENCE:
+  - Material.SPRUCE_FENCE
+  - "spruce_fence"
+Blocks.BIRCH_FENCE:
+  - Material.BIRCH_FENCE
+  - "birch_fence"
+Blocks.JUNGLE_FENCE:
+  - Material.JUNGLE_FENCE
+  - "jungle_fence"
+Blocks.ACACIA_FENCE:
+  - Material.ACACIA_FENCE
+  - "acacia_fence"
+Blocks.DARK_OAK_FENCE:
+  - Material.DARK_OAK_FENCE
+  - "dark_oak_fence"
+Blocks.PALE_OAK_FENCE:
+  - Material.PALE_OAK_FENCE
+  - "pale_oak_fence"
+Blocks.MANGROVE_FENCE:
+  - Material.MANGROVE_FENCE
+  - "mangrove_fence"
+Blocks.CHERRY_FENCE:
+  - Material.CHERRY_FENCE
+  - "cherry_fence"
+Blocks.BAMBOO_FENCE:
+  - Material.BAMBOO_FENCE
+  - "bamboo_fence"
+Blocks.OAK_FENCE_GATE:
+  - Material.OAK_FENCE_GATE
+  - "oak_fence_gate"
+Blocks.SPRUCE_FENCE_GATE:
+  - Material.SPRUCE_FENCE_GATE
+  - "spruce_fence_gate"
+Blocks.BIRCH_FENCE_GATE:
+  - Material.BIRCH_FENCE_GATE
+  - "birch_fence_gate"
+Blocks.JUNGLE_FENCE_GATE:
+  - Material.JUNGLE_FENCE_GATE
+  - "jungle_fence_gate"
+Blocks.ACACIA_FENCE_GATE:
+  - Material.ACACIA_FENCE_GATE
+  - "acacia_fence_gate"
+Blocks.DARK_OAK_FENCE_GATE:
+  - Material.DARK_OAK_FENCE_GATE
+  - "dark_oak_fence_gate"
+Blocks.PALE_OAK_FENCE_GATE:
+  - Material.PALE_OAK_FENCE_GATE
+  - "pale_oak_fence_gate"
+Blocks.MANGROVE_FENCE_GATE:
+  - Material.MANGROVE_FENCE_GATE
+  - "mangrove_fence_gate"
+Blocks.CHERRY_FENCE_GATE:
+  - Material.CHERRY_FENCE_GATE
+  - "cherry_fence_gate"
+Blocks.BAMBOO_FENCE_GATE:
+  - Material.BAMBOO_FENCE_GATE
+  - "bamboo_fence_gate"
+Blocks.NETHER_BRICK_FENCE:
+  - Material.NETHER_BRICK_FENCE
+  - "nether_brick_fence"
+Blocks.NETHER_BRICK:
+  - Material.NETHER_BRICKS
+  - "nether_bricks"
+Blocks.RED_NETHER_BRICK:
+  - Material.RED_NETHER_BRICKS
+  - "red_nether_bricks"
+Blocks.NETHERRACK:
+  - Material.NETHERRACK
+  - "netherrack"
+Blocks.SOUL_SAND:
+  - Material.SOUL_SAND
+  - "soul_sand"
+Blocks.GLOWSTONE:
+  - Material.GLOWSTONE
+  - "glowstone"
+Blocks.BONE_BLOCK:
+  - Material.BONE_BLOCK
+  - "bone_block"
+Blocks.NETHER_WART:
+  - Material.NETHER_WART
+  - "nether_wart"
+Blocks.NETHER_WART_BLOCK:
+  - Material.NETHER_WART_BLOCK
+  - "nether_wart_block"
+Blocks.CAKE:
+  - Material.CAKE
+  - "cake"
+Blocks.STONEBRICK:
+  - Material.STONE_BRICKS
+  - "#minecraft:stone_bricks"
+Blocks.STONEBRICK#0:
+  - Material.STONE_BRICKS
+  - "stone_bricks"
+Blocks.STONEBRICK#1:
+  - Material.MOSSY_STONE_BRICKS
+  - "mossy_stone_bricks"
+Blocks.STONEBRICK#2:
+  - Material.CRACKED_STONE_BRICKS
+  - "cracked_stone_bricks"
+Blocks.STONEBRICK#3:
+  - Material.CHISELED_STONE_BRICKS
+  - "chiseled_stone_bricks"
+Blocks.IRON_BARS:
+  - Material.IRON_BARS
+  - "iron_bars"
+Blocks.MELON_BLOCK:
+  - Material.MELON
+  - "melon"
+Blocks.MELON_STEM:
+  - Material.MELON_STEM
+  - "melon_stem"
+Blocks.PUMPKIN:
+  - Material.PUMPKIN
+  - "pumpkin"
+Blocks.LIT_PUMPKIN:
+  - Material.JACK_O_LANTERN
+  - "jack_o_lantern"
+Blocks.PUMPKIN_STEM:
+  - Material.PUMPKIN_STEM
+  - "pumpkin_stem"
+Blocks.VINE:
+  - Material.VINE
+  - "vine"
+Blocks.GLOW_LICHEN:
+  - Material.GLOW_LICHEN
+  - "glow_lichen"
+Blocks.WATERLILY:
+  - Material.LILY_PAD
+  - "lily_pad"
+Blocks.RESIN_CLUMP:
+  - Material.RESIN_CLUMP
+  - "resin_clump"
+Blocks.RESIN_BLOCK:
+  - Material.RESIN_BLOCK
+  - "resin_block"
+Blocks.RESIN_BRICKS:
+  - Material.RESIN_BRICKS
+  - "resin_bricks"
+Blocks.RESIN_BRICK_STAIRS:
+  - Material.RESIN_BRICK_STAIRS
+  - "resin_brick_stairs"
+Blocks.RESIN_BRICK_SLAB:
+  - Material.RESIN_BRICK_SLAB
+  - "resin_brick_slab"
+Blocks.RESIN_BRICK_WALL:
+  - Material.RESIN_BRICK_WALL
+  - "resin_brick_wall"
+Blocks.CHISELED_RESIN_BRICKS:
+  - Material.CHISELED_RESIN_BRICKS
+  - "chiseled_resin_bricks"
+Blocks.ENCHANTING_TABLE:
+  - Material.ENCHANTING_TABLE
+  - "enchanting_table"
+Blocks.BREWING_STAND:
+  - Material.BREWING_STAND
+  - "brewing_stand"
+Blocks.CAULDRON:
+  - Material.CAULDRON
+  - "cauldron"
+Blocks.WATER_CAULDRON:
+  - Material.WATER_CAULDRON
+  - "water_cauldron"
+Blocks.LAVA_CAULDRON:
+  - Material.LAVA_CAULDRON
+  - "lava_cauldron"
+Blocks.POWDER_SNOW_CAULDRON:
+  - Material.POWDER_SNOW_CAULDRON
+  - "powder_snow_cauldron"
+Blocks.END_PORTAL:
+  - Material.END_PORTAL
+  - "end_portal"
+Blocks.END_PORTAL_FRAME:
+  - Material.END_PORTAL_FRAME
+  - "end_portal_frame"
+Blocks.END_GATEWAY:
+  - Material.END_GATEWAY
+  - "end_gateway"
+Blocks.END_STONE:
+  - Material.END_STONE
+  - "end_stone"
+Blocks.END_BRICKS:
+  - Material.END_STONE_BRICKS
+  - "end_stone_bricks"
+Blocks.END_ROD:
+  - Material.END_ROD
+  - "end_rod"
+Blocks.PURPUR_BLOCK:
+  - Material.PURPUR_BLOCK
+  - "purpur_block"
+Blocks.PURPUR_PILLAR:
+  - Material.PURPUR_PILLAR
+  - "purpur_pillar"
+Blocks.PURPUR_SLAB:
+  - Material.PURPUR_SLAB
+  - "purpur_slab"
+Blocks.PURPUR_DOUBLE_SLAB:
+  - Material.PURPUR_SLAB
+  - "purpur_slab"
+Blocks.BEETROOTS:
+  - Material.BEETROOTS
+  - "beetroots"
+Blocks.CHORUS_PLANT:
+  - Material.CHORUS_PLANT
+  - "chorus_plant"
+Blocks.CHORUS_FLOWER:
+  - Material.CHORUS_FLOWER
+  - "chorus_flower"
+Blocks.DRAGON_EGG:
+  - Material.DRAGON_EGG
+  - "dragon_egg"
+Blocks.MONSTER_EGG:
+  - Material.INFESTED_STONE
+  - "infested_stone"
+Blocks.MONSTER_EGG#0:
+  - Material.INFESTED_STONE
+  - "infested_stone"
+Blocks.MONSTER_EGG#1:
+  - Material.INFESTED_COBBLESTONE
+  - "infested_cobblestone"
+Blocks.MONSTER_EGG#2:
+  - Material.INFESTED_STONE_BRICKS
+  - "infested_stone_bricks"
+Blocks.MONSTER_EGG#3:
+  - Material.INFESTED_MOSSY_STONE_BRICKS
+  - "infested_mossy_stone_bricks"
+Blocks.MONSTER_EGG#4:
+  - Material.INFESTED_CRACKED_STONE_BRICKS
+  - "infested_cracked_stone_bricks"
+Blocks.MONSTER_EGG#5:
+  - Material.INFESTED_CHISELED_STONE_BRICKS
+  - "infested_chiseled_stone_bricks"
+Blocks.MONSTER_EGG#6:
+  - Material.INFESTED_DEEPSLATE
+  - "infested_deepslate"
+Blocks.WOODEN_SLAB:
+  - Material.OAK_SLAB
+  - "#minecraft:wooden_slabs"
+Blocks.WOODEN_SLAB#0:
+  - Material.OAK_SLAB
+  - "oak_slab"
+Blocks.WOODEN_SLAB#1:
+  - Material.SPRUCE_SLAB
+  - "spruce_slab"
+Blocks.WOODEN_SLAB#2:
+  - Material.BIRCH_SLAB
+  - "birch_slab"
+Blocks.WOODEN_SLAB#3:
+  - Material.JUNGLE_SLAB
+  - "jungle_slab"
+Blocks.WOODEN_SLAB#4:
+  - Material.ACACIA_SLAB
+  - "acacia_slab"
+Blocks.WOODEN_SLAB#5:
+  - Material.DARK_OAK_SLAB
+  - "dark_oak_slab"
+Blocks.PALE_OAK_SLAB:
+  - Material.PALE_OAK_SLAB
+  - "pale_oak_slab"
+Blocks.MANGROVE_SLAB:
+  - Material.MANGROVE_SLAB
+  - "mangrove_slab"
+Blocks.CHERRY_SLAB:
+  - Material.CHERRY_SLAB
+  - "cherry_slab"
+Blocks.BAMBOO_SLAB:
+  - Material.BAMBOO_SLAB
+  - "bamboo_slab"
+
+Blocks.BAMBOO_MOSAIC_SLAB:
+  - Material.BAMBOO_MOSAIC_SLAB
+  - "bamboo_mosaic_slab"
+Blocks.STONE_SLAB:
+  - Material.COBBLESTONE_SLAB
+  - "#minecraft:slabs"
+Blocks.STONE_SLAB#0:
+  - Material.SMOOTH_STONE_SLAB
+  - "smooth_stone_slab"
+Blocks.STONE_SLAB#1:
+  - Material.SANDSTONE_SLAB
+  - "sandstone_slab"
+Blocks.STONE_SLAB#2:
+  - Material.PETRIFIED_OAK_SLAB
+  - "petrified_oak_slab"
+Blocks.STONE_SLAB#3:
+  - Material.COBBLESTONE_SLAB
+  - "cobblestone_slab"
+Blocks.STONE_SLAB#4:
+  - Material.BRICK_SLAB
+  - "brick_slab"
+Blocks.STONE_SLAB#5:
+  - Material.STONE_BRICK_SLAB
+  - "stone_brick_slab"
+Blocks.STONE_SLAB#6:
+  - Material.NETHER_BRICK_SLAB
+  - "nether_brick_slab"
+Blocks.STONE_SLAB#7:
+  - Material.QUARTZ_SLAB
+  - "quartz_slab"
+Blocks.STONE_SLAB2:
+  - Material.RED_SANDSTONE_SLAB
+  - "red_sandstone_slab"
+Blocks.COCOA:
+  - Material.COCOA
+  - "cocoa"
+Blocks.PORTAL:
+  - Material.NETHER_PORTAL
+  - "nether_portal"
+Blocks.ANVIL:
+  - Material.ANVIL
+  - "#minecraft:anvil"
+Blocks.ANVIL#0:
+  - Material.ANVIL
+  - "anvil"
+Blocks.ANVIL#1:
+  - Material.CHIPPED_ANVIL
+  - "chipped_anvil"
+Blocks.ANVIL#2:
+  - Material.DAMAGED_ANVIL
+  - "damaged_anvil"
+Blocks.BEACON:
+  - Material.BEACON
+  - "beacon"
+Blocks.COBBLESTONE_WALL:
+  - Material.COBBLESTONE_WALL
+  - "#minecraft:walls"
+Blocks.COBBLESTONE_WALL#0:
+  - Material.COBBLESTONE_WALL
+  - "cobblestone_wall"
+Blocks.COBBLESTONE_WALL#1:
+  - Material.MOSSY_COBBLESTONE_WALL
+  - "mossy_cobblestone_wall"
+Blocks.FLOWER_POT:
+  - Material.FLOWER_POT
+  - "flower_pot"
+Blocks.CARROTS:
+  - Material.CARROTS
+  - "carrots"
+Blocks.POTATOES:
+  - Material.POTATOES
+  - "potatoes"
+Blocks.HAY_BLOCK:
+  - Material.HAY_BLOCK
+  - "hay_block"
+Blocks.SKULL:
+  - Material.SKELETON_SKULL
+  - "#c:skulls"
+Blocks.SKULL#0:
+  - Material.SKELETON_SKULL
+  - "skeleton_skull"
+Blocks.SKULL#1:
+  - Material.WITHER_SKELETON_SKULL
+  - "wither_skeleton_skull"
+Blocks.SKULL#2:
+  - Material.ZOMBIE_HEAD
+  - "zombie_head"
+Blocks.SKULL#3:
+  - Material.PLAYER_HEAD
+  - "player_head"
+Blocks.SKULL#4:
+  - Material.CREEPER_HEAD
+  - "creeper_head"
+Blocks.SKULL#5:
+  - Material.DRAGON_HEAD
+  - "dragon_head"
+Blocks.PIGLIN_HEAD:
+  - Material.PIGLIN_HEAD
+  - "piglin_head"
+Blocks.WOOL:
+  - Material.WHITE_WOOL
+  - "#minecraft:wool"
+Blocks.WOOL#0:
+  - Material.WHITE_WOOL
+  - "white_wool"
+Blocks.WOOL#1:
+  - Material.ORANGE_WOOL
+  - "orange_wool"
+Blocks.WOOL#2:
+  - Material.MAGENTA_WOOL
+  - "magenta_wool"
+Blocks.WOOL#3:
+  - Material.LIGHT_BLUE_WOOL
+  - "light_blue_wool"
+Blocks.WOOL#4:
+  - Material.YELLOW_WOOL
+  - "yellow_wool"
+Blocks.WOOL#5:
+  - Material.LIME_WOOL
+  - "lime_wool"
+Blocks.WOOL#6:
+  - Material.PINK_WOOL
+  - "pink_wool"
+Blocks.WOOL#7:
+  - Material.GRAY_WOOL
+  - "gray_wool"
+Blocks.WOOL#8:
+  - Material.LIGHT_GRAY_WOOL
+  - "light_gray_wool"
+Blocks.WOOL#9:
+  - Material.CYAN_WOOL
+  - "cyan_wool"
+Blocks.WOOL#10:
+  - Material.PURPLE_WOOL
+  - "purple_wool"
+Blocks.WOOL#11:
+  - Material.BLUE_WOOL
+  - "blue_wool"
+Blocks.WOOL#12:
+  - Material.BROWN_WOOL
+  - "brown_wool"
+Blocks.WOOL#13:
+  - Material.GREEN_WOOL
+  - "green_wool"
+Blocks.WOOL#14:
+  - Material.RED_WOOL
+  - "red_wool"
+Blocks.WOOL#15:
+  - Material.BLACK_WOOL
+  - "black_wool"
+Blocks.HARDENED_CLAY:
+  - Material.TERRACOTTA
+  - "terracotta"
+Blocks.STAINED_HARDENED_CLAY:
+  - Material.WHITE_TERRACOTTA
+  - "#minecraft:terracotta"
+Blocks.STAINED_HARDENED_CLAY#0:
+  - Material.WHITE_TERRACOTTA
+  - "white_terracotta"
+Blocks.STAINED_HARDENED_CLAY#1:
+  - Material.ORANGE_TERRACOTTA
+  - "orange_terracotta"
+Blocks.STAINED_HARDENED_CLAY#2:
+  - Material.MAGENTA_TERRACOTTA
+  - "magenta_terracotta"
+Blocks.STAINED_HARDENED_CLAY#3:
+  - Material.LIGHT_BLUE_TERRACOTTA
+  - "light_blue_terracotta"
+Blocks.STAINED_HARDENED_CLAY#4:
+  - Material.YELLOW_TERRACOTTA
+  - "yellow_terracotta"
+Blocks.STAINED_HARDENED_CLAY#5:
+  - Material.LIME_TERRACOTTA
+  - "lime_terracotta"
+Blocks.STAINED_HARDENED_CLAY#6:
+  - Material.PINK_TERRACOTTA
+  - "pink_terracotta"
+Blocks.STAINED_HARDENED_CLAY#7:
+  - Material.GRAY_TERRACOTTA
+  - "gray_terracotta"
+Blocks.STAINED_HARDENED_CLAY#8:
+  - Material.LIGHT_GRAY_TERRACOTTA
+  - "light_gray_terracotta"
+Blocks.STAINED_HARDENED_CLAY#9:
+  - Material.CYAN_TERRACOTTA
+  - "cyan_terracotta"
+Blocks.STAINED_HARDENED_CLAY#10:
+  - Material.PURPLE_TERRACOTTA
+  - "purple_terracotta"
+Blocks.STAINED_HARDENED_CLAY#11:
+  - Material.BLUE_TERRACOTTA
+  - "blue_terracotta"
+Blocks.STAINED_HARDENED_CLAY#12:
+  - Material.BROWN_TERRACOTTA
+  - "brown_terracotta"
+Blocks.STAINED_HARDENED_CLAY#13:
+  - Material.GREEN_TERRACOTTA
+  - "green_terracotta"
+Blocks.STAINED_HARDENED_CLAY#14:
+  - Material.RED_TERRACOTTA
+  - "red_terracotta"
+Blocks.STAINED_HARDENED_CLAY#15:
+  - Material.BLACK_TERRACOTTA
+  - "black_terracotta"
+Blocks.WHITE_GLAZED_TERRACOTTA:
+  - Material.WHITE_GLAZED_TERRACOTTA
+  - "white_glazed_terracotta"
+Blocks.ORANGE_GLAZED_TERRACOTTA:
+  - Material.ORANGE_GLAZED_TERRACOTTA
+  - "orange_glazed_terracotta"
+Blocks.MAGENTA_GLAZED_TERRACOTTA:
+  - Material.MAGENTA_GLAZED_TERRACOTTA
+  - "magenta_glazed_terracotta"
+Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA:
+  - Material.LIGHT_BLUE_GLAZED_TERRACOTTA
+  - "light_blue_glazed_terracotta"
+Blocks.YELLOW_GLAZED_TERRACOTTA:
+  - Material.YELLOW_GLAZED_TERRACOTTA
+  - "yellow_glazed_terracotta"
+Blocks.LIME_GLAZED_TERRACOTTA:
+  - Material.LIME_GLAZED_TERRACOTTA
+  - "lime_glazed_terracotta"
+Blocks.PINK_GLAZED_TERRACOTTA:
+  - Material.PINK_GLAZED_TERRACOTTA
+  - "pink_glazed_terracotta"
+Blocks.GRAY_GLAZED_TERRACOTTA:
+  - Material.GRAY_GLAZED_TERRACOTTA
+  - "gray_glazed_terracotta"
+Blocks.SILVER_GLAZED_TERRACOTTA:
+  - Material.LIGHT_GRAY_GLAZED_TERRACOTTA
+  - "light_gray_glazed_terracotta"
+Blocks.CYAN_GLAZED_TERRACOTTA:
+  - Material.CYAN_GLAZED_TERRACOTTA
+  - "cyan_glazed_terracotta"
+Blocks.PURPLE_GLAZED_TERRACOTTA:
+  - Material.PURPLE_GLAZED_TERRACOTTA
+  - "purple_glazed_terracotta"
+Blocks.BLUE_GLAZED_TERRACOTTA:
+  - Material.BLUE_GLAZED_TERRACOTTA
+  - "blue_glazed_terracotta"
+Blocks.BROWN_GLAZED_TERRACOTTA:
+  - Material.BROWN_GLAZED_TERRACOTTA
+  - "brown_glazed_terracotta"
+Blocks.GREEN_GLAZED_TERRACOTTA:
+  - Material.GREEN_GLAZED_TERRACOTTA
+  - "green_glazed_terracotta"
+Blocks.RED_GLAZED_TERRACOTTA:
+  - Material.RED_GLAZED_TERRACOTTA
+  - "red_glazed_terracotta"
+Blocks.BLACK_GLAZED_TERRACOTTA:
+  - Material.BLACK_GLAZED_TERRACOTTA
+  - "black_glazed_terracotta"
+Blocks.CONCRETE_POWDER#0:
+  - Material.WHITE_CONCRETE_POWDER
+  - "white_concrete_powder"
+Blocks.CONCRETE_POWDER#1:
+  - Material.ORANGE_CONCRETE_POWDER
+  - "orange_concrete_powder"
+Blocks.CONCRETE_POWDER#2:
+  - Material.MAGENTA_CONCRETE_POWDER
+  - "magenta_concrete_powder"
+Blocks.CONCRETE_POWDER#3:
+  - Material.LIGHT_BLUE_CONCRETE_POWDER
+  - "light_blue_concrete_powder"
+Blocks.CONCRETE_POWDER#4:
+  - Material.YELLOW_CONCRETE_POWDER
+  - "yellow_concrete_powder"
+Blocks.CONCRETE_POWDER#5:
+  - Material.LIME_CONCRETE_POWDER
+  - "lime_concrete_powder"
+Blocks.CONCRETE_POWDER#6:
+  - Material.PINK_CONCRETE_POWDER
+  - "pink_concrete_powder"
+Blocks.CONCRETE_POWDER#7:
+  - Material.GRAY_CONCRETE_POWDER
+  - "gray_concrete_powder"
+Blocks.CONCRETE_POWDER#8:
+  - Material.LIGHT_GRAY_CONCRETE_POWDER
+  - "light_gray_concrete_powder"
+Blocks.CONCRETE_POWDER#9:
+  - Material.CYAN_CONCRETE_POWDER
+  - "cyan_concrete_powder"
+Blocks.CONCRETE_POWDER#10:
+  - Material.PURPLE_CONCRETE_POWDER
+  - "purple_concrete_powder"
+Blocks.CONCRETE_POWDER#11:
+  - Material.BLUE_CONCRETE_POWDER
+  - "blue_concrete_powder"
+Blocks.CONCRETE_POWDER#12:
+  - Material.BROWN_CONCRETE_POWDER
+  - "brown_concrete_powder"
+Blocks.CONCRETE_POWDER#13:
+  - Material.GREEN_CONCRETE_POWDER
+  - "green_concrete_powder"
+Blocks.CONCRETE_POWDER#14:
+  - Material.RED_CONCRETE_POWDER
+  - "red_concrete_powder"
+Blocks.CONCRETE_POWDER#15:
+  - Material.BLACK_CONCRETE_POWDER
+  - "black_concrete_powder"
+Blocks.CONCRETE#0:
+  - Material.WHITE_CONCRETE
+  - "white_concrete"
+Blocks.CONCRETE#1:
+  - Material.ORANGE_CONCRETE
+  - "orange_concrete"
+Blocks.CONCRETE#2:
+  - Material.MAGENTA_CONCRETE
+  - "magenta_concrete"
+Blocks.CONCRETE#3:
+  - Material.LIGHT_BLUE_CONCRETE
+  - "light_blue_concrete"
+Blocks.CONCRETE#4:
+  - Material.YELLOW_CONCRETE
+  - "yellow_concrete"
+Blocks.CONCRETE#5:
+  - Material.LIME_CONCRETE
+  - "lime_concrete"
+Blocks.CONCRETE#6:
+  - Material.PINK_CONCRETE
+  - "pink_concrete"
+Blocks.CONCRETE#7:
+  - Material.GRAY_CONCRETE
+  - "gray_concrete"
+Blocks.CONCRETE#8:
+  - Material.LIGHT_GRAY_CONCRETE
+  - "light_gray_concrete"
+Blocks.CONCRETE#9:
+  - Material.CYAN_CONCRETE
+  - "cyan_concrete"
+Blocks.CONCRETE#10:
+  - Material.PURPLE_CONCRETE
+  - "purple_concrete"
+Blocks.CONCRETE#11:
+  - Material.BLUE_CONCRETE
+  - "blue_concrete"
+Blocks.CONCRETE#12:
+  - Material.BROWN_CONCRETE
+  - "brown_concrete"
+Blocks.CONCRETE#13:
+  - Material.GREEN_CONCRETE
+  - "green_concrete"
+Blocks.CONCRETE#14:
+  - Material.RED_CONCRETE
+  - "red_concrete"
+Blocks.CONCRETE#15:
+  - Material.BLACK_CONCRETE
+  - "black_concrete"
+Blocks.CARPET:
+  - Material.WHITE_CARPET
+  - "#minecraft:wool_carpets"
+Blocks.CARPET#0:
+  - Material.WHITE_CARPET
+  - "white_carpet"
+Blocks.CARPET#1:
+  - Material.ORANGE_CARPET
+  - "orange_carpet"
+Blocks.CARPET#2:
+  - Material.MAGENTA_CARPET
+  - "magenta_carpet"
+Blocks.CARPET#3:
+  - Material.LIGHT_BLUE_CARPET
+  - "light_blue_carpet"
+Blocks.CARPET#4:
+  - Material.YELLOW_CARPET
+  - "yellow_carpet"
+Blocks.CARPET#5:
+  - Material.LIME_CARPET
+  - "lime_carpet"
+Blocks.CARPET#6:
+  - Material.PINK_CARPET
+  - "pink_carpet"
+Blocks.CARPET#7:
+  - Material.GRAY_CARPET
+  - "gray_carpet"
+Blocks.CARPET#8:
+  - Material.LIGHT_GRAY_CARPET
+  - "light_gray_carpet"
+Blocks.CARPET#9:
+  - Material.CYAN_CARPET
+  - "cyan_carpet"
+Blocks.CARPET#10:
+  - Material.PURPLE_CARPET
+  - "purple_carpet"
+Blocks.CARPET#11:
+  - Material.BLUE_CARPET
+  - "blue_carpet"
+Blocks.CARPET#12:
+  - Material.BROWN_CARPET
+  - "brown_carpet"
+Blocks.CARPET#13:
+  - Material.GREEN_CARPET
+  - "green_carpet"
+Blocks.CARPET#14:
+  - Material.RED_CARPET
+  - "red_carpet"
+Blocks.CARPET#15:
+  - Material.BLACK_CARPET
+  - "black_carpet"
+Blocks.GLASS:
+  - Material.GLASS
+  - "glass"
+Blocks.STAINED_GLASS:
+  - Material.WHITE_STAINED_GLASS
+  - "#c:glass_blocks/cheap"
+Blocks.STAINED_GLASS#0:
+  - Material.WHITE_STAINED_GLASS
+  - "white_stained_glass"
+Blocks.STAINED_GLASS#1:
+  - Material.ORANGE_STAINED_GLASS
+  - "orange_stained_glass"
+Blocks.STAINED_GLASS#2:
+  - Material.MAGENTA_STAINED_GLASS
+  - "magenta_stained_glass"
+Blocks.STAINED_GLASS#3:
+  - Material.LIGHT_BLUE_STAINED_GLASS
+  - "light_blue_stained_glass"
+Blocks.STAINED_GLASS#4:
+  - Material.YELLOW_STAINED_GLASS
+  - "yellow_stained_glass"
+Blocks.STAINED_GLASS#5:
+  - Material.LIME_STAINED_GLASS
+  - "lime_stained_glass"
+Blocks.STAINED_GLASS#6:
+  - Material.PINK_STAINED_GLASS
+  - "pink_stained_glass"
+Blocks.STAINED_GLASS#7:
+  - Material.GRAY_STAINED_GLASS
+  - "gray_stained_glass"
+Blocks.STAINED_GLASS#8:
+  - Material.LIGHT_GRAY_STAINED_GLASS
+  - "light_gray_stained_glass"
+Blocks.STAINED_GLASS#9:
+  - Material.CYAN_STAINED_GLASS
+  - "cyan_stained_glass"
+Blocks.STAINED_GLASS#10:
+  - Material.PURPLE_STAINED_GLASS
+  - "purple_stained_glass"
+Blocks.STAINED_GLASS#11:
+  - Material.BLUE_STAINED_GLASS
+  - "blue_stained_glass"
+Blocks.STAINED_GLASS#12:
+  - Material.BROWN_STAINED_GLASS
+  - "brown_stained_glass"
+Blocks.STAINED_GLASS#13:
+  - Material.GREEN_STAINED_GLASS
+  - "green_stained_glass"
+Blocks.STAINED_GLASS#14:
+  - Material.RED_STAINED_GLASS
+  - "red_stained_glass"
+Blocks.STAINED_GLASS#15:
+  - Material.BLACK_STAINED_GLASS
+  - "black_stained_glass"
+Blocks.GLASS_PANE:
+  - Material.GLASS_PANE
+  - "glass_pane"
+Blocks.STAINED_GLASS_PANE:
+  - Material.WHITE_STAINED_GLASS_PANE
+  - "#c:glass_panes"
+Blocks.STAINED_GLASS_PANE#0:
+  - Material.WHITE_STAINED_GLASS_PANE
+  - "white_stained_glass_pane"
+Blocks.STAINED_GLASS_PANE#1:
+  - Material.ORANGE_STAINED_GLASS_PANE
+  - "orange_stained_glass_pane"
+Blocks.STAINED_GLASS_PANE#2:
+  - Material.MAGENTA_STAINED_GLASS_PANE
+  - "magenta_stained_glass_pane"
+Blocks.STAINED_GLASS_PANE#3:
+  - Material.LIGHT_BLUE_STAINED_GLASS_PANE
+  - "light_blue_stained_glass_pane"
+Blocks.STAINED_GLASS_PANE#4:
+  - Material.YELLOW_STAINED_GLASS_PANE
+  - "yellow_stained_glass_pane"
+Blocks.STAINED_GLASS_PANE#5:
+  - Material.LIME_STAINED_GLASS_PANE
+  - "lime_stained_glass_pane"
+Blocks.STAINED_GLASS_PANE#6:
+  - Material.PINK_STAINED_GLASS_PANE
+  - "pink_stained_glass_pane"
+Blocks.STAINED_GLASS_PANE#7:
+  - Material.GRAY_STAINED_GLASS_PANE
+  - "gray_stained_glass_pane"
+Blocks.STAINED_GLASS_PANE#8:
+  - Material.LIGHT_GRAY_STAINED_GLASS_PANE
+  - "light_gray_stained_glass_pane"
+Blocks.STAINED_GLASS_PANE#9:
+  - Material.CYAN_STAINED_GLASS_PANE
+  - "cyan_stained_glass_pane"
+Blocks.STAINED_GLASS_PANE#10:
+  - Material.PURPLE_STAINED_GLASS_PANE
+  - "purple_stained_glass_pane"
+Blocks.STAINED_GLASS_PANE#11:
+  - Material.BLUE_STAINED_GLASS_PANE
+  - "blue_stained_glass_pane"
+Blocks.STAINED_GLASS_PANE#12:
+  - Material.BROWN_STAINED_GLASS_PANE
+  - "brown_stained_glass_pane"
+Blocks.STAINED_GLASS_PANE#13:
+  - Material.GREEN_STAINED_GLASS_PANE
+  - "green_stained_glass_pane"
+Blocks.STAINED_GLASS_PANE#14:
+  - Material.RED_STAINED_GLASS_PANE
+  - "red_stained_glass_pane"
+Blocks.STAINED_GLASS_PANE#15:
+  - Material.BLACK_STAINED_GLASS_PANE
+  - "black_stained_glass_pane"
+Blocks.SEA_LANTERN:
+  - Material.SEA_LANTERN
+  - "sea_lantern"
+Blocks.PRISMARINE:
+  - Material.PRISMARINE
+  - "prismarine"
+Blocks.PRISMARINE#0:
+  - Material.PRISMARINE
+  - "prismarine"
+Blocks.PRISMARINE#1:
+  - Material.PRISMARINE_BRICKS
+  - "prismarine_bricks"
+Blocks.PRISMARINE#2:
+  - Material.DARK_PRISMARINE
+  - "dark_prismarine"
+Blocks.WHITE_SHULKER_BOX:
+  - Material.WHITE_SHULKER_BOX
+  - "white_shulker_box"
+Blocks.ORANGE_SHULKER_BOX:
+  - Material.ORANGE_SHULKER_BOX
+  - "orange_shulker_box"
+Blocks.MAGENTA_SHULKER_BOX:
+  - Material.MAGENTA_SHULKER_BOX
+  - "magenta_shulker_box"
+Blocks.LIGHT_BLUE_SHULKER_BOX:
+  - Material.LIGHT_BLUE_SHULKER_BOX
+  - "light_blue_shulker_box"
+Blocks.YELLOW_SHULKER_BOX:
+  - Material.YELLOW_SHULKER_BOX
+  - "yellow_shulker_box"
+Blocks.LIME_SHULKER_BOX:
+  - Material.LIME_SHULKER_BOX
+  - "lime_shulker_box"
+Blocks.PINK_SHULKER_BOX:
+  - Material.PINK_SHULKER_BOX
+  - "pink_shulker_box"
+Blocks.GRAY_SHULKER_BOX:
+  - Material.GRAY_SHULKER_BOX
+  - "gray_shulker_box"
+Blocks.SILVER_SHULKER_BOX:
+  - Material.LIGHT_GRAY_SHULKER_BOX
+  - "light_gray_shulker_box"
+Blocks.CYAN_SHULKER_BOX:
+  - Material.CYAN_SHULKER_BOX
+  - "cyan_shulker_box"
+Blocks.PURPLE_SHULKER_BOX:
+  - Material.PURPLE_SHULKER_BOX
+  - "purple_shulker_box"
+Blocks.BLUE_SHULKER_BOX:
+  - Material.BLUE_SHULKER_BOX
+  - "blue_shulker_box"
+Blocks.BROWN_SHULKER_BOX:
+  - Material.BROWN_SHULKER_BOX
+  - "brown_shulker_box"
+Blocks.GREEN_SHULKER_BOX:
+  - Material.GREEN_SHULKER_BOX
+  - "green_shulker_box"
+Blocks.RED_SHULKER_BOX:
+  - Material.RED_SHULKER_BOX
+  - "red_shulker_box"
+Blocks.BLACK_SHULKER_BOX:
+  - Material.BLACK_SHULKER_BOX
+  - "black_shulker_box"
+Blocks.STANDING_BANNER:
+  - Material.WHITE_BANNER
+  - "white_banner"
+Blocks.WALL_BANNER:
+  - Material.WHITE_WALL_BANNER
+  - "white_wall_banner"
+Blocks.BARRIER:
+  - Material.BARRIER
+  - "barrier"
+Blocks.STRUCTURE_VOID:
+  - Material.STRUCTURE_VOID
+  - "structure_void"
+Blocks.STRUCTURE_BLOCK:
+  - Material.STRUCTURE_BLOCK
+  - "structure_block"
+Blocks.STRUCTURE_BLOCK#1:
+  - Material.STRUCTURE_BLOCK
+  - "structure_block"
+Blocks.STRUCTURE_BLOCK#2:
+  - Material.STRUCTURE_BLOCK
+  - "structure_block"
+Blocks.STRUCTURE_BLOCK#3:
+  - Material.STRUCTURE_BLOCK
+  - "structure_block"
+Blocks.STRUCTURE_BLOCK#4:
+  - Material.STRUCTURE_BLOCK
+  - "structure_block"
+Blocks.NORMAL_STONE_STAIRS:
+  - Material.STONE_STAIRS
+  - "stone_stairs"
+Blocks.SHULKER_BOX:
+  - Material.SHULKER_BOX
+  - "shulker_box"
+Blocks.SKELETON_WALL_SKULL:
+  - Material.SKELETON_WALL_SKULL
+  - "skeleton_wall_skull"
+Blocks.WITHER_SKELETON_WALL_SKULL:
+  - Material.WITHER_SKELETON_WALL_SKULL
+  - "wither_skeleton_wall_skull"
+Blocks.ZOMBIE_WALL_HEAD:
+  - Material.ZOMBIE_WALL_HEAD
+  - "zombie_wall_head"
+Blocks.PLAYER_WALL_HEAD:
+  - Material.PLAYER_WALL_HEAD
+  - "player_wall_head"
+Blocks.CREEPER_WALL_HEAD:
+  - Material.CREEPER_WALL_HEAD
+  - "creeper_wall_head"
+Blocks.DRAGON_WALL_HEAD:
+  - Material.DRAGON_WALL_HEAD
+  - "dragon_wall_head"
+Blocks.PIGLIN_WALL_HEAD:
+  - Material.PIGLIN_WALL_HEAD
+  - "piglin_wall_head"
+Blocks.STRIPPED_SPRUCE_LOG:
+  - Material.STRIPPED_SPRUCE_LOG
+  - "stripped_spruce_log"
+Blocks.STRIPPED_BIRCH_LOG:
+  - Material.STRIPPED_BIRCH_LOG
+  - "stripped_birch_log"
+Blocks.STRIPPED_JUNGLE_LOG:
+  - Material.STRIPPED_JUNGLE_LOG
+  - "stripped_jungle_log"
+Blocks.STRIPPED_ACACIA_LOG:
+  - Material.STRIPPED_ACACIA_LOG
+  - "stripped_acacia_log"
+Blocks.STRIPPED_DARK_OAK_LOG:
+  - Material.STRIPPED_DARK_OAK_LOG
+  - "stripped_dark_oak_log"
+Blocks.STRIPPED_PALE_OAK_LOG:
+  - Material.STRIPPED_PALE_OAK_LOG
+  - "stripped_pale_oak_log"
+Blocks.STRIPPED_OAK_LOG:
+  - Material.STRIPPED_OAK_LOG
+  - "stripped_oak_log"
+Blocks.STRIPPED_MANGROVE_LOG:
+  - Material.STRIPPED_MANGROVE_LOG
+  - "stripped_mangrove_log"
+Blocks.STRIPPED_CHERRY_LOG:
+  - Material.STRIPPED_CHERRY_LOG
+  - "stripped_cherry_log"
+Blocks.STRIPPED_BAMBOO_BLOCK:
+  - Material.STRIPPED_BAMBOO_BLOCK
+  - "stripped_bamboo_block"
+Blocks.OAK_WOOD:
+  - Material.OAK_WOOD
+  - "oak_wood"
+Blocks.SPRUCE_WOOD:
+  - Material.SPRUCE_WOOD
+  - "spruce_wood"
+Blocks.BIRCH_WOOD:
+  - Material.BIRCH_WOOD
+  - "birch_wood"
+Blocks.JUNGLE_WOOD:
+  - Material.JUNGLE_WOOD
+  - "jungle_wood"
+Blocks.ACACIA_WOOD:
+  - Material.ACACIA_WOOD
+  - "acacia_wood"
+Blocks.DARK_OAK_WOOD:
+  - Material.DARK_OAK_WOOD
+  - "dark_oak_wood"
+Blocks.PALE_OAK_WOOD:
+  - Material.PALE_OAK_WOOD
+  - "pale_oak_wood"
+Blocks.MANGROVE_WOOD:
+  - Material.MANGROVE_WOOD
+  - "mangrove_wood"
+Blocks.CHERRY_WOOD:
+  - Material.CHERRY_WOOD
+  - "cherry_wood"
+Blocks.STRIPPED_OAK_WOOD:
+  - Material.STRIPPED_OAK_WOOD
+  - "stripped_oak_wood"
+Blocks.STRIPPED_SPRUCE_WOOD:
+  - Material.STRIPPED_SPRUCE_WOOD
+  - "stripped_spruce_wood"
+Blocks.STRIPPED_BIRCH_WOOD:
+  - Material.STRIPPED_BIRCH_WOOD
+  - "stripped_birch_wood"
+Blocks.STRIPPED_JUNGLE_WOOD:
+  - Material.STRIPPED_JUNGLE_WOOD
+  - "stripped_jungle_wood"
+Blocks.STRIPPED_ACACIA_WOOD:
+  - Material.STRIPPED_ACACIA_WOOD
+  - "stripped_acacia_wood"
+Blocks.STRIPPED_DARK_OAK_WOOD:
+  - Material.STRIPPED_DARK_OAK_WOOD
+  - "stripped_dark_oak_wood"
+Blocks.STRIPPED_PALE_OAK_WOOD:
+  - Material.STRIPPED_PALE_OAK_WOOD
+  - "stripped_pale_oak_wood"
+Blocks.STRIPPED_MANGROVE_WOOD:
+  - Material.STRIPPED_MANGROVE_WOOD
+  - "stripped_mangrove_wood"
+Blocks.STRIPPED_CHERRY_WOOD:
+  - Material.STRIPPED_CHERRY_WOOD
+  - "stripped_cherry_wood"
+Blocks.ORANGE_BED:
+  - Material.ORANGE_BED
+  - "orange_bed"
+Blocks.MAGENTA_BED:
+  - Material.MAGENTA_BED
+  - "magenta_bed"
+Blocks.LIGHT_BLUE_BED:
+  - Material.LIGHT_BLUE_BED
+  - "light_blue_bed"
+Blocks.YELLOW_BED:
+  - Material.YELLOW_BED
+  - "yellow_bed"
+Blocks.LIME_BED:
+  - Material.LIME_BED
+  - "lime_bed"
+Blocks.PINK_BED:
+  - Material.PINK_BED
+  - "pink_bed"
+Blocks.GRAY_BED:
+  - Material.GRAY_BED
+  - "gray_bed"
+Blocks.LIGHT_GRAY_BED:
+  - Material.LIGHT_GRAY_BED
+  - "light_gray_bed"
+Blocks.CYAN_BED:
+  - Material.CYAN_BED
+  - "cyan_bed"
+Blocks.PURPLE_BED:
+  - Material.PURPLE_BED
+  - "purple_bed"
+Blocks.BLUE_BED:
+  - Material.BLUE_BED
+  - "blue_bed"
+Blocks.BROWN_BED:
+  - Material.BROWN_BED
+  - "brown_bed"
+Blocks.GREEN_BED:
+  - Material.GREEN_BED
+  - "green_bed"
+Blocks.RED_BED:
+  - Material.RED_BED
+  - "red_bed"
+Blocks.BLACK_BED:
+  - Material.BLACK_BED
+  - "black_bed"
+Blocks.SEAGRASS:
+  - Material.SEAGRASS
+  - "seagrass"
+Blocks.TALL_SEAGRASS:
+  - Material.TALL_SEAGRASS
+  - "tall_seagrass"
+Blocks.CORNFLOWER:
+  - Material.CORNFLOWER
+  - "cornflower"
+Blocks.WITHER_ROSE:
+  - Material.WITHER_ROSE
+  - "wither_rose"
+Blocks.LILY_OF_THE_VALLEY:
+  - Material.LILY_OF_THE_VALLEY
+  - "lily_of_the_valley"
+Blocks.WALL_TORCH:
+  - Material.WALL_TORCH
+  - "wall_torch"
+Blocks.SPRUCE_SIGN:
+  - Material.SPRUCE_SIGN
+  - "spruce_sign"
+Blocks.BIRCH_SIGN:
+  - Material.BIRCH_SIGN
+  - "birch_sign"
+Blocks.ACACIA_SIGN:
+  - Material.ACACIA_SIGN
+  - "acacia_sign"
+Blocks.JUNGLE_SIGN:
+  - Material.JUNGLE_SIGN
+  - "jungle_sign"
+Blocks.DARK_OAK_SIGN:
+  - Material.DARK_OAK_SIGN
+  - "dark_oak_sign"
+Blocks.PALE_OAK_SIGN:
+  - Material.PALE_OAK_SIGN
+  - "pale_oak_sign"
+Blocks.MANGROVE_SIGN:
+  - Material.MANGROVE_SIGN
+  - "mangrove_sign"
+Blocks.CHERRY_SIGN:
+  - Material.CHERRY_SIGN
+  - "cherry_sign"
+Blocks.BAMBOO_SIGN:
+  - Material.BAMBOO_SIGN
+  - "bamboo_sign"
+Blocks.SPRUCE_WALL_SIGN:
+  - Material.SPRUCE_WALL_SIGN
+  - "spruce_wall_sign"
+Blocks.BIRCH_WALL_SIGN:
+  - Material.BIRCH_WALL_SIGN
+  - "birch_wall_sign"
+Blocks.ACACIA_WALL_SIGN:
+  - Material.ACACIA_WALL_SIGN
+  - "acacia_wall_sign"
+Blocks.JUNGLE_WALL_SIGN:
+  - Material.JUNGLE_WALL_SIGN
+  - "jungle_wall_sign"
+Blocks.DARK_OAK_WALL_SIGN:
+  - Material.DARK_OAK_WALL_SIGN
+  - "dark_oak_wall_sign"
+Blocks.PALE_OAK_WALL_SIGN:
+  - Material.PALE_OAK_WALL_SIGN
+  - "pale_oak_wall_sign"
+Blocks.MANGROVE_WALL_SIGN:
+  - Material.MANGROVE_WALL_SIGN
+  - "mangrove_wall_sign"
+Blocks.CHERRY_WALL_SIGN:
+  - Material.CHERRY_WALL_SIGN
+  - "cherry_wall_sign"
+Blocks.BAMBOO_WALL_SIGN:
+  - Material.BAMBOO_WALL_SIGN
+  - "bamboo_wall_sign"
+Blocks.OAK_HANGING_SIGN:
+  - Material.OAK_HANGING_SIGN
+  - "oak_hanging_sign"
+Blocks.SPRUCE_HANGING_SIGN:
+  - Material.SPRUCE_HANGING_SIGN
+  - "spruce_hanging_sign"
+Blocks.BIRCH_HANGING_SIGN:
+  - Material.BIRCH_HANGING_SIGN
+  - "birch_hanging_sign"
+Blocks.ACACIA_HANGING_SIGN:
+  - Material.ACACIA_HANGING_SIGN
+  - "acacia_hanging_sign"
+Blocks.JUNGLE_HANGING_SIGN:
+  - Material.JUNGLE_HANGING_SIGN
+  - "jungle_hanging_sign"
+Blocks.DARK_OAK_HANGING_SIGN:
+  - Material.DARK_OAK_HANGING_SIGN
+  - "dark_oak_hanging_sign"
+Blocks.PALE_OAK_HANGING_SIGN:
+  - Material.PALE_OAK_HANGING_SIGN
+  - "pale_oak_hanging_sign"
+Blocks.CRIMSON_HANGING_SIGN:
+  - Material.CRIMSON_HANGING_SIGN
+  - "crimson_hanging_sign"
+Blocks.WARPED_HANGING_SIGN:
+  - Material.WARPED_HANGING_SIGN
+  - "warped_hanging_sign"
+Blocks.MANGROVE_HANGING_SIGN:
+  - Material.MANGROVE_HANGING_SIGN
+  - "mangrove_hanging_sign"
+Blocks.CHERRY_HANGING_SIGN:
+  - Material.CHERRY_HANGING_SIGN
+  - "cherry_hanging_sign"
+Blocks.BAMBOO_HANGING_SIGN:
+  - Material.BAMBOO_HANGING_SIGN
+  - "bamboo_hanging_sign"
+Blocks.OAK_WALL_HANGING_SIGN:
+  - Material.OAK_WALL_HANGING_SIGN
+  - "oak_wall_hanging_sign"
+Blocks.SPRUCE_WALL_HANGING_SIGN:
+  - Material.SPRUCE_WALL_HANGING_SIGN
+  - "spruce_wall_hanging_sign"
+Blocks.BIRCH_WALL_HANGING_SIGN:
+  - Material.BIRCH_WALL_HANGING_SIGN
+  - "birch_wall_hanging_sign"
+Blocks.ACACIA_WALL_HANGING_SIGN:
+  - Material.ACACIA_WALL_HANGING_SIGN
+  - "acacia_wall_hanging_sign"
+Blocks.JUNGLE_WALL_HANGING_SIGN:
+  - Material.JUNGLE_WALL_HANGING_SIGN
+  - "jungle_wall_hanging_sign"
+Blocks.DARK_OAK_WALL_HANGING_SIGN:
+  - Material.DARK_OAK_WALL_HANGING_SIGN
+  - "dark_oak_wall_hanging_sign"
+Blocks.PALE_OAK_WALL_HANGING_SIGN:
+  - Material.PALE_OAK_WALL_HANGING_SIGN
+  - "pale_oak_wall_hanging_sign"
+Blocks.CRIMSON_WALL_HANGING_SIGN:
+  - Material.CRIMSON_WALL_HANGING_SIGN
+  - "crimson_wall_hanging_sign"
+Blocks.WARPED_WALL_HANGING_SIGN:
+  - Material.WARPED_WALL_HANGING_SIGN
+  - "warped_wall_hanging_sign"
+Blocks.MANGROVE_WALL_HANGING_SIGN:
+  - Material.MANGROVE_WALL_HANGING_SIGN
+  - "mangrove_wall_hanging_sign"
+Blocks.CHERRY_WALL_HANGING_SIGN:
+  - Material.CHERRY_WALL_HANGING_SIGN
+  - "cherry_wall_hanging_sign"
+Blocks.BAMBOO_WALL_HANGING_SIGN:
+  - Material.BAMBOO_WALL_HANGING_SIGN
+  - "bamboo_wall_hanging_sign"
+Blocks.SPRUCE_PRESSURE_PLATE:
+  - Material.SPRUCE_PRESSURE_PLATE
+  - "spruce_pressure_plate"
+Blocks.BIRCH_PRESSURE_PLATE:
+  - Material.BIRCH_PRESSURE_PLATE
+  - "birch_pressure_plate"
+Blocks.JUNGLE_PRESSURE_PLATE:
+  - Material.JUNGLE_PRESSURE_PLATE
+  - "jungle_pressure_plate"
+Blocks.ACACIA_PRESSURE_PLATE:
+  - Material.ACACIA_PRESSURE_PLATE
+  - "acacia_pressure_plate"
+Blocks.DARK_OAK_PRESSURE_PLATE:
+  - Material.DARK_OAK_PRESSURE_PLATE
+  - "dark_oak_pressure_plate"
+Blocks.PALE_OAK_PRESSURE_PLATE:
+  - Material.PALE_OAK_PRESSURE_PLATE
+  - "pale_oak_pressure_plate"
+Blocks.MANGROVE_PRESSURE_PLATE:
+  - Material.MANGROVE_PRESSURE_PLATE
+  - "mangrove_pressure_plate"
+Blocks.CHERRY_PRESSURE_PLATE:
+  - Material.CHERRY_PRESSURE_PLATE
+  - "cherry_pressure_plate"
+Blocks.BAMBOO_PRESSURE_PLATE:
+  - Material.BAMBOO_PRESSURE_PLATE
+  - "bamboo_pressure_plate"
+Blocks.REDSTONE_WALL_TORCH:
+  - Material.REDSTONE_WALL_TORCH
+  - "redstone_wall_torch"
+Blocks.CARVED_PUMPKIN:
+  - Material.CARVED_PUMPKIN
+  - "carved_pumpkin"
+Blocks.SPRUCE_TRAPDOOR:
+  - Material.SPRUCE_TRAPDOOR
+  - "spruce_trapdoor"
+Blocks.BIRCH_TRAPDOOR:
+  - Material.BIRCH_TRAPDOOR
+  - "birch_trapdoor"
+Blocks.JUNGLE_TRAPDOOR:
+  - Material.JUNGLE_TRAPDOOR
+  - "jungle_trapdoor"
+Blocks.ACACIA_TRAPDOOR:
+  - Material.ACACIA_TRAPDOOR
+  - "acacia_trapdoor"
+Blocks.DARK_OAK_TRAPDOOR:
+  - Material.DARK_OAK_TRAPDOOR
+  - "dark_oak_trapdoor"
+Blocks.PALE_OAK_TRAPDOOR:
+  - Material.PALE_OAK_TRAPDOOR
+  - "pale_oak_trapdoor"
+Blocks.MANGROVE_TRAPDOOR:
+  - Material.MANGROVE_TRAPDOOR
+  - "mangrove_trapdoor"
+Blocks.CHERRY_TRAPDOOR:
+  - Material.CHERRY_TRAPDOOR
+  - "cherry_trapdoor"
+Blocks.BAMBOO_TRAPDOOR:
+  - Material.BAMBOO_TRAPDOOR
+  - "bamboo_trapdoor"
+Blocks.MUSHROOM_STEM:
+  - Material.MUSHROOM_STEM
+  - "mushroom_stem"
+Blocks.ATTACHED_PUMPKIN_STEM:
+  - Material.ATTACHED_PUMPKIN_STEM
+  - "attached_pumpkin_stem"
+Blocks.ATTACHED_MELON_STEM:
+  - Material.ATTACHED_MELON_STEM
+  - "attached_melon_stem"
+Blocks.POTTED_OAK_SAPLING:
+  - Material.POTTED_OAK_SAPLING
+  - "potted_oak_sapling"
+Blocks.POTTED_SPRUCE_SAPLING:
+  - Material.POTTED_SPRUCE_SAPLING
+  - "potted_spruce_sapling"
+Blocks.POTTED_BIRCH_SAPLING:
+  - Material.POTTED_BIRCH_SAPLING
+  - "potted_birch_sapling"
+Blocks.POTTED_JUNGLE_SAPLING:
+  - Material.POTTED_JUNGLE_SAPLING
+  - "potted_jungle_sapling"
+Blocks.POTTED_ACACIA_SAPLING:
+  - Material.POTTED_ACACIA_SAPLING
+  - "potted_acacia_sapling"
+Blocks.POTTED_DARK_OAK_SAPLING:
+  - Material.POTTED_DARK_OAK_SAPLING
+  - "potted_dark_oak_sapling"
+Blocks.POTTED_PALE_OAK_SAPLING:
+  - Material.POTTED_PALE_OAK_SAPLING
+  - "potted_pale_oak_sapling"
+Blocks.POTTED_FERN:
+  - Material.POTTED_FERN
+  - "potted_fern"
+Blocks.POTTED_DANDELION:
+  - Material.POTTED_DANDELION
+  - "potted_dandelion"
+Blocks.POTTED_POPPY:
+  - Material.POTTED_POPPY
+  - "potted_poppy"
+Blocks.POTTED_BLUE_ORCHID:
+  - Material.POTTED_BLUE_ORCHID
+  - "potted_blue_orchid"
+Blocks.POTTED_ALLIUM:
+  - Material.POTTED_ALLIUM
+  - "potted_allium"
+Blocks.POTTED_AZURE_BLUET:
+  - Material.POTTED_AZURE_BLUET
+  - "potted_azure_bluet"
+Blocks.POTTED_RED_TULIP:
+  - Material.POTTED_RED_TULIP
+  - "potted_red_tulip"
+Blocks.POTTED_ORANGE_TULIP:
+  - Material.POTTED_ORANGE_TULIP
+  - "potted_orange_tulip"
+Blocks.POTTED_WHITE_TULIP:
+  - Material.POTTED_WHITE_TULIP
+  - "potted_white_tulip"
+Blocks.POTTED_PINK_TULIP:
+  - Material.POTTED_PINK_TULIP
+  - "potted_pink_tulip"
+Blocks.POTTED_OXEYE_DAISY:
+  - Material.POTTED_OXEYE_DAISY
+  - "potted_oxeye_daisy"
+Blocks.POTTED_CORNFLOWER:
+  - Material.POTTED_CORNFLOWER
+  - "potted_cornflower"
+Blocks.POTTED_LILY_OF_THE_VALLEY:
+  - Material.POTTED_LILY_OF_THE_VALLEY
+  - "potted_lily_of_the_valley"
+Blocks.POTTED_WITHER_ROSE:
+  - Material.POTTED_WITHER_ROSE
+  - "potted_wither_rose"
+Blocks.POTTED_RED_MUSHROOM:
+  - Material.POTTED_RED_MUSHROOM
+  - "potted_red_mushroom"
+Blocks.POTTED_BROWN_MUSHROOM:
+  - Material.POTTED_BROWN_MUSHROOM
+  - "potted_brown_mushroom"
+Blocks.POTTED_DEAD_BUSH:
+  - Material.POTTED_DEAD_BUSH
+  - "potted_dead_bush"
+Blocks.POTTED_CACTUS:
+  - Material.POTTED_CACTUS
+  - "potted_cactus"
+Blocks.SPRUCE_BUTTON:
+  - Material.SPRUCE_BUTTON
+  - "spruce_button"
+Blocks.BIRCH_BUTTON:
+  - Material.BIRCH_BUTTON
+  - "birch_button"
+Blocks.JUNGLE_BUTTON:
+  - Material.JUNGLE_BUTTON
+  - "jungle_button"
+Blocks.ACACIA_BUTTON:
+  - Material.ACACIA_BUTTON
+  - "acacia_button"
+Blocks.DARK_OAK_BUTTON:
+  - Material.DARK_OAK_BUTTON
+  - "dark_oak_button"
+Blocks.PALE_OAK_BUTTON:
+  - Material.PALE_OAK_BUTTON
+  - "pale_oak_button"
+Blocks.MANGROVE_BUTTON:
+  - Material.MANGROVE_BUTTON
+  - "mangrove_button"
+Blocks.CHERRY_BUTTON:
+  - Material.CHERRY_BUTTON
+  - "cherry_button"
+Blocks.BAMBOO_BUTTON:
+  - Material.BAMBOO_BUTTON
+  - "bamboo_button"
+
+Blocks.PRISMARINE_STAIRS:
+  - Material.PRISMARINE_STAIRS
+  - "prismarine_stairs"
+Blocks.PRISMARINE_BRICK_STAIRS:
+  - Material.PRISMARINE_BRICK_STAIRS
+  - "prismarine_brick_stairs"
+Blocks.DARK_PRISMARINE_STAIRS:
+  - Material.DARK_PRISMARINE_STAIRS
+  - "dark_prismarine_stairs"
+Blocks.PRISMARINE_SLAB:
+  - Material.PRISMARINE_SLAB
+  - "prismarine_slab"
+Blocks.PRISMARINE_BRICK_SLAB:
+  - Material.PRISMARINE_BRICK_SLAB
+  - "prismarine_brick_slab"
+Blocks.DARK_PRISMARINE_SLAB:
+  - Material.DARK_PRISMARINE_SLAB
+  - "dark_prismarine_slab"
+Blocks.WHITE_BANNER:
+  - Material.WHITE_BANNER
+  - "white_banner"
+Blocks.ORANGE_BANNER:
+  - Material.ORANGE_BANNER
+  - "orange_banner"
+Blocks.MAGENTA_BANNER:
+  - Material.MAGENTA_BANNER
+  - "magenta_banner"
+Blocks.LIGHT_BLUE_BANNER:
+  - Material.LIGHT_BLUE_BANNER
+  - "light_blue_banner"
+Blocks.YELLOW_BANNER:
+  - Material.YELLOW_BANNER
+  - "yellow_banner"
+Blocks.LIME_BANNER:
+  - Material.LIME_BANNER
+  - "lime_banner"
+Blocks.PINK_BANNER:
+  - Material.PINK_BANNER
+  - "pink_banner"
+Blocks.GRAY_BANNER:
+  - Material.GRAY_BANNER
+  - "gray_banner"
+Blocks.LIGHT_GRAY_BANNER:
+  - Material.LIGHT_GRAY_BANNER
+  - "light_gray_banner"
+Blocks.CYAN_BANNER:
+  - Material.CYAN_BANNER
+  - "cyan_banner"
+Blocks.PURPLE_BANNER:
+  - Material.PURPLE_BANNER
+  - "purple_banner"
+Blocks.BLUE_BANNER:
+  - Material.BLUE_BANNER
+  - "blue_banner"
+Blocks.BROWN_BANNER:
+  - Material.BROWN_BANNER
+  - "brown_banner"
+Blocks.GREEN_BANNER:
+  - Material.GREEN_BANNER
+  - "green_banner"
+Blocks.RED_BANNER:
+  - Material.RED_BANNER
+  - "red_banner"
+Blocks.BLACK_BANNER:
+  - Material.BLACK_BANNER
+  - "black_banner"
+Blocks.WHITE_WALL_BANNER:
+  - Material.WHITE_WALL_BANNER
+  - "white_wall_banner"
+Blocks.ORANGE_WALL_BANNER:
+  - Material.ORANGE_WALL_BANNER
+  - "orange_wall_banner"
+Blocks.MAGENTA_WALL_BANNER:
+  - Material.MAGENTA_WALL_BANNER
+  - "magenta_wall_banner"
+Blocks.LIGHT_BLUE_WALL_BANNER:
+  - Material.LIGHT_BLUE_WALL_BANNER
+  - "light_blue_wall_banner"
+Blocks.YELLOW_WALL_BANNER:
+  - Material.YELLOW_WALL_BANNER
+  - "yellow_wall_banner"
+Blocks.LIME_WALL_BANNER:
+  - Material.LIME_WALL_BANNER
+  - "lime_wall_banner"
+Blocks.PINK_WALL_BANNER:
+  - Material.PINK_WALL_BANNER
+  - "pink_wall_banner"
+Blocks.GRAY_WALL_BANNER:
+  - Material.GRAY_WALL_BANNER
+  - "gray_wall_banner"
+Blocks.LIGHT_GRAY_WALL_BANNER:
+  - Material.LIGHT_GRAY_WALL_BANNER
+  - "light_gray_wall_banner"
+Blocks.CYAN_WALL_BANNER:
+  - Material.CYAN_WALL_BANNER
+  - "cyan_wall_banner"
+Blocks.PURPLE_WALL_BANNER:
+  - Material.PURPLE_WALL_BANNER
+  - "purple_wall_banner"
+Blocks.BLUE_WALL_BANNER:
+  - Material.BLUE_WALL_BANNER
+  - "blue_wall_banner"
+Blocks.BROWN_WALL_BANNER:
+  - Material.BROWN_WALL_BANNER
+  - "brown_wall_banner"
+Blocks.GREEN_WALL_BANNER:
+  - Material.GREEN_WALL_BANNER
+  - "green_wall_banner"
+Blocks.RED_WALL_BANNER:
+  - Material.RED_WALL_BANNER
+  - "red_wall_banner"
+Blocks.BLACK_WALL_BANNER:
+  - Material.BLACK_WALL_BANNER
+  - "black_wall_banner"
+Blocks.CUT_RED_SANDSTONE_SLAB:
+  - Material.CUT_RED_SANDSTONE_SLAB
+  - "cut_red_sandstone_slab"
+Blocks.CUT_SANDSTONE_SLAB:
+  - Material.CUT_SANDSTONE_SLAB
+  - "cut_sandstone_slab"
+Blocks.NORMAL_STONE_SLAB:
+  - Material.STONE_SLAB
+  - "stone_slab"
+Blocks.SMOOTH_STONE:
+  - Material.SMOOTH_STONE
+  - "smooth_stone"
+Blocks.SMOOTH_SANDSTONE:
+  - Material.SMOOTH_SANDSTONE
+  - "smooth_sandstone"
+Blocks.SMOOTH_RED_SANDSTONE:
+  - Material.SMOOTH_RED_SANDSTONE
+  - "smooth_red_sandstone"
+Blocks.KELP:
+  - Material.KELP
+  - "kelp"
+Blocks.KELP_PLANT:
+  - Material.KELP_PLANT
+  - "kelp_plant"
+Blocks.DRIED_KELP_BLOCK:
+  - Material.DRIED_KELP_BLOCK
+  - "dried_kelp_block"
+Blocks.TURTLE_EGG:
+  - Material.TURTLE_EGG
+  - "turtle_egg"
+Blocks.DEAD_TUBE_CORAL_BLOCK:
+  - Material.DEAD_TUBE_CORAL_BLOCK
+  - "dead_tube_coral_block"
+Blocks.DEAD_BRAIN_CORAL_BLOCK:
+  - Material.DEAD_BRAIN_CORAL_BLOCK
+  - "dead_brain_coral_block"
+Blocks.DEAD_BUBBLE_CORAL_BLOCK:
+  - Material.DEAD_BUBBLE_CORAL_BLOCK
+  - "dead_bubble_coral_block"
+Blocks.DEAD_FIRE_CORAL_BLOCK:
+  - Material.DEAD_FIRE_CORAL_BLOCK
+  - "dead_fire_coral_block"
+Blocks.DEAD_HORN_CORAL_BLOCK:
+  - Material.DEAD_HORN_CORAL_BLOCK
+  - "dead_horn_coral_block"
+Blocks.TUBE_CORAL_BLOCK:
+  - Material.TUBE_CORAL_BLOCK
+  - "tube_coral_block"
+Blocks.BRAIN_CORAL_BLOCK:
+  - Material.BRAIN_CORAL_BLOCK
+  - "brain_coral_block"
+Blocks.BUBBLE_CORAL_BLOCK:
+  - Material.BUBBLE_CORAL_BLOCK
+  - "bubble_coral_block"
+Blocks.FIRE_CORAL_BLOCK:
+  - Material.FIRE_CORAL_BLOCK
+  - "fire_coral_block"
+Blocks.HORN_CORAL_BLOCK:
+  - Material.HORN_CORAL_BLOCK
+  - "horn_coral_block"
+Blocks.DEAD_TUBE_CORAL:
+  - Material.DEAD_TUBE_CORAL
+  - "dead_tube_coral"
+Blocks.DEAD_BRAIN_CORAL:
+  - Material.DEAD_BRAIN_CORAL
+  - "dead_brain_coral"
+Blocks.DEAD_BUBBLE_CORAL:
+  - Material.DEAD_BUBBLE_CORAL
+  - "dead_bubble_coral"
+Blocks.DEAD_FIRE_CORAL:
+  - Material.DEAD_FIRE_CORAL
+  - "dead_fire_coral"
+Blocks.DEAD_HORN_CORAL:
+  - Material.DEAD_HORN_CORAL
+  - "dead_horn_coral"
+Blocks.TUBE_CORAL:
+  - Material.TUBE_CORAL
+  - "tube_coral"
+Blocks.BRAIN_CORAL:
+  - Material.BRAIN_CORAL
+  - "brain_coral"
+Blocks.BUBBLE_CORAL:
+  - Material.BUBBLE_CORAL
+  - "bubble_coral"
+Blocks.FIRE_CORAL:
+  - Material.FIRE_CORAL
+  - "fire_coral"
+Blocks.HORN_CORAL:
+  - Material.HORN_CORAL
+  - "horn_coral"
+Blocks.DEAD_TUBE_CORAL_FAN:
+  - Material.DEAD_TUBE_CORAL_FAN
+  - "dead_tube_coral_fan"
+Blocks.DEAD_BRAIN_CORAL_FAN:
+  - Material.DEAD_BRAIN_CORAL_FAN
+  - "dead_brain_coral_fan"
+Blocks.DEAD_BUBBLE_CORAL_FAN:
+  - Material.DEAD_BUBBLE_CORAL_FAN
+  - "dead_bubble_coral_fan"
+Blocks.DEAD_FIRE_CORAL_FAN:
+  - Material.DEAD_FIRE_CORAL_FAN
+  - "dead_fire_coral_fan"
+Blocks.DEAD_HORN_CORAL_FAN:
+  - Material.DEAD_HORN_CORAL_FAN
+  - "dead_horn_coral_fan"
+Blocks.TUBE_CORAL_FAN:
+  - Material.TUBE_CORAL_FAN
+  - "tube_coral_fan"
+Blocks.BRAIN_CORAL_FAN:
+  - Material.BRAIN_CORAL_FAN
+  - "brain_coral_fan"
+Blocks.BUBBLE_CORAL_FAN:
+  - Material.BUBBLE_CORAL_FAN
+  - "bubble_coral_fan"
+Blocks.FIRE_CORAL_FAN:
+  - Material.FIRE_CORAL_FAN
+  - "fire_coral_fan"
+Blocks.HORN_CORAL_FAN:
+  - Material.HORN_CORAL_FAN
+  - "horn_coral_fan"
+Blocks.DEAD_TUBE_CORAL_WALL_FAN:
+  - Material.DEAD_TUBE_CORAL_WALL_FAN
+  - "dead_tube_coral_wall_fan"
+Blocks.DEAD_BRAIN_CORAL_WALL_FAN:
+  - Material.DEAD_BRAIN_CORAL_WALL_FAN
+  - "dead_brain_coral_wall_fan"
+Blocks.DEAD_BUBBLE_CORAL_WALL_FAN:
+  - Material.DEAD_BUBBLE_CORAL_WALL_FAN
+  - "dead_bubble_coral_wall_fan"
+Blocks.DEAD_FIRE_CORAL_WALL_FAN:
+  - Material.DEAD_FIRE_CORAL_WALL_FAN
+  - "dead_fire_coral_wall_fan"
+Blocks.DEAD_HORN_CORAL_WALL_FAN:
+  - Material.DEAD_HORN_CORAL_WALL_FAN
+  - "dead_horn_coral_wall_fan"
+Blocks.TUBE_CORAL_WALL_FAN:
+  - Material.TUBE_CORAL_WALL_FAN
+  - "tube_coral_wall_fan"
+Blocks.BRAIN_CORAL_WALL_FAN:
+  - Material.BRAIN_CORAL_WALL_FAN
+  - "brain_coral_wall_fan"
+Blocks.BUBBLE_CORAL_WALL_FAN:
+  - Material.BUBBLE_CORAL_WALL_FAN
+  - "bubble_coral_wall_fan"
+Blocks.FIRE_CORAL_WALL_FAN:
+  - Material.FIRE_CORAL_WALL_FAN
+  - "fire_coral_wall_fan"
+Blocks.HORN_CORAL_WALL_FAN:
+  - Material.HORN_CORAL_WALL_FAN
+  - "horn_coral_wall_fan"
+Blocks.SEA_PICKLE:
+  - Material.SEA_PICKLE
+  - "sea_pickle"
+Blocks.BLUE_ICE:
+  - Material.BLUE_ICE
+  - "blue_ice"
+Blocks.CONDUIT:
+  - Material.CONDUIT
+  - "conduit"
+Blocks.BAMBOO_SAPLING:
+  - Material.BAMBOO_SAPLING
+  - "bamboo_sapling"
+Blocks.BAMBOO:
+  - Material.BAMBOO
+  - "bamboo"
+Blocks.POTTED_BAMBOO:
+  - Material.POTTED_BAMBOO
+  - "potted_bamboo"
+Blocks.VOID_AIR:
+  - Material.VOID_AIR
+  - "void_air"
+Blocks.CAVE_AIR:
+  - Material.CAVE_AIR
+  - "cave_air"
+Blocks.BUBBLE_COLUMN:
+  - Material.BUBBLE_COLUMN
+  - "bubble_column"
+Blocks.POLISHED_GRANITE_STAIRS:
+  - Material.POLISHED_GRANITE_STAIRS
+  - "polished_granite_stairs"
+Blocks.SMOOTH_RED_SANDSTONE_STAIRS:
+  - Material.SMOOTH_RED_SANDSTONE_STAIRS
+  - "smooth_red_sandstone_stairs"
+Blocks.MOSSY_STONE_BRICK_STAIRS:
+  - Material.MOSSY_STONE_BRICK_STAIRS
+  - "mossy_stone_brick_stairs"
+Blocks.POLISHED_DIORITE_STAIRS:
+  - Material.POLISHED_DIORITE_STAIRS
+  - "polished_diorite_stairs"
+Blocks.MOSSY_COBBLESTONE_STAIRS:
+  - Material.MOSSY_COBBLESTONE_STAIRS
+  - "mossy_cobblestone_stairs"
+Blocks.END_STONE_BRICK_STAIRS:
+  - Material.END_STONE_BRICK_STAIRS
+  - "end_stone_brick_stairs"
+Blocks.SMOOTH_SANDSTONE_STAIRS:
+  - Material.SMOOTH_SANDSTONE_STAIRS
+  - "smooth_sandstone_stairs"
+Blocks.SMOOTH_QUARTZ_STAIRS:
+  - Material.SMOOTH_QUARTZ_STAIRS
+  - "smooth_quartz_stairs"
+Blocks.GRANITE_STAIRS:
+  - Material.GRANITE_STAIRS
+  - "granite_stairs"
+Blocks.ANDESITE_STAIRS:
+  - Material.ANDESITE_STAIRS
+  - "andesite_stairs"
+Blocks.RED_NETHER_BRICK_STAIRS:
+  - Material.RED_NETHER_BRICK_STAIRS
+  - "red_nether_brick_stairs"
+Blocks.POLISHED_ANDESITE_STAIRS:
+  - Material.POLISHED_ANDESITE_STAIRS
+  - "polished_andesite_stairs"
+Blocks.DIORITE_STAIRS:
+  - Material.DIORITE_STAIRS
+  - "diorite_stairs"
+Blocks.POLISHED_GRANITE_SLAB:
+  - Material.POLISHED_GRANITE_SLAB
+  - "polished_granite_slab"
+Blocks.SMOOTH_RED_SANDSTONE_SLAB:
+  - Material.SMOOTH_RED_SANDSTONE_SLAB
+  - "smooth_red_sandstone_slab"
+Blocks.MOSSY_STONE_BRICK_SLAB:
+  - Material.MOSSY_STONE_BRICK_SLAB
+  - "mossy_stone_brick_slab"
+Blocks.POLISHED_DIORITE_SLAB:
+  - Material.POLISHED_DIORITE_SLAB
+  - "polished_diorite_slab"
+Blocks.MOSSY_COBBLESTONE_SLAB:
+  - Material.MOSSY_COBBLESTONE_SLAB
+  - "mossy_cobblestone_slab"
+Blocks.END_STONE_BRICK_SLAB:
+  - Material.END_STONE_BRICK_SLAB
+  - "end_stone_brick_slab"
+Blocks.SMOOTH_SANDSTONE_SLAB:
+  - Material.SMOOTH_SANDSTONE_SLAB
+  - "smooth_sandstone_slab"
+Blocks.SMOOTH_QUARTZ_SLAB:
+  - Material.SMOOTH_QUARTZ_SLAB
+  - "smooth_quartz_slab"
+Blocks.GRANITE_SLAB:
+  - Material.GRANITE_SLAB
+  - "granite_slab"
+Blocks.ANDESITE_SLAB:
+  - Material.ANDESITE_SLAB
+  - "andesite_slab"
+Blocks.RED_NETHER_BRICK_SLAB:
+  - Material.RED_NETHER_BRICK_SLAB
+  - "red_nether_brick_slab"
+Blocks.POLISHED_ANDESITE_SLAB:
+  - Material.POLISHED_ANDESITE_SLAB
+  - "polished_andesite_slab"
+Blocks.DIORITE_SLAB:
+  - Material.DIORITE_SLAB
+  - "diorite_slab"
+Blocks.BRICK_WALL:
+  - Material.BRICK_WALL
+  - "brick_wall"
+Blocks.PRISMARINE_WALL:
+  - Material.PRISMARINE_WALL
+  - "prismarine_wall"
+Blocks.RED_SANDSTONE_WALL:
+  - Material.RED_SANDSTONE_WALL
+  - "red_sandstone_wall"
+Blocks.MOSSY_STONE_BRICK_WALL:
+  - Material.MOSSY_STONE_BRICK_WALL
+  - "mossy_stone_brick_wall"
+Blocks.GRANITE_WALL:
+  - Material.GRANITE_WALL
+  - "granite_wall"
+Blocks.STONE_BRICK_WALL:
+  - Material.STONE_BRICK_WALL
+  - "stone_brick_wall"
+Blocks.NETHER_BRICK_WALL:
+  - Material.NETHER_BRICK_WALL
+  - "nether_brick_wall"
+Blocks.ANDESITE_WALL:
+  - Material.ANDESITE_WALL
+  - "andesite_wall"
+Blocks.RED_NETHER_BRICK_WALL:
+  - Material.RED_NETHER_BRICK_WALL
+  - "red_nether_brick_wall"
+Blocks.SANDSTONE_WALL:
+  - Material.SANDSTONE_WALL
+  - "sandstone_wall"
+Blocks.END_STONE_BRICK_WALL:
+  - Material.END_STONE_BRICK_WALL
+  - "end_stone_brick_wall"
+Blocks.DIORITE_WALL:
+  - Material.DIORITE_WALL
+  - "diorite_wall"
+Blocks.SCAFFOLDING:
+  - Material.SCAFFOLDING
+  - "scaffolding"
+Blocks.LOOM:
+  - Material.LOOM
+  - "loom"
+Blocks.BARREL:
+  - Material.BARREL
+  - "barrel"
+Blocks.SMOKER:
+  - Material.SMOKER
+  - "smoker"
+Blocks.BLAST_FURNACE:
+  - Material.BLAST_FURNACE
+  - "blast_furnace"
+Blocks.CARTOGRAPHY_TABLE:
+  - Material.CARTOGRAPHY_TABLE
+  - "cartography_table"
+Blocks.FLETCHING_TABLE:
+  - Material.FLETCHING_TABLE
+  - "fletching_table"
+Blocks.GRINDSTONE:
+  - Material.GRINDSTONE
+  - "grindstone"
+Blocks.LECTERN:
+  - Material.LECTERN
+  - "lectern"
+Blocks.SMITHING_TABLE:
+  - Material.SMITHING_TABLE
+  - "smithing_table"
+Blocks.STONECUTTER:
+  - Material.STONECUTTER
+  - "stonecutter"
+Blocks.BELL:
+  - Material.BELL
+  - "bell"
+Blocks.LANTERN:
+  - Material.LANTERN
+  - "lantern"
+Blocks.CAMPFIRE:
+  - Material.CAMPFIRE
+  - "campfire"
+Blocks.SWEET_BERRY_BUSH:
+  - Material.SWEET_BERRY_BUSH
+  - "sweet_berry_bush"
+Blocks.JIGSAW:
+  - Material.JIGSAW
+  - "jigsaw"
+Blocks.COMPOSTER:
+  - Material.COMPOSTER
+  - "composter"
+Blocks.BEEHIVE:
+  - Material.BEEHIVE
+  - "beehive"
+Blocks.BEE_NEST:
+  - Material.BEE_NEST
+  - "bee_nest"
+Blocks.HONEY_BLOCK:
+  - Material.HONEY_BLOCK
+  - "honey_block"
+Blocks.HONEYCOMB_BLOCK:
+  - Material.HONEYCOMB_BLOCK
+  - "honeycomb_block"
+Blocks.NETHER_GOLD_ORE:
+  - Material.NETHER_GOLD_ORE
+  - "nether_gold_ore"
+Blocks.SOUL_FIRE:
+  - Material.SOUL_FIRE
+  - "soul_fire"
+Blocks.SOUL_SOIL:
+  - Material.SOUL_SOIL
+  - "soul_soil"
+Blocks.BASALT:
+  - Material.BASALT
+  - "basalt"
+Blocks.POLISHED_BASALT:
+  - Material.POLISHED_BASALT
+  - "polished_basalt"
+Blocks.SMOOTH_BASALT:
+  - Material.SMOOTH_BASALT
+  - "smooth_basalt"
+Blocks.SOUL_TORCH:
+  - Material.SOUL_TORCH
+  - "soul_torch"
+Blocks.SOUL_WALL_TORCH:
+  - Material.SOUL_WALL_TORCH
+  - "soul_wall_torch"
+Blocks.CHAIN:
+  - Material.CHAIN
+  - "chain"
+Blocks.SOUL_LANTERN:
+  - Material.SOUL_LANTERN
+  - "soul_lantern"
+Blocks.SOUL_CAMPFIRE:
+  - Material.SOUL_CAMPFIRE
+  - "soul_campfire"
+Blocks.WARPED_STEM:
+  - Material.WARPED_STEM
+  - "warped_stem"
+Blocks.STRIPPED_WARPED_STEM:
+  - Material.STRIPPED_WARPED_STEM
+  - "stripped_warped_stem"
+Blocks.WARPED_HYPHAE:
+  - Material.WARPED_HYPHAE
+  - "warped_hyphae"
+Blocks.STRIPPED_WARPED_HYPHAE:
+  - Material.STRIPPED_WARPED_HYPHAE
+  - "stripped_warped_hyphae"
+Blocks.WARPED_NYLIUM:
+  - Material.WARPED_NYLIUM
+  - "warped_nylium"
+Blocks.WARPED_FUNGUS:
+  - Material.WARPED_FUNGUS
+  - "warped_fungus"
+Blocks.WARPED_WART_BLOCK:
+  - Material.WARPED_WART_BLOCK
+  - "warped_wart_block"
+Blocks.WARPED_ROOTS:
+  - Material.WARPED_ROOTS
+  - "warped_roots"
+Blocks.NETHER_SPROUTS:
+  - Material.NETHER_SPROUTS
+  - "nether_sprouts"
+Blocks.CRIMSON_STEM:
+  - Material.CRIMSON_STEM
+  - "crimson_stem"
+Blocks.STRIPPED_CRIMSON_STEM:
+  - Material.STRIPPED_CRIMSON_STEM
+  - "stripped_crimson_stem"
+Blocks.CRIMSON_HYPHAE:
+  - Material.CRIMSON_HYPHAE
+  - "crimson_hyphae"
+Blocks.STRIPPED_CRIMSON_HYPHAE:
+  - Material.STRIPPED_CRIMSON_HYPHAE
+  - "stripped_crimson_hyphae"
+Blocks.CRIMSON_NYLIUM:
+  - Material.CRIMSON_NYLIUM
+  - "crimson_nylium"
+Blocks.CRIMSON_FUNGUS:
+  - Material.CRIMSON_FUNGUS
+  - "crimson_fungus"
+Blocks.SHROOMLIGHT:
+  - Material.SHROOMLIGHT
+  - "shroomlight"
+Blocks.WEEPING_VINES:
+  - Material.WEEPING_VINES
+  - "weeping_vines"
+Blocks.WEEPING_VINES_PLANT:
+  - Material.WEEPING_VINES_PLANT
+  - "weeping_vines_plant"
+Blocks.TWISTING_VINES:
+  - Material.TWISTING_VINES
+  - "twisting_vines"
+Blocks.TWISTING_VINES_PLANT:
+  - Material.TWISTING_VINES_PLANT
+  - "twisting_vines_plant"
+Blocks.CRIMSON_ROOTS:
+  - Material.CRIMSON_ROOTS
+  - "crimson_roots"
+Blocks.CRIMSON_PLANKS:
+  - Material.CRIMSON_PLANKS
+  - "crimson_planks"
+Blocks.WARPED_PLANKS:
+  - Material.WARPED_PLANKS
+  - "warped_planks"
+Blocks.CRIMSON_SLAB:
+  - Material.CRIMSON_SLAB
+  - "crimson_slab"
+Blocks.WARPED_SLAB:
+  - Material.WARPED_SLAB
+  - "warped_slab"
+Blocks.CRIMSON_PRESSURE_PLATE:
+  - Material.CRIMSON_PRESSURE_PLATE
+  - "crimson_pressure_plate"
+Blocks.WARPED_PRESSURE_PLATE:
+  - Material.WARPED_PRESSURE_PLATE
+  - "warped_pressure_plate"
+Blocks.CRIMSON_FENCE:
+  - Material.CRIMSON_FENCE
+  - "crimson_fence"
+Blocks.WARPED_FENCE:
+  - Material.WARPED_FENCE
+  - "warped_fence"
+Blocks.CRIMSON_TRAPDOOR:
+  - Material.CRIMSON_TRAPDOOR
+  - "crimson_trapdoor"
+Blocks.WARPED_TRAPDOOR:
+  - Material.WARPED_TRAPDOOR
+  - "warped_trapdoor"
+Blocks.CRIMSON_FENCE_GATE:
+  - Material.CRIMSON_FENCE_GATE
+  - "crimson_fence_gate"
+Blocks.WARPED_FENCE_GATE:
+  - Material.WARPED_FENCE_GATE
+  - "warped_fence_gate"
+Blocks.CRIMSON_STAIRS:
+  - Material.CRIMSON_STAIRS
+  - "crimson_stairs"
+Blocks.WARPED_STAIRS:
+  - Material.WARPED_STAIRS
+  - "warped_stairs"
+Blocks.CRIMSON_BUTTON:
+  - Material.CRIMSON_BUTTON
+  - "crimson_button"
+Blocks.WARPED_BUTTON:
+  - Material.WARPED_BUTTON
+  - "warped_button"
+Blocks.CRIMSON_DOOR:
+  - Material.CRIMSON_DOOR
+  - "crimson_door"
+Blocks.WARPED_DOOR:
+  - Material.WARPED_DOOR
+  - "warped_door"
+Blocks.CRIMSON_SIGN:
+  - Material.CRIMSON_SIGN
+  - "crimson_sign"
+Blocks.WARPED_SIGN:
+  - Material.WARPED_SIGN
+  - "warped_sign"
+Blocks.CRIMSON_WALL_SIGN:
+  - Material.CRIMSON_WALL_SIGN
+  - "crimson_wall_sign"
+Blocks.WARPED_WALL_SIGN:
+  - Material.WARPED_WALL_SIGN
+  - "warped_wall_sign"
+Blocks.TARGET:
+  - Material.TARGET
+  - "target"
+Blocks.NETHERITE_BLOCK:
+  - Material.NETHERITE_BLOCK
+  - "netherite_block"
+Blocks.ANCIENT_DEBRIS:
+  - Material.ANCIENT_DEBRIS
+  - "ancient_debris"
+Blocks.CRYING_OBSIDIAN:
+  - Material.CRYING_OBSIDIAN
+  - "crying_obsidian"
+Blocks.RESPAWN_ANCHOR:
+  - Material.RESPAWN_ANCHOR
+  - "respawn_anchor"
+Blocks.POTTED_CRIMSON_FUNGUS:
+  - Material.POTTED_CRIMSON_FUNGUS
+  - "potted_crimson_fungus"
+Blocks.POTTED_WARPED_FUNGUS:
+  - Material.POTTED_WARPED_FUNGUS
+  - "potted_warped_fungus"
+Blocks.POTTED_CRIMSON_ROOTS:
+  - Material.POTTED_CRIMSON_ROOTS
+  - "potted_crimson_roots"
+Blocks.POTTED_WARPED_ROOTS:
+  - Material.POTTED_WARPED_ROOTS
+  - "potted_warped_roots"
+Blocks.LODESTONE:
+  - Material.LODESTONE
+  - "lodestone"
+Blocks.BLACKSTONE:
+  - Material.BLACKSTONE
+  - "blackstone"
+Blocks.BLACKSTONE_STAIRS:
+  - Material.BLACKSTONE_STAIRS
+  - "blackstone_stairs"
+Blocks.BLACKSTONE_WALL:
+  - Material.BLACKSTONE_WALL
+  - "blackstone_wall"
+Blocks.BLACKSTONE_SLAB:
+  - Material.BLACKSTONE_SLAB
+  - "blackstone_slab"
+Blocks.POLISHED_BLACKSTONE:
+  - Material.POLISHED_BLACKSTONE
+  - "polished_blackstone"
+Blocks.POLISHED_BLACKSTONE_BRICKS:
+  - Material.POLISHED_BLACKSTONE_BRICKS
+  - "polished_blackstone_bricks"
+Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS:
+  - Material.CRACKED_POLISHED_BLACKSTONE_BRICKS
+  - "cracked_polished_blackstone_bricks"
+Blocks.CHISELED_POLISHED_BLACKSTONE:
+  - Material.CHISELED_POLISHED_BLACKSTONE
+  - "chiseled_polished_blackstone"
+Blocks.POLISHED_BLACKSTONE_BRICK_SLAB:
+  - Material.POLISHED_BLACKSTONE_BRICK_SLAB
+  - "polished_blackstone_brick_slab"
+Blocks.POLISHED_BLACKSTONE_BRICK_STAIRS:
+  - Material.POLISHED_BLACKSTONE_BRICK_STAIRS
+  - "polished_blackstone_brick_stairs"
+Blocks.POLISHED_BLACKSTONE_BRICK_WALL:
+  - Material.POLISHED_BLACKSTONE_BRICK_WALL
+  - "polished_blackstone_brick_wall"
+Blocks.GILDED_BLACKSTONE:
+  - Material.GILDED_BLACKSTONE
+  - "gilded_blackstone"
+Blocks.POLISHED_BLACKSTONE_STAIRS:
+  - Material.POLISHED_BLACKSTONE_STAIRS
+  - "polished_blackstone_stairs"
+Blocks.POLISHED_BLACKSTONE_SLAB:
+  - Material.POLISHED_BLACKSTONE_SLAB
+  - "polished_blackstone_slab"
+Blocks.POLISHED_BLACKSTONE_PRESSURE_PLATE:
+  - Material.POLISHED_BLACKSTONE_PRESSURE_PLATE
+  - "polished_blackstone_pressure_plate"
+Blocks.POLISHED_BLACKSTONE_BUTTON:
+  - Material.POLISHED_BLACKSTONE_BUTTON
+  - "polished_blackstone_button"
+Blocks.POLISHED_BLACKSTONE_WALL:
+  - Material.POLISHED_BLACKSTONE_WALL
+  - "polished_blackstone_wall"
+Blocks.CHISELED_NETHER_BRICKS:
+  - Material.CHISELED_NETHER_BRICKS
+  - "chiseled_nether_bricks"
+Blocks.CRACKED_NETHER_BRICKS:
+  - Material.CRACKED_NETHER_BRICKS
+  - "cracked_nether_bricks"
+Blocks.QUARTZ_BRICKS:
+  - Material.QUARTZ_BRICKS
+  - "quartz_bricks"
+Blocks.CANDLE:
+  - Material.CANDLE
+  - "#minecraft:candles"
+Blocks.CANDLE#0:
+  - Material.CANDLE
+  - "candle"
+Blocks.CANDLE#1:
+  - Material.WHITE_CANDLE
+  - "white_candle"
+Blocks.CANDLE#2:
+  - Material.ORANGE_CANDLE
+  - "orange_candle"
+Blocks.CANDLE#3:
+  - Material.MAGENTA_CANDLE
+  - "magenta_candle"
+Blocks.CANDLE#4:
+  - Material.LIGHT_BLUE_CANDLE
+  - "light_blue_candle"
+Blocks.CANDLE#5:
+  - Material.YELLOW_CANDLE
+  - "yellow_candle"
+Blocks.CANDLE#6:
+  - Material.LIME_CANDLE
+  - "lime_candle"
+Blocks.CANDLE#7:
+  - Material.PINK_CANDLE
+  - "pink_candle"
+Blocks.CANDLE#8:
+  - Material.GRAY_CANDLE
+  - "gray_candle"
+Blocks.CANDLE#9:
+  - Material.LIGHT_GRAY_CANDLE
+  - "light_gray_candle"
+Blocks.CANDLE#10:
+  - Material.CYAN_CANDLE
+  - "cyan_candle"
+Blocks.CANDLE#11:
+  - Material.PURPLE_CANDLE
+  - "purple_candle"
+Blocks.CANDLE#12:
+  - Material.BLUE_CANDLE
+  - "blue_candle"
+Blocks.CANDLE#13:
+  - Material.BROWN_CANDLE
+  - "brown_candle"
+Blocks.CANDLE#14:
+  - Material.GREEN_CANDLE
+  - "green_candle"
+Blocks.CANDLE#15:
+  - Material.RED_CANDLE
+  - "red_candle"
+Blocks.CANDLE#16:
+  - Material.BLACK_CANDLE
+  - "black_candle"
+Blocks.CANDLE_CAKE:
+  - Material.CANDLE_CAKE
+  - "#minecraft:candle_cakes"
+Blocks.CANDLE_CAKE#0:
+  - Material.CANDLE_CAKE
+  - "candle_cake"
+Blocks.CANDLE_CAKE#1:
+  - Material.WHITE_CANDLE_CAKE
+  - "white_candle_cake"
+Blocks.CANDLE_CAKE#2:
+  - Material.ORANGE_CANDLE_CAKE
+  - "orange_candle_cake"
+Blocks.CANDLE_CAKE#3:
+  - Material.MAGENTA_CANDLE_CAKE
+  - "magenta_candle_cake"
+Blocks.CANDLE_CAKE#4:
+  - Material.LIGHT_BLUE_CANDLE_CAKE
+  - "light_blue_candle_cake"
+Blocks.CANDLE_CAKE#5:
+  - Material.YELLOW_CANDLE_CAKE
+  - "yellow_candle_cake"
+Blocks.CANDLE_CAKE#6:
+  - Material.LIME_CANDLE_CAKE
+  - "lime_candle_cake"
+Blocks.CANDLE_CAKE#7:
+  - Material.PINK_CANDLE_CAKE
+  - "pink_candle_cake"
+Blocks.CANDLE_CAKE#8:
+  - Material.GRAY_CANDLE_CAKE
+  - "gray_candle_cake"
+Blocks.CANDLE_CAKE#9:
+  - Material.LIGHT_GRAY_CANDLE_CAKE
+  - "light_gray_candle_cake"
+Blocks.CANDLE_CAKE#10:
+  - Material.CYAN_CANDLE_CAKE
+  - "cyan_candle_cake"
+Blocks.CANDLE_CAKE#11:
+  - Material.PURPLE_CANDLE_CAKE
+  - "purple_candle_cake"
+Blocks.CANDLE_CAKE#12:
+  - Material.BLUE_CANDLE_CAKE
+  - "blue_candle_cake"
+Blocks.CANDLE_CAKE#13:
+  - Material.BROWN_CANDLE_CAKE
+  - "brown_candle_cake"
+Blocks.CANDLE_CAKE#14:
+  - Material.GREEN_CANDLE_CAKE
+  - "green_candle_cake"
+Blocks.CANDLE_CAKE#15:
+  - Material.RED_CANDLE_CAKE
+  - "red_candle_cake"
+Blocks.CANDLE_CAKE#16:
+  - Material.BLACK_CANDLE_CAKE
+  - "black_candle_cake"
+Blocks.AMETHYST_BLOCK:
+  - Material.AMETHYST_BLOCK
+  - "amethyst_block"
+Blocks.BUDDING_AMETHYST:
+  - Material.BUDDING_AMETHYST
+  - "budding_amethyst"
+Blocks.AMETHYST_CLUSTER:
+  - Material.AMETHYST_CLUSTER
+  - "amethyst_cluster"
+Blocks.LARGE_AMETHYST_BUD:
+  - Material.LARGE_AMETHYST_BUD
+  - "large_amethyst_bud"
+Blocks.MEDIUM_AMETHYST_BUD:
+  - Material.MEDIUM_AMETHYST_BUD
+  - "medium_amethyst_bud"
+Blocks.SMALL_AMETHYST_BUD:
+  - Material.SMALL_AMETHYST_BUD
+  - "small_amethyst_bud"
+Blocks.TUFF:
+  - Material.TUFF
+  - "tuff"
+Blocks.TUFF_SLAB:
+  - Material.TUFF_SLAB
+  - "tuff_slab"
+Blocks.TUFF_STAIRS:
+  - Material.TUFF_STAIRS
+  - "tuff_stairs"
+Blocks.TUFF_WALL:
+  - Material.TUFF_WALL
+  - "tuff_wall"
+Blocks.POLISHED_TUFF:
+  - Material.POLISHED_TUFF
+  - "polished_tuff"
+Blocks.POLISHED_TUFF_SLAB:
+  - Material.POLISHED_TUFF_SLAB
+  - "polished_tuff_slab"
+Blocks.POLISHED_TUFF_STAIRS:
+  - Material.POLISHED_TUFF_STAIRS
+  - "polished_tuff_stairs"
+Blocks.POLISHED_TUFF_WALL:
+  - Material.POLISHED_TUFF_WALL
+  - "polished_tuff_wall"
+Blocks.CHISELED_TUFF:
+  - Material.CHISELED_TUFF
+  - "chiseled_tuff"
+Blocks.TUFF_BRICKS:
+  - Material.TUFF_BRICKS
+  - "tuff_bricks"
+Blocks.TUFF_BRICK_SLAB:
+  - Material.TUFF_BRICK_SLAB
+  - "tuff_brick_slab"
+Blocks.TUFF_BRICK_STAIRS:
+  - Material.TUFF_BRICK_STAIRS
+  - "tuff_brick_stairs"
+Blocks.TUFF_BRICK_WALL:
+  - Material.TUFF_BRICK_WALL
+  - "tuff_brick_wall"
+Blocks.CHISELED_TUFF_BRICKS:
+  - Material.CHISELED_TUFF_BRICKS
+  - "chiseled_tuff_bricks"
+Blocks.CALCITE:
+  - Material.CALCITE
+  - "calcite"
+Blocks.TINTED_GLASS:
+  - Material.TINTED_GLASS
+  - "tinted_glass"
+Blocks.POWDER_SNOW:
+  - Material.POWDER_SNOW
+  - "powder_snow"
+Blocks.SCULK_SENSOR:
+  - Material.SCULK_SENSOR
+  - "sculk_sensor"
+Blocks.CALIBRATED_SCULK_SENSOR:
+  - Material.CALIBRATED_SCULK_SENSOR
+  - "calibrated_sculk_sensor"
+Blocks.SCULK:
+  - Material.SCULK
+  - "sculk"
+Blocks.SCULK_VEIN:
+  - Material.SCULK_VEIN
+  - "sculk_vein"
+Blocks.SCULK_CATALYST:
+  - Material.SCULK_CATALYST
+  - "sculk_catalyst"
+Blocks.SCULK_SHRIEKER:
+  - Material.SCULK_SHRIEKER
+  - "sculk_shrieker"
+Blocks.OXIDIZED_COPPER:
+  - Material.OXIDIZED_COPPER
+  - "oxidized_copper"
+Blocks.WEATHERED_COPPER:
+  - Material.WEATHERED_COPPER
+  - "weathered_copper"
+Blocks.EXPOSED_COPPER:
+  - Material.EXPOSED_COPPER
+  - "exposed_copper"
+Blocks.COPPER_BLOCK:
+  - Material.COPPER_BLOCK
+  - "copper_block"
+Blocks.OXIDIZED_CUT_COPPER:
+  - Material.OXIDIZED_CUT_COPPER
+  - "oxidized_cut_copper"
+Blocks.WEATHERED_CUT_COPPER:
+  - Material.WEATHERED_CUT_COPPER
+  - "weathered_cut_copper"
+Blocks.EXPOSED_CUT_COPPER:
+  - Material.EXPOSED_CUT_COPPER
+  - "exposed_cut_copper"
+Blocks.CUT_COPPER:
+  - Material.CUT_COPPER
+  - "cut_copper"
+Blocks.OXIDIZED_CHISELED_COPPER:
+  - Material.OXIDIZED_CHISELED_COPPER
+  - "oxidized_chiseled_copper"
+Blocks.WEATHERED_CHISELED_COPPER:
+  - Material.WEATHERED_CHISELED_COPPER
+  - "weathered_chiseled_copper"
+Blocks.EXPOSED_CHISELED_COPPER:
+  - Material.EXPOSED_CHISELED_COPPER
+  - "exposed_chiseled_copper"
+Blocks.CHISELED_COPPER:
+  - Material.CHISELED_COPPER
+  - "chiseled_copper"
+Blocks.WAXED_OXIDIZED_CHISELED_COPPER:
+  - Material.WAXED_OXIDIZED_CHISELED_COPPER
+  - "waxed_oxidized_chiseled_copper"
+Blocks.WAXED_WEATHERED_CHISELED_COPPER:
+  - Material.WAXED_WEATHERED_CHISELED_COPPER
+  - "waxed_weathered_chiseled_copper"
+Blocks.WAXED_EXPOSED_CHISELED_COPPER:
+  - Material.WAXED_EXPOSED_CHISELED_COPPER
+  - "waxed_exposed_chiseled_copper"
+Blocks.WAXED_CHISELED_COPPER:
+  - Material.WAXED_CHISELED_COPPER
+  - "waxed_chiseled_copper"
+Blocks.OXIDIZED_CUT_COPPER_STAIRS:
+  - Material.OXIDIZED_CUT_COPPER_STAIRS
+  - "oxidized_cut_copper_stairs"
+Blocks.WEATHERED_CUT_COPPER_STAIRS:
+  - Material.WEATHERED_CUT_COPPER_STAIRS
+  - "weathered_cut_copper_stairs"
+Blocks.EXPOSED_CUT_COPPER_STAIRS:
+  - Material.EXPOSED_CUT_COPPER_STAIRS
+  - "exposed_cut_copper_stairs"
+Blocks.CUT_COPPER_STAIRS:
+  - Material.CUT_COPPER_STAIRS
+  - "cut_copper_stairs"
+Blocks.OXIDIZED_CUT_COPPER_SLAB:
+  - Material.OXIDIZED_CUT_COPPER_SLAB
+  - "oxidized_cut_copper_slab"
+Blocks.WEATHERED_CUT_COPPER_SLAB:
+  - Material.WEATHERED_CUT_COPPER_SLAB
+  - "weathered_cut_copper_slab"
+Blocks.EXPOSED_CUT_COPPER_SLAB:
+  - Material.EXPOSED_CUT_COPPER_SLAB
+  - "exposed_cut_copper_slab"
+Blocks.CUT_COPPER_SLAB:
+  - Material.CUT_COPPER_SLAB
+  - "cut_copper_slab"
+Blocks.WAXED_COPPER_BLOCK:
+  - Material.WAXED_COPPER_BLOCK
+  - "waxed_copper_block"
+Blocks.WAXED_WEATHERED_COPPER:
+  - Material.WAXED_WEATHERED_COPPER
+  - "waxed_weathered_copper"
+Blocks.WAXED_EXPOSED_COPPER:
+  - Material.WAXED_EXPOSED_COPPER
+  - "waxed_exposed_copper"
+Blocks.WAXED_OXIDIZED_COPPER:
+  - Material.WAXED_OXIDIZED_COPPER
+  - "waxed_oxidized_copper"
+Blocks.WAXED_OXIDIZED_CUT_COPPER:
+  - Material.WAXED_OXIDIZED_CUT_COPPER
+  - "waxed_oxidized_cut_copper"
+Blocks.WAXED_WEATHERED_CUT_COPPER:
+  - Material.WAXED_WEATHERED_CUT_COPPER
+  - "waxed_weathered_cut_copper"
+Blocks.WAXED_EXPOSED_CUT_COPPER:
+  - Material.WAXED_EXPOSED_CUT_COPPER
+  - "waxed_exposed_cut_copper"
+Blocks.WAXED_CUT_COPPER:
+  - Material.WAXED_CUT_COPPER
+  - "waxed_cut_copper"
+Blocks.WAXED_OXIDIZED_CUT_COPPER_STAIRS:
+  - Material.WAXED_OXIDIZED_CUT_COPPER_STAIRS
+  - "waxed_oxidized_cut_copper_stairs"
+Blocks.WAXED_WEATHERED_CUT_COPPER_STAIRS:
+  - Material.WAXED_WEATHERED_CUT_COPPER_STAIRS
+  - "waxed_weathered_cut_copper_stairs"
+Blocks.WAXED_EXPOSED_CUT_COPPER_STAIRS:
+  - Material.WAXED_EXPOSED_CUT_COPPER_STAIRS
+  - "waxed_exposed_cut_copper_stairs"
+Blocks.WAXED_CUT_COPPER_STAIRS:
+  - Material.WAXED_CUT_COPPER_STAIRS
+  - "waxed_cut_copper_stairs"
+Blocks.WAXED_OXIDIZED_CUT_COPPER_SLAB:
+  - Material.WAXED_OXIDIZED_CUT_COPPER_SLAB
+  - "waxed_oxidized_cut_copper_slab"
+Blocks.WAXED_WEATHERED_CUT_COPPER_SLAB:
+  - Material.WAXED_WEATHERED_CUT_COPPER_SLAB
+  - "waxed_weathered_cut_copper_slab"
+Blocks.WAXED_EXPOSED_CUT_COPPER_SLAB:
+  - Material.WAXED_EXPOSED_CUT_COPPER_SLAB
+  - "waxed_exposed_cut_copper_slab"
+Blocks.WAXED_CUT_COPPER_SLAB:
+  - Material.WAXED_CUT_COPPER_SLAB
+  - "waxed_cut_copper_slab"
+Blocks.LIGHTNING_ROD:
+  - Material.LIGHTNING_ROD
+  - "lightning_rod"
+Blocks.POINTED_DRIPSTONE:
+  - Material.POINTED_DRIPSTONE
+  - "pointed_dripstone"
+Blocks.DRIPSTONE_BLOCK:
+  - Material.DRIPSTONE_BLOCK
+  - "dripstone_block"
+Blocks.CAVE_VINES:
+  - Material.CAVE_VINES
+  - "cave_vines"
+Blocks.CAVE_VINES_PLANT:
+  - Material.CAVE_VINES_PLANT
+  - "cave_vines_plant"
+Blocks.SPORE_BLOSSOM:
+  - Material.SPORE_BLOSSOM
+  - "spore_blossom"
+Blocks.AZALEA:
+  - Material.AZALEA
+  - "azalea"
+Blocks.FLOWERING_AZALEA:
+  - Material.FLOWERING_AZALEA
+  - "flowering_azalea"
+Blocks.MOSS_CARPET:
+  - Material.MOSS_CARPET
+  - "moss_carpet"
+Blocks.MOSS_BLOCK:
+  - Material.MOSS_BLOCK
+  - "moss_block"
+Blocks.PALE_MOSS_CARPET:
+  - Material.PALE_MOSS_CARPET
+  - "pale_moss_carpet"
+Blocks.PALE_HANGING_MOSS:
+  - Material.PALE_HANGING_MOSS
+  - "pale_hanging_moss"
+Blocks.PALE_MOSS_BLOCK:
+  - Material.PALE_MOSS_BLOCK
+  - "pale_moss_block"
+Blocks.BIG_DRIPLEAF:
+  - Material.BIG_DRIPLEAF
+  - "big_dripleaf"
+Blocks.BIG_DRIPLEAF_STEM:
+  - Material.BIG_DRIPLEAF_STEM
+  - "big_dripleaf_stem"
+Blocks.SMALL_DRIPLEAF:
+  - Material.SMALL_DRIPLEAF
+  - "small_dripleaf"
+Blocks.HANGING_ROOTS:
+  - Material.HANGING_ROOTS
+  - "hanging_roots"
+Blocks.ROOTED_DIRT:
+  - Material.ROOTED_DIRT
+  - "rooted_dirt"
+Blocks.MUD:
+  - Material.MUD
+  - "mud"
+Blocks.PACKED_MUD:
+  - Material.PACKED_MUD
+  - "packed_mud"
+Blocks.MUD_BRICK_STAIRS:
+  - Material.MUD_BRICK_STAIRS
+  - "mud_brick_stairs"
+Blocks.MUD_BRICK_SLAB:
+  - Material.MUD_BRICK_SLAB
+  - "mud_brick_slab"
+Blocks.MUD_BRICK_WALL:
+  - Material.MUD_BRICK_WALL
+  - "mud_brick_wall"
+Blocks.MUD_BRICKS:
+  - Material.MUD_BRICKS
+  - "mud_bricks"
+Blocks.DEEPSLATE:
+  - Material.DEEPSLATE
+  - "deepslate"
+Blocks.REINFORCED_DEEPSLATE:
+  - Material.REINFORCED_DEEPSLATE
+  - "reinforced_deepslate"
+Blocks.COBBLED_DEEPSLATE:
+  - Material.COBBLED_DEEPSLATE
+  - "cobbled_deepslate"
+Blocks.COBBLED_DEEPSLATE_STAIRS:
+  - Material.COBBLED_DEEPSLATE_STAIRS
+  - "cobbled_deepslate_stairs"
+Blocks.COBBLED_DEEPSLATE_SLAB:
+  - Material.COBBLED_DEEPSLATE_SLAB
+  - "cobbled_deepslate_slab"
+Blocks.COBBLED_DEEPSLATE_WALL:
+  - Material.COBBLED_DEEPSLATE_WALL
+  - "cobbled_deepslate_wall"
+Blocks.POLISHED_DEEPSLATE:
+  - Material.POLISHED_DEEPSLATE
+  - "polished_deepslate"
+Blocks.POLISHED_DEEPSLATE_STAIRS:
+  - Material.POLISHED_DEEPSLATE_STAIRS
+  - "polished_deepslate_stairs"
+Blocks.POLISHED_DEEPSLATE_SLAB:
+  - Material.POLISHED_DEEPSLATE_SLAB
+  - "polished_deepslate_slab"
+Blocks.POLISHED_DEEPSLATE_WALL:
+  - Material.POLISHED_DEEPSLATE_WALL
+  - "polished_deepslate_wall"
+Blocks.DEEPSLATE_TILES:
+  - Material.DEEPSLATE_TILES
+  - "deepslate_tiles"
+Blocks.DEEPSLATE_TILE_STAIRS:
+  - Material.DEEPSLATE_TILE_STAIRS
+  - "deepslate_tile_stairs"
+Blocks.DEEPSLATE_TILE_SLAB:
+  - Material.DEEPSLATE_TILE_SLAB
+  - "deepslate_tile_slab"
+Blocks.DEEPSLATE_TILE_WALL:
+  - Material.DEEPSLATE_TILE_WALL
+  - "deepslate_tile_wall"
+Blocks.DEEPSLATE_BRICKS:
+  - Material.DEEPSLATE_BRICKS
+  - "deepslate_bricks"
+Blocks.DEEPSLATE_BRICK_STAIRS:
+  - Material.DEEPSLATE_BRICK_STAIRS
+  - "deepslate_brick_stairs"
+Blocks.DEEPSLATE_BRICK_SLAB:
+  - Material.DEEPSLATE_BRICK_SLAB
+  - "deepslate_brick_slab"
+Blocks.DEEPSLATE_BRICK_WALL:
+  - Material.DEEPSLATE_BRICK_WALL
+  - "deepslate_brick_wall"
+Blocks.CHISELED_DEEPSLATE:
+  - Material.CHISELED_DEEPSLATE
+  - "chiseled_deepslate"
+Blocks.CRACKED_DEEPSLATE_BRICKS:
+  - Material.CRACKED_DEEPSLATE_BRICKS
+  - "cracked_deepslate_bricks"
+Blocks.CRACKED_DEEPSLATE_TILES:
+  - Material.CRACKED_DEEPSLATE_TILES
+  - "cracked_deepslate_tiles"
+Blocks.RAW_IRON_BLOCK:
+  - Material.RAW_IRON_BLOCK
+  - "raw_iron_block"
+Blocks.RAW_GOLD_BLOCK:
+  - Material.RAW_GOLD_BLOCK
+  - "raw_gold_block"
+Blocks.RAW_COPPER_BLOCK:
+  - Material.RAW_COPPER_BLOCK
+  - "raw_copper_block"
+Blocks.LIGHT:
+  - Material.LIGHT
+  - "light"
+Blocks.POTTED_AZALEA_BUSH:
+  - Material.POTTED_AZALEA
+  - "potted_azalea_bush"
+Blocks.POTTED_FLOWERING_AZALEA_BUSH:
+  - Material.POTTED_FLOWERING_AZALEA
+  - "potted_flowering_azalea_bush"
+Blocks.POTTED_MANGROVE_PROPAGULE:
+  - Material.POTTED_MANGROVE_PROPAGULE
+  - "potted_mangrove_propagule"
+Blocks.OCHRE_FROGLIGHT:
+  - Material.OCHRE_FROGLIGHT
+  - "ochre_froglight"
+Blocks.VERDANT_FROGLIGHT:
+  - Material.VERDANT_FROGLIGHT
+  - "verdant_froglight"
+Blocks.PEARLESCENT_FROGLIGHT:
+  - Material.PEARLESCENT_FROGLIGHT
+  - "pearlescent_froglight"
+Blocks.FROGSPAWN:
+  - Material.FROGSPAWN
+  - "frogspawn"
+Blocks.POTTED_CHERRY_SAPLING:
+  - Material.POTTED_CHERRY_SAPLING
+  - "potted_cherry_sapling"
+Blocks.POTTED_TORCHFLOWER:
+  - Material.POTTED_TORCHFLOWER
+  - "potted_torchflower"
+Blocks.POTTED_OPEN_EYEBLOSSOM:
+  - Material.POTTED_OPEN_EYEBLOSSOM
+  - "potted_open_eyeblossom"
+Blocks.POTTED_CLOSED_EYEBLOSSOM:
+  - Material.POTTED_CLOSED_EYEBLOSSOM
+  - "potted_closed_eyeblossom"
+Blocks.DECORATED_POT:
+  - Material.DECORATED_POT
+  - "decorated_pot"
+Blocks.CRAFTER:
+  - Material.CRAFTER
+  - "crafter"
+Blocks.TRIAL_SPAWNER:
+  - Material.TRIAL_SPAWNER
+  - "trial_spawner"
+Blocks.VAULT:
+  - Material.VAULT
+  - "vault"
+Blocks.HEAVY_CORE:
+  - Material.HEAVY_CORE
+  - "heavy_core"
+Blocks.TORCHFLOWER_CROP:
+  - Material.TORCHFLOWER_CROP
+  - "torchflower_crop"
+Blocks.PITCHER_CROP:
+  - Material.PITCHER_CROP
+  - "pitcher_crop"
+Blocks.SNIFFER_EGG:
+  - Material.SNIFFER_EGG
+  - "sniffer_egg"
+Items.DYE:
+  - Material.INK_SAC
+  - "#c:dyes"
+Items.DYE#0:
+  - Material.INK_SAC
+  - "ink_sac"
+Items.DYE#1:
+  - Material.RED_DYE
+  - "red_dye"
+Items.DYE#2:
+  - Material.GREEN_DYE
+  - "green_dye"
+Items.DYE#3:
+  - Material.COCOA_BEANS
+  - "cocoa_beans"
+Items.DYE#4:
+  - Material.LAPIS_LAZULI
+  - "lapis_lazuli"
+Items.DYE#5:
+  - Material.PURPLE_DYE
+  - "purple_dye"
+Items.DYE#6:
+  - Material.CYAN_DYE
+  - "cyan_dye"
+Items.DYE#7:
+  - Material.LIGHT_GRAY_DYE
+  - "light_gray_dye"
+Items.DYE#8:
+  - Material.GRAY_DYE
+  - "gray_dye"
+Items.DYE#9:
+  - Material.PINK_DYE
+  - "pink_dye"
+Items.DYE#10:
+  - Material.LIME_DYE
+  - "lime_dye"
+Items.DYE#11:
+  - Material.YELLOW_DYE
+  - "yellow_dye"
+Items.DYE#12:
+  - Material.LIGHT_BLUE_DYE
+  - "light_blue_dye"
+Items.DYE#13:
+  - Material.MAGENTA_DYE
+  - "magenta_dye"
+Items.DYE#14:
+  - Material.ORANGE_DYE
+  - "orange_dye"
+Items.DYE#15:
+  - Material.BONE_MEAL
+  - "bone_meal"
+Items.DYE#16:
+  - Material.BLACK_DYE
+  - "black_dye"
+Items.DYE#17:
+  - Material.BROWN_DYE
+  - "brown_dye"
+Items.DYE#18:
+  - Material.BLUE_DYE
+  - "blue_dye"
+Items.DYE#19:
+  - Material.WHITE_DYE
+  - "white_dye"
+Items.COAL#0:
+  - Material.COAL
+  - "coal"
+Items.COAL#1:
+  - Material.CHARCOAL
+  - "charcoal"
+Items.IRON_INGOT:
+  - Material.IRON_INGOT
+  - "iron_ingot"
+Items.IRON_NUGGET:
+  - Material.IRON_NUGGET
+  - "iron_nugget"
+Items.REDSTONE:
+  - Material.REDSTONE
+  - "redstone"
+Items.GOLD_INGOT:
+  - Material.GOLD_INGOT
+  - "gold_ingot"
+Items.GOLD_NUGGET:
+  - Material.GOLD_NUGGET
+  - "gold_nugget"
+Items.DIAMOND:
+  - Material.DIAMOND
+  - "diamond"
+Items.EMERALD:
+  - Material.EMERALD
+  - "emerald"
+Items.QUARTZ:
+  - Material.QUARTZ
+  - "quartz"
+Items.COPPER_INGOT:
+  - Material.COPPER_INGOT
+  - "copper_ingot"
+Items.NETHER_STAR:
+  - Material.NETHER_STAR
+  - "nether_star"
+Items.PRISMARINE_SHARD:
+  - Material.PRISMARINE_SHARD
+  - "prismarine_shard"
+Items.PRISMARINE_CRYSTALS:
+  - Material.PRISMARINE_CRYSTALS
+  - "prismarine_crystals"
+Items.BOW:
+  - Material.BOW
+  - "bow"
+Items.ARROW:
+  - Material.ARROW
+  - "arrow"
+Items.SPECTRAL_ARROW:
+  - Material.SPECTRAL_ARROW
+  - "spectral_arrow"
+Items.TIPPED_ARROW:
+  - Material.TIPPED_ARROW
+  - "tipped_arrow"
+Items.FISHING_ROD:
+  - Material.FISHING_ROD
+  - "fishing_rod"
+Items.CARROT_ON_A_STICK:
+  - Material.CARROT_ON_A_STICK
+  - "carrot_on_a_stick"
+Items.COMPASS:
+  - Material.COMPASS
+  - "compass"
+Items.RECOVERY_COMPASS:
+  - Material.RECOVERY_COMPASS
+  - "recovery_compass"
+Items.CLOCK:
+  - Material.CLOCK
+  - "clock"
+Items.MAP:
+  - Material.MAP
+  - "map"
+Items.FILLED_MAP:
+  - Material.FILLED_MAP
+  - "filled_map"
+Items.TOTEM_OF_UNDYING:
+  - Material.TOTEM_OF_UNDYING
+  - "totem_of_undying"
+Items.LEAD:
+  - Material.LEAD
+  - "lead"
+Items.NAME_TAG:
+  - Material.NAME_TAG
+  - "name_tag"
+Items.SHIELD:
+  - Material.SHIELD
+  - "shield"
+Items.WOODEN_SWORD:
+  - Material.WOODEN_SWORD
+  - "wooden_sword"
+Items.WOODEN_SHOVEL:
+  - Material.WOODEN_SHOVEL
+  - "wooden_shovel"
+Items.WOODEN_PICKAXE:
+  - Material.WOODEN_PICKAXE
+  - "wooden_pickaxe"
+Items.WOODEN_AXE:
+  - Material.WOODEN_AXE
+  - "wooden_axe"
+Items.WOODEN_HOE:
+  - Material.WOODEN_HOE
+  - "wooden_hoe"
+Items.STONE_SWORD:
+  - Material.STONE_SWORD
+  - "stone_sword"
+Items.STONE_SHOVEL:
+  - Material.STONE_SHOVEL
+  - "stone_shovel"
+Items.STONE_PICKAXE:
+  - Material.STONE_PICKAXE
+  - "stone_pickaxe"
+Items.STONE_AXE:
+  - Material.STONE_AXE
+  - "stone_axe"
+Items.STONE_HOE:
+  - Material.STONE_HOE
+  - "stone_hoe"
+Items.IRON_SWORD:
+  - Material.IRON_SWORD
+  - "iron_sword"
+Items.IRON_SHOVEL:
+  - Material.IRON_SHOVEL
+  - "iron_shovel"
+Items.IRON_PICKAXE:
+  - Material.IRON_PICKAXE
+  - "iron_pickaxe"
+Items.IRON_AXE:
+  - Material.IRON_AXE
+  - "iron_axe"
+Items.IRON_HOE:
+  - Material.IRON_HOE
+  - "iron_hoe"
+Items.FLINT_AND_STEEL:
+  - Material.FLINT_AND_STEEL
+  - "flint_and_steel"
+Items.SHEARS:
+  - Material.SHEARS
+  - "shears"
+Items.GOLDEN_SWORD:
+  - Material.GOLDEN_SWORD
+  - "golden_sword"
+Items.GOLDEN_SHOVEL:
+  - Material.GOLDEN_SHOVEL
+  - "golden_shovel"
+Items.GOLDEN_PICKAXE:
+  - Material.GOLDEN_PICKAXE
+  - "golden_pickaxe"
+Items.GOLDEN_AXE:
+  - Material.GOLDEN_AXE
+  - "golden_axe"
+Items.GOLDEN_HOE:
+  - Material.GOLDEN_HOE
+  - "golden_hoe"
+Items.DIAMOND_SWORD:
+  - Material.DIAMOND_SWORD
+  - "diamond_sword"
+Items.DIAMOND_SHOVEL:
+  - Material.DIAMOND_SHOVEL
+  - "diamond_shovel"
+Items.DIAMOND_PICKAXE:
+  - Material.DIAMOND_PICKAXE
+  - "diamond_pickaxe"
+Items.DIAMOND_AXE:
+  - Material.DIAMOND_AXE
+  - "diamond_axe"
+Items.DIAMOND_HOE:
+  - Material.DIAMOND_HOE
+  - "diamond_hoe"
+Items.LEATHER_HELMET:
+  - Material.LEATHER_HELMET
+  - "leather_helmet"
+Items.LEATHER_CHESTPLATE:
+  - Material.LEATHER_CHESTPLATE
+  - "leather_chestplate"
+Items.LEATHER_LEGGINGS:
+  - Material.LEATHER_LEGGINGS
+  - "leather_leggings"
+Items.LEATHER_BOOTS:
+  - Material.LEATHER_BOOTS
+  - "leather_boots"
+Items.CHAINMAIL_HELMET:
+  - Material.CHAINMAIL_HELMET
+  - "chainmail_helmet"
+Items.CHAINMAIL_CHESTPLATE:
+  - Material.CHAINMAIL_CHESTPLATE
+  - "chainmail_chestplate"
+Items.CHAINMAIL_LEGGINGS:
+  - Material.CHAINMAIL_LEGGINGS
+  - "chainmail_leggings"
+Items.CHAINMAIL_BOOTS:
+  - Material.CHAINMAIL_BOOTS
+  - "chainmail_boots"
+Items.IRON_HELMET:
+  - Material.IRON_HELMET
+  - "iron_helmet"
+Items.IRON_CHESTPLATE:
+  - Material.IRON_CHESTPLATE
+  - "iron_chestplate"
+Items.IRON_LEGGINGS:
+  - Material.IRON_LEGGINGS
+  - "iron_leggings"
+Items.IRON_BOOTS:
+  - Material.IRON_BOOTS
+  - "iron_boots"
+Items.GOLDEN_HELMET:
+  - Material.GOLDEN_HELMET
+  - "golden_helmet"
+Items.GOLDEN_CHESTPLATE:
+  - Material.GOLDEN_CHESTPLATE
+  - "golden_chestplate"
+Items.GOLDEN_LEGGINGS:
+  - Material.GOLDEN_LEGGINGS
+  - "golden_leggings"
+Items.GOLDEN_BOOTS:
+  - Material.GOLDEN_BOOTS
+  - "golden_boots"
+Items.DIAMOND_HELMET:
+  - Material.DIAMOND_HELMET
+  - "diamond_helmet"
+Items.DIAMOND_CHESTPLATE:
+  - Material.DIAMOND_CHESTPLATE
+  - "diamond_chestplate"
+Items.DIAMOND_LEGGINGS:
+  - Material.DIAMOND_LEGGINGS
+  - "diamond_leggings"
+Items.DIAMOND_BOOTS:
+  - Material.DIAMOND_BOOTS
+  - "diamond_boots"
+Items.ELYTRA:
+  - Material.ELYTRA
+  - "elytra"
+Items.IRON_HORSE_ARMOR:
+  - Material.IRON_HORSE_ARMOR
+  - "iron_horse_armor"
+Items.GOLDEN_HORSE_ARMOR:
+  - Material.GOLDEN_HORSE_ARMOR
+  - "golden_horse_armor"
+Items.DIAMOND_HORSE_ARMOR:
+  - Material.DIAMOND_HORSE_ARMOR
+  - "diamond_horse_armor"
+Items.ARMOR_STAND:
+  - Material.ARMOR_STAND
+  - "armor_stand"
+Items.FLOWER_POT:
+  - Material.FLOWER_POT
+  - "flower_pot"
+Items.BANNER:
+  - Material.BLACK_BANNER
+  - "#minecraft:banners"
+Items.BANNER#0:
+  - Material.BLACK_BANNER
+  - "black_banner"
+Items.BANNER#1:
+  - Material.RED_BANNER
+  - "red_banner"
+Items.BANNER#2:
+  - Material.GREEN_BANNER
+  - "green_banner"
+Items.BANNER#3:
+  - Material.BROWN_BANNER
+  - "brown_banner"
+Items.BANNER#4:
+  - Material.BLUE_BANNER
+  - "blue_banner"
+Items.BANNER#5:
+  - Material.PURPLE_BANNER
+  - "purple_banner"
+Items.BANNER#6:
+  - Material.CYAN_BANNER
+  - "cyan_banner"
+Items.BANNER#7:
+  - Material.LIGHT_GRAY_BANNER
+  - "light_gray_banner"
+Items.BANNER#8:
+  - Material.GRAY_BANNER
+  - "gray_banner"
+Items.BANNER#9:
+  - Material.PINK_BANNER
+  - "pink_banner"
+Items.BANNER#10:
+  - Material.LIME_BANNER
+  - "lime_banner"
+Items.BANNER#11:
+  - Material.YELLOW_BANNER
+  - "yellow_banner"
+Items.BANNER#12:
+  - Material.LIGHT_BLUE_BANNER
+  - "light_blue_banner"
+Items.BANNER#13:
+  - Material.MAGENTA_BANNER
+  - "magenta_banner"
+Items.BANNER#14:
+  - Material.ORANGE_BANNER
+  - "orange_banner"
+Items.BANNER#15:
+  - Material.WHITE_BANNER
+  - "white_banner"
+Items.PAINTING:
+  - Material.PAINTING
+  - "painting"
+Items.ITEM_FRAME:
+  - Material.ITEM_FRAME
+  - "item_frame"
+Items.SIGN:
+  - Material.OAK_SIGN
+  - "oak_sign"
+Items.OAK_DOOR:
+  - Material.OAK_DOOR
+  - "oak_door"
+Items.SPRUCE_DOOR:
+  - Material.SPRUCE_DOOR
+  - "spruce_door"
+Items.BIRCH_DOOR:
+  - Material.BIRCH_DOOR
+  - "birch_door"
+Items.JUNGLE_DOOR:
+  - Material.JUNGLE_DOOR
+  - "jungle_door"
+Items.ACACIA_DOOR:
+  - Material.ACACIA_DOOR
+  - "acacia_door"
+Items.DARK_OAK_DOOR:
+  - Material.DARK_OAK_DOOR
+  - "dark_oak_door"
+Items.PALE_OAK_DOOR:
+  - Material.PALE_OAK_DOOR
+  - "pale_oak_door"
+Items.MANGROVE_DOOR:
+  - Material.MANGROVE_DOOR
+  - "mangrove_door"
+Items.CHERRY_DOOR:
+  - Material.CHERRY_DOOR
+  - "cherry_door"
+Items.BAMBOO_DOOR:
+  - Material.BAMBOO_DOOR
+  - "bamboo_door"
+Items.IRON_DOOR:
+  - Material.IRON_DOOR
+  - "iron_door"
+Blocks.COPPER_DOOR:
+  - Material.COPPER_DOOR
+  - "copper_door"
+Blocks.EXPOSED_COPPER_DOOR:
+  - Material.EXPOSED_COPPER_DOOR
+  - "exposed_copper_door"
+Blocks.OXIDIZED_COPPER_DOOR:
+  - Material.OXIDIZED_COPPER_DOOR
+  - "oxidized_copper_door"
+Blocks.WEATHERED_COPPER_DOOR:
+  - Material.WEATHERED_COPPER_DOOR
+  - "weathered_copper_door"
+Blocks.WAXED_COPPER_DOOR:
+  - Material.WAXED_COPPER_DOOR
+  - "waxed_copper_door"
+Blocks.WAXED_EXPOSED_COPPER_DOOR:
+  - Material.WAXED_EXPOSED_COPPER_DOOR
+  - "waxed_exposed_copper_door"
+Blocks.WAXED_OXIDIZED_COPPER_DOOR:
+  - Material.WAXED_OXIDIZED_COPPER_DOOR
+  - "waxed_oxidized_copper_door"
+Blocks.WAXED_WEATHERED_COPPER_DOOR:
+  - Material.WAXED_WEATHERED_COPPER_DOOR
+  - "waxed_weathered_copper_door"
+Items.CRIMSON_DOOR:
+  - Material.CRIMSON_DOOR
+  - "crimson_door"
+Items.WARPED_DOOR:
+  - Material.WARPED_DOOR
+  - "warped_door"
+Items.BUCKET:
+  - Material.BUCKET
+  - "bucket"
+Items.WATER_BUCKET:
+  - Material.WATER_BUCKET
+  - "water_bucket"
+Items.LAVA_BUCKET:
+  - Material.LAVA_BUCKET
+  - "lava_bucket"
+Items.MILK_BUCKET:
+  - Material.MILK_BUCKET
+  - "milk_bucket"
+Items.MINECART:
+  - Material.MINECART
+  - "minecart"
+Items.CHEST_MINECART:
+  - Material.CHEST_MINECART
+  - "chest_minecart"
+Items.FURNACE_MINECART:
+  - Material.FURNACE_MINECART
+  - "furnace_minecart"
+Items.HOPPER_MINECART:
+  - Material.HOPPER_MINECART
+  - "hopper_minecart"
+Items.TNT_MINECART:
+  - Material.TNT_MINECART
+  - "tnt_minecart"
+Items.COMMAND_BLOCK_MINECART:
+  - Material.COMMAND_BLOCK_MINECART
+  - "command_block_minecart"
+Items.BOAT:
+  - Material.OAK_BOAT
+  - "oak_boat"
+Items.SPRUCE_BOAT:
+  - Material.SPRUCE_BOAT
+  - "spruce_boat"
+Items.BIRCH_BOAT:
+  - Material.BIRCH_BOAT
+  - "birch_boat"
+Items.JUNGLE_BOAT:
+  - Material.JUNGLE_BOAT
+  - "jungle_boat"
+Items.ACACIA_BOAT:
+  - Material.ACACIA_BOAT
+  - "acacia_boat"
+Items.DARK_OAK_BOAT:
+  - Material.DARK_OAK_BOAT
+  - "dark_oak_boat"
+Items.PALE_OAK_BOAT:
+  - Material.PALE_OAK_BOAT
+  - "pale_oak_boat"
+Items.MANGROVE_BOAT:
+  - Material.MANGROVE_BOAT
+  - "mangrove_boat"
+Items.CHERRY_BOAT:
+  - Material.CHERRY_BOAT
+  - "cherry_boat"
+Items.BAMBOO_RAFT:
+  - Material.BAMBOO_RAFT
+  - "bamboo_raft"
+Items.OAK_CHEST_BOAT:
+  - Material.OAK_CHEST_BOAT
+  - "oak_chest_boat"
+Items.SPRUCE_CHEST_BOAT:
+  - Material.SPRUCE_CHEST_BOAT
+  - "spruce_chest_boat"
+Items.BIRCH_CHEST_BOAT:
+  - Material.BIRCH_CHEST_BOAT
+  - "birch_chest_boat"
+Items.JUNGLE_CHEST_BOAT:
+  - Material.JUNGLE_CHEST_BOAT
+  - "jungle_chest_boat"
+Items.ACACIA_CHEST_BOAT:
+  - Material.ACACIA_CHEST_BOAT
+  - "acacia_chest_boat"
+Items.DARK_OAK_CHEST_BOAT:
+  - Material.DARK_OAK_CHEST_BOAT
+  - "dark_oak_chest_boat"
+Items.PALE_OAK_CHEST_BOAT:
+  - Material.PALE_OAK_CHEST_BOAT
+  - "pale_oak_chest_boat"
+Items.MANGROVE_CHEST_BOAT:
+  - Material.MANGROVE_CHEST_BOAT
+  - "mangrove_chest_boat"
+Items.CHERRY_CHEST_BOAT:
+  - Material.CHERRY_CHEST_BOAT
+  - "cherry_chest_boat"
+Items.BAMBOO_CHEST_RAFT:
+  - Material.BAMBOO_CHEST_RAFT
+  - "bamboo_chest_raft"
+Items.REPEATER:
+  - Material.REPEATER
+  - "repeater"
+Items.COMPARATOR:
+  - Material.COMPARATOR
+  - "comparator"
+Items.APPLE:
+  - Material.APPLE
+  - "apple"
+Items.GOLDEN_APPLE:
+  - Material.GOLDEN_APPLE
+  - "golden_apple"
+Items.GOLDEN_APPLE#0:
+  - Material.GOLDEN_APPLE
+  - "golden_apple"
+Items.GOLDEN_APPLE#1:
+  - Material.ENCHANTED_GOLDEN_APPLE
+  - "enchanted_golden_apple"
+Items.STICK:
+  - Material.STICK
+  - "stick"
+Items.BOWL:
+  - Material.BOWL
+  - "bowl"
+Items.MUSHROOM_STEW:
+  - Material.MUSHROOM_STEW
+  - "mushroom_stew"
+Items.STRING:
+  - Material.STRING
+  - "string"
+Items.FEATHER:
+  - Material.FEATHER
+  - "feather"
+Items.GUNPOWDER:
+  - Material.GUNPOWDER
+  - "gunpowder"
+Items.WHEAT_SEEDS:
+  - Material.WHEAT_SEEDS
+  - "wheat_seeds"
+Items.WHEAT:
+  - Material.WHEAT
+  - "wheat"
+Items.CARROT:
+  - Material.CARROT
+  - "carrot"
+Items.POTATO:
+  - Material.POTATO
+  - "potato"
+Items.BAKED_POTATO:
+  - Material.BAKED_POTATO
+  - "baked_potato"
+Items.POISONOUS_POTATO:
+  - Material.POISONOUS_POTATO
+  - "poisonous_potato"
+Items.PUMPKIN_PIE:
+  - Material.PUMPKIN_PIE
+  - "pumpkin_pie"
+Items.GOLDEN_CARROT:
+  - Material.GOLDEN_CARROT
+  - "golden_carrot"
+Items.BREAD:
+  - Material.BREAD
+  - "bread"
+Items.PUMPKIN_SEEDS:
+  - Material.PUMPKIN_SEEDS
+  - "pumpkin_seeds"
+Items.FLINT:
+  - Material.FLINT
+  - "flint"
+Items.LEATHER:
+  - Material.LEATHER
+  - "leather"
+Items.SADDLE:
+  - Material.SADDLE
+  - "saddle"
+Items.BRICK:
+  - Material.BRICK
+  - "brick"
+Items.NETHERBRICK:
+  - Material.NETHER_BRICK
+  - "nether_brick"
+Items.RESIN_BRICK:
+  - Material.RESIN_BRICK
+  - "resin_brick"
+Items.CLAY_BALL:
+  - Material.CLAY_BALL
+  - "clay_ball"
+Items.REEDS:
+  - Material.SUGAR_CANE
+  - "sugar_cane"
+Items.PAPER:
+  - Material.PAPER
+  - "paper"
+Items.SLIME_BALL:
+  - Material.SLIME_BALL
+  - "slime_ball"
+Items.EGG:
+  - Material.EGG
+  - "egg"
+Items.GLOWSTONE_DUST:
+  - Material.GLOWSTONE_DUST
+  - "glowstone_dust"
+Items.BONE:
+  - Material.BONE
+  - "bone"
+Items.SUGAR:
+  - Material.SUGAR
+  - "sugar"
+Items.CAKE:
+  - Material.CAKE
+  - "cake"
+Items.BED:
+  - Material.WHITE_BED
+  - "white_bed"
+Items.COOKIE:
+  - Material.COOKIE
+  - "cookie"
+Items.MELON:
+  - Material.MELON_SLICE
+  - "melon_slice"
+Items.MELON_SEEDS:
+  - Material.MELON_SEEDS
+  - "melon_seeds"
+Items.FISH#0:
+  - Material.COD
+  - "cod"
+Items.FISH#1:
+  - Material.SALMON
+  - "salmon"
+Items.FISH#2:
+  - Material.TROPICAL_FISH
+  - "tropical_fish"
+Items.FISH#3:
+  - Material.PUFFERFISH
+  - "pufferfish"
+Items.COOKED_FISH#0:
+  - Material.COOKED_COD
+  - "cooked_cod"
+Items.COOKED_FISH#1:
+  - Material.COOKED_SALMON
+  - "cooked_salmon"
+Items.PORKCHOP:
+  - Material.PORKCHOP
+  - "porkchop"
+Items.COOKED_PORKCHOP:
+  - Material.COOKED_PORKCHOP
+  - "cooked_porkchop"
+Items.BEEF:
+  - Material.BEEF
+  - "beef"
+Items.COOKED_BEEF:
+  - Material.COOKED_BEEF
+  - "cooked_beef"
+Items.CHICKEN:
+  - Material.CHICKEN
+  - "chicken"
+Items.COOKED_CHICKEN:
+  - Material.COOKED_CHICKEN
+  - "cooked_chicken"
+Items.RABBIT:
+  - Material.RABBIT
+  - "rabbit"
+Items.COOKED_RABBIT:
+  - Material.COOKED_RABBIT
+  - "cooked_rabbit"
+Items.RABBIT_FOOT:
+  - Material.RABBIT_FOOT
+  - "rabbit_foot"
+Items.RABBIT_HIDE:
+  - Material.RABBIT_HIDE
+  - "rabbit_hide"
+Items.RABBIT_STEW:
+  - Material.RABBIT_STEW
+  - "rabbit_stew"
+Items.MUTTON:
+  - Material.MUTTON
+  - "mutton"
+Items.COOKED_MUTTON:
+  - Material.COOKED_MUTTON
+  - "cooked_mutton"
+Items.ROTTEN_FLESH:
+  - Material.ROTTEN_FLESH
+  - "rotten_flesh"
+Items.ENDER_PEARL:
+  - Material.ENDER_PEARL
+  - "ender_pearl"
+Items.ENDER_EYE:
+  - Material.ENDER_EYE
+  - "ender_eye"
+Items.END_CRYSTAL:
+  - Material.END_CRYSTAL
+  - "end_crystal"
+Items.SHULKER_SHELL:
+  - Material.SHULKER_SHELL
+  - "shulker_shell"
+Items.CHORUS_FRUIT:
+  - Material.CHORUS_FRUIT
+  - "chorus_fruit"
+Items.CHORUS_FRUIT_POPPED:
+  - Material.POPPED_CHORUS_FRUIT
+  - "popped_chorus_fruit"
+Items.BEETROOT:
+  - Material.BEETROOT
+  - "beetroot"
+Items.BEETROOT_SEEDS:
+  - Material.BEETROOT_SEEDS
+  - "beetroot_seeds"
+Items.BEETROOT_SOUP:
+  - Material.BEETROOT_SOUP
+  - "beetroot_soup"
+Items.GHAST_TEAR:
+  - Material.GHAST_TEAR
+  - "ghast_tear"
+Items.NETHER_WART:
+  - Material.NETHER_WART
+  - "nether_wart"
+Items.GLASS_BOTTLE:
+  - Material.GLASS_BOTTLE
+  - "glass_bottle"
+Items.POTIONITEM:
+  - Material.POTION
+  - "potion"
+Items.SPLASH_POTION:
+  - Material.SPLASH_POTION
+  - "splash_potion"
+Items.LINGERING_POTION:
+  - Material.LINGERING_POTION
+  - "lingering_potion"
+Items.DRAGON_BREATH:
+  - Material.DRAGON_BREATH
+  - "dragon_breath"
+Items.SPIDER_EYE:
+  - Material.SPIDER_EYE
+  - "spider_eye"
+Items.FERMENTED_SPIDER_EYE:
+  - Material.FERMENTED_SPIDER_EYE
+  - "fermented_spider_eye"
+Items.BLAZE_ROD:
+  - Material.BLAZE_ROD
+  - "blaze_rod"
+Items.BLAZE_POWDER:
+  - Material.BLAZE_POWDER
+  - "blaze_powder"
+Items.MAGMA_CREAM:
+  - Material.MAGMA_CREAM
+  - "magma_cream"
+Items.BREWING_STAND:
+  - Material.BREWING_STAND
+  - "brewing_stand"
+Items.CAULDRON:
+  - Material.CAULDRON
+  - "cauldron"
+Items.SPECKLED_MELON:
+  - Material.GLISTERING_MELON_SLICE
+  - "glistering_melon_slice"
+Items.SPAWN_EGG#50:
+  - Material.CREEPER_SPAWN_EGG
+  - "creeper_spawn_egg"
+Items.SPAWN_EGG#51:
+  - Material.SKELETON_SPAWN_EGG
+  - "skeleton_spawn_egg"
+Items.SPAWN_EGG#52:
+  - Material.SPIDER_SPAWN_EGG
+  - "spider_spawn_egg"
+Items.SPAWN_EGG#54:
+  - Material.ZOMBIE_SPAWN_EGG
+  - "zombie_spawn_egg"
+Items.SPAWN_EGG#55:
+  - Material.SLIME_SPAWN_EGG
+  - "slime_spawn_egg"
+Items.SPAWN_EGG#56:
+  - Material.GHAST_SPAWN_EGG
+  - "ghast_spawn_egg"
+Items.SPAWN_EGG#57:
+  - Material.ZOMBIFIED_PIGLIN_SPAWN_EGG
+  - "zombified_piglin_spawn_egg"
+Items.SPAWN_EGG#58:
+  - Material.ENDERMAN_SPAWN_EGG
+  - "enderman_spawn_egg"
+Items.SPAWN_EGG#59:
+  - Material.CAVE_SPIDER_SPAWN_EGG
+  - "cave_spider_spawn_egg"
+Items.SPAWN_EGG#60:
+  - Material.SILVERFISH_SPAWN_EGG
+  - "silverfish_spawn_egg"
+Items.SPAWN_EGG#61:
+  - Material.BLAZE_SPAWN_EGG
+  - "blaze_spawn_egg"
+Items.SPAWN_EGG#62:
+  - Material.MAGMA_CUBE_SPAWN_EGG
+  - "magma_cube_spawn_egg"
+Items.SPAWN_EGG#65:
+  - Material.BAT_SPAWN_EGG
+  - "bat_spawn_egg"
+Items.SPAWN_EGG#66:
+  - Material.WITCH_SPAWN_EGG
+  - "witch_spawn_egg"
+Items.SPAWN_EGG#67:
+  - Material.ENDERMITE_SPAWN_EGG
+  - "endermite_spawn_egg"
+Items.SPAWN_EGG#68:
+  - Material.GUARDIAN_SPAWN_EGG
+  - "guardian_spawn_egg"
+Items.SPAWN_EGG#90:
+  - Material.PIG_SPAWN_EGG
+  - "pig_spawn_egg"
+Items.SPAWN_EGG#91:
+  - Material.SHEEP_SPAWN_EGG
+  - "sheep_spawn_egg"
+Items.SPAWN_EGG#92:
+  - Material.COW_SPAWN_EGG
+  - "cow_spawn_egg"
+Items.SPAWN_EGG#93:
+  - Material.CHICKEN_SPAWN_EGG
+  - "chicken_spawn_egg"
+Items.SPAWN_EGG#94:
+  - Material.SQUID_SPAWN_EGG
+  - "squid_spawn_egg"
+Items.SPAWN_EGG#95:
+  - Material.WOLF_SPAWN_EGG
+  - "wolf_spawn_egg"
+Items.SPAWN_EGG#96:
+  - Material.MOOSHROOM_SPAWN_EGG
+  - "mooshroom_spawn_egg"
+Items.SPAWN_EGG#98:
+  - Material.OCELOT_SPAWN_EGG
+  - "ocelot_spawn_egg"
+Items.SPAWN_EGG#100:
+  - Material.HORSE_SPAWN_EGG
+  - "horse_spawn_egg"
+Items.SPAWN_EGG#101:
+  - Material.RABBIT_SPAWN_EGG
+  - "rabbit_spawn_egg"
+Items.SPAWN_EGG#120:
+  - Material.VILLAGER_SPAWN_EGG
+  - "villager_spawn_egg"
+Items.EXPERIENCE_BOTTLE:
+  - Material.EXPERIENCE_BOTTLE
+  - "experience_bottle"
+Items.FIRE_CHARGE:
+  - Material.FIRE_CHARGE
+  - "fire_charge"
+Items.WIND_CHARGE:
+  - Material.WIND_CHARGE
+  - "wind_charge"
+Items.SNOWBALL:
+  - Material.SNOWBALL
+  - "snowball"
+Items.BOOK:
+  - Material.BOOK
+  - "book"
+Items.WRITABLE_BOOK:
+  - Material.WRITABLE_BOOK
+  - "writable_book"
+Items.WRITTEN_BOOK:
+  - Material.WRITTEN_BOOK
+  - "written_book"
+Items.MACE:
+  - Material.MACE
+  - "mace"
+Items.ENCHANTED_BOOK:
+  - Material.ENCHANTED_BOOK
+  - "enchanted_book"
+Items.KNOWLEDGE_BOOK:
+  - Material.KNOWLEDGE_BOOK
+  - "knowledge_book"
+Items.RECORD_13:
+  - Material.MUSIC_DISC_13
+  - "music_disc_13"
+Items.RECORD_CAT:
+  - Material.MUSIC_DISC_CAT
+  - "music_disc_cat"
+Items.RECORD_BLOCKS:
+  - Material.MUSIC_DISC_BLOCKS
+  - "music_disc_blocks"
+Items.RECORD_CREATOR:
+  - Material.MUSIC_DISC_CREATOR
+  - "music_disc_creator"
+Items.RECORD_CREATOR_MUSIC_BOX:
+  - Material.MUSIC_DISC_CREATOR_MUSIC_BOX
+  - "music_disc_creator_music_box"
+Items.RECORD_PRECIPICE:
+  - Material.MUSIC_DISC_PRECIPICE
+  - "music_disc_precipice"
+Items.RECORD_CHIRP:
+  - Material.MUSIC_DISC_CHIRP
+  - "music_disc_chirp"
+Items.RECORD_FAR:
+  - Material.MUSIC_DISC_FAR
+  - "music_disc_far"
+Items.RECORD_MALL:
+  - Material.MUSIC_DISC_MALL
+  - "music_disc_mall"
+Items.RECORD_MELLOHI:
+  - Material.MUSIC_DISC_MELLOHI
+  - "music_disc_mellohi"
+Items.RECORD_STAL:
+  - Material.MUSIC_DISC_STAL
+  - "music_disc_stal"
+Items.RECORD_STRAD:
+  - Material.MUSIC_DISC_STRAD
+  - "music_disc_strad"
+Items.RECORD_WARD:
+  - Material.MUSIC_DISC_WARD
+  - "music_disc_ward"
+Items.RECORD_11:
+  - Material.MUSIC_DISC_11
+  - "music_disc_11"
+Items.RECORD_WAIT:
+  - Material.MUSIC_DISC_WAIT
+  - "music_disc_wait"
+Items.MUSIC_DISC_PIGSTEP:
+  - Material.MUSIC_DISC_PIGSTEP
+  - "music_disc_pigstep"
+Items.MUSIC_DISC_OTHERSIDE:
+  - Material.MUSIC_DISC_OTHERSIDE
+  - "music_disc_otherside"
+Items.MUSIC_DISC_5:
+  - Material.MUSIC_DISC_5
+  - "music_disc_5"
+Items.MUSIC_DISC_RELIC:
+  - Material.MUSIC_DISC_RELIC
+  - "music_disc_relic"
+Items.DISC_FRAGMENT_5:
+  - Material.DISC_FRAGMENT_5
+  - "disc_fragment_5"
+Items.SKULL:
+  - Material.SKELETON_SKULL
+  - "#c:skulls"
+Items.SKULL#0:
+  - Material.SKELETON_SKULL
+  - "skeleton_skull"
+Items.SKULL#1:
+  - Material.WITHER_SKELETON_SKULL
+  - "wither_skeleton_skull"
+Items.SKULL#2:
+  - Material.PLAYER_HEAD
+  - "player_head"
+Items.SKULL#3:
+  - Material.ZOMBIE_HEAD
+  - "zombie_head"
+Items.SKULL#4:
+  - Material.CREEPER_HEAD
+  - "creeper_head"
+Items.SKULL#5:
+  - Material.DRAGON_HEAD
+  - "dragon_head"
+Items.PIGLIN_HEAD:
+  - Material.PIGLIN_HEAD
+  - "piglin_head"
+Items.FIREWORK_CHARGE:
+  - Material.FIREWORK_STAR
+  - "firework_star"
+Items.FIREWORKS:
+  - Material.FIREWORK_ROCKET
+  - "firework_rocket"
+Items.TURTLE_HELMET:
+  - Material.TURTLE_HELMET
+  - "turtle_helmet"
+Items.SCUTE:
+  - Material.TURTLE_SCUTE
+  - "turtle_scute"
+Items.SPRUCE_SIGN:
+  - Material.SPRUCE_SIGN
+  - "spruce_sign"
+Items.BIRCH_SIGN:
+  - Material.BIRCH_SIGN
+  - "birch_sign"
+Items.JUNGLE_SIGN:
+  - Material.JUNGLE_SIGN
+  - "jungle_sign"
+Items.ACACIA_SIGN:
+  - Material.ACACIA_SIGN
+  - "acacia_sign"
+Items.DARK_OAK_SIGN:
+  - Material.DARK_OAK_SIGN
+  - "dark_oak_sign"
+Items.PALE_OAK_SIGN:
+  - Material.PALE_OAK_SIGN
+  - "pale_oak_sign"
+Items.MANGROVE_SIGN:
+  - Material.MANGROVE_SIGN
+  - "mangrove_sign"
+Items.CHERRY_SIGN:
+  - Material.CHERRY_SIGN
+  - "cherry_sign"
+Items.BAMBOO_SIGN:
+  - Material.BAMBOO_SIGN
+  - "bamboo_sign"
+Items.OAK_HANGING_SIGN:
+  - Material.OAK_HANGING_SIGN
+  - "oak_hanging_sign"
+Items.SPRUCE_HANGING_SIGN:
+  - Material.SPRUCE_HANGING_SIGN
+  - "spruce_hanging_sign"
+Items.BIRCH_HANGING_SIGN:
+  - Material.BIRCH_HANGING_SIGN
+  - "birch_hanging_sign"
+Items.JUNGLE_HANGING_SIGN:
+  - Material.JUNGLE_HANGING_SIGN
+  - "jungle_hanging_sign"
+Items.ACACIA_HANGING_SIGN:
+  - Material.ACACIA_HANGING_SIGN
+  - "acacia_hanging_sign"
+Items.DARK_OAK_HANGING_SIGN:
+  - Material.DARK_OAK_HANGING_SIGN
+  - "dark_oak_hanging_sign"
+Items.PALE_OAK_HANGING_SIGN:
+  - Material.PALE_OAK_HANGING_SIGN
+  - "pale_oak_hanging_sign"
+Items.CRIMSON_HANGING_SIGN:
+  - Material.CRIMSON_HANGING_SIGN
+  - "crimson_hanging_sign"
+Items.WARPED_HANGING_SIGN:
+  - Material.WARPED_HANGING_SIGN
+  - "warped_hanging_sign"
+Items.MANGROVE_HANGING_SIGN:
+  - Material.MANGROVE_HANGING_SIGN
+  - "mangrove_hanging_sign"
+Items.CHERRY_HANGING_SIGN:
+  - Material.CHERRY_HANGING_SIGN
+  - "cherry_hanging_sign"
+Items.BAMBOO_HANGING_SIGN:
+  - Material.BAMBOO_HANGING_SIGN
+  - "bamboo_hanging_sign"
+Items.PUFFERFISH_BUCKET:
+  - Material.PUFFERFISH_BUCKET
+  - "pufferfish_bucket"
+Items.SALMON_BUCKET:
+  - Material.SALMON_BUCKET
+  - "salmon_bucket"
+Items.COD_BUCKET:
+  - Material.COD_BUCKET
+  - "cod_bucket"
+Items.TROPICAL_FISH_BUCKET:
+  - Material.TROPICAL_FISH_BUCKET
+  - "tropical_fish_bucket"
+Items.TADPOLE_BUCKET:
+  - Material.TADPOLE_BUCKET
+  - "tadpole_bucket"
+Items.DRIED_KELP:
+  - Material.DRIED_KELP
+  - "dried_kelp"
+Items.CAT_SPAWN_EGG:
+  - Material.CAT_SPAWN_EGG
+  - "cat_spawn_egg"
+Items.COD_SPAWN_EGG:
+  - Material.COD_SPAWN_EGG
+  - "cod_spawn_egg"
+Items.BOGGED_SPAWN_EGG:
+  - Material.BOGGED_SPAWN_EGG
+  - "bogged_spawn_egg"
+Items.BREEZE_SPAWN_EGG:
+  - Material.BREEZE_SPAWN_EGG
+  - "breeze_spawn_egg"
+Items.DOLPHIN_SPAWN_EGG:
+  - Material.DOLPHIN_SPAWN_EGG
+  - "dolphin_spawn_egg"
+Items.DONKEY_SPAWN_EGG:
+  - Material.DONKEY_SPAWN_EGG
+  - "donkey_spawn_egg"
+Items.DROWNED_SPAWN_EGG:
+  - Material.DROWNED_SPAWN_EGG
+  - "drowned_spawn_egg"
+Items.ELDER_GUARDIAN_SPAWN_EGG:
+  - Material.ELDER_GUARDIAN_SPAWN_EGG
+  - "elder_guardian_spawn_egg"
+Items.EVOKER_SPAWN_EGG:
+  - Material.EVOKER_SPAWN_EGG
+  - "evoker_spawn_egg"
+Items.FOX_SPAWN_EGG:
+  - Material.FOX_SPAWN_EGG
+  - "fox_spawn_egg"
+Items.HUSK_SPAWN_EGG:
+  - Material.HUSK_SPAWN_EGG
+  - "husk_spawn_egg"
+Items.LLAMA_SPAWN_EGG:
+  - Material.LLAMA_SPAWN_EGG
+  - "llama_spawn_egg"
+Items.MULE_SPAWN_EGG:
+  - Material.MULE_SPAWN_EGG
+  - "mule_spawn_egg"
+Items.PANDA_SPAWN_EGG:
+  - Material.PANDA_SPAWN_EGG
+  - "panda_spawn_egg"
+Items.PARROT_SPAWN_EGG:
+  - Material.PARROT_SPAWN_EGG
+  - "parrot_spawn_egg"
+Items.PHANTOM_SPAWN_EGG:
+  - Material.PHANTOM_SPAWN_EGG
+  - "phantom_spawn_egg"
+Items.PILLAGER_SPAWN_EGG:
+  - Material.PILLAGER_SPAWN_EGG
+  - "pillager_spawn_egg"
+Items.POLAR_BEAR_SPAWN_EGG:
+  - Material.POLAR_BEAR_SPAWN_EGG
+  - "polar_bear_spawn_egg"
+Items.PUFFERFISH_SPAWN_EGG:
+  - Material.PUFFERFISH_SPAWN_EGG
+  - "pufferfish_spawn_egg"
+Items.RAVAGER_SPAWN_EGG:
+  - Material.RAVAGER_SPAWN_EGG
+  - "ravager_spawn_egg"
+Items.SALMON_SPAWN_EGG:
+  - Material.SALMON_SPAWN_EGG
+  - "salmon_spawn_egg"
+Items.SHULKER_SPAWN_EGG:
+  - Material.SHULKER_SPAWN_EGG
+  - "shulker_spawn_egg"
+Items.SKELETON_HORSE_SPAWN_EGG:
+  - Material.SKELETON_HORSE_SPAWN_EGG
+  - "skeleton_horse_spawn_egg"
+Items.STRAY_SPAWN_EGG:
+  - Material.STRAY_SPAWN_EGG
+  - "stray_spawn_egg"
+Items.TRADER_LLAMA_SPAWN_EGG:
+  - Material.TRADER_LLAMA_SPAWN_EGG
+  - "trader_llama_spawn_egg"
+Items.TROPICAL_FISH_SPAWN_EGG:
+  - Material.TROPICAL_FISH_SPAWN_EGG
+  - "tropical_fish_spawn_egg"
+Items.TURTLE_SPAWN_EGG:
+  - Material.TURTLE_SPAWN_EGG
+  - "turtle_spawn_egg"
+Items.VEX_SPAWN_EGG:
+  - Material.VEX_SPAWN_EGG
+  - "vex_spawn_egg"
+Items.VINDICATOR_SPAWN_EGG:
+  - Material.VINDICATOR_SPAWN_EGG
+  - "vindicator_spawn_egg"
+Items.WANDERING_TRADER_SPAWN_EGG:
+  - Material.WANDERING_TRADER_SPAWN_EGG
+  - "wandering_trader_spawn_egg"
+Items.WITHER_SKELETON_SPAWN_EGG:
+  - Material.WITHER_SKELETON_SPAWN_EGG
+  - "wither_skeleton_spawn_egg"
+Items.ZOMBIE_HORSE_SPAWN_EGG:
+  - Material.ZOMBIE_HORSE_SPAWN_EGG
+  - "zombie_horse_spawn_egg"
+Items.ZOMBIE_VILLAGER_SPAWN_EGG:
+  - Material.ZOMBIE_VILLAGER_SPAWN_EGG
+  - "zombie_villager_spawn_egg"
+Items.LEATHER_HORSE_ARMOR:
+  - Material.LEATHER_HORSE_ARMOR
+  - "leather_horse_armor"
+Items.DEBUG_STICK:
+  - Material.DEBUG_STICK
+  - "debug_stick"
+Items.TRIDENT:
+  - Material.TRIDENT
+  - "trident"
+Items.PHANTOM_MEMBRANE:
+  - Material.PHANTOM_MEMBRANE
+  - "phantom_membrane"
+Items.NAUTILUS_SHELL:
+  - Material.NAUTILUS_SHELL
+  - "nautilus_shell"
+Items.HEART_OF_THE_SEA:
+  - Material.HEART_OF_THE_SEA
+  - "heart_of_the_sea"
+Items.CROSSBOW:
+  - Material.CROSSBOW
+  - "crossbow"
+Items.SUSPICIOUS_STEW:
+  - Material.SUSPICIOUS_STEW
+  - "suspicious_stew"
+Items.FLOWER_BANNER_PATTERN:
+  - Material.FLOWER_BANNER_PATTERN
+  - "flower_banner_pattern"
+Items.CREEPER_BANNER_PATTERN:
+  - Material.CREEPER_BANNER_PATTERN
+  - "creeper_banner_pattern"
+Items.SKULL_BANNER_PATTERN:
+  - Material.SKULL_BANNER_PATTERN
+  - "skull_banner_pattern"
+Items.THING_BANNER_PATTERN:
+  - Material.MOJANG_BANNER_PATTERN
+  - "mojang_banner_pattern"
+Items.GLOBE_BANNER_PATTERN:
+  - Material.GLOBE_BANNER_PATTERN
+  - "globe_banner_pattern"
+Items.FIELD_MASONED_BANNER_PATTERN:
+  - Material.FIELD_MASONED_BANNER_PATTERN
+  - "field_masoned_banner_pattern"
+Items.BORDURE_INDENTED_BANNER_PATTERN:
+  - Material.BORDURE_INDENTED_BANNER_PATTERN
+  - "bordure_indented_banner_pattern"
+Items.SWEET_BERRIES:
+  - Material.SWEET_BERRIES
+  - "sweet_berries"
+Items.BEE_SPAWN_EGG:
+  - Material.BEE_SPAWN_EGG
+  - "bee_spawn_egg"
+Items.HONEYCOMB:
+  - Material.HONEYCOMB
+  - "honeycomb"
+Items.HONEY_BOTTLE:
+  - Material.HONEY_BOTTLE
+  - "honey_bottle"
+Items.TORCH:
+  - Material.TORCH
+  - "torch"
+Items.REDSTONE_TORCH:
+  - Material.REDSTONE_TORCH
+  - "redstone_torch"
+Items.SOUL_TORCH:
+  - Material.SOUL_TORCH
+  - "soul_torch"
+Items.NETHERITE_INGOT:
+  - Material.NETHERITE_INGOT
+  - "netherite_ingot"
+Items.NETHERITE_SCRAP:
+  - Material.NETHERITE_SCRAP
+  - "netherite_scrap"
+Items.NETHERITE_SWORD:
+  - Material.NETHERITE_SWORD
+  - "netherite_sword"
+Items.NETHERITE_SHOVEL:
+  - Material.NETHERITE_SHOVEL
+  - "netherite_shovel"
+Items.NETHERITE_PICKAXE:
+  - Material.NETHERITE_PICKAXE
+  - "netherite_pickaxe"
+Items.NETHERITE_AXE:
+  - Material.NETHERITE_AXE
+  - "netherite_axe"
+Items.NETHERITE_HOE:
+  - Material.NETHERITE_HOE
+  - "netherite_hoe"
+Items.NETHERITE_HELMET:
+  - Material.NETHERITE_HELMET
+  - "netherite_helmet"
+Items.NETHERITE_CHESTPLATE:
+  - Material.NETHERITE_CHESTPLATE
+  - "netherite_chestplate"
+Items.NETHERITE_LEGGINGS:
+  - Material.NETHERITE_LEGGINGS
+  - "netherite_leggings"
+Items.NETHERITE_BOOTS:
+  - Material.NETHERITE_BOOTS
+  - "netherite_boots"
+Items.CRIMSON_SIGN:
+  - Material.CRIMSON_SIGN
+  - "crimson_sign"
+Items.WARPED_SIGN:
+  - Material.WARPED_SIGN
+  - "warped_sign"
+Items.HOGLIN_SPAWN_EGG:
+  - Material.HOGLIN_SPAWN_EGG
+  - "hoglin_spawn_egg"
+Items.PIGLIN_SPAWN_EGG:
+  - Material.PIGLIN_SPAWN_EGG
+  - "piglin_spawn_egg"
+Items.PIGLIN_BRUTE_SPAWN_EGG:
+  - Material.PIGLIN_BRUTE_SPAWN_EGG
+  - "piglin_brute_spawn_egg"
+Items.STRIDER_SPAWN_EGG:
+  - Material.STRIDER_SPAWN_EGG
+  - "strider_spawn_egg"
+Items.ZOGLIN_SPAWN_EGG:
+  - Material.ZOGLIN_SPAWN_EGG
+  - "zoglin_spawn_egg"
+Items.WARPED_FUNGUS_ON_A_STICK:
+  - Material.WARPED_FUNGUS_ON_A_STICK
+  - "warped_fungus_on_a_stick"
+Items.PIGLIN_BANNER_PATTERN:
+  - Material.PIGLIN_BANNER_PATTERN
+  - "piglin_banner_pattern"
+Items.FLOW_BANNER_PATTERN:
+  - Material.FLOW_BANNER_PATTERN
+  - "flow_banner_pattern"
+Items.GUSTER_BANNER_PATTERN:
+  - Material.GUSTER_BANNER_PATTERN
+  - "guster_banner_pattern"
+Items.AXOLOTL_SPAWN_EGG:
+  - Material.AXOLOTL_SPAWN_EGG
+  - "axolotl_spawn_egg"
+Items.GLOW_SQUID_SPAWN_EGG:
+  - Material.GLOW_SQUID_SPAWN_EGG
+  - "glow_squid_spawn_egg"
+Items.GOAT_SPAWN_EGG:
+  - Material.GOAT_SPAWN_EGG
+  - "goat_spawn_egg"
+Items.ALLAY_SPAWN_EGG:
+  - Material.ALLAY_SPAWN_EGG
+  - "allay_spawn_egg"
+Items.FROG_SPAWN_EGG:
+  - Material.FROG_SPAWN_EGG
+  - "frog_spawn_egg"
+Items.TADPOLE_SPAWN_EGG:
+  - Material.TADPOLE_SPAWN_EGG
+  - "tadpole_spawn_egg"
+Items.WARDEN_SPAWN_EGG:
+  - Material.WARDEN_SPAWN_EGG
+  - "warden_spawn_egg"
+Items.AXOLOTL_BUCKET:
+  - Material.AXOLOTL_BUCKET
+  - "axolotl_bucket"
+Items.POWDER_SNOW_BUCKET:
+  - Material.POWDER_SNOW_BUCKET
+  - "powder_snow_bucket"
+Items.GLOW_BERRIES:
+  - Material.GLOW_BERRIES
+  - "glow_berries"
+Items.GLOW_INK_SAC:
+  - Material.GLOW_INK_SAC
+  - "glow_ink_sac"
+Items.GLOW_ITEM_FRAME:
+  - Material.GLOW_ITEM_FRAME
+  - "glow_item_frame"
+Items.AMETHYST_SHARD:
+  - Material.AMETHYST_SHARD
+  - "amethyst_shard"
+Items.BUNDLE:
+  - Material.BUNDLE
+  - "bundle"
+Items.WHITE_BUNDLE:
+  - Material.WHITE_BUNDLE
+  - "white_bundle"
+Items.ORANGE_BUNDLE:
+  - Material.ORANGE_BUNDLE
+  - "orange_bundle"
+Items.MAGENTA_BUNDLE:
+  - Material.MAGENTA_BUNDLE
+  - "magenta_bundle"
+Items.LIGHT_BLUE_BUNDLE:
+  - Material.LIGHT_BLUE_BUNDLE
+  - "light_blue_bundle"
+Items.YELLOW_BUNDLE:
+  - Material.YELLOW_BUNDLE
+  - "yellow_bundle"
+Items.LIME_BUNDLE:
+  - Material.LIME_BUNDLE
+  - "lime_bundle"
+Items.PINK_BUNDLE:
+  - Material.PINK_BUNDLE
+  - "pink_bundle"
+Items.GRAY_BUNDLE:
+  - Material.GRAY_BUNDLE
+  - "gray_bundle"
+Items.LIGHT_GRAY_BUNDLE:
+  - Material.LIGHT_GRAY_BUNDLE
+  - "light_gray_bundle"
+Items.CYAN_BUNDLE:
+  - Material.CYAN_BUNDLE
+  - "cyan_bundle"
+Items.PURPLE_BUNDLE:
+  - Material.PURPLE_BUNDLE
+  - "purple_bundle"
+Items.BLUE_BUNDLE:
+  - Material.BLUE_BUNDLE
+  - "blue_bundle"
+Items.BROWN_BUNDLE:
+  - Material.BROWN_BUNDLE
+  - "brown_bundle"
+Items.GREEN_BUNDLE:
+  - Material.GREEN_BUNDLE
+  - "green_bundle"
+Items.RED_BUNDLE:
+  - Material.RED_BUNDLE
+  - "red_bundle"
+Items.BLACK_BUNDLE:
+  - Material.BLACK_BUNDLE
+  - "black_bundle"
+Items.RAW_IRON:
+  - Material.RAW_IRON
+  - "raw_iron"
+Items.RAW_GOLD:
+  - Material.RAW_GOLD
+  - "raw_gold"
+Items.RAW_COPPER:
+  - Material.RAW_COPPER
+  - "raw_copper"
+Items.SPYGLASS:
+  - Material.SPYGLASS
+  - "spyglass"
+Items.GOAT_HORN:
+  - Material.GOAT_HORN
+  - "goat_horn"
+Items.ECHO_SHARD:
+  - Material.ECHO_SHARD
+  - "echo_shard"
+Items.IRON_GOLEM_SPAWN_EGG:
+  - Material.IRON_GOLEM_SPAWN_EGG
+  - "iron_golem_spawn_egg"
+Items.SNOW_GOLEM_SPAWN_EGG:
+  - Material.SNOW_GOLEM_SPAWN_EGG
+  - "snow_golem_spawn_egg"
+Items.WITHER_SPAWN_EGG:
+  - Material.WITHER_SPAWN_EGG
+  - "wither_spawn_egg"
+Items.ENDER_DRAGON_SPAWN_EGG:
+  - Material.ENDER_DRAGON_SPAWN_EGG
+  - "ender_dragon_spawn_egg"
+Items.BRUSH:
+  - Material.BRUSH
+  - "brush"
+Items.TORCHFLOWER_SEEDS:
+  - Material.TORCHFLOWER_SEEDS
+  - "torchflower_seeds"
+Items.PITCHER_POD:
+  - Material.PITCHER_POD
+  - "pitcher_pod"
+Items.CAMEL_SPAWN_EGG:
+  - Material.CAMEL_SPAWN_EGG
+  - "camel_spawn_egg"
+Items.SNIFFER_SPAWN_EGG:
+  - Material.SNIFFER_SPAWN_EGG
+  - "sniffer_spawn_egg"
+Items.NETHERITE_UPGRADE:
+  - Material.NETHERITE_UPGRADE_SMITHING_TEMPLATE
+  - "netherite_upgrade_smithing_template"
+Items.SENTRY_ARMOR_TRIM:
+  - Material.SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE
+  - "sentry_armor_trim_smithing_template"
+Items.DUNE_ARMOR_TRIM:
+  - Material.DUNE_ARMOR_TRIM_SMITHING_TEMPLATE
+  - "dune_armor_trim_smithing_template"
+Items.COAST_ARMOR_TRIM:
+  - Material.COAST_ARMOR_TRIM_SMITHING_TEMPLATE
+  - "coast_armor_trim_smithing_template"
+Items.WILD_ARMOR_TRIM:
+  - Material.WILD_ARMOR_TRIM_SMITHING_TEMPLATE
+  - "wild_armor_trim_smithing_template"
+Items.WARD_ARMOR_TRIM:
+  - Material.WARD_ARMOR_TRIM_SMITHING_TEMPLATE
+  - "ward_armor_trim_smithing_template"
+Items.EYE_ARMOR_TRIM:
+  - Material.EYE_ARMOR_TRIM_SMITHING_TEMPLATE
+  - "eye_armor_trim_smithing_template"
+Items.VEX_ARMOR_TRIM:
+  - Material.VEX_ARMOR_TRIM_SMITHING_TEMPLATE
+  - "vex_armor_trim_smithing_template"
+Items.TIDE_ARMOR_TRIM:
+  - Material.TIDE_ARMOR_TRIM_SMITHING_TEMPLATE
+  - "tide_armor_trim_smithing_template"
+Items.SNOUT_ARMOR_TRIM:
+  - Material.SNOUT_ARMOR_TRIM_SMITHING_TEMPLATE
+  - "snout_armor_trim_smithing_template"
+Items.RIB_ARMOR_TRIM:
+  - Material.RIB_ARMOR_TRIM_SMITHING_TEMPLATE
+  - "rib_armor_trim_smithing_template"
+Items.SPIRE_ARMOR_TRIM:
+  - Material.SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE
+  - "spire_armor_trim_smithing_template"
+Items.WAYFINDER_ARMOR_TRIM:
+  - Material.WAYFINDER_ARMOR_TRIM_SMITHING_TEMPLATE
+  - "wayfinder_armor_trim_smithing_template"
+Items.SHAPER_ARMOR_TRIM:
+  - Material.SHAPER_ARMOR_TRIM_SMITHING_TEMPLATE
+  - "shaper_armor_trim_smithing_template"
+Items.SILENCE_ARMOR_TRIM:
+  - Material.SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE
+  - "silence_armor_trim_smithing_template"
+Items.RAISER_ARMOR_TRIM:
+  - Material.RAISER_ARMOR_TRIM_SMITHING_TEMPLATE
+  - "raiser_armor_trim_smithing_template"
+Items.HOST_ARMOR_TRIM:
+  - Material.HOST_ARMOR_TRIM_SMITHING_TEMPLATE
+  - "host_armor_trim_smithing_template"
+Items.FLOW_ARMOR_TRIM:
+  - Material.FLOW_ARMOR_TRIM_SMITHING_TEMPLATE
+  - "flow_armor_trim_smithing_template"
+Items.BOLT_ARMOR_TRIM:
+  - Material.BOLT_ARMOR_TRIM_SMITHING_TEMPLATE
+  - "bolt_armor_trim_smithing_template"
+Items.ANGLER_POTTERY_SHERD:
+  - Material.ANGLER_POTTERY_SHERD
+  - "angler_pottery_sherd"
+Items.ARCHER_POTTERY_SHERD:
+  - Material.ARCHER_POTTERY_SHERD
+  - "archer_pottery_sherd"
+Items.ARMS_UP_POTTERY_SHERD:
+  - Material.ARMS_UP_POTTERY_SHERD
+  - "arms_up_pottery_sherd"
+Items.BLADE_POTTERY_SHERD:
+  - Material.BLADE_POTTERY_SHERD
+  - "blade_pottery_sherd"
+Items.BREWER_POTTERY_SHERD:
+  - Material.BREWER_POTTERY_SHERD
+  - "brewer_pottery_sherd"
+Items.BURN_POTTERY_SHERD:
+  - Material.BURN_POTTERY_SHERD
+  - "burn_pottery_sherd"
+Items.DANGER_POTTERY_SHERD:
+  - Material.DANGER_POTTERY_SHERD
+  - "danger_pottery_sherd"
+Items.EXPLORER_POTTERY_SHERD:
+  - Material.EXPLORER_POTTERY_SHERD
+  - "explorer_pottery_sherd"
+Items.FLOW_POTTERY_SHERD:
+  - Material.FLOW_POTTERY_SHERD
+  - "flow_pottery_sherd"
+Items.GUSTER_POTTERY_SHERD:
+  - Material.GUSTER_POTTERY_SHERD
+  - "guster_pottery_sherd"
+Items.SCRAPE_POTTERY_SHERD:
+  - Material.SCRAPE_POTTERY_SHERD
+  - "scrape_pottery_sherd"
+Items.FRIEND_POTTERY_SHERD:
+  - Material.FRIEND_POTTERY_SHERD
+  - "friend_pottery_sherd"
+Items.HEART_POTTERY_SHERD:
+  - Material.HEART_POTTERY_SHERD
+  - "heart_pottery_sherd"
+Items.HEARTBREAK_POTTERY_SHERD:
+  - Material.HEARTBREAK_POTTERY_SHERD
+  - "heartbreak_pottery_sherd"
+Items.HOWL_POTTERY_SHERD:
+  - Material.HOWL_POTTERY_SHERD
+  - "howl_pottery_sherd"
+Items.MINER_POTTERY_SHERD:
+  - Material.MINER_POTTERY_SHERD
+  - "miner_pottery_sherd"
+Items.MOURNER_POTTERY_SHERD:
+  - Material.MOURNER_POTTERY_SHERD
+  - "mourner_pottery_sherd"
+Items.PLENTY_POTTERY_SHERD:
+  - Material.PLENTY_POTTERY_SHERD
+  - "plenty_pottery_sherd"
+Items.PRIZE_POTTERY_SHERD:
+  - Material.PRIZE_POTTERY_SHERD
+  - "prize_pottery_sherd"
+Items.SHEAF_POTTERY_SHERD:
+  - Material.SHEAF_POTTERY_SHERD
+  - "sheaf_pottery_sherd"
+Items.SHELTER_POTTERY_SHERD:
+  - Material.SHELTER_POTTERY_SHERD
+  - "shelter_pottery_sherd"
+Items.SKULL_POTTERY_SHERD:
+  - Material.SKULL_POTTERY_SHERD
+  - "skull_pottery_sherd"
+Items.SNORT_POTTERY_SHERD:
+  - Material.SNORT_POTTERY_SHERD
+  - "snort_pottery_sherd"
+Items.ARMADILLO_SCUTE:
+  - Material.ARMADILLO_SCUTE
+  - "armadillo_scute"
+Items.ARMADILLO_SPAWN_EGG:
+  - Material.ARMADILLO_SPAWN_EGG
+  - "armadillo_spawn_egg"
+Items.WOLF_ARMOR:
+  - Material.WOLF_ARMOR
+  - "wolf_armor"
+Items.TRIAL_KEY:
+  - Material.TRIAL_KEY
+  - "trial_key"
+Items.OMINOUS_TRIAL_KEY:
+  - Material.OMINOUS_TRIAL_KEY
+  - "ominous_trial_key"
+Items.OMINOUS_BOTTLE:
+  - Material.OMINOUS_BOTTLE
+  - "ominous_bottle"
+Items.BREEZE_ROD:
+  - Material.BREEZE_ROD
+  - "breeze_rod"
+Items.CREAKING_SPAWN_EGG:
+  - Material.CREAKING_SPAWN_EGG
+  - "creaking_spawn_egg"

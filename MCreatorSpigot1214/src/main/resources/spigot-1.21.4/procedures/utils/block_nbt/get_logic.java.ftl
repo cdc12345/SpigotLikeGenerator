@@ -1,9 +1,7 @@
 private static boolean getBlockNBTLogic(World world, Location pos, String tag) {
-	var block  = world.getBlockAt(pos);
-	if (block.hasMetadata(tag)) {
-		var element = block.getMetadata(tag).stream().filter(a->a.getOwningPlugin()==${JavaModName}.INSTANCE).findFirst().get();
-		return element.map(MetadataValue::asBoolean).orElse(false);
-	} else {
-		return false;
+	var block = world.getBlockAt(pos);
+	if (block.getState() instanceof TileState tileState){
+		return tileState.getPersistentDataContainer().getOrDefault(NamespacedKey.fromString(tag), PersistentDataType.BOOLEAN,false);
 	}
+	return false;
 }

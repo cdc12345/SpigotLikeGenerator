@@ -1,1 +1,1 @@
-(${input$entity}.getPassenger())
+(${input$entity}.getPassengers().getFirst())
