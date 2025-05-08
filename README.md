@@ -4,12 +4,12 @@
 
 forked from https://github.com/Goldorion/Spigot-Generator-MCreator
 
-
-
 # How to contribute?
 
 First, clone this repository.
 
 Second, wait for building.
 
-Third,  write your code.
+Third, write your code.
+
+ÓÃhashmap´æ²ÎÊý,

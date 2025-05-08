@@ -1,0 +1,1 @@
+((Double)arguments.getOrDefault("${field$param}",0.0d))

@@ -11,5 +11,5 @@ map: HashMap
 advancement: Advancement
 dimensiontype: String
 actionresulttype: InteractionResult
-cmdcontext: CommandContext<CommandSourceStack>
+cmdcontext: HashMap<String,Object>
 damagesource: DamageSource

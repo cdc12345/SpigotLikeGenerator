@@ -50,6 +50,8 @@ public class ${JavaModName} extends JavaPlugin {
 	@Override
 	public void onEnable() {
 		//Do Something(
+		// Start of user code block mod
+        // End of user code block mod
 		</#if>
 		<#if w.hasElementsOfType("procedure") || w.hasElementsOfType("command")>
 		${JavaModName}Registers.registerAll(getFile());
@@ -59,6 +61,8 @@ public class ${JavaModName} extends JavaPlugin {
     @Override
     public void onDisable() {
     	<#if w.hasElementsOfType("procedure")>HandlerList.unregisterAll(this);</#if>
+    	// Start of user code block mod
+        // End of user code block mod
     }
 
 	public static class MCRLogger{

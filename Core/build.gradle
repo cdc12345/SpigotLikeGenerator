@@ -6,6 +6,10 @@ group = 'org.cdc.spigot'
 version = '1.0'
 
 repositories {
+    maven {
+        name = "spigotmc-repo"
+        url = "https://hub.spigotmc.org/nexus/content/repositories/snapshots/"
+    }
     mavenCentral()
     maven { url "https://repo.gradle.org/gradle/libs-releases" } // for gradle-tooling-api
     flatDir { dirs mcreator_path + '/lib' }
@@ -25,13 +29,15 @@ dependencies {
             implementation it
         }
     }
+
+    implementation project(":MCreatorSpigot1214")
 }
 
 test {
     useJUnitPlatform()
 }
 
-var rundata = tasks.register("runDataGen",JavaExec){
+var rundata = tasks.register("runDataGen", JavaExec) {
     group = "build"
     mainClass = "org.cdc.spigot.datagen.DataGenMain"
     classpath = project(":Core").sourceSets.main.runtimeClasspath

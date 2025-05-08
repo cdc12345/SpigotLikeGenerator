@@ -34,3 +34,15 @@ dependencies {
     // Use "export" configuration for dependencies that should be included in the plugin (if MCreator does not provide them)
     // export group: 'org.example', name: 'example-library', version: '1.2.3'
 }
+
+tasks.jar {
+    dependsOn ":Core:jar"
+    inputs.file project(":Core").layout.buildDirectory.file("libs/spigot-generator.zip")
+    doLast {
+        archiveFile.get().asFile.delete()
+        copy {
+            from project(":Core").layout.buildDirectory.file("libs/spigot-generator.zip")
+            into layout.buildDirectory.file("libs")
+        }
+    }
+}

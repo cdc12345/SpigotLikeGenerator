@@ -25,9 +25,12 @@ import org.bukkit.entity.Entity;
 @CommandLabel("${data.commandName}")
 public class ${name} implements CommandExecutor {
 
+	private int parameterIndex = 0;
+
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		if(label.equalsIgnoreCase("${data.commandName}") && sender.hasPermission("${data.commandName}.use")) {
+			parameterIndex = 0;
 			double x = 0;
 			double y = 0;
 			double z = 0;
@@ -45,6 +48,17 @@ public class ${name} implements CommandExecutor {
 				z = ((BlockCommandSender) sender).getBlock().getLocation().getX();
 				world = ((BlockCommandSender) sender).getBlock().getWorld();
 			}
+
+			HashMap<String, String> cmdparams = new HashMap<>();
+			Arrays.stream(args).forEach(param -> {
+				if(parameterIndex >= 0)
+					cmdparams.put(Integer.toString(parameterIndex), param);
+				parameterIndex++;
+			});
+			parameterIndex = 0;
+
+			HashMap<String,Object> arguments = new HashMap<>();
+
 			${argscode}
 			return true;
 		}
