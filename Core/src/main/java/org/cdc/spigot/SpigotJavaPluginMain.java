@@ -1,4 +1,4 @@
-package org.cdc.spigotgen;
+package org.cdc.spigot;
 
 import net.mcreator.plugin.JavaPlugin;
 import net.mcreator.plugin.Plugin;
@@ -11,6 +11,8 @@ public class SpigotJavaPluginMain extends JavaPlugin {
 
     public SpigotJavaPluginMain(Plugin plugin) {
         super(plugin);
+
+        LOG.info("Spigot Assistant is Running");
     }
 
 }

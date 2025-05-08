@@ -1,0 +1,47 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.cdc.spigot'
+version = '1.0'
+
+repositories {
+    mavenCentral()
+    maven { url "https://repo.gradle.org/gradle/libs-releases" } // for gradle-tooling-api
+    flatDir { dirs mcreator_path + '/lib' }
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+
+    implementation project(':FountainBase')
+
+    implementation project(':MCreator')
+
+    project(":MCreator").afterEvaluate {
+        it.configurations.named("implementation").get().dependencies.each {
+            //noinspection ForeignDelegate
+            implementation it
+        }
+    }
+}
+
+test {
+    useJUnitPlatform()
+}
+
+var rundata = tasks.register("runDataGen",JavaExec){
+    group = "build"
+    mainClass = "org.cdc.spigot.datagen.DataGenMain"
+    classpath = project(":Core").sourceSets.main.runtimeClasspath
+}
+
+tasks.jar {
+    dependsOn rundata
+    from project(":MCreatorSpigot1214").layout.buildDirectory.file("resources/main")
+    from project(":MCreatorSpigot1214").layout.buildDirectory.file("classes/java/main")
+    exclude('org/cdc/spigot/datagen/**')
+    exclude('org/cdc/spigotgen/datagent/**')
+    archiveFileName.set("spigot-generator.zip")
+}

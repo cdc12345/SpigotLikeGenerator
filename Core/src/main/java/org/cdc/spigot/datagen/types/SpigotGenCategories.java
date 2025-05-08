@@ -1,4 +1,4 @@
-package org.cdc.spigotgen.datagent.types;
+package org.cdc.spigot.datagen.types;
 
 import org.cdc.framework.interfaces.IProcedureCategory;
 
