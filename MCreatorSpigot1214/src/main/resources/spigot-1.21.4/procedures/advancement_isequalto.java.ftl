@@ -1,0 +1,1 @@
+(Bukkit.getAdvancement(NamespacedKey.fromString("${generator.map(field$achievement, "achievements")}")).equals(advancement))
