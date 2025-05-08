@@ -21,6 +21,7 @@ public class MappingDatagen {
 			}
 		}
 		attributes.setDefault();
+		attributes.setMapTemplate("@JavaModNameAttributes.@REGISTRYNAME");
 		attributes.initGenerator().build();
 
 		var effects = mCreatorPluginFactory.createDataList("effects");
