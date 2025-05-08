@@ -23,7 +23,7 @@ import org.bukkit.command.Command;
 import org.bukkit.entity.Entity;
 
 @CommandLabel("${data.commandName}")
-public class ${name} implements CommandExecutor {
+public class ${name} implements CommandExecutor, TabCompleter {
 
 	private int parameterIndex = 0;
 
@@ -63,6 +63,12 @@ public class ${name} implements CommandExecutor {
 			return true;
 		}
 		return false;
+	}
+
+	@Nullable @Override
+	public List<String> onTabComplete(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label,
+			@NotNull String[] args) {
+		return List.of();
 	}
 }
 <#-- @formatter:on -->

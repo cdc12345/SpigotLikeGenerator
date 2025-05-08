@@ -1,4 +1,6 @@
 try {
-	arguments.compute(${field$name},(k, v) -> new Location(world, args[parameterIndex++], args[parameterIndex++], args[parameterIndex++]));
+	Location location = new Location(world, Double.parseDouble(args[parameterIndex++]),
+    						Double.parseDouble(args[parameterIndex++]), Double.parseDouble(args[parameterIndex++]));
+    arguments.put("${field$name}",location);
 	${statement$args}
 } catch (Exception ignored){}
