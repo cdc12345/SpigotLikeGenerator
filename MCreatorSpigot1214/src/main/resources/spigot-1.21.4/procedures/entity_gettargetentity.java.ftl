@@ -1,1 +1,1 @@
-(${input$entity} instanceof Mob _mobEnt ? (Entity) _mobEnt.getTarget():null)
+(${input$entity} instanceof Mob _mobEnt${cbi} ? (Entity) _mobEnt${cbi}.getTarget():null)

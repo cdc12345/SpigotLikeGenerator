@@ -1,1 +1,1 @@
-(${input$entity} instanceof Tameable _tamEnt && _tamEnt.isTamed())
+(${input$entity} instanceof Tameable _tamEnt${cbi} && _tamEnt${cbi}.isTamed())

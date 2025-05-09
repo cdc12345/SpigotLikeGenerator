@@ -1,1 +1,1 @@
-${input$entity} instanceof LivingEntity _entity && _entity.isInvisible())
+${input$entity} instanceof LivingEntity _livingEnt${cbi} && _livingEnt${cbi}.isInvisible())

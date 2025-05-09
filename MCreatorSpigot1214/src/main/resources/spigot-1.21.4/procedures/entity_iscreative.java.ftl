@@ -1,1 +1,1 @@
-(${input$entity} instanceof Player _plr && _plr.getGameMode() == GameMode.CREATIVE)
+(${input$entity} instanceof Player _player${cbi} && _player${cbi}.getGameMode() == GameMode.CREATIVE)
