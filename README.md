@@ -6,10 +6,10 @@ forked from https://github.com/Goldorion/Spigot-Generator-MCreator
 
 # How to contribute?
 
+No,This is a Experimental Project, please go to visit https://github.com/Atten007/Paper-Generator-MCreator
+
 First, clone this repository.
 
 Second, wait for building.
 
 Third, write your code.
-
-ÓÃhashmap´æ²ÎÊý,
