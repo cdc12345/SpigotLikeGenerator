@@ -1,1 +1,1 @@
-((${input$entity} instanceof Player _player) ? _player.getRespawnLocation().getY())
+((${input$entity} instanceof Player _player${cbi}) ? _player${cbi}.getRespawnLocation().getY())

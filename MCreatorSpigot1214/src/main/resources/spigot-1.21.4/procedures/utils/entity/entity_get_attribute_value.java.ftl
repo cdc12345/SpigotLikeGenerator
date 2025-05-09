@@ -1,4 +1,4 @@
-public static double getAttributeValue(Entity entity, Attribute attribute){
+private static double getAttributeValue(Entity entity, Attribute attribute){
 	if (entity instanceof LivingEntity _li){
 		var attributein = _li.getAttribute(attribute);
 		if (attributein != null) {

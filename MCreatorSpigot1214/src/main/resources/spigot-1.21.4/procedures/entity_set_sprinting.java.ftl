@@ -1,1 +1,1 @@
-${input$entity} instanceof Player _player && _player.setSprinting(${input$boolean});
+${input$entity} instanceof Player _player${cbi} && _player${cbi}.setSprinting(${input$boolean});

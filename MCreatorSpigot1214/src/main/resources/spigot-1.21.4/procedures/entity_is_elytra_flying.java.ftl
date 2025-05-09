@@ -1,1 +1,1 @@
-(${input$entity} instanceof LivingEntity _livEnt && _livEnt.isGliding())
+(${input$entity} instanceof LivingEntity _livEnt${cbi} && _livEnt${cbi}.isGliding())
