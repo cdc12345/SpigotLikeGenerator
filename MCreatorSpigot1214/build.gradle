@@ -6,6 +6,8 @@ plugins {
 group = 'org.cdc.spigotgen'
 version = "1.0"
 
+String generatorName = "spigot-1.21.4"
+
 var rundata = tasks.register("runDataGen", JavaExec) {
     group = "build"
     mainClass = "org.cdc.spigotgen.datagent.Datagen"
@@ -89,4 +91,23 @@ subprojects { subproject ->
 
 test {
     useJUnitPlatform()
+}
+
+tasks.processResources {
+    doLast {
+        var resource = layout.buildDirectory.file("resources/main/" + generatorName + "/procedures")
+        resource.get().asFile.listFiles().toList().each {
+            if (it.isDirectory() && it.getName() != "utils") {
+                var file = it
+                copy {
+                    from fileTree(file)
+                    into resource
+                }
+                fileTree(file).each {
+                    it.delete()
+                }
+                file.delete()
+            }
+        }
+    }
 }
