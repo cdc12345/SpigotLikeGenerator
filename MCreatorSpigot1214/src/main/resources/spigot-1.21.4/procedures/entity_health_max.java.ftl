@@ -1,1 +1,1 @@
-/*@float*/(${input$entity} instanceof LivingEntity _livEnt? _livEnt.getAttribute(Attribute.GENERIC_MAX_HEALTH):-1)
+/*@float*/(${input$entity} instanceof LivingEntity _livEnt${cbi}? _livEnt${cbi}.getAttribute(Attribute.GENERIC_MAX_HEALTH):-1)

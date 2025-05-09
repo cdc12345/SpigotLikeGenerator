@@ -1,1 +1,1 @@
-if (${input$entity} instanceof Player _player) _player.giveExp(-(${opt.toInt(input$amount)}));
+if (${input$entity} instanceof Player _player${cbi}) _player${cbi}.giveExp(-(${opt.toInt(input$amount)}));

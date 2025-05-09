@@ -1,1 +1,1 @@
-(${input$entity} instanceof LivingEntity _le && _le.isSwimming())
+(${input$entity} instanceof LivingEntity _livingEnt${cbi} && _livingEnt${cbi}.isSwimming())

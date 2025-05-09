@@ -1,1 +1,1 @@
-(${input$entity} instanceof Player _player && _player.isBlocking())
+(${input$entity} instanceof Player _player${cbi} && _player${cbi}.isBlocking())

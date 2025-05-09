@@ -1,1 +1,1 @@
-/*@ItemStack*/(${input$entity} instanceof Player _player ? _player.getInventory().getItemInMainHand():ItemStack.EMPTY)
+/*@ItemStack*/(${input$entity} instanceof Player _player${cbi} ? _player${cbi}.getInventory().getItemInMainHand():ItemStack.EMPTY)

@@ -1,1 +1,1 @@
-${input$entity} instanceof Player _entity && _entity.isSprinting()
+${input$entity} instanceof Player _player${cbi} && _player${cbi}.isSprinting()

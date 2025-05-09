@@ -1,1 +1,1 @@
-if (${input$entity} instanceof Player _player) _player.giveExpLevels(-(${opt.toInt(input$xpamount)}));
+if (${input$entity} instanceof Player _player${cbi}) _player${cbi}.giveExpLevels(-(${opt.toInt(input$xpamount)}));

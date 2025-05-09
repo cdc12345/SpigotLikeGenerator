@@ -1,1 +1,1 @@
-${input$entity} instanceof Player _player ? _player.getLevel() : 0
+${input$entity} instanceof Player _player${cbi} ? _player${cbi}.getLevel() : 0

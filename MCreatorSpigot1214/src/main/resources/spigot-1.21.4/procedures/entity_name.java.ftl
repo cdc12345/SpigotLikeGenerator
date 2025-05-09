@@ -1,1 +1,1 @@
-(${input$entity} instanceof Player _player) ? _player.getDisplayName() : ${input$entity}.getCustomName()
+(${input$entity} instanceof Player _player${cbi}) ? _player${cbi}.getDisplayName() : ${input$entity}.getCustomName()

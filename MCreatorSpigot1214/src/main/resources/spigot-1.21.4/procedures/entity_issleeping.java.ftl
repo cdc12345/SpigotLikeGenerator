@@ -1,1 +1,1 @@
-(${input$entity} instanceof LivingEntity _livEnt && _livEnt.isSleeping())
+(${input$entity} instanceof LivingEntity _livEnt${cbi} && _livEnt${cbi}.isSleeping())

@@ -1,1 +1,1 @@
-if (${input$entity} instanceof LivingEntity _entity) _entity.removePotionEffect(${generator.map(field$potion, "effects")});
+if (${input$entity} instanceof LivingEntity _livingEnt${cbi}) _livingEnt${cbi}.removePotionEffect(${generator.map(field$potion, "effects")});

@@ -1,1 +1,2 @@
-if (${input$entity} instanceof Player _player) _player.setFoodLevel(${opt.toInt(input$foodlevel)});
+if (${input$entity} instanceof Player _player)
+	_player.setFoodLevel(${opt.toInt(input$foodlevel)});
