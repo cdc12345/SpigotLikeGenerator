@@ -1,5 +1,5 @@
 <#if field$type == "UNDEAD">
-false<#-- not have the undead tag -->
+Bukkit.getTag("entity_types", NamespacedKey.minecraft("undead"), EntityType.class).isTagged(${input$entity}.getType()))
 <#elseif field$type == "ARTHROPOD">
 (Tag.ENTITY_TYPES_ARTHROPOD.isTagged(${input$entity}.getType()))
 <#elseif field$type == "ILLAGER">

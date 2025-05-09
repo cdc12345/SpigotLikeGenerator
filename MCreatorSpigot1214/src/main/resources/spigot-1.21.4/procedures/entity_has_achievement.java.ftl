@@ -1,0 +1,2 @@
+<#assign plr = "_plr" + cbi>
+(${input$entity} instanceof Player ${plr}?${plr}.getAdvancementProgress(Bukkit.getAdvancement(NamespacedKey.fromString("${generator.map(field$achievement, "achievements")}"))).isDone())

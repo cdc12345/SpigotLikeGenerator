@@ -1,0 +1,1 @@
+(${input$entity}.getType().getKeyOrNull().toString())
