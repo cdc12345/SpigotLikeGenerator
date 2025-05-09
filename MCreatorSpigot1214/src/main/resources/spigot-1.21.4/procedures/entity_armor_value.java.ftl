@@ -1,0 +1,1 @@
+/*@int*/(${input$entity} instanceof LivingEntity _livEnt ? _livEnt.getAttribute(Attribute.ARMOR).getValue():0)
