@@ -8,7 +8,7 @@ version = "1.0"
 
 String generatorName = "spigot-1.21.4"
 
-var rundata = tasks.register("runDataGen", JavaExec) {
+tasks.register("runDataGen", JavaExec) {
     group = "build"
     mainClass = "org.cdc.spigotgen.datagent.Datagen"
     classpath = project(":MCreatorSpigot1214").sourceSets.main.runtimeClasspath
@@ -52,7 +52,7 @@ dependencies {
 }
 
 tasks.jar {
-    dependsOn(rundata.get())
+    dependsOn runDataGen
 
     archiveFileName.set("spigot-1.21.4.zip")
 
