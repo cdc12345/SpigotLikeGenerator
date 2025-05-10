@@ -43,6 +43,8 @@ tasks.jar {
         copy {
             from project(":Core").layout.buildDirectory.file("libs/spigot-generator.zip")
             into layout.buildDirectory.file("libs")
+            if (project.hasProperty("mcreator_install_path"))
+                into project.property("mcreator_install_path")
         }
     }
 }
