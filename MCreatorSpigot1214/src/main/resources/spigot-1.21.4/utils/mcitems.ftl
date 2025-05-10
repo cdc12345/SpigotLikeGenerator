@@ -28,6 +28,14 @@
     </#if>
 </#function>
 
+<#function mappedBlockToBlockType mappedBlock>
+	<#if mappedBlock?starts_with("Material.")>
+		<#return mappedBlock>
+	<#else>
+		<#return mappedBlockToBlock(mappedBlock) + ".getType()">
+	</#if>
+</#function>
+
 <#function mappedMCItemToItemStackCode mappedBlock amount=1>
     <#if mappedBlock?starts_with("/*@ItemStack*/")>
         <#return mappedBlock?replace("/*@ItemStack*/", "")>
