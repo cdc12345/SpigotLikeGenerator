@@ -1,0 +1,1 @@
+/*@ItemStack*/(${input$source} instanceof Item _itemEnt ? _itemEnt.getItemStack() : new ItemStack(Material.AIR))
