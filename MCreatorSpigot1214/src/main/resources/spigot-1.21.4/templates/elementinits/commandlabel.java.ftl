@@ -7,4 +7,6 @@ import java.lang.annotation.Retention;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface CommandLabel {
 	String value();
+
+	EventPriority priority() default EventPriority.LOWEST;
 }

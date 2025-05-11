@@ -24,6 +24,7 @@ import_formatter:
     Nullable: javax.annotation
     Entity: org.bukkit.entity
     Event: org.bukkit.event
+    Command: org.bukkit.command
 
 base_templates:
   - template: pluginbase/plugin.yml.ftl

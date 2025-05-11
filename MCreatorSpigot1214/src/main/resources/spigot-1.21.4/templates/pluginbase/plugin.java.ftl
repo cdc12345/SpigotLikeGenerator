@@ -27,23 +27,52 @@ public class ${JavaModName} extends JavaPlugin {
     	</#if>
     	<#if w.hasElementsOfType("command")>
     	${JavaModName}Registers.registerReflect(a -> {
-                               			if (a.isAnnotationPresent(CommandLabel.class)) {
-                               				getLogger().info("Register Command:"+a.getName());
-                               				CommandLabel label = a.getAnnotation(CommandLabel.class);
-                               				Object object;
-                               				try {
-                               					object = a.getConstructor().newInstance();
-                               				} catch (InstantiationException | IllegalAccessException | InvocationTargetException |
-                               						 NoSuchMethodException e) {
-                               					throw new RuntimeException(e);
-                               				}
-                               				if (object instanceof CommandExecutor commandExecutor) {
-                               					Objects.requireNonNull(this.getCommand(label.value())).setExecutor(commandExecutor);
-                               				}
-                               				if (object instanceof TabCompleter tabCompleter){
-                               					Objects.requireNonNull(this.getCommand(label.value())).setTabCompleter(tabCompleter);
-                               				}
-                               			}
+			if (a.isAnnotationPresent(CommandLabel.class)) {
+				getLogger().info("Register Command:" + a.getName());
+				CommandLabel label = a.getAnnotation(CommandLabel.class);
+				var command = this.getCommand(label.value());
+				if (command == null) {
+					getLogger().info("wrong command: " + label.value());
+					return;
+				}
+				Object object;
+				try {
+					object = a.getConstructor().newInstance();
+				} catch (InstantiationException | IllegalAccessException | InvocationTargetException |
+						 NoSuchMethodException e) {
+					throw new RuntimeException(e);
+				}
+				if (object instanceof CommandExecutor commandExecutor) {
+					if (command.getTabCompleter() != null) {
+						if (command.getExecutor().getClass().isAnnotationPresent(CommandLabel.class)) {
+							CommandLabel commandLabel = command.getExecutor().getClass()
+									.getAnnotation(CommandLabel.class);
+							if (label.priority().getSlot() > commandLabel.priority().getSlot()) {
+								command.setExecutor(commandExecutor);
+							}
+						} else {
+							command.setExecutor(commandExecutor);
+						}
+					} else {
+						command.setExecutor(commandExecutor);
+					}
+				}
+				if (object instanceof TabCompleter tabCompleter) {
+					if (command.getTabCompleter() != null) {
+						if (command.getTabCompleter().getClass().isAnnotationPresent(CommandLabel.class)) {
+							CommandLabel commandLabel = command.getTabCompleter().getClass()
+									.getAnnotation(CommandLabel.class);
+							if (label.priority().getSlot() > commandLabel.priority().getSlot()) {
+								command.setTabCompleter(tabCompleter);
+							}
+						} else {
+							command.setTabCompleter(tabCompleter);
+						}
+					} else {
+						command.setTabCompleter(tabCompleter);
+					}
+				}
+         }
         });
     }
 
