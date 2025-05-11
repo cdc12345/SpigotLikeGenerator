@@ -1,6 +1,6 @@
 name: Spigot Generator for @minecraft
 status: stable
-buildfileversion: 21.4.1
+buildfileversion: 1.21.4-R0.1-SNAPSHOT
 
 import:
   - datapack-1.21.4

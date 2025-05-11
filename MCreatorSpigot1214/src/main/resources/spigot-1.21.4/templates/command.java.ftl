@@ -37,17 +37,17 @@ public class ${name} implements CommandExecutor, TabCompleter {
 			<#if argscode?contains("location_z")>double location_z = 0;</#if>
 			<#if argscode?contains("entity")>Entity entity = null;</#if>
 			<#if argscode?contains("world")>World world = null;</#if>
-			if (sender instanceof Entity) {
-				<#if argscode?contains("entity")>entity = (Entity) sender;</#if>
-				<#if argscode?contains("location_x")>location_x = entity.getLocation().getX();</#if>
-				<#if argscode?contains("location_y")>location_y = entity.getLocation().getX();</#if>
-				<#if argscode?contains("location_z")>location_z = entity.getLocation().getX();</#if>
-				<#if argscode?contains("world")>world = entity.getWorld();</#if>
-			} else if (sender instanceof BlockCommandSender) {
-				<#if argscode?contains("location_x")>location_x = ((BlockCommandSender) sender).getBlock().getLocation().getX();</#if>
-				<#if argscode?contains("location_y")>location_y = ((BlockCommandSender) sender).getBlock().getLocation().getX();</#if>
-				<#if argscode?contains("location_z")>location_z = ((BlockCommandSender) sender).getBlock().getLocation().getX();</#if>
-				<#if argscode?contains("world")>world = ((BlockCommandSender) sender).getBlock().getWorld();</#if>
+			if (sender instanceof Entity _entity) {
+				<#if argscode?contains("entity")>entity = _entity;</#if>
+				<#if argscode?contains("location_x")>location_x = _entity.getLocation().getX();</#if>
+				<#if argscode?contains("location_y")>location_y = _entity.getLocation().getX();</#if>
+				<#if argscode?contains("location_z")>location_z = _entity.getLocation().getX();</#if>
+				<#if argscode?contains("world")>world = _entity.getWorld();</#if>
+			} else if (sender instanceof BlockCommandSender _sender) {
+				<#if argscode?contains("location_x")>location_x = _sender.getBlock().getLocation().getX();</#if>
+				<#if argscode?contains("location_y")>location_y = _sender.getBlock().getLocation().getX();</#if>
+				<#if argscode?contains("location_z")>location_z = _sender.getBlock().getLocation().getX();</#if>
+				<#if argscode?contains("world")>world = _sender.getBlock().getWorld();</#if>
 			}
 
 			<#if argscode?contains("cmdparams")>

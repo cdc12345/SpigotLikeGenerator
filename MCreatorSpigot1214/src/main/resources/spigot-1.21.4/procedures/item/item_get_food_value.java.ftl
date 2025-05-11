@@ -1,2 +1,3 @@
 <#include "mcitems.ftl">
-/*@int*/(${mappedMCItemToItemStackCode(input$item)}.hasItemMeta() && ${mappedMCItemToItemStackCode(input$item)}.getItemMeta().hasFood()? ${mappedMCItemToItemStackCode(input$item)}.getItemMeta().getFood().getNutrition():0)
+<#assign itemstac = mappedMCItemToItemStackCode(input$item)>
+/*@int*/(${itemstac}.getItemMeta().getFood().getNutrition())

@@ -1,1 +1,1 @@
-/*@float*/(${input$entity} instanceof Player _player${cbi} ? _player${cbi}.getAbilities().getWalkSpeed():0)
+/*@float*/(${input$entity} instanceof Player _player${cbi} ? _player${cbi}.getWalkSpeed():0)
