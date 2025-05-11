@@ -57,7 +57,9 @@
 </#function>
 
 <#function mappedMCItemToItemStackCode mappedBlock amount=1>
-    <#if mappedBlock?starts_with("/*@ItemStack*/")>
+	<#if mappedBlock?starts_with("/*@Material*/")>
+		<#return toItemStack(mappedBlock?keep_after("/*@Material*/"),amount)>
+    <#elseif mappedBlock?starts_with("/*@ItemStack*/")>
         <#return mappedBlock?replace("/*@ItemStack*/", "")>
     <#elseif mappedBlock?contains("/*@?*/")>
         <#assign outputs = mappedBlock?keep_after("/*@?*/")?keep_before_last(")")>

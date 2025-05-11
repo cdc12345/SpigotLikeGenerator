@@ -1,0 +1,40 @@
+{
+  "dependencies_provided": [
+    {
+      "name": "cmd",
+      "type": "string"
+    },
+    {
+      "name": "length",
+      "type": "number"
+    },
+    {
+      "name": "lastarg",
+      "type": "string"
+    },
+    {
+      "name": "entity",
+      "type": "entity"
+    },
+    {
+      "name": "completer",
+      "type": "entity"
+    },
+    {
+      "name": "world",
+      "type": "world"
+    },
+    {
+      "name": "x",
+      "type": "number"
+    },
+    {
+      "name": "y",
+      "type": "number"
+    },
+    {
+      "name": "z",
+      "type": "number"
+    }
+  ]
+}

@@ -31,24 +31,26 @@ public class ${name} implements CommandExecutor, TabCompleter {
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		if(label.equalsIgnoreCase("${data.commandName}") && sender.hasPermission("${data.commandName}.use")) {
 			parameterIndex = 0;
-			double x = 0;
-			double y = 0;
-			double z = 0;
-			Entity entity = null;
-			World world = null;
+
+			<#if argscode?contains("location_x")>double location_x = 0;</#if>
+			<#if argscode?contains("location_y")>double location_y = 0;</#if>
+			<#if argscode?contains("location_z")>double location_z = 0;</#if>
+			<#if argscode?contains("entity")>Entity entity = null;</#if>
+			<#if argscode?contains("world")>World world = null;</#if>
 			if (sender instanceof Entity) {
-				entity = (Entity) sender;
-				x = entity.getLocation().getX();
-				y = entity.getLocation().getX();
-				z = entity.getLocation().getX();
-				world = entity.getWorld();
+				<#if argscode?contains("entity")>entity = (Entity) sender;</#if>
+				<#if argscode?contains("location_x")>location_x = entity.getLocation().getX();</#if>
+				<#if argscode?contains("location_y")>location_y = entity.getLocation().getX();</#if>
+				<#if argscode?contains("location_z")>location_z = entity.getLocation().getX();</#if>
+				<#if argscode?contains("world")>world = entity.getWorld();</#if>
 			} else if (sender instanceof BlockCommandSender) {
-				x = ((BlockCommandSender) sender).getBlock().getLocation().getX();
-				y = ((BlockCommandSender) sender).getBlock().getLocation().getX();
-				z = ((BlockCommandSender) sender).getBlock().getLocation().getX();
-				world = ((BlockCommandSender) sender).getBlock().getWorld();
+				<#if argscode?contains("location_x")>location_x = ((BlockCommandSender) sender).getBlock().getLocation().getX();</#if>
+				<#if argscode?contains("location_y")>location_y = ((BlockCommandSender) sender).getBlock().getLocation().getX();</#if>
+				<#if argscode?contains("location_z")>location_z = ((BlockCommandSender) sender).getBlock().getLocation().getX();</#if>
+				<#if argscode?contains("world")>world = ((BlockCommandSender) sender).getBlock().getWorld();</#if>
 			}
 
+			<#if argscode?contains("cmdparams")>
 			HashMap<String, String> cmdparams = new HashMap<>();
 			Arrays.stream(args).forEach(param -> {
 				if(parameterIndex >= 0)
@@ -56,6 +58,7 @@ public class ${name} implements CommandExecutor, TabCompleter {
 				parameterIndex++;
 			});
 			parameterIndex = 0;
+			</#if>
 
 			HashMap<String,Object> arguments = new HashMap<>();
 
@@ -64,6 +67,8 @@ public class ${name} implements CommandExecutor, TabCompleter {
 		}
 		return false;
 	}
+
+	${extra_templates_code}
 
 	@Nullable @Override
 	public List<String> onTabComplete(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label,
