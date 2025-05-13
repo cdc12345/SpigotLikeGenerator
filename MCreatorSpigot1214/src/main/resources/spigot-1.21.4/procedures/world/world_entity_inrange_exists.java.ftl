@@ -1,0 +1,1 @@
+(!world.getNearbyEntities(BoundingBox.of(new Location(world,${input$x}, ${input$y}, ${input$z}), ${input$range} / 2d, ${input$range} /2d, ${input$range} /2d), ${generator.map(field$entity, "entities", 0)}.class::isInstance).isEmpty())

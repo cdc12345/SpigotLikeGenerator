@@ -1,0 +1,1 @@
+(BlockFace.values()[new Random().nextInt(5)])

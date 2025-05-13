@@ -1,1 +1,1 @@
-${input$entity} instanceof Player _player${cbi} ? _player${cbi}.getHealth() : 0
+${input$entity} instanceof LivingEntity _liv${cbi} ? _liv${cbi}.getHealth() : 0

@@ -1,0 +1,1 @@
+${mappedMCItemToItemStackCode(input$item, 1)}.getItemMeta().getPersistentDataContainer().set(Objects.requireNonNull(NamespacedKey.fromString(${input$tagName})),PersistentDataType.STRING,${input$tagValue});

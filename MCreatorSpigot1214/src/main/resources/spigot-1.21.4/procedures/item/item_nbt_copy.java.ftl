@@ -1,0 +1,2 @@
+<#include "mcitems.ftl">
+${mappedMCItemToItemStackCode(input$a, 1)}.getItemMeta().getPersistentDataContainer().copyTo(${mappedMCItemToItemStackCode(input$b, 1)}.getItemMeta().getPersistentDataContainer(),true);

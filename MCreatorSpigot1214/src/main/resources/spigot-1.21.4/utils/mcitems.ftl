@@ -56,6 +56,7 @@
 	</#if>
 </#function>
 
+<#-- it also convert itemstack to material -->
 <#function mappedMCItemToItemStackCode mappedBlock amount=1>
 	<#if mappedBlock?starts_with("/*@Material*/")>
 		<#return toItemStack(mappedBlock?keep_after("/*@Material*/"),amount)>
