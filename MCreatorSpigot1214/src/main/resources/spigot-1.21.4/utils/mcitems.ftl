@@ -1,7 +1,7 @@
 <#function mappedBlockToBlockStateCode mappedBlock>
 	<#-- exclude Material. They don't have the BlockState......-->
 	<#if mappedBlock?starts_with("/*@Material*/")>
-		<#return mappedBlock?keep_after("/*@Material*/")>
+		<#return mappedBlock>
     <#elseif mappedBlock?starts_with("/*@BlockState*/")>
         <#return mappedBlock?replace("/*@BlockState*/","")>
     <#elseif mappedBlock?contains("/*@?*/")>
@@ -16,7 +16,7 @@
 <#function mappedBlockToBlock mappedBlock>
 	<#-- exclude Material. They don't have the Block......-->
 	<#if mappedBlock?starts_with("/*@Material*/")>
-		<#return mappedBlock?keep_after("/*@Material*/")>
+		<#return mappedBlock>
     <#elseif mappedBlock?starts_with("/*@BlockState*/")>
         <#return mappedBlock?replace("/*@BlockState*/","") + ".getBlock()">
     <#elseif mappedBlock?contains("/*@?*/")>
