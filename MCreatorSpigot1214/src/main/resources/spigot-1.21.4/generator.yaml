@@ -25,6 +25,7 @@ import_formatter:
     Entity: org.bukkit.entity
     Event: org.bukkit.event
     Command: org.bukkit.command
+    Tag: org.bukkit
 
 base_templates:
   - template: pluginbase/plugin.yml.ftl
