@@ -1,0 +1,1 @@
+((CraftEntity)${input$entity}).getHandle().setDeltaMovement(new net.minecraft.world.phys.Vec3(${input$vx}, ${input$vy}, ${input$vz}));

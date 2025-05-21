@@ -1,0 +1,1 @@
+(${input$projectile_entity} instanceof Projectile _projEnt? _projEnt.getVelocity().length():0)

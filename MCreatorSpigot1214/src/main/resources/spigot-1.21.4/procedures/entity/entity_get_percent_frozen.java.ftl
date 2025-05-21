@@ -1,0 +1,1 @@
+/*@float*/((float) ${input$entity}.getFreezeTicks() /${input$entity}.getMaxFreezeTicks() * 100f)
