@@ -11,6 +11,12 @@ description: ${JavaConventions.escapeStringForJava(settings.getDescription())}
 <#if settings.getWebsiteURL()?has_content>
 website: ${JavaConventions.escapeStringForJava(settings.getWebsiteURL())}
 </#if>
+<#if !settings.getRequiredMods().isEmpty()>
+depend: ${settings.getRequiredMods().toString()}
+</#if>
+<#if !settings.getDependencies().isEmpty()>
+softdepend: ${settings.getDependencies().toString()}
+</#if>
 
 commands:
   <#list w.getElementsOfType("command") as command>
