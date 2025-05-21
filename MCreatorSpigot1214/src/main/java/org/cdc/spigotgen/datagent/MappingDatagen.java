@@ -8,6 +8,7 @@ import org.bukkit.attribute.Attribute;
 import org.bukkit.damage.DamageType;
 import org.bukkit.potion.PotionEffectType;
 import org.cdc.framework.MCreatorPluginFactory;
+import org.cdc.framework.utils.Generators;
 
 import java.lang.reflect.Field;
 import java.util.Locale;
@@ -72,7 +73,7 @@ public class MappingDatagen {
 				damagesource.appendElement(key, preview);
 			}
 		}
-		damagesource.appendElement("_bypass_prefix", "\"#\"");
+		damagesource.appendStringElement("_bypass_prefix", "#");
 		damagesource.setDefault();
 		damagesource.initGenerator().build();
 
@@ -87,9 +88,12 @@ public class MappingDatagen {
 		}
 		biomes.setDefault();
 		biomes.setMapTemplate("@modid:@registryname");
-		biomes.appendElement("_bypass_prefix", "\"#\"");
+		biomes.appendStringElement("_bypass_prefix", "#");
 		biomes.initGenerator().build();
 
-		mCreatorPluginFactory.initGenerator("spigot-1.21.4", true);
+		mCreatorPluginFactory.initGenerator(Generators.SPIGOT1214, true);
+
+		mCreatorPluginFactory.getToolKit().clearPlugin();
+		mCreatorPluginFactory.getToolKit().clearGenerator(Generators.SPIGOT1214);
 	}
 }
