@@ -35,8 +35,8 @@
         <#return mappedBlock?replace("/*@BlockState*/","") + ".getType()">
 	<#elseif mappedBlock?contains("/*@?*/")>
             <#assign outputs = mappedBlock?keep_after("/*@?*/")?keep_before_last(")")>
-            <#return mappedBlock?keep_before("/*@?*/") + "?" + mappedBlockToBlock(outputs?keep_before("/*@:*/"))
-                + ":" + mappedBlockToBlock(outputs?keep_after("/*@:*/")) + ")">
+            <#return mappedBlock?keep_before("/*@?*/") + "?" + mappedBlockToBlockType(outputs?keep_before("/*@:*/"))
+                + ":" + mappedBlockToBlockType(outputs?keep_after("/*@:*/")) + ")">
 	<#else>
 		<#return mappedBlockToBlock(mappedBlock) + ".getType()">
 	</#if>
@@ -49,8 +49,8 @@
         <#return mappedBlock?replace("/*@BlockState*/","") + ".getBlockData()">
 	<#elseif mappedBlock?contains("/*@?*/")>
             <#assign outputs = mappedBlock?keep_after("/*@?*/")?keep_before_last(")")>
-            <#return mappedBlock?keep_before("/*@?*/") + "?" + mappedBlockToBlock(outputs?keep_before("/*@:*/"))
-                + ":" + mappedBlockToBlock(outputs?keep_after("/*@:*/")) + ")">
+            <#return mappedBlock?keep_before("/*@?*/") + "?" + mappedBlockToBlockData(outputs?keep_before("/*@:*/"))
+                + ":" + mappedBlockToBlockData(outputs?keep_after("/*@:*/")) + ")">
 	<#else>
 		<#return mappedBlockToBlock(mappedBlock) + ".getBlockData()">
 	</#if>
@@ -87,4 +87,22 @@
 <#function transformExtension mappedBlock>
     <#assign extension = mappedBlock?keep_after_last(".")?replace("body", "chestplate")?replace("legs", "leggings")>
     <#return (extension?has_content)?then("_" + extension, "")>
+</#function>
+
+<#function enableNMS w>
+	<#return w.getWorkspace().getWorkspaceSettings().getMCreatorDependencies().contains("NMS")>
+</#function>
+
+<#function mappedMCItemToItemType mappedItem>
+	<#if mappedItem?starts_with("/*@Material*/")>
+		<#return mappedItem?keep_after("/*@Material*/")>
+    <#elseif mappedItem?starts_with("/*@ItemStack*/")>
+        <#return mappedItem?replace("/*@ItemStack*/","") + ".getType()">
+	<#elseif mappedItem?contains("/*@?*/")>
+            <#assign outputs = mappedItem?keep_after("/*@?*/")?keep_before_last(")")>
+            <#return mappedItem?keep_before("/*@?*/") + "?" + mappedMCItemToItemType(outputs?keep_before("/*@:*/"))
+                + ":" + mappedMCItemToItemType(outputs?keep_after("/*@:*/")) + ")">
+	<#else>
+		<#return mappedItem + ".getType()">
+	</#if>
 </#function>

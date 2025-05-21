@@ -15,6 +15,7 @@ public class DataGenMain {
 		//		mCreatorPluginFactory.createTrigger("ontabcomplete").appendDependency("length", BuiltInTypes.Number);
 		mCreatorPluginFactory.createApis("LuckPerms");
 		mCreatorPluginFactory.createApis("EssentialsX");
+		mCreatorPluginFactory.createApis("NMS");
 
 		mCreatorPluginFactory.createTrigger().setName("explosion_occurs_spigot").setSide(Side.Server)
 				.appendDependency("world", BuiltInTypes.World).appendDependency("x", BuiltInTypes.Number)

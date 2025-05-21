@@ -8,7 +8,7 @@ import:
 # gradle task definitions
 gradle:
   run_server: runServer
-  export_file: "build/libs/target-1.0.jar"
+  export_file: "build/libs/target-1.0-reobf.jar"
 
 # base generator roots
 source_root: "@WORKSPACEROOT/src/main/java"
@@ -19,6 +19,7 @@ mod_data_root: "@RESROOT/data/@modid"
 import_formatter:
   duplicates_whitelist:
     - java.util
+    - org.bukkit
   priority_imports:
     Listener: org.bukkit.event
     Nullable: javax.annotation
@@ -26,6 +27,13 @@ import_formatter:
     Event: org.bukkit.event
     Command: org.bukkit.command
     Tag: org.bukkit
+    Attribute: org.bukkit.attribute
+    TextComponent: net.md_5.bungee.api.chat
+    ItemRarity: org.bukkit.inventory
+    ItemStack: org.bukkit.inventory
+    TabCompleter: org.bukkit.command
+    World: org.bukkit
+    EntityType: org.bukkit.entity
 
 base_templates:
   - template: pluginbase/plugin.yml.ftl

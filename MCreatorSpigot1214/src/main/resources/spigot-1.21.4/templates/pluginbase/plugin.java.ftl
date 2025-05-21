@@ -2,8 +2,11 @@
 package ${package};
 
 import org.bukkit.plugin.java.JavaPlugin;
+import java.lang.reflect.Method;
 
 public class ${JavaModName} extends JavaPlugin {
+
+	public static boolean isPaper;
 
 	public static ${JavaModName} INSTANCE = null;
     public ${JavaModName}(){
@@ -12,6 +15,13 @@ public class ${JavaModName} extends JavaPlugin {
 
     @Override
     public void onLoad() {
+		//check the environment
+		try {
+			Class.forName("io.papermc.paper.ServerBuildInfo");
+			isPaper = true;
+		} catch (ClassNotFoundException e) {
+			isPaper = false;
+		}
     	<#if w.hasElementsOfType("procedure")>
     	${JavaModName}Registers.registerReflect(a->{
                                    			if (Listener.class.isAssignableFrom(a)) {
@@ -74,6 +84,7 @@ public class ${JavaModName} extends JavaPlugin {
 				}
          }
         });
+        </#if>
     }
 
 	@Override
@@ -81,7 +92,6 @@ public class ${JavaModName} extends JavaPlugin {
 		//Do Something(
 		// Start of user code block mod
         // End of user code block mod
-		</#if>
 		<#if w.hasElementsOfType("procedure") || w.hasElementsOfType("command")>
 		${JavaModName}Registers.registerAll(getFile());
 		</#if>

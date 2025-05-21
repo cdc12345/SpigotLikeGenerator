@@ -1,12 +1,16 @@
 package org.cdc.spigotgen.datagent;
 
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.world.level.biome.Biomes;
 import org.bukkit.GameMode;
 import org.bukkit.GameRule;
 import org.bukkit.attribute.Attribute;
+import org.bukkit.damage.DamageType;
 import org.bukkit.potion.PotionEffectType;
 import org.cdc.framework.MCreatorPluginFactory;
 
 import java.lang.reflect.Field;
+import java.util.Locale;
 
 public class MappingDatagen {
 	public static void main(String[] args) {
@@ -53,6 +57,38 @@ public class MappingDatagen {
 		}
 		gamerules.setDefault();
 		gamerules.initGenerator().build();
+
+		var damagesource = mCreatorPluginFactory.createDataList("damagesources");
+		var damageType = DamageType.class;
+		for (Field damageType1 : damageType.getFields()) {
+			if (damageType1.getType().equals(damageType)) {
+				String key = damageType1.getName();
+				String preview = String.format("""
+												
+						- DamageType.%s
+						- %s
+						""", key, key.toLowerCase(Locale.ROOT));
+				System.out.println(preview);
+				damagesource.appendElement(key, preview);
+			}
+		}
+		damagesource.appendElement("_bypass_prefix", "\"#\"");
+		damagesource.setDefault();
+		damagesource.initGenerator().build();
+
+		var biomes = mCreatorPluginFactory.createDataList("biomes");
+		var biomeType = Biomes.class;
+		for (Field field : biomeType.getFields()) {
+			if (field.getType().equals(ResourceKey.class)) {
+				String key = field.getName().toLowerCase();
+				System.out.println(key);
+				biomes.appendElement(key, key);
+			}
+		}
+		biomes.setDefault();
+		biomes.setMapTemplate("@modid:@registryname");
+		biomes.appendElement("_bypass_prefix", "\"#\"");
+		biomes.initGenerator().build();
 
 		mCreatorPluginFactory.initGenerator("spigot-1.21.4", true);
 	}

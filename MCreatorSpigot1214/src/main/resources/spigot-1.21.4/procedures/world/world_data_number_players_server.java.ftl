@@ -1,1 +1,1 @@
-/*@int*/(${JavaModName}.server.getOnlinePlayers())
+/*@int*/(Bukkit.getOnlinePlayers().size())

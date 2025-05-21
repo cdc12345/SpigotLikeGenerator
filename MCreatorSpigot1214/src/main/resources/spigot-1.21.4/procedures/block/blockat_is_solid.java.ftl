@@ -1,1 +1,1 @@
-(world.getBlockAt((int)${input$x},(int)${input$y},(int)${input$z}).getBlockData().getMaterial().isSolid())
+(world.getBlockAt((int)${input$x},(int)${input$y},(int)${input$z}).getType().isSolid())

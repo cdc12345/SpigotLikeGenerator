@@ -1,1 +1,1 @@
-(${input$entity}.getType().getKeyOrNull().toString())
+(${input$entity}.getType().getKey().toString())

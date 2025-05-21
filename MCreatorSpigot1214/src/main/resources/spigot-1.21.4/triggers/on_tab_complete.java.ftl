@@ -1,8 +1,12 @@
 <#include "procedures.java.ftl">
-@CommandLabel(value = "${name?lower_case?replace("tabcompleter","")?replace("completer","")}", priority = EventPriority.LOW)
+<#assign commandlabel = name?lower_case?replace("tabcompleter","")?replace("completer","")>
+@CommandLabel(value = "${commandlabel}", priority = EventPriority.LOW)
 public class ${name}Procedure implements TabCompleter {
 	public List<String> onTabComplete(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label,
 			@NotNull String[] args) {
+		if(!sender.hasPermission("${commandlabel}.use")) {
+			return List.of();
+		}
 		ArrayList<String> complete = new ArrayList<>();
 		Player completer = (Player) java.lang.reflect.Proxy.newProxyInstance(this.getClass().getClassLoader(), new Class[] { Player.class },
 				(proxy, method, args1) -> {

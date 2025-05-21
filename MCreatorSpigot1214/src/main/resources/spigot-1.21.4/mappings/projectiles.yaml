@@ -1,0 +1,52 @@
+_default:
+  - net.minecraft.world.entity.projectile.Snowball
+  - net.minecraft.world.entity.EntityType.SNOWBALL
+  - net.minecraft.world.item.Items.SNOWBALL
+_mcreator_map_template:
+  - "@NAMEEntity"
+  - "@JavaModNameEntities.@REGISTRYNAME.get()"
+  - "@NAMEEntity.PROJECTILE_ITEM.getItem()"
+Arrow:
+  - net.minecraft.world.entity.projectile.Arrow
+  - net.minecraft.world.entity.EntityType.ARROW
+  - net.minecraft.world.item.Items.ARROW
+DragonFireball:
+  - net.minecraft.world.entity.projectile.DragonFireball
+  - net.minecraft.world.entity.EntityType.DRAGON_FIREBALL
+  - net.minecraft.world.item.Items.FIRE_CHARGE
+Egg:
+  - net.minecraft.world.entity.projectile.ThrownEgg
+  - net.minecraft.world.entity.EntityType.EGG
+  - net.minecraft.world.item.Items.EGG
+EnderPearl:
+  - net.minecraft.world.entity.projectile.ThrownEnderpearl
+  - net.minecraft.world.entity.EntityType.ENDER_PEARL
+  - net.minecraft.world.item.Items.ENDER_PEARL
+ExperienceBottle:
+  - net.minecraft.world.entity.projectile.ThrownExperienceBottle
+  - net.minecraft.world.entity.EntityType.EXPERIENCE_BOTTLE
+  - net.minecraft.world.item.Items.EXPERIENCE_BOTTLE
+LargeFireball:
+  - net.minecraft.world.entity.projectile.LargeFireball
+  - net.minecraft.world.entity.EntityType.FIREBALL
+  - net.minecraft.world.item.Items.FIRE_CHARGE
+LlamaSpit:
+  - net.minecraft.world.entity.projectile.LlamaSpit
+  - net.minecraft.world.entity.EntityType.LLAMA_SPIT
+  - net.minecraft.world.item.Items.AIR
+SmallFireball:
+  - net.minecraft.world.entity.projectile.SmallFireball
+  - net.minecraft.world.entity.EntityType.SMALL_FIREBALL
+  - net.minecraft.world.item.Items.FIRE_CHARGE
+Snowball:
+  - net.minecraft.world.entity.projectile.Snowball
+  - net.minecraft.world.entity.EntityType.SNOWBALL
+  - net.minecraft.world.item.Items.SNOWBALL
+SpectralArrow:
+  - net.minecraft.world.entity.projectile.SpectralArrow
+  - net.minecraft.world.entity.EntityType.SPECTRAL_ARROW
+  - net.minecraft.world.item.Items.SPECTRAL_ARROW
+WitherSkull:
+  - net.minecraft.world.entity.projectile.WitherSkull
+  - net.minecraft.world.entity.EntityType.WITHER_SKULL
+  - net.minecraft.world.item.Items.WITHER_SKELETON_SKULL

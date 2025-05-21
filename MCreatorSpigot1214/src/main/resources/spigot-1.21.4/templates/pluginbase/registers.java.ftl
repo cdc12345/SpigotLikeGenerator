@@ -1,5 +1,7 @@
 package ${package};
 
+import java.util.function.Consumer;
+
 public class ${JavaModName}Registers {
 	private static final List<Consumer<Class<?>>> reflects = new ArrayList<>();
 

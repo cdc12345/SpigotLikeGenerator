@@ -10,9 +10,10 @@ buildscript {
 plugins {
     id 'eclipse'
     id 'java'
+    id("io.papermc.paperweight.userdev") version "2.0.0-beta.16"
 }
 
-apply plugin:'xyz.jpenilla.run-paper'
+apply plugin: 'xyz.jpenilla.run-paper'
 
 group = 'org.cdc'
 version = '1.0'
@@ -23,8 +24,8 @@ java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 repositories {
     mavenCentral()
     maven {
-        name = "spigotmc-repo"
-        url = "https://hub.spigotmc.org/nexus/content/repositories/snapshots/"
+        name = "papermc"
+        url = uri("https://repo.papermc.io/repository/maven-public/")
     }
     maven {
         name = "sonatype"
@@ -33,7 +34,10 @@ repositories {
 }
 
 dependencies {
-    compileOnly("org.spigotmc:spigot-api:${generator.getGeneratorBuildFileVersion()}")
+    //@formatter:off
+    compileOnly("io.papermc.paper:paper-api:${generator.getGeneratorBuildFileVersion()}")
+    paperweight.paperDevBundle("${generator.getGeneratorBuildFileVersion()}")
+    //@formatter:on
 }
 
 tasks {
@@ -64,7 +68,8 @@ tasks.withType(JavaCompile).configureEach {
     options.release.set(targetJavaVersion)
 }
 
-processResources {
+tasks.assemble {
+    dependsOn(tasks.reobfJar)
 }
 
 apply from: 'mcreator.gradle'

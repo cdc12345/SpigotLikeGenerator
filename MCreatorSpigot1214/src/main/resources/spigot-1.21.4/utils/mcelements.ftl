@@ -35,3 +35,23 @@
 <#function toBlockPos x y z world="world">
     <#return "new Location(" + world + "," + opt.removeParentheses(x) + "," + opt.removeParentheses(y) + "," + opt.removeParentheses(z) +")">
 </#function>
+
+<#function toNMSBlockPos x y z>
+    <#if x?starts_with("/*@int*/") && y?starts_with("/*@int*/") && z?starts_with("/*@int*/")>
+        <#return "new net.minecraft.core.BlockPos(" + opt.removeParentheses(x) + "," + opt.removeParentheses(y) + "," + opt.removeParentheses(z) +")">
+    <#else>
+        <#return "net.minecraft.core.BlockPos.containing(" + opt.removeParentheses(x) + "," + opt.removeParentheses(y) + "," + opt.removeParentheses(z) +")">
+    </#if>
+</#function>
+
+<#function toNMSResourceLocation string>
+    <#if string?matches('"[^+]*"')>
+        <#return "net.minecraft.resources.ResourceLocation.parse(" + string?lower_case + ")">
+    <#else>
+        <#return "net.minecraft.resources.ResourceLocation.parse((" + string + ").toLowerCase(java.util.Locale.ENGLISH))">
+    </#if>
+</#function>
+
+<#function enableNMS1 w>
+	<#return w.getWorkspace().getWorkspaceSettings().getMCreatorDependencies().contains("NMS")>
+</#function>

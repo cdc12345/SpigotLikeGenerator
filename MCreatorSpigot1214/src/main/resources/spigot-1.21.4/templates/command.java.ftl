@@ -29,7 +29,7 @@ public class ${name} implements CommandExecutor, TabCompleter {
 
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
-		if(label.equalsIgnoreCase("${data.commandName}") && sender.hasPermission("${data.commandName}.use")) {
+		if(sender.hasPermission("${data.commandName}.use")) {
 			parameterIndex = 0;
 
 			<#if argscode?contains("location_x")>double location_x = 0;</#if>

@@ -1,0 +1,1 @@
+(${input$damagesource}.getCausingEntity() instanceof HumanEntity _human? _human.getGameMode()== GameMode.CREATIVE:false)

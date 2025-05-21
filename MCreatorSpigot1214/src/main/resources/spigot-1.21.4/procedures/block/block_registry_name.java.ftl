@@ -1,2 +1,2 @@
 <#include "mcitems.ftl">
-(${mappedBlockToBlockType(input$block)}.getKeyOrNull().toString())
+(${mappedBlockToBlockType(input$block)}.getKey().toString())

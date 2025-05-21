@@ -1,0 +1,1 @@
+(DamageSource.builder(${generator.map(field$damagetype, "damagesources")}).withCausingEntity(${input$cause}).withDirectEntity(${input$directcause}).build())
