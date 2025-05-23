@@ -145,6 +145,10 @@ public class ${JavaModName} extends JavaPlugin {
 			return String.valueOf(object);
 		}
 
+		public static void info(String prefix, Object o) {
+			INSTANCE.getLogger().info(prefix + toString(o, 0));
+		}
+
 		public static void info(Object o) {
 			INSTANCE.getLogger().info(toString(o, 0));
 		}

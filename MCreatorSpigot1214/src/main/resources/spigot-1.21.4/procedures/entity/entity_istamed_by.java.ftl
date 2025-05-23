@@ -1,0 +1,1 @@
+(${input$entity} instanceof Tameable _tamable && ${input$tamedBy} instanceof AnimalTamer _animalTa && _animalTa.getUniqueId().equals(_tamable.getOwnerUniqueId()))
