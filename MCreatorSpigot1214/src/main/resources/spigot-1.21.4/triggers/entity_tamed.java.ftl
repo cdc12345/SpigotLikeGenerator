@@ -8,7 +8,7 @@ public class ${name}Procedure implements Listener{
 				"z": "event.getEntity().getLocation().getZ()",
 				"world": "event.getEntity().getWorld()",
 				"entity": "event.getEntity()",
-				"sourceentity": "event.getOwner()",
+				"sourceentity": "Bukkit.getEntity(event.getOwner().getUniqueId())",
 				"event": "event"
 			}/>
 		</#compress></#assign>
