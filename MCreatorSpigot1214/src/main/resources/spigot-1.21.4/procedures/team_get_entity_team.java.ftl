@@ -1,0 +1,1 @@
+(Bukkit.getScoreboardManager().getMainScoreboard().getEntityTeam(${input$entity}))

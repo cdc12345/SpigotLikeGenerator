@@ -1,0 +1,1 @@
+Bukkit.getPluginManager().isPluginEnabled(${input$modid})

@@ -1,0 +1,2 @@
+<#include "mcitems.ftl">
+/*@BlockState*/(${mappedMCItemToItemType(input$source)}.isBlock() ? ${mappedMCItemToItemType(input$source)}.createBlockData().createBlockState() : Material.AIR.createBlockData().createBlockState())

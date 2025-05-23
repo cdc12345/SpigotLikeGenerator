@@ -1,0 +1,2 @@
+(Bukkit.getScoreboardManager().getMainScoreboard().getTeam(${input$name}) != null && Bukkit.getScoreboardManager().getMainScoreboard().getTeam(${input$name}).getOption(
+		Team.Option.DEATH_MESSAGE_VISIBILITY) == Team.OptionStatus.${field$visibility.replace("HIDE_","")})

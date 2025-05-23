@@ -1,0 +1,1 @@
+(Bukkit.getScoreboardManager().getMainScoreboard().getTeam(${input$name}) != null && Bukkit.getScoreboardManager().getMainScoreboard().getTeam(${input$name}).allowFriendlyFire())
