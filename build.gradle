@@ -36,7 +36,7 @@ dependencies {
 }
 
 tasks.jar {
-    dependsOn ":Core:jar"
+    dependsOn ":Core:assemble"
     inputs.file project(":Core").layout.buildDirectory.file("libs/spigot-generator.zip")
     doLast {
         archiveFile.get().asFile.delete()
@@ -44,6 +44,7 @@ tasks.jar {
             from project(":Core").layout.buildDirectory.file("libs/spigot-generator.zip")
             into layout.buildDirectory.file("libs")
         }
+        //copy to your mcreator
         if (project.hasProperty("mcreator_install_path")) {
             copy {
                 from project(":Core").layout.buildDirectory.file("libs/spigot-generator.zip")

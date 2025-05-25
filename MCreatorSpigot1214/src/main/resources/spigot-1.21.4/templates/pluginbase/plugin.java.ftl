@@ -24,21 +24,21 @@ public class ${JavaModName} extends JavaPlugin {
 		}
     	<#if w.hasElementsOfType("procedure")>
     	${JavaModName}Registers.registerReflect(a->{
-                                   			if (Listener.class.isAssignableFrom(a)) {
-                                   				getLogger().info("Register Listener:"+a.getName());
-                               					try {
-                               						getServer().getPluginManager().registerEvents((Listener) a.getConstructor().newInstance(),this);
-                               					} catch (InstantiationException | IllegalAccessException | InvocationTargetException |
-                               							 NoSuchMethodException e) {
-                               						throw new RuntimeException(e);
-                               					}
-                               				}
+			if (Listener.class.isAssignableFrom(a)) {
+				getLogger().info("Register Listener: "+a.getName());
+				try {
+					getServer().getPluginManager().registerEvents((Listener) a.getConstructor().newInstance(),this);
+				} catch (InstantiationException | IllegalAccessException | InvocationTargetException |
+						 NoSuchMethodException e) {
+					throw new RuntimeException(e);
+				}
+			}
          });
     	</#if>
     	<#if w.hasElementsOfType("command")>
     	${JavaModName}Registers.registerReflect(a -> {
 			if (a.isAnnotationPresent(CommandLabel.class)) {
-				getLogger().info("Register Command:" + a.getName());
+				getLogger().info("Register Command: " + a.getName());
 				CommandLabel label = a.getAnnotation(CommandLabel.class);
 				var command = this.getCommand(label.value());
 				if (command == null) {
@@ -123,7 +123,8 @@ public class ${JavaModName} extends JavaPlugin {
 							continue;
 						}
 						if (method.getName().equals("getClass")) {
-							value = object.getClass().getName();
+							value = CommandLine.Help.Ansi.Style.fg_green.on() + "\"" + object.getClass().getName()
+                             + "\"" + CommandLine.Help.Ansi.Style.fg_green.off();
 						} else {
 							value = toString(method.invoke(object), depth + 1);
 						}
@@ -141,7 +142,9 @@ public class ${JavaModName} extends JavaPlugin {
 				return toDeepString(entity, List.of("eject","leaveVehicle"), depth);
 			} else if (object instanceof Event event) {
 				return toDeepString(event, List.of("callEvent", "getHandlers", "getHandlerList"), depth);
-			}
+			} else if (object instanceof String string) {
+             	return "\"" + string + "\"";
+             }
 			return String.valueOf(object);
 		}
 

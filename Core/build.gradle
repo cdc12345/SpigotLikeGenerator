@@ -49,5 +49,6 @@ tasks.jar {
     from project(":MCreatorSpigot1214").layout.buildDirectory.file("classes/java/main")
     exclude('org/cdc/spigot/datagen/**')
     exclude('org/cdc/spigotgen/datagent/**')
+    exclude('org/cdc/spigotgen/**')
     archiveFileName.set("spigot-generator.zip")
 }

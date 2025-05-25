@@ -45,7 +45,7 @@
 */
 
 package ${package};
-
+//Auto register
 public class ${name} implements Listener {
 
 	public ${name}() {

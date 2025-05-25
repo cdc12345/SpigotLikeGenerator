@@ -1,0 +1,55 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.cdc.spigot'
+version = '1.0'
+
+repositories {
+    mavenCentral()
+    maven { url "https://repo.gradle.org/gradle/libs-releases" } // for gradle-tooling-api
+    flatDir { dirs mcreator_path + '/lib' }
+    maven {
+        name = "papermc"
+        url = uri("https://repo.papermc.io/repository/maven-public/")
+    }
+}
+
+tasks.register("runDataGen", JavaExec) {
+    group = "build"
+    mainClass = "org.cdc.velocitygen.datagent.Datagen"
+    classpath = project.sourceSets.main.runtimeClasspath
+}
+
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+
+    implementation project(':MCreator')
+
+    project(":MCreator").configurations.named("implementation").get().dependencies.each {
+        //noinspection ForeignDelegate
+        implementation it
+    }
+
+    implementation project(':FountainBase')
+}
+
+configurations {
+    implementation.extendsFrom export
+}
+
+tasks.jar {
+    dependsOn runDataGen
+
+    archiveFileName.set("velocity-generator.zip")
+
+    from {
+        configurations.export.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+test {
+    useJUnitPlatform()
+}

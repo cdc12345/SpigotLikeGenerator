@@ -25,12 +25,10 @@ import org.bukkit.entity.Entity;
 @CommandLabel("${data.commandName}")
 public class ${name} implements CommandExecutor, TabCompleter {
 
-	private int parameterIndex = 0;
-
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		if(sender.hasPermission("${data.commandName}.use")) {
-			parameterIndex = 0;
+			int parameterIndex = 0;
 
 			<#if argscode?contains("location_x")>double location_x = 0;</#if>
 			<#if argscode?contains("location_y")>double location_y = 0;</#if>

@@ -1,9 +1,6 @@
 name: Spigot Generator for @minecraft
-status: stable
+status: dev
 buildfileversion: 1.21.4-R0.1-SNAPSHOT
-
-import:
-  - datapack-1.21.4
 
 # gradle task definitions
 gradle:

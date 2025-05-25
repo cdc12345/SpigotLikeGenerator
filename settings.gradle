@@ -6,4 +6,5 @@ include 'MCreatorSpigot1214'
 include ":FountainBase"
 project(":FountainBase").projectDir = file("FountainBase")
 include 'Core'
+include 'VelocityGenerator'
 
