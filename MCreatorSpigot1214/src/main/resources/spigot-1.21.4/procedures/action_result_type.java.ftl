@@ -1,1 +1,1 @@
-Event.Result.${field$type}
+InteractionResult.${field$type}

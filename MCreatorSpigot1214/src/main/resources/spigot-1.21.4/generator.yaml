@@ -40,3 +40,6 @@ base_templates:
     name: "@SRCROOT/@BASEPACKAGEPATH/@JavaModName.java"
   - template: pluginbase/registers.java.ftl
     name: "@SRCROOT/@BASEPACKAGEPATH/@JavaModNameRegisters.java"
+  - template: pluginbase/variableslist.java.ftl
+    name: "@SRCROOT/@BASEPACKAGEPATH/network/@JavaModNameVariables.java"
+    condition: hasVariables()
