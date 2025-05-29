@@ -8,3 +8,9 @@ scopes:
     init: public static double ${var.getName()} = ${var.getValue()};
     get: ${JavaModName}Variables.${name}
     set: ${JavaModName}Variables.${name} = ${opt.removeParentheses(value)};
+  global_world:
+    get: world.getPersistentDataContainer().get(new NamespacedKey("${modid}","${name}"), PersistentDataType.DOUBLE)
+    set: world.getPersistentDataContainer().set(new NamespacedKey("${modid}","${name}"), PersistentDataType.DOUBLE,${opt.removeParentheses(value)});
+  global_map:
+    get: Bukkit.getWorlds().getFirst().get(new NamespacedKey("${modid}","${name}"), PersistentDataType.DOUBLE)
+    set: Bukkit.getWorlds().getFirst().getPersistentDataContainer().set(new NamespacedKey("${modid}","${name}"), PersistentDataType.DOUBLE,${opt.removeParentheses(value)});

@@ -5,8 +5,8 @@ import java.util.function.Consumer;
 public class ${JavaModName}Registers {
 	private static final List<Consumer<Class<?>>> reflects = new ArrayList<>();
 
-	public static void registerAll(File file){
-		try (JarFile jarFile = new JarFile(file)) {
+	public static void registerAll(File pluginJar){
+		try (JarFile jarFile = new JarFile(pluginJar)) {
 			var entries = jarFile.entries();
 			while (entries.hasMoreElements()) {
 				var entry = entries.nextElement();

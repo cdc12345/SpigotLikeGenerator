@@ -8,3 +8,9 @@ scopes:
     init: public static boolean ${var.getName()} = ${var.getValue()};
     get: ${JavaModName}Variables.${name}
     set: ${JavaModName}Variables.${name} = ${opt.removeParentheses(value)};
+  global_world:
+    get: world.getPersistentDataContainer().get(new NamespacedKey("${modid}","${name}"), PersistentDataType.BOOLEAN)
+    set: world.getPersistentDataContainer().set(new NamespacedKey("${modid}","${name}"), PersistentDataType.BOOLEAN,${opt.removeParentheses(value)});
+  global_map:
+    get: Bukkit.getWorlds().getFirst().get(new NamespacedKey("${modid}","${name}"), PersistentDataType.BOOLEAN)
+    set: Bukkit.getWorlds().getFirst().getPersistentDataContainer().set(new NamespacedKey("${modid}","${name}"), PersistentDataType.BOOLEAN,${opt.removeParentheses(value)});
