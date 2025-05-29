@@ -24,11 +24,12 @@ import org.bukkit.entity.Entity;
 
 @CommandLabel("${data.commandName}")
 public class ${name} implements CommandExecutor, TabCompleter {
+	private int parameterIndex;
 
 	@Override
-	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
+	public boolean onCommand(CommandSender sender,@Nullable Command cmd, @NotNull String label,@NotNull String[] args) {
 		if(sender.hasPermission("${data.commandName}.use")) {
-			int parameterIndex = 0;
+			parameterIndex = 0;
 
 			<#if argscode?contains("location_x")>double location_x = 0;</#if>
 			<#if argscode?contains("location_y")>double location_y = 0;</#if>
@@ -69,7 +70,7 @@ public class ${name} implements CommandExecutor, TabCompleter {
 	${extra_templates_code}
 
 	@Nullable @Override
-	public List<String> onTabComplete(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label,
+	public List<String> onTabComplete(@NotNull CommandSender sender, @Nullable Command command, @NotNull String label,
 			@NotNull String[] args) {
 		return List.of();
 	}
