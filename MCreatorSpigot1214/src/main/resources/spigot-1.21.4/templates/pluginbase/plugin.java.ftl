@@ -30,11 +30,24 @@ public class ${JavaModName} extends JavaPlugin {
 					getServer().getPluginManager().registerEvents((Listener) a.getConstructor().newInstance(),this);
 				} catch (InstantiationException | IllegalAccessException | InvocationTargetException |
 						 NoSuchMethodException e) {
-					throw new RuntimeException(e);
+					MCRLogger.info(e);
 				}
 			}
          });
     	</#if>
+    	<#if w.hasElementsOfType("recipe")>
+		${JavaModName}Registers.registerReflect(a -> {
+			if (!a.isInterface() && IRecipeProvider.class.isAssignableFrom(a)) {
+				getLogger().info("Register Recipe: " + a.getName());
+				try {
+					Bukkit.addRecipe(((IRecipeProvider) a.getConstructor().newInstance()).provide());
+				} catch (InstantiationException | IllegalAccessException | InvocationTargetException |
+						 NoSuchMethodException e) {
+					MCRLogger.info(e);
+				}
+			}
+		});
+		</#if>
     	<#if w.hasElementsOfType("command")>
     	${JavaModName}Registers.registerReflect(a -> {
 			if (a.isAnnotationPresent(CommandLabel.class)) {
@@ -50,7 +63,8 @@ public class ${JavaModName} extends JavaPlugin {
 					object = a.getConstructor().newInstance();
 				} catch (InstantiationException | IllegalAccessException | InvocationTargetException |
 						 NoSuchMethodException e) {
-					throw new RuntimeException(e);
+					MCRLogger.info(e);
+					return;
 				}
 				if (object instanceof CommandExecutor commandExecutor) {
 					if (command.getTabCompleter() != null) {
@@ -144,7 +158,12 @@ public class ${JavaModName} extends JavaPlugin {
 				return toDeepString(event, List.of("callEvent", "getHandlers", "getHandlerList"), depth);
 			} else if (object instanceof String string) {
              	return "\"" + string + "\"";
-             }
+            } else if (object instanceof Exception e){
+				StringWriter stringWriter = new StringWriter();
+				PrintWriter printWriter = new PrintWriter(stringWriter);
+				e.printStackTrace(printWriter);
+				return stringWriter.toString();
+            }
 			return String.valueOf(object);
 		}
 

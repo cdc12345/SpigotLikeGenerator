@@ -31,6 +31,7 @@ import_formatter:
     TabCompleter: org.bukkit.command
     World: org.bukkit
     EntityType: org.bukkit.entity
+    Recipe: org.bukkit.inventory
 
 base_templates:
   - template: pluginbase/plugin.yml.ftl

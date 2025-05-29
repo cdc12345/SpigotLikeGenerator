@@ -1,0 +1,25 @@
+templates:
+  - template: recipe/smelting.java.ftl # loaded from datapack generator
+    name: "@SRCROOT/@BASEPACKAGEPATH/recipe/@NAMESmeltingRecipe.java"
+    condition: "recipeType %= Smelting"
+  - template: recipe/blasting.java.ftl # loaded from datapack generator
+    name: "@SRCROOT/@BASEPACKAGEPATH/recipe/@NAMEBlastingRecipe.java"
+    condition: "recipeType %= Blasting"
+  - template: recipe/campfire_cooking.java.ftl # loaded from datapack generator
+    name: "@SRCROOT/@BASEPACKAGEPATH/recipe/@NAMECampfireRecipe.java"
+    condition: "recipeType %= Campfire cooking"
+  - template: recipe/smoking.java.ftl # loaded from datapack generator
+    name: "@SRCROOT/@BASEPACKAGEPATH/recipe/@NAMESmokingRecipe.java"
+    condition: "recipeType %= Smoking"
+  - template: recipe/crafting.java.ftl # loaded from datapack generator
+    name: "@SRCROOT/@BASEPACKAGEPATH/recipe/@NAMECraftRecipe.java"
+    condition: "recipeType %= Crafting"
+  - template: recipe/stonecutting.java.ftl # loaded from datapack generator
+    name: "@SRCROOT/@BASEPACKAGEPATH/recipe/@NAMEStoneCuttingRecipe.java"
+    condition: "recipeType %= Stone cutting"
+
+global_templates:
+  - template: elementinits/recipeprovider.java.ftl
+    name: "@SRCROOT/@BASEPACKAGEPATH/recipe/IRecipeProvider.java"
+
+field_exclusions: [ brewingRecipeMaker , smithingRecipeMaker ]

@@ -106,3 +106,36 @@
 		<#return mappedItem + ".getType()">
 	</#if>
 </#function>
+
+<#function mappedMCItemToRecipeChoice mappedBlock acceptTags=false>
+    <#if mappedBlock.getUnmappedValue().startsWith("CUSTOM:")>
+    	<#return "Material.AIR">
+    <#elseif mappedBlock.getUnmappedValue().startsWith("TAG:")>
+        <#if acceptTags>
+            <#return "Objects.requireNonNullElse(Bukkit.getTag(\"items\",NamespacedKey.fromString(\"" + mappedBlock.getUnmappedValue().replace("TAG:", "").replace("mod:", modid + ":")?lower_case + "\"),Material.class),Tag.AIR)">
+        <#else>
+            <#return "Material.AIR">
+        </#if>
+    <#else>
+        <#assign mapped = mappedBlock.getMappedValue(1) />
+        <#if mapped.startsWith("#")>
+            <#if acceptTags>
+                <#return "Objects.requireNonNullElse(Bukkit.getTag(\"items\",NamespacedKey.fromString(\"" + mapped?keep_after("#") + "\"), Material.class),Tag.AIR)">
+            <#else>
+                <#return "Material.AIR">
+            </#if>
+        <#elseif mapped.contains(":")>
+            <#return "Material.matchMaterial(\""+mapped+"\")">
+        <#else>
+            <#return "Material.matchMaterial(\"minecraft:" + mapped+"\")">
+        </#if>
+    </#if>
+</#function>
+
+<#function toNMSItem mappedItem>
+	<#if mappedItem?starts_with("/*@Material*/")>
+		<#return "CraftItemType.bukkitToMinecraft("+mappedItem?keep_after("/*@Material*/") +")">
+	<#else>
+		<#return mappedItem>
+	</#if>
+</#function>

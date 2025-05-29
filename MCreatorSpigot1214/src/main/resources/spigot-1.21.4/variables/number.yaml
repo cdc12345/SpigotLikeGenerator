@@ -9,8 +9,10 @@ scopes:
     get: ${JavaModName}Variables.${name}
     set: ${JavaModName}Variables.${name} = ${opt.removeParentheses(value)};
   global_world:
-    get: Objects.requireNonNullElse(world.getPersistentDataContainer().get(new NamespacedKey("${modid}","${name}"), PersistentDataType.DOUBLE),0.0d)
+    init: public final static double ${var.getName()} = ${var.getValue()};
+    get: Objects.requireNonNullElse(world.getPersistentDataContainer().get(new NamespacedKey("${modid}","${name}"), PersistentDataType.DOUBLE),${JavaModName}Variables.WorldVariables.${name})
     set: world.getPersistentDataContainer().set(new NamespacedKey("${modid}","${name}"), PersistentDataType.DOUBLE,${opt.removeParentheses(value)});
   global_map:
-    get: Objects.requireNonNullElse(Bukkit.getWorlds().getFirst().getPersistentDataContainer().get(new NamespacedKey("${modid}","${name}"), PersistentDataType.DOUBLE),0.0d)
+    init: public final static double ${var.getName()} = ${var.getValue()};
+    get: Objects.requireNonNullElse(Bukkit.getWorlds().getFirst().getPersistentDataContainer().get(new NamespacedKey("${modid}","${name}"), PersistentDataType.DOUBLE),${JavaModName}Variables.MapVariables.${name})
     set: Bukkit.getWorlds().getFirst().getPersistentDataContainer().set(new NamespacedKey("${modid}","${name}"), PersistentDataType.DOUBLE,${opt.removeParentheses(value)});
