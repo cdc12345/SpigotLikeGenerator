@@ -32,6 +32,7 @@ import_formatter:
     World: org.bukkit
     EntityType: org.bukkit.entity
     Recipe: org.bukkit.inventory
+    AdvancementProgress: org.bukkit.advancement
 
 base_templates:
   - template: pluginbase/plugin.yml.ftl
