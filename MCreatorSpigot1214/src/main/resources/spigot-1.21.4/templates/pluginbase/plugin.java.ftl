@@ -106,7 +106,7 @@ public class ${JavaModName} extends JavaPlugin {
 		//Do Something(
 		// Start of user code block mod
         // End of user code block mod
-		<#if w.hasElementsOfType("procedure") || w.hasElementsOfType("command")>
+		<#if w.hasElementsOfType("procedure") || w.hasElementsOfType("command") || w.hasElementsOfType("recipe")>
 		${JavaModName}Registers.registerAll(getFile());
 		</#if>
 	}
@@ -164,6 +164,8 @@ public class ${JavaModName} extends JavaPlugin {
 				e.printStackTrace(printWriter);
 				return stringWriter.toString();
             }
+            // Start of user code block
+            // End of user code block
 			return String.valueOf(object);
 		}
 
