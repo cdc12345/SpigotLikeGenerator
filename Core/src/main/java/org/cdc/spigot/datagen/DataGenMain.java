@@ -1,6 +1,7 @@
 package org.cdc.spigot.datagen;
 
 import org.cdc.framework.MCreatorPluginFactory;
+import org.cdc.framework.utils.BuiltInToolBoxId;
 import org.cdc.framework.utils.BuiltInTypes;
 import org.cdc.framework.utils.Side;
 import org.cdc.spigot.datagen.types.SpigotGenCategories;
@@ -67,6 +68,10 @@ public class DataGenMain {
 				.buildAndOutput();
 		mCreatorPluginFactory.getToolKit().createInputProcedure("server_shutdown")
 				.setToolBoxId(SpigotGenCategories.SERVER_MANAGE).setLanguage(en, "Server Shutdown").initGenerator()
+				.buildAndOutput();
+		mCreatorPluginFactory.getToolKit().createInputProcedure("common_do_nothing").setColor(Color.ORANGE.darker())
+				.appendArgs0StatementInput("statement").statementBuilder().setName("statement").buildAndReturn()
+				.setToolBoxId(BuiltInToolBoxId.Procedure.ADVANCED).setLanguage(en, "Do nothing %1").initGenerator()
 				.buildAndOutput();
 
 		//		mCreatorPluginFactory.initGenerator("spigot-1.21.4");

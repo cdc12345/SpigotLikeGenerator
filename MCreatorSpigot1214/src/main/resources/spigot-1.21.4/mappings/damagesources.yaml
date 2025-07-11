@@ -1,199 +1,150 @@
 ARROW: 
 - DamageType.ARROW
 - arrow
-
 BAD_RESPAWN_POINT: 
 - DamageType.BAD_RESPAWN_POINT
 - bad_respawn_point
-
 CACTUS: 
 - DamageType.CACTUS
 - cactus
-
 CAMPFIRE: 
 - DamageType.CAMPFIRE
 - campfire
-
 CRAMMING: 
 - DamageType.CRAMMING
 - cramming
-
 DRAGON_BREATH: 
 - DamageType.DRAGON_BREATH
 - dragon_breath
-
 DROWN: 
 - DamageType.DROWN
 - drown
-
 DRY_OUT: 
 - DamageType.DRY_OUT
 - dry_out
-
 ENDER_PEARL: 
 - DamageType.ENDER_PEARL
 - ender_pearl
-
 EXPLOSION: 
 - DamageType.EXPLOSION
 - explosion
-
 FALL: 
 - DamageType.FALL
 - fall
-
 FALLING_ANVIL: 
 - DamageType.FALLING_ANVIL
 - falling_anvil
-
 FALLING_BLOCK: 
 - DamageType.FALLING_BLOCK
 - falling_block
-
 FALLING_STALACTITE: 
 - DamageType.FALLING_STALACTITE
 - falling_stalactite
-
 FIREBALL: 
 - DamageType.FIREBALL
 - fireball
-
 FIREWORKS: 
 - DamageType.FIREWORKS
 - fireworks
-
 FLY_INTO_WALL: 
 - DamageType.FLY_INTO_WALL
 - fly_into_wall
-
 FREEZE: 
 - DamageType.FREEZE
 - freeze
-
 GENERIC: 
 - DamageType.GENERIC
 - generic
-
 GENERIC_KILL: 
 - DamageType.GENERIC_KILL
 - generic_kill
-
 HOT_FLOOR: 
 - DamageType.HOT_FLOOR
 - hot_floor
-
 INDIRECT_MAGIC: 
 - DamageType.INDIRECT_MAGIC
 - indirect_magic
-
 IN_FIRE: 
 - DamageType.IN_FIRE
 - in_fire
-
 IN_WALL: 
 - DamageType.IN_WALL
 - in_wall
-
 LAVA: 
 - DamageType.LAVA
 - lava
-
 LIGHTNING_BOLT: 
 - DamageType.LIGHTNING_BOLT
 - lightning_bolt
-
 MACE_SMASH: 
 - DamageType.MACE_SMASH
 - mace_smash
-
 MAGIC: 
 - DamageType.MAGIC
 - magic
-
 MOB_ATTACK: 
 - DamageType.MOB_ATTACK
 - mob_attack
-
 MOB_ATTACK_NO_AGGRO: 
 - DamageType.MOB_ATTACK_NO_AGGRO
 - mob_attack_no_aggro
-
 MOB_PROJECTILE: 
 - DamageType.MOB_PROJECTILE
 - mob_projectile
-
 ON_FIRE: 
 - DamageType.ON_FIRE
 - on_fire
-
 OUTSIDE_BORDER: 
 - DamageType.OUTSIDE_BORDER
 - outside_border
-
 OUT_OF_WORLD: 
 - DamageType.OUT_OF_WORLD
 - out_of_world
-
 PLAYER_ATTACK: 
 - DamageType.PLAYER_ATTACK
 - player_attack
-
 PLAYER_EXPLOSION: 
 - DamageType.PLAYER_EXPLOSION
 - player_explosion
-
 SONIC_BOOM: 
 - DamageType.SONIC_BOOM
 - sonic_boom
-
 SPIT: 
 - DamageType.SPIT
 - spit
-
 STALAGMITE: 
 - DamageType.STALAGMITE
 - stalagmite
-
 STARVE: 
 - DamageType.STARVE
 - starve
-
 STING: 
 - DamageType.STING
 - sting
-
 SWEET_BERRY_BUSH: 
 - DamageType.SWEET_BERRY_BUSH
 - sweet_berry_bush
-
 THORNS: 
 - DamageType.THORNS
 - thorns
-
 THROWN: 
 - DamageType.THROWN
 - thrown
-
 TRIDENT: 
 - DamageType.TRIDENT
 - trident
-
 UNATTRIBUTED_FIREBALL: 
 - DamageType.UNATTRIBUTED_FIREBALL
 - unattributed_fireball
-
 WIND_CHARGE: 
 - DamageType.WIND_CHARGE
 - wind_charge
-
 WITHER: 
 - DamageType.WITHER
 - wither
-
 WITHER_SKULL: 
 - DamageType.WITHER_SKULL
 - wither_skull
-
 _bypass_prefix: "#"
 _default: 
 - DamageType.IN_FIRE

@@ -11,10 +11,10 @@
       "check": "String"
     }
   ],
-  "colour": 60,
   "previousStatement": null,
   "nextStatement": null,
   "inputsInline": true,
+  "colour": "#808080",
   "mcreator": {
     "group": "name",
     "toolbox_id": "server_management",

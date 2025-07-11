@@ -1,7 +1,9 @@
 {
   "id": "cdcspigotgenerator",
   "supportedversions": [
-    2025001
+    2024004,
+    2025001,
+    2025002
   ],
   "weight": 0,
   "javaplugin": "org.cdc.spigot.SpigotJavaPluginMain",

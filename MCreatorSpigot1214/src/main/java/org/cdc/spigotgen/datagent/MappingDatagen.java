@@ -11,6 +11,7 @@ import org.cdc.framework.MCreatorPluginFactory;
 import org.cdc.framework.utils.Generators;
 
 import java.lang.reflect.Field;
+import java.util.List;
 import java.util.Locale;
 
 public class MappingDatagen {
@@ -64,13 +65,7 @@ public class MappingDatagen {
 		for (Field damageType1 : damageType.getFields()) {
 			if (damageType1.getType().equals(damageType)) {
 				String key = damageType1.getName();
-				String preview = String.format("""
-												
-						- DamageType.%s
-						- %s
-						""", key, key.toLowerCase(Locale.ROOT));
-				System.out.println(preview);
-				damagesource.appendElement(key, preview);
+				damagesource.appendElement(key, List.of("DamageType." + key, key.toLowerCase(Locale.ROOT)));
 			}
 		}
 		damagesource.appendStringElement("_bypass_prefix", "#");
