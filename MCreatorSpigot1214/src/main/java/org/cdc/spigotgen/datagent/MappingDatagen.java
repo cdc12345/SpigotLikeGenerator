@@ -68,7 +68,7 @@ public class MappingDatagen {
 				damagesource.appendElement(key, List.of("DamageType." + key, key.toLowerCase(Locale.ROOT)));
 			}
 		}
-		damagesource.appendStringElement("_bypass_prefix", "#");
+		damagesource.appendElement("_bypass_prefix", "#");
 		damagesource.setDefault();
 		damagesource.initGenerator().build();
 
@@ -83,7 +83,7 @@ public class MappingDatagen {
 		}
 		biomes.setDefault();
 		biomes.setMapTemplate("@modid:@registryname");
-		biomes.appendStringElement("_bypass_prefix", "#");
+		biomes.appendElement("_bypass_prefix", "#");
 		biomes.initGenerator().build();
 
 		mCreatorPluginFactory.initGenerator(Generators.SPIGOT1214, true);

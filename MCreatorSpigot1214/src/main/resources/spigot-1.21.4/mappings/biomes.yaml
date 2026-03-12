@@ -1,4 +1,4 @@
-_bypass_prefix: "#"
+_bypass_prefix: #
 _default: the_void
 _mcreator_map_template: "@modid:@registryname"
 badlands: badlands

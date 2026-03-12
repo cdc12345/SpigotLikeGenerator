@@ -7,9 +7,10 @@ import org.cdc.framework.utils.Side;
 import org.cdc.spigot.datagen.types.SpigotGenCategories;
 
 import java.awt.*;
+import java.io.IOException;
 
 public class DataGenMain {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		MCreatorPluginFactory mCreatorPluginFactory = MCreatorPluginFactory.createFactory("src/main/resources");
 
 		var en = mCreatorPluginFactory.createDefaultLanguage();
